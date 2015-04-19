@@ -5,6 +5,7 @@ date: "19 April 2015"
 output:
   html_document:
     theme: readable
+    toc: yes
 bibliography: PHD literature-References.bib
 ---
 
