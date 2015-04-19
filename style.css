@@ -15,7 +15,7 @@ div#header {
 div#TOC-wrapper {
   float: left;
   width: 25%;
-  position: fixed;
+  margin-top: 30px;
 }
 
 div#TOC ul {
@@ -25,4 +25,16 @@ div#TOC ul {
 div.section {
   margin-left: 30%;
   max-width: 840px;
+}
+
+div.section.level4 {
+  margin-left: 0;
+}
+
+div.section.level5 {
+  margin-left: 0;
+}
+
+div#TOC ul li ul li {
+  font-size: 0.85em;
 }

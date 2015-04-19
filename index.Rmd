@@ -1,8 +1,17 @@
 ---
 title: "Diving into the deep pile of papers"
 author: "Fernando Cagua"
-output: html_document
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    template: custom-pandoc-template.html
+    css: style.css
+    theme: readable
+    toc: no
+    toc_depth: 4
+bibliography: PHD literature-References.bib
 ---
 
-* Literature review
-* [Sciency questions](questions.html)
+### [Literature review](literature.html)
+
+### [Sciency questions](questions.html)

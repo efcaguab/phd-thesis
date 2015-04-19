@@ -1,0 +1,39 @@
+---
+title: "The extended literature"
+author: "Fernando Cagua"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    template: custom-pandoc-template.html
+    css: style.css
+    theme: readable
+    toc: yes
+    toc_depth: 4
+bibliography: PHD literature-References.bib
+---
+
+### 2013
+
+#### The structure of natural microbial enemy-victim networks 
+
+[@Poisot2013c]
+
+### 2012
+
+#### Coevolution in multidimensional trait space favours escape from parasites and pathogens
+[@Gilman2012]
+
+* By using multiple traits at a time that the parasites/pathogens must overcome, host might catch up in the evolutionary race.
+* The more traits are involved in the interaction, the smaller the interaction probability.
+* Interaction probability depends on one or several traits in the host that are matched or surpassed by the parasite
+    - Difference trait case
+    - Matching trait case
+* An escape function was defined based the trait difference and some scaling factor that represents the **effect of one interaction on the relative fitness of a victim or an exploiter**.
+- Providing both an analytic and an quantitative model is a good way to get high impact
+
+##### The way forward:
+* Build a network basing the interactions on traits
+* Explore how traits influence coevolution ina mutualistic network
+* What is the effect of traits on species/populations and in the network as a whole?
+
+### References
