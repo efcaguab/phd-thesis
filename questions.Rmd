@@ -6,7 +6,7 @@ output:
   html_document:
     template: custom-pandoc-template.html
     css: style.css
-    theme: readable
+    theme: flatly
     toc: yes
 bibliography: PHD literature-References.bib
 ---
