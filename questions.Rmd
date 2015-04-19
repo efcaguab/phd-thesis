@@ -2,30 +2,17 @@
 title: "The potential questions"
 author: "Fernando Cagua"
 date: "19 April 2015"
-output: html_document
+output:
+  html_document:
+    theme: readable
 bibliography: PHD literature-References.bib
-
 ---
 
 ### The evolution of modularity
 
-To which degree modules are a byproduct of evolutionary dynamics and a byproduct of ecology. Are modules a byproduct of generalists/specialist dynamics at broader taxonomical scales [@Espinosa-Soto2010d]? Or the product of specialisation that resulysin reduced comperition with other exploiters -- a reduction of niche overlap -- [@Poissot2013c]
+To which degree modules are a byproduct of evolutionary dynamics and a byproduct of ecology. Are modules a byproduct of generalists/specialist dynamics at broader taxonomical scales [@Espinosa-Soto2010d]? Or the product of specialisation that resulysin reduced comperition with other exploiters -- a reduction of niche overlap -- [@Poisot2013c]
 
 ## Co-evolution across ecological networks
 
 ### References
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r}
-summary(cars)
-```
-
-You can also embed plots, for example:
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
