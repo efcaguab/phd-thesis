@@ -1,15 +1,17 @@
 ---
 title: "The potential questions"
 author: "Fernando Cagua"
-date: "19 April 2015"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document:
+    template: custom-pandoc-template.html
+    css: style.css
     theme: readable
     toc: yes
 bibliography: PHD literature-References.bib
 ---
 
-### The evolution of modularity
+## The evolution of modularity
 
 To which degree modules are a byproduct of evolutionary dynamics and a byproduct of ecology. Are modules a byproduct of generalists/specialist dynamics at broader taxonomical scales [@Espinosa-Soto2010d]? Or the product of specialisation that resulysin reduced comperition with other exploiters -- a reduction of niche overlap -- [@Poisot2013c]
 

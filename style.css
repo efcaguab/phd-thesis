@@ -1,0 +1,28 @@
+
+
+div.container-fluid.main-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div#header {
+  margin-bottom: 50px;
+}
+
+div#TOC-wrapper {
+  float: left;
+  width: 25%;
+  position: fixed;
+}
+
+div#TOC ul {
+  padding-left: 10px;
+}
+
+div.section {
+  margin-left: 30%;
+  max-width: 840px;
+}
