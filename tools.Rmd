@@ -1,5 +1,5 @@
 ---
-title: "Diving into the deep pile of papers"
+title: "Tools"
 author: "Fernando Cagua"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -7,11 +7,16 @@ output:
     template: custom-pandoc-template.html
     css: style.css
     theme: readable
-    toc: no
-    toc_depth: 4
+    toc: yes
 bibliography: PHD literature-References.bib
 ---
 
-### [Literature review](literature.html)
+### Modularity measures
 
-### [Sciency questions](questions.html)
+#### Barber
+
+#### Guimera
+
+#### Realised modularity
+
+$Q_R$ [@Poisot2013]

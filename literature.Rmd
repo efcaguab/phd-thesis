@@ -4,9 +4,8 @@ author: "Fernando Cagua"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document:
-    template: custom-pandoc-template.html
     css: style.css
-    theme: flatly
+    theme: readable
     toc: yes
     toc_depth: 4
 bibliography: PHD literature-References.bib
@@ -15,25 +14,75 @@ bibliography: PHD literature-References.bib
 ### 2013
 
 #### The structure of natural microbial enemy-victim networks 
+[@Poisot2013]
 
-[@Poisot2013c]
+In a phage-host set of networks, generalists appear to have a larger impact on hosts than specialists, even when controling for phyligenetic distance. 
+A possible explanation is niche differentiation.
+
+Their evidence support the odea that costs associated to different strategies are not the most relevant for community assembly. He used a weird metric to quantify niche overlap between two phages, which is given by $C_{ab} = 1- \frac{1}{2}\left ( \sum \left | \Omega_{ai}-\Omega_{bi} \right | \right )$ where $\Omega_{ai} = \frac{M_{ia}}{\sum M_{ij}}$ which is the proportion of the total reduction in Malthusian fitness of bacteria $i$ by phage $a$. Total noche overlap for species $a$ was given by $C_a=\sum C_{aj} \forall a \neq j$.
+
+They make an strong assumption though: that the net impact of phages on hosts is positively related to the fitness of the hosts [@Gandon2009]. That would suggest that specialism would be a) a costly choise, b) a reflection of maladaptation, OR that c) specialists are recent imigrants and in the process of adaptation. 
+
+They also make an counterintuitive suggestion: that "specialists may exhibit a trade-off between competitive ability and victim impact, which would alllow these phages to outcompete generalists or other specialists on a limited spectrum of victims".
+
+##### The way forward
+
+It is not clear what are the actual costs of being a generalist/specialist. Is there any way to meassure it? There might be changes in cost when a phage is changing the strategy (perhaps becoming a generalist), but it is argued that costs are masked by mutation after some generations.
+
+It's interesting to note that niche overlap is important to coexistance not only in ecological networks, but also in other systems, like macroeconomics (economic niche) and academic niche etc. This is a potential [idea further explored here](questions.html#niche-overlap-in-coexistence). Also what is the best way to meassure niche overlap?
+
+IF impact on victims is positively related to phage fitness AND in they suggest that in specialists impact on fitness is negatively related to competitive ability. THEN in specialists are able to coexists be competitive, despite having low fitness levels? If true, maybe it's a consequence of niche overlap? Can the low overlap compensate for low fitness? My suspicion is that **impact on hosts is might NOT be positively related to fitness**. 
+
+##### To read
+
+On the evolution of specialization or generalisation: [@Stireman2005], [@Espinosa-Soto2010] and [@Forister2012]
+
+On specialists being recent imigrants: [@Gomez2011]
+
+#### Phage-bacteria infection networks
+[@Weitz2013]
+The paper is a review with heavy advocacy for the use of network theory for studying phage-bacteria networks. 
+
+They suggest that infections mechanisms differ on the patterns of network structure. For instance *gene-by-gene*, where a "new" gene confers infectability in a new host without loosing the ability to infect previous hosts promotes a **nested** structure. On the other hand a *matching-allele* mechanism would promote modularity because in that case the allele has to match the other one, so if it changes it looses the ability to infect the host. 
+
+##### The way forward:
+
+What's the interplay between specialization/generalization, modularity/nestedness, resource poor/rich environments. How do the interplay? And how much they are a consequence of coevolutionary processes? an ecological force? a biophysical necessity? How those measures react to perturbations (biotic and abiotic), how easy they go into phase shitfs? 
+
+##### To read:
+
+On infection genetic mechanisms and difusse coevolution leading to modular/nested continoum: [@Inouye2001], [@Agrawal2003], [@Duffy2006], [@Forde2008] and [@Stern2011]
+
+On the modular/nested debate: [@Fortuna2010]
+
+About historic reconstructions of phage-bacteria interactions: [@Andersson2008], [@Heidelberg2009a] and [@Held2009]
+
+A cool evolutionary model of trait adaptation [@Weitz2005]
+
+About the cost of generalism and fluctuating selection in arms races [@Hall2005]
+
+On phages being important between a syimbiotic relationship between a bacteria and an aphid. Cool [@oliver2009]
 
 ### 2012
 
 #### Coevolution in multidimensional trait space favours escape from parasites and pathogens
 [@Gilman2012]
 
-* By using multiple traits at a time that the parasites/pathogens must overcome, host might catch up in the evolutionary race.
-* The more traits are involved in the interaction, the smaller the interaction probability.
-* Interaction probability depends on one or several traits in the host that are matched or surpassed by the parasite
-    - Difference trait case
-    - Matching trait case
-* An escape function was defined based the trait difference and some scaling factor that represents the **effect of one interaction on the relative fitness of a victim or an exploiter**.
-- Providing both an analytic and an quantitative model is a good way to get high impact
+They define an analytical and a simulation model. By using multiple traits at a time that the parasites/pathogens must overcome, host might catch up in the evolutionary race. The more traits are involved in the interaction, the smaller the interaction probability.
+
+Interaction probability depends on one or several traits in the host that are matched or surpassed by the parasite. There are two cases in which a phage is said to infect a host: a) the difference trait case, where the value of the trait in the host must be larger to be able to infect, or b) the matching trait case where the value of the traits must match.
+    
+An escape function was defined based the trait difference and some scaling factor that represents the **effect of one interaction on the relative fitness of a victim or an exploiter**. The escape function is $$\delta_{d,max} = max \left[- \left(s_v \mathbf{G_v} + s_e \mathbf{G_e} \right )\xi _a \right ]$$ for the trait difference case. Where $\mathbf{G_v}$ and $\mathbf{G_e}$ are the genetic variance-covariance matrices of victim and exploiter populations, $s_v$ and $s_e$ are the effect of one interaction on the relative fitness of a victim or an exploiter, and $\xi_a$ is the vector that captures the strenght of traits 1 to $n$ on the interaction probability. The escape function is $$\delta_{m,max} = max \left[ eig \left[- \left(s_v \mathbf{G_v} + s_e \mathbf{G_e} \right )\xi _\alpha \right ] \right ]$$ where $\xi_\alpha$ is a diagonal matrix in wich the iith entry captures the strength of trait $i$ on the interaction probability.
 
 ##### The way forward:
-* Build a network basing the interactions on traits
-* Explore how traits influence coevolution ina mutualistic network
-* What is the effect of traits on species/populations and in the network as a whole?
+
+A big limitation is that this models, because of the analytical tractability are defined for *just two species*. What happens in a sytem with two or more species is unknown. 
+What happens in mutualistic networks? The more traits are used the less likely is a pollinator to do it's thing on a plant, really? 
+
+Is it possible to build a network and see how it evolves based on trait values? What is the effect of traits on species/populations and in the network as a whole?
+
+##### To read
+
+A review of predation prey interactions and their evolution: [@Abrams2000]
 
 ### References

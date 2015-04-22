@@ -6,16 +6,63 @@ output:
   html_document:
     template: custom-pandoc-template.html
     css: style.css
-    theme: flatly
+    theme: readable
     toc: yes
 bibliography: PHD literature-References.bib
 ---
 
-## The evolution of modularity
+### The evolution of modularity
 
-To which degree modules are a byproduct of evolutionary dynamics and a byproduct of ecology. Are modules a byproduct of generalists/specialist dynamics at broader taxonomical scales [@Espinosa-Soto2010d]? Or the product of specialisation that resulysin reduced comperition with other exploiters -- a reduction of niche overlap -- [@Poisot2013c]
+To which degree modules are a byproduct of evolutionary dynamics and a byproduct of ecology. Are modules a byproduct of generalists/specialist dynamics at broader taxonomical scales [@Espinosa-Soto2010]? Or is it the product of specialisation that resulysin reduced comperition with other exploiters -- a reduction of niche overlap -- [@Poisot2013]?
 
-## Co-evolution across ecological networks
+To Read:
+
+* [@Espinosa-Soto2010]
+* [@Stireman2005]
+* [@Forister2012]
+
+### The importance of niche overlap in coexistence
+
+I've been impressed on how relevant is niche-overlap for community coexistance. The interesting thing is that they are common to different systems. For example economic niche in the world economy, where some countries export everything while others do not. Successful economies, particularly small ones specialise in weird things. 
+
+#### What's the best way to measure niche and niche overlap?
+
+#### What's actually fitness?
+
+Both invasibility and infectability have been used as (at least conceptual) measures of fitness. What is the relationship between those two and how can we do a better job integrating meassures across networks?
+
+* [@Day2001]
+
+##### Is impact of a phage on the host pos. related to the fitness of the phage?
+
+IF impact on victims is positively related to phage fitness [@Gandon2009] AND in they suggest that in specialists impact on fitness is negatively related to competitive ability. THEN in specialists are able to coexists be competitive, despite having low fitness levels? If true, maybe it's a consequence of niche overlap? Can the low overlap compensate for low fitness? My suspicion is that **impact on hosts is might NOT be positively related to fitness**. 
+
+### The evolution of generalisation
+
+
+### Coevolution in multidimensional trait space 
+
+Gilman [-@Gilman2012] used a trait space model to show that with more traits parasites have a harder time infecting hosts in a two species co-evolution system. However it's unclear how that scales in more than one species system and how different the story is in mutuallistic networks, where several traits are also likely to interact?
+
+In mutuallistic networks, both guilds will evolve to match each other traits, but at the same time, each plant, for example, will be "compeled" to match traits that maximise fitness. This can be achieved by having one selected pollinator with such a benefit that evolving traits that match other pollinators would make no sense (for example because the traits needed to appeal other pollinators are inversely correlated with that particular one, or because of neggative pleiotropic effects). Other way to achieve that is by appealing as many pollinators as possible or maybe a selected group of themselves. There are several ways in which coevolution can converge. 
+
+Also what happens to those systems when there is a phase shift? How do the networks and traits re-adjust? Analysis as such can help disentangle the effects of evolutionary races and the impact of abiotic ecosystem factors. In other words, The outcome of community convergences can differ depending on the abiotic factors involved. 
+
+To build those models we would need some understanding of the molecular basis of mutualism, and predator prey interactions. 
+
+It is also interesting to se how it relates to the observation that impact on interacting species are related to fitnesses. It boils down to somehow quantifying the impact of an interaction in fitness. 
+
+### The pathway to generalisation
+
+Some evidence shows that most specialist species can be actually rencet imigrants and havent had the time adapt and either evolve large impacts on hosts or to become generalists [@Nuismer2003]. 
+
+If that is true, then one should be able a) to see that the patterns of generalism/specialism for a species speciest changes in spatial scales; b) to see that individuals behaving as generalists in their communities should have greater performance (fitness, impact?) than the individuals from the same species behaving as generalists in their comunities. And that c) species should show be more specialists towards the fringes of their spatial distribution. Can we test that with the wasp-parasite UWA dataset?
+
+Also in therms of phase shifts, if there is a sudden change in abiotic-conditions/community structure, then specialists would have a harder time adapting than generalists. Right? Is change in niche overlap what creates alternate stable states? Or if a specialist is still there will their perfornance decreasse after/along with the shif?
+
+### Co-evolution across ecological networks
+
+* [@Gomez2011]
 
 ### References
 
