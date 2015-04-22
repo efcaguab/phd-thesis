@@ -59,7 +59,7 @@ About historic reconstructions of phage-bacteria interactions: [@Andersson2008],
 
 A cool evolutionary model of trait adaptation [@Weitz2005]
 
-About the cost of generalism and fluctuating selection in arms races [@Hall2005]
+About the cost of generalism and fluctuating selection in arms races [@Hall2011]
 
 On phages being important between a syimbiotic relationship between a bacteria and an aphid. Cool [@oliver2009]
 
