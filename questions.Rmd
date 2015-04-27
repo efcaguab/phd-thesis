@@ -64,5 +64,19 @@ Also in therms of phase shifts, if there is a sudden change in abiotic-condition
 
 * [@Gomez2011]
 
+### What's stability and how it affects our view?
+
+### Evolutionary efficiency and fragility/stability in complex systems.
+
+Elimitaing superfluous capacity (efficiency) eliminate room for adaptation
+
+### How easy is to change patterns in network structure caused by coevolution
+
+
+### What's the proportion of mutualistic, competitive, prey/predator links in natural systems.
+
+### Can we go for competition just by using feedback loops?
+### Complex systems are managed by attractors and boundaries and using emergent properties
+
 ### References
 

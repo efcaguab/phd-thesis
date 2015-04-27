@@ -1,0 +1,128 @@
+---
+title: "The evolution of ecological networks"
+author: "Fernando Cagua"
+date: "`r format(Sys.Date(), '%B %Y')`"
+output: 
+  pdf_document:
+    includes:
+      in_header: header.tex
+    toc: yes
+    number_sections: no
+bibliography: references.bib
+biblatex: yes
+documentclass: book
+---
+---
+geometry: a4paper
+geometry: showframe
+geometry: margin=1in
+geometry: bindingoffset=0in
+geometry: twoside=FALSE
+---
+\newgeometry{right=3in, twoside=FALSE}
+
+\chapter{Introduction}
+
+Interaction strengths are defined There is a lack of evolution in multidimensional trait space
+
+\chapter{Evolution and network structure?}
+
+It has been previously shown that network structure has direct consequences on comunity persistance and stability and might also play an 
+
+Network structure heavily affects community stability. Here we aim how network structure can arise from evolutionary dynamics.
+
+Do modular communities evolve towards nested by minimising niche overlap. Do nested communities evolve towards modular patterns in the absence of disturbances?
+
+There is evidence that shows 
+
+How is nestedness reconciliated with coe
+
+# The contribution of evolution and spatiotemporal patterns to network structure
+
+Hypothesis modularity comes from phylogenetic hystory and ecological traits. Nestedness come from spatiotemporal patterns (recent immigration, spatial and temporal overlap). Though nestedness can also arrise from weak coevolution and phenotype differences (which they argue is the one acting on species rich comunities)
+
+## Phylogenetic history of modularity
+
+Modules should show higher agreement to phylogenies than random modules
+
+Dataset: all kind of networks we can get hands on
+
+## Nestedness 
+
+Specialists are more likely to be recent immigrants
+
+Dataset: Wasps for spatial/ecological patterns
+Dataset: Temporal pollina
+
+Some evidence shows that most specialist species can be actually rencet imigrants and havent had the time adapt and either evolve large impacts on hosts or to become generalists [@Nuismer2003]. 
+
+If that is true, then one should be able a) to see that the patterns of generalism/specialism for a species speciest changes in spatial scales; b) to see that individuals behaving as generalists in their communities should have greater performance (fitness, impact?) than the individuals from the same species behaving as generalists in their comunities. And that c) species should show be more specialists towards the fringes of their spatial distribution. Can we test that with the wasp-parasite UWA dataset?
+
+Also in therms of phase shifts, if there is a sudden change in abiotic-conditions/community structure, then specialists would have a harder time adapting than generalists. Right? Is change in niche overlap what creates alternate stable states? Or if a specialist is still there will their perfornance decreasse after/along with the shif?
+
+# Coevolution in multidimensional trait space 
+
+Dataset: analytical and indvidual based models
+
+Coevolution has been shown to generate anti-nested patterns. But all those models have used one mechanism for generating and only one trait at a time. Since interaction probabilities can affect a lot the nerwork structure we expect it to change when using multiple traits. 
+
+\chapter{How community structure affects stability}
+
+# Functional redundancy and stability
+
+Species that share similar interactions in a ecological network can be grouped in modules. In food webs for example, modules can successfully encapsulate trophic groups that resemble energetic pathways [@Gauzens2014]. In host/parasite networks, a parasite is more likely to share hosts with other parasites within than outside it's module [@Weitz2013]. Similarly in mutualistic networks, pollinators within a module function as a group with preferences for some particular plants. 
+
+Because the species's functional role in the community is, at least to a great extent, defined by its interactions [@Dehling2014], modules should implicitly group species with similar functional roles [@Dupont2009].
+
+Functional redundancy has been proposed as an important factor in determining the ecosystem's response to disturbaces [@Brandl2014a]. Particularly when the 
+
+
+In pollination networks   can be th  similarity of In ecological networks, 
+
+Functional redundancParadojically high functional redundancy represents
+
+Hypothesis: Functional redundant systems are more stable and resilient
+
+Hypothesis: Systems with loss of functional groups are more vulnerable
+
+# Dead ends in fitness landscapes
+
+Hypothesis: very efficient performers in a fitness landscape are more vulnerable because the loss capacity of adaptation
+
+
+# What is stability
+
+# Coexistence and stability
+
+Niche changes over time. Throphic plasticity Consequences for stability
+
+## Niche overlap
+
+
+
+\chapter{Temporal dynamics in ecological networks}
+
+# Reconstructing historical networks
+
+Measuring network fitness
+
+Meassuring impact of hosts/infectivity
+
+How is related to niche overlap and coexistence theory - Niche change over time
+
+# Perturbing networks
+
+
+
+\chapter{Ecosystem feedbacks are indirect interactions}
+
+\newgeometry{margin=1in, twoside=FALSE}
+\chapter*{References}
+
+
+
+
+
+
+
+

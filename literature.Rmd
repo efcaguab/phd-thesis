@@ -85,4 +85,44 @@ Is it possible to build a network and see how it evolves based on trait values? 
 
 A review of predation prey interactions and their evolution: [@Abrams2000]
 
+### 2010
+
+#### Influence of coevolution on the stability of ecological communities
+[@Loeuille2010]
+
+After a brief explanation with a two species Lotka-Volterra model. He creates a community on stable coexistence with one trait per interaction and allow those trait to evolve. Interactions are randomly assigned as mutualistic, predator/prey and mutuallistic. The traits generate allocation or ecological costs. By analaysing the largest eigenvalue of the Jacobian matrix he analysises the stability of the community is improved or worsened for different diversity values. He uses a random network structure and mantains it troughout the experiment. 
+
+He finds that evolution tends to de-stabilize the community. Although there is more stabilization when the mutation act in mutuallistic or prey predator links and less when it acts on intraspecific or interspecific competition, however the differences as blurried at high diversity, when evolution almost always tend to destabilize the system. The type of costs appear to have little effect on the patterns. 
+
+Evolution leads to more stability if the the fitness gradient of traits is very small or very large
+
+##### The way forward
+
+He uses all kind of interactions, two types of allocation costs and many species. Kudos. BUT he uses random structures (and structure leads to more or less stability) and twice more competitive interactions than mutuallistic and thropic interactions. 
+
+There is no consideration for the niche and how it affects other traits. 
+
+There is no evolutionary dynamics. There is just one better suited ("invasive") mutant at a time affecting the fitness gradient and the eigenvalues of the jacobian community matrix. He claims that the resulys would be similar to what would be found by a quantitative genetic or evolutionary strategy models, with the assumption that the invasion of the mutant leads to the replacement of the resident population and that mutations are small and rare (which might not be true in natural systems). 
+
+##### To read:
+
+Foraging adaptation and the relationship between food-web complexity and stability [@Kondoh2003]
+Review - Ecoevolutionary dynamics of communities and ecosystems [@Fussmann2007]
+
+### 2008
+
+#### The interaction between predation and competition
+[@Chesson2008]
+
+They argue that both competition on resources and predation have symmetric effects on mantaining diversity.  The requisite for coexistence is that 
+$\rho < \frac{\kappa _1}{\kappa_2} < \frac{1}{\rho}$ where $\rho$ is the niche overlap and $\kappa_j$ is the fitness of the species. 
+
+In this case intraspecific density dependence must exceed interspecific density dependence. The strongest feedback loops (resource or predation) weight the niche overlap on each of those guilds and affect overall species coexistence. 
+
+Therefore conservation and management strategies need to be more concerned with the implications of changes in the strengths of throphic interactions. 
+
+##### The way forward:
+
+What's the effect of mutualism in mantaining diversity. What happens to coexistence when mutualistic feedback loops are added? Mutualism is an interesting case because both the pollinator and the plant should be on best interest to maximize generality and reduce niche overlap with individuals of the same guild. 
+
 ### References

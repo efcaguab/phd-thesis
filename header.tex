@@ -1,0 +1,18 @@
+% \marginparwidth = 400pt
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+    
+\usepackage{setspace}
+% \doublespacing
+\onehalfspacing
+
+\renewcommand{\chaptername}{}
+% \renewcommand{\thechapter}{}
+
+\pagestyle{plain}
