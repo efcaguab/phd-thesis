@@ -1,6 +1,6 @@
-## PhD Thesis
+#### PhD Thesis
 
-# Fernando Cagua
+### Fernando Cagua
 
-### Biological Sciences Department, University of Canterbury
+#### Biological Sciences Department, University of Canterbury
 
