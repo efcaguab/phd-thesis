@@ -7,6 +7,7 @@ output:
     includes:
       in_header: header.tex
     toc: yes
+    fig_caption: yes
     number_sections: no
 bibliography: ../references.bib
 biblatex: yes
@@ -40,6 +41,8 @@ Interaction strengths are defined There is a lack of evolution in multidimension
 
 \chapter{Evolution and network structure?}
 
+
+
 It has been previously shown that network structure has direct consequences on comunity persistance and stability and might also play an 
 
 Network structure heavily affects community stability. Here we aim how network structure can arise from evolutionary dynamics.
@@ -49,6 +52,12 @@ Do modular communities evolve towards nested by minimising niche overlap. Do nes
 There is evidence that shows 
 
 How is nestedness reconciliated with coe
+
+# Coevolution's impact on interaction strength
+
+I argue that the interaction strength between two species is at least partially determined by the evolutionary history of the species interacting. In mutuallistic networks, species that have a common history of coevolution and coespeciation might had a long time to optimise their common bennefits. Interacting species that that have been interdependent for evolutionary times should show a larger "potential" interaction strengt that interacting species that have only interacted in recent evolutionary times.
+
+Another wording for the same hypothesis is that species are more likely to respond to the evolutionary changes occurring in the interacting partners they depend the most. 
 
 ```{r, echo = FALSE, message = FALSE, fig.cap = "Interaction strength is related to the coevolutioary signal of an interaction.", fig.height = 3}
 
@@ -69,6 +78,11 @@ data.frame(x = c(0,1,1),
         axis.ticks = element_blank())+
   scale_linetype_discrete("")
 ```
+
+Several factors are also known to affect species' interacton strength: in particular species abbundances and environmental factors. I propose to employ a combination of modelling and empirical data to determine if evolutionary history provides the backbones of species interdependency or not. Evolutionary history might constrain the space of potential interactions and their relative importance, while contemporary ecological conditions modulate the relationships.
+
+We will meassure the impact of evolution as the contribution of each interaction to the overall congruence of each guild's phylogenies [@Balbuena2013a]. This is an adequate meassure because an interaction with high contribution to coevolution reflects that the species have been interacting over long evolutionary times.
+
 ```{r, echo = FALSE, message = FALSE, fig.cap = "In a bipartite network, interactions that support the congruence of the phylogenies -- solid lines -- are high contributors to coevolution. Opposite, the interactions that contribute little to coevolution -- dashed lines -- are those that 'distort' the congruence between phylogenies.", fig.height = 3}
 
 s <- "owls(((A:4,B:4):3,C:7):6,D:13);"
@@ -117,6 +131,11 @@ i <- int %>%
 multiplot(p2, i, p1, layout =  matrix(c(1,1,1,2,2,3,3,3), nrow = 1, byrow = T))
 
 ```
+
+For example, in the figure, the ancestors of A, B and C likely interacted with the ancestors of A', B' and C'. On the other hand, the interactions between A' and D and D' and B might be a consequence of ecological factors or the recent evolution of species' tarits that enable these interactions to occur. 
+
+There is a second hypothesis that arrises from this reasining: the relative importance of contemporary ecological factors and the evolutionary dynamics in the interaction strength depends on the degree of ecosystem modification. Arguably species use physiological and behavioural adaptations to cope with ecosystem change. Adjustements on interaction strength caused by those changes (local extintions or abbundance changes of interacting species, arrival of invasive competitors or novel resources, etc.) might blur the evoutionary siganture on interacton strength. 
+
 # The contribution of evolution and spatiotemporal patterns to network structure
 
 Hypothesis modularity comes from phylogenetic hystory and ecological traits. Nestedness come from spatiotemporal patterns (recent immigration, spatial and temporal overlap). Though nestedness can also arrise from weak coevolution and phenotype differences (which they argue is the one acting on species rich comunities)
