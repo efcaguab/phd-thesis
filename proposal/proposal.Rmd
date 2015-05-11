@@ -69,6 +69,54 @@ data.frame(x = c(0,1,1),
         axis.ticks = element_blank())+
   scale_linetype_discrete("")
 ```
+```{r, echo = FALSE, message = FALSE, fig.cap = "In a bipartite network, interactions that support the congruence of the phylogenies -- solid lines -- are high contributors to coevolution. Opposite, the interactions that contribute little to coevolution -- dashed lines -- are those that 'distort' the congruence between phylogenies.", fig.height = 3}
+
+s <- "owls(((A:4,B:4):3,C:7):6,D:13);"
+cat(s, file = "./figures/ex.tre", sep = "\n")
+tree.owls <- read.tree("./figures/ex.tre")
+
+phylo <- tree.owls %>% 
+  as.hclust() %>%
+  dendro_data()
+
+int <- diag(nrow(phylo$labels)) %>%
+  `[<-`(4, 2, 1) %>%
+  `[<-`(1, 4, 1) %>%
+  `[<-`(4, 4, 0) %>%
+  `row.names<-`(phylo$labels$label) %>%
+  `colnames<-`(phylo$labels$label) %>%
+  melt() %>%
+  filter(value == 1) %>%
+  mutate(coev = !(as.character(Var1) == as.character(Var2)),
+         y = as.numeric(Var1),
+         yend = as.numeric(Var2),
+         x = 0,
+         xend = 1)
+
+my_theme <- theme(legend.position = "none", 
+               plot.margin = unit (c (0,0,0,0), "pt"),
+               text =  element_text(family = "Times")) +
+  theme_dendro()
+p1 <- ggplot(data = phylo$segments) +
+  geom_segment(aes(x = x, y = y, yend = yend, xend = xend), 
+               size = 1, colour = "grey30") +
+  coord_flip() + ggtitle("Pollinators / Parasites") + my_theme 
+p2 <- p1 + scale_y_reverse(expand = c(0.2, 0)) + ggtitle("Plants / Hosts") + 
+    geom_text(data = phylo$labels, aes (x = x, y = y - 1.2, label = paste(label, "'", sep = ""))) +
+    my_theme
+p1 <- p1 + geom_text(data = phylo$labels, aes (x = x, y = y - 0.8, label = label))
+
+i <- int %>%
+  ggplot() +
+  geom_segment(aes(x = x, y = y, xend = xend, yend = yend, linetype = coev),
+               size = 1) +
+  geom_point(aes(x = x, y = y)) +
+  geom_point(aes(x = xend, y = yend)) + 
+  my_theme + ggtitle("Interactions")
+  
+multiplot(p2, i, p1, layout =  matrix(c(1,1,1,2,2,3,3,3), nrow = 1, byrow = T))
+
+```
 # The contribution of evolution and spatiotemporal patterns to network structure
 
 Hypothesis modularity comes from phylogenetic hystory and ecological traits. Nestedness come from spatiotemporal patterns (recent immigration, spatial and temporal overlap). Though nestedness can also arrise from weak coevolution and phenotype differences (which they argue is the one acting on species rich comunities)
