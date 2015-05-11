@@ -19,6 +19,19 @@ geometry: margin=1in
 geometry: bindingoffset=0in
 geometry: twoside=FALSE
 ---
+
+```{r libraries, echo = FALSE, message = FALSE}
+library(ggdendro)
+library(ape)
+library(magrittr)
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+library(grid)
+source("./code/multiplot.R")
+```
+
+
 \newgeometry{right=3in, twoside=FALSE}
 
 \chapter{Introduction}
