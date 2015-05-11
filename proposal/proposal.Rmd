@@ -50,6 +50,25 @@ There is evidence that shows
 
 How is nestedness reconciliated with coe
 
+```{r, echo = FALSE, message = FALSE, fig.cap = "Interaction strength is related to the coevolutioary signal of an interaction.", fig.height = 3}
+
+data.frame(x = c(0,1,1), 
+           xend = c(1,2,2), 
+           y = c(1,1,1),
+           yend = c(1,2,1.5),
+           type = c("generalists", "specialists", "generalists")) %>%
+  ggplot() +
+  geom_segment(aes(x = x, y = y, xend = xend, yend = yend, linetype = type)) +
+  theme_classic() +
+  ylim(0.7,2) +
+  xlab("Interaction's contribution to coevolution") +
+  ylab("Interaction strenght") +
+  theme(text =  element_text(family = "Times"), 
+        axis.text.y = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks = element_blank())+
+  scale_linetype_discrete("")
+```
 # The contribution of evolution and spatiotemporal patterns to network structure
 
 Hypothesis modularity comes from phylogenetic hystory and ecological traits. Nestedness come from spatiotemporal patterns (recent immigration, spatial and temporal overlap). Though nestedness can also arrise from weak coevolution and phenotype differences (which they argue is the one acting on species rich comunities)
