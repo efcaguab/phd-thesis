@@ -39,19 +39,7 @@ source("./code/multiplot.R")
 
 Interaction strengths are defined There is a lack of evolution in multidimensional trait space
 
-\chapter{Evolution and network structure?}
-
-
-
-It has been previously shown that network structure has direct consequences on comunity persistance and stability and might also play an 
-
-Network structure heavily affects community stability. Here we aim how network structure can arise from evolutionary dynamics.
-
-Do modular communities evolve towards nested by minimising niche overlap. Do nested communities evolve towards modular patterns in the absence of disturbances?
-
-There is evidence that shows 
-
-How is nestedness reconciliated with coe
+\chapter{The role of evolution on network structure}
 
 # Coevolution's impact on interaction strength
 
@@ -82,6 +70,8 @@ data.frame(x = c(0,1,1),
 Several factors are also known to affect species' interacton strength: in particular species abbundances and environmental factors. I propose to employ a combination of modelling and empirical data to determine if evolutionary history provides the backbones of species interdependency or not. Evolutionary history might constrain the space of potential interactions and their relative importance, while contemporary ecological conditions modulate the relationships.
 
 We will meassure the impact of evolution as the contribution of each interaction to the overall congruence of each guild's phylogenies [@Balbuena2013a]. This is an adequate meassure because an interaction with high contribution to coevolution reflects that the species have been interacting over long evolutionary times.
+
+For example, in the figure, the ancestors of A, B and C likely interacted with the ancestors of A', B' and C'. On the other hand, the interactions between A' and D and D' and B might be a consequence of ecological factors or the recent evolution of species' tarits that enable these interactions to occur. 
 
 ```{r, echo = FALSE, message = FALSE, fig.cap = "In a bipartite network, interactions that support the congruence of the phylogenies -- solid lines -- are high contributors to coevolution. Opposite, the interactions that contribute little to coevolution -- dashed lines -- are those that 'distort' the congruence between phylogenies.", fig.height = 3}
 
@@ -132,9 +122,29 @@ multiplot(p2, i, p1, layout =  matrix(c(1,1,1,2,2,3,3,3), nrow = 1, byrow = T))
 
 ```
 
-For example, in the figure, the ancestors of A, B and C likely interacted with the ancestors of A', B' and C'. On the other hand, the interactions between A' and D and D' and B might be a consequence of ecological factors or the recent evolution of species' tarits that enable these interactions to occur. 
-
 There is a second hypothesis that arrises from this reasining: the relative importance of contemporary ecological factors and the evolutionary dynamics in the interaction strength depends on the degree of ecosystem modification. Arguably species use physiological and behavioural adaptations to cope with ecosystem change. Adjustements on interaction strength caused by those changes (local extintions or abbundance changes of interacting species, arrival of invasive competitors or novel resources, etc.) might blur the evoutionary siganture on interacton strength. 
+
+# Network structure arises from evolutionary dynamics
+
+Which processes generate modularity and which processes originate nestedness? 
+
+# Coevolution in multidimensional trait space 
+
+Dataset: analytical and indvidual based models
+
+Coevolution has been shown to generate anti-nested patterns. But all those models have used one mechanism for generating and only one trait at a time. Since interaction probabilities can affect a lot the nerwork structure we expect it to change when using multiple traits. 
+
+Also, 
+
+It has been previously shown that network structure has direct consequences on comunity persistance and stability and might also play an 
+
+Network structure heavily affects community stability. Here we aim how network structure can arise from evolutionary dynamics.
+
+Do modular communities evolve towards nested by minimising niche overlap. Do nested communities evolve towards modular patterns in the absence of disturbances?
+
+There is evidence that shows 
+
+How is nestedness reconciliated with coe
 
 # The contribution of evolution and spatiotemporal patterns to network structure
 
@@ -158,12 +168,6 @@ Some evidence shows that most specialist species can be actually rencet imigrant
 If that is true, then one should be able a) to see that the patterns of generalism/specialism for a species speciest changes in spatial scales; b) to see that individuals behaving as generalists in their communities should have greater performance (fitness, impact?) than the individuals from the same species behaving as generalists in their comunities. And that c) species should show be more specialists towards the fringes of their spatial distribution. Can we test that with the wasp-parasite UWA dataset?
 
 Also in therms of phase shifts, if there is a sudden change in abiotic-conditions/community structure, then specialists would have a harder time adapting than generalists. Right? Is change in niche overlap what creates alternate stable states? Or if a specialist is still there will their perfornance decreasse after/along with the shif?
-
-# Coevolution in multidimensional trait space 
-
-Dataset: analytical and indvidual based models
-
-Coevolution has been shown to generate anti-nested patterns. But all those models have used one mechanism for generating and only one trait at a time. Since interaction probabilities can affect a lot the nerwork structure we expect it to change when using multiple traits. 
 
 \chapter{How community structure affects stability}
 
