@@ -35,15 +35,26 @@ source("./code/multiplot.R")
 
 \newgeometry{right=3in, twoside=FALSE}
 
-\chapter{Introduction}
-
-Interaction strengths are defined There is a lack of evolution in multidimensional trait space
-
 \chapter{The role of evolution on network structure}
+
+# A multidimensional trait approach to network structure
+
+Network structure has important implications community stability. However it is unclear how the structure of networks originate, or which processes are responsible for different patterns. In particular which processes originate modularity and which processes originate nestedness? Evidence suggest that evolution does have an impact in the structure ecological networks, but the factors that determine its relative are unknown. 
+
+Previous attempts [@Guimaraes2011; @Nuismer2012a] have been limited by models of single trait evolution, which is likely to be an oversimplification. I propose to construct individual based models that explore different mechanisms of trait evolution in a multidimensional trait space to distinguish those that are related to different patterns of network structure. 
+
+Using a multidimensional trait space is an important step towards bridging coexistence and evolutionary theory in ecological networks. For example, coevolution has been shown to generate anti-nested patterns in ecological networks, but it can be argued that nestedness can arise from an effort of species to minimise niche overlap.  
+
+The insights provided by such a model will contribute to answering the question on why modularity is the most common structure in empirical prey/predator networks, while nestedness dominates in mutualistic networks. 
+
+# Phylogenetic history of network structure
+
+Awesome work by Hutchinson, Cagua, and Stouffer (2015) shows that modules might or might not be the unit of coevolution. Aditionally it was recently shown that while evolutionary history only indirectly affetc network structure  showed that 
+
 
 # Coevolution's impact on interaction strength
 
-I argue that the interaction strength between two species is at least partially determined by the evolutionary history of the species interacting. In mutuallistic networks, species that have a common history of coevolution and coespeciation might had a long time to optimise their common bennefits. Interacting species that that have been interdependent for evolutionary times should show a larger "potential" interaction strengt that interacting species that have only interacted in recent evolutionary times.
+I argue that the interaction strength between two species is at least partially determined by the evolutionary history of the species interacting. In mutuallistic networks, species that have a common history of coevolution and coespeciation might had a long time to optimise their common benefits. Interacting species that that have been interdependent for evolutionary times should show a larger "potential" interaction strength that interacting species that have only interacted in recent evolutionary times.
 
 Another wording for the same hypothesis is that species are more likely to respond to the evolutionary changes occurring in the interacting partners they depend the most. 
 
@@ -67,11 +78,11 @@ data.frame(x = c(0,1,1),
   scale_linetype_discrete("")
 ```
 
-Several factors are also known to affect species' interacton strength: in particular species abbundances and environmental factors. I propose to employ a combination of modelling and empirical data to determine if evolutionary history provides the backbones of species interdependency or not. Evolutionary history might constrain the space of potential interactions and their relative importance, while contemporary ecological conditions modulate the relationships.
+Several factors are also known to affect species' interaction strength: in particular species abundances and environmental factors. I propose to employ a combination of modelling and empirical data to determine if evolutionary history provides the backbones of species interdependence or not. Evolutionary history might constrain the space of potential interactions and their relative importance, while contemporary ecological conditions modulate the relationships.
 
-We will meassure the impact of evolution as the contribution of each interaction to the overall congruence of each guild's phylogenies [@Balbuena2013a]. This is an adequate meassure because an interaction with high contribution to coevolution reflects that the species have been interacting over long evolutionary times.
+We will measure the impact of evolution as the contribution of each interaction to the overall congruence of each guild's phylogenies [@Balbuena2013a]. This is an adequate measure because an interaction with high contribution to coevolution reflects that the species have been interacting over long evolutionary times.
 
-For example, in the figure, the ancestors of A, B and C likely interacted with the ancestors of A', B' and C'. On the other hand, the interactions between A' and D and D' and B might be a consequence of ecological factors or the recent evolution of species' tarits that enable these interactions to occur. 
+For example, in the figure, the ancestors of A, B and C likely interacted with the ancestors of A', B' and C'. On the other hand, the interactions between A' and D and D' and B might be a consequence of ecological factors or the recent evolution of species' traits that enable these interactions to occur. 
 
 ```{r, echo = FALSE, message = FALSE, fig.cap = "In a bipartite network, interactions that support the congruence of the phylogenies -- solid lines -- are high contributors to coevolution. Opposite, the interactions that contribute little to coevolution -- dashed lines -- are those that 'distort' the congruence between phylogenies.", fig.height = 3}
 
@@ -122,29 +133,8 @@ multiplot(p2, i, p1, layout =  matrix(c(1,1,1,2,2,3,3,3), nrow = 1, byrow = T))
 
 ```
 
-There is a second hypothesis that arrises from this reasining: the relative importance of contemporary ecological factors and the evolutionary dynamics in the interaction strength depends on the degree of ecosystem modification. Arguably species use physiological and behavioural adaptations to cope with ecosystem change. Adjustements on interaction strength caused by those changes (local extintions or abbundance changes of interacting species, arrival of invasive competitors or novel resources, etc.) might blur the evoutionary siganture on interacton strength. 
+There is a second hypothesis that arises from this reasoning: the relative importance of contemporary ecological factors and the evolutionary dynamics in the interaction strength depends on the degree of ecosystem modification. Arguably species use physiological and behavioral adaptations to cope with ecosystem change. Adjustments on interaction strength caused by those changes (local extinctions or abundance changes of interacting species, arrival of invasive competitors or novel resources, etc.) might blur the evolutionary signature on interaction strength. 
 
-# Network structure arises from evolutionary dynamics
-
-Which processes generate modularity and which processes originate nestedness? 
-
-# Coevolution in multidimensional trait space 
-
-Dataset: analytical and indvidual based models
-
-Coevolution has been shown to generate anti-nested patterns. But all those models have used one mechanism for generating and only one trait at a time. Since interaction probabilities can affect a lot the nerwork structure we expect it to change when using multiple traits. 
-
-Also, 
-
-It has been previously shown that network structure has direct consequences on comunity persistance and stability and might also play an 
-
-Network structure heavily affects community stability. Here we aim how network structure can arise from evolutionary dynamics.
-
-Do modular communities evolve towards nested by minimising niche overlap. Do nested communities evolve towards modular patterns in the absence of disturbances?
-
-There is evidence that shows 
-
-How is nestedness reconciliated with coe
 
 # The contribution of evolution and spatiotemporal patterns to network structure
 
@@ -201,7 +191,7 @@ Niche changes over time. Throphic plasticity Consequences for stability
 
 ## Niche overlap
 
-
+# Multilevel interactions and ecosystem feedbacks
 
 \chapter{Temporal dynamics in ecological networks}
 
@@ -214,10 +204,6 @@ Meassuring impact of hosts/infectivity
 How is related to niche overlap and coexistence theory - Niche change over time
 
 # Perturbing networks
-
-
-
-\chapter{Ecosystem feedbacks are indirect interactions}
 
 \newgeometry{margin=1in, twoside=FALSE}
 \chapter*{References}
