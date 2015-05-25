@@ -1,0 +1,175 @@
+
+
+\chapter{The role of evolution on network structure}
+
+# A multidimensional trait approach to network structure
+
+Network structure has important implications community stability. However it is unclear how the structure of networks originate, or which processes are responsible for different patterns. In particular which processes originate modularity and which processes originate nestedness? Evidence suggest that evolution does have an impact in the structure ecological networks, but the factors that determine its relative are unknown. 
+
+Previous attempts [@Guimaraes2011; @Nuismer2012a] have been limited by models of single trait evolution, which is likely to be an oversimplification. I propose to construct individual based models that explore different mechanisms of trait evolution in a multidimensional trait space to distinguish those that are related to different patterns of network structure. 
+
+Using a multidimensional trait space is an important step towards bridging coexistence and evolutionary theory in ecological networks. For example, coevolution has been shown to generate anti-nested patterns in ecological networks, but it can be argued that nestedness can arise from an effort of species to minimise niche overlap.  
+
+The insights provided by such a model will contribute to answering the question on why modularity is the most common structure in empirical prey/predator networks, while nestedness dominates in mutualistic networks. 
+
+# Phylogenetic history of network structure
+
+Awesome work by Hutchinson, Cagua, and Stouffer (2015) shows that modules might or might not be the unit of coevolution. Aditionally it was recently shown that while evolutionary history only indirectly affetc network structure  showed that 
+
+
+# Coevolution's impact on interaction strength
+
+I argue that the interaction strength between two species is at least partially determined by the evolutionary history of the species interacting. In mutuallistic networks, species that have a common history of coevolution and coespeciation might had a long time to optimise their common benefits. Interacting species that that have been interdependent for evolutionary times should show a larger "potential" interaction strength that interacting species that have only interacted in recent evolutionary times.
+
+Another wording for the same hypothesis is that species are more likely to respond to the evolutionary changes occurring in the interacting partners they depend the most. 
+
+```{r, echo = FALSE, message = FALSE, fig.cap = "Interaction strength is related to the coevolutioary signal of an interaction.", fig.height = 3}
+
+data.frame(x = c(0,1,1), 
+           xend = c(1,2,2), 
+           y = c(1,1,1),
+           yend = c(1,2,1.5),
+           type = c("generalists", "specialists", "generalists")) %>%
+  ggplot() +
+  geom_segment(aes(x = x, y = y, xend = xend, yend = yend, linetype = type)) +
+  theme_classic() +
+  ylim(0.7,2) +
+  xlab("Interaction's contribution to coevolution") +
+  ylab("Interaction strenght") +
+  theme(text =  element_text(family = "Times"), 
+        axis.text.y = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks = element_blank())+
+  scale_linetype_discrete("")
+```
+
+Several factors are also known to affect species' interaction strength: in particular species abundances and environmental factors. I propose to employ a combination of modelling and empirical data to determine if evolutionary history provides the backbones of species interdependence or not. Evolutionary history might constrain the space of potential interactions and their relative importance, while contemporary ecological conditions modulate the relationships.
+
+We will measure the impact of evolution as the contribution of each interaction to the overall congruence of each guild's phylogenies [@Balbuena2013a]. This is an adequate measure because an interaction with high contribution to coevolution reflects that the species have been interacting over long evolutionary times.
+
+For example, in the figure, the ancestors of A, B and C likely interacted with the ancestors of A', B' and C'. On the other hand, the interactions between A' and D and D' and B might be a consequence of ecological factors or the recent evolution of species' traits that enable these interactions to occur. 
+
+```{r, echo = FALSE, message = FALSE, fig.cap = "In a bipartite network, interactions that support the congruence of the phylogenies -- solid lines -- are high contributors to coevolution. Opposite, the interactions that contribute little to coevolution -- dashed lines -- are those that 'distort' the congruence between phylogenies.", fig.height = 3}
+
+s <- "owls(((A:4,B:4):3,C:7):6,D:13);"
+cat(s, file = "./figures/ex.tre", sep = "\n")
+tree.owls <- read.tree("./figures/ex.tre")
+
+phylo <- tree.owls %>% 
+  as.hclust() %>%
+  dendro_data()
+
+int <- diag(nrow(phylo$labels)) %>%
+  `[<-`(4, 2, 1) %>%
+  `[<-`(1, 4, 1) %>%
+  `[<-`(4, 4, 0) %>%
+  `row.names<-`(phylo$labels$label) %>%
+  `colnames<-`(phylo$labels$label) %>%
+  melt() %>%
+  filter(value == 1) %>%
+  mutate(coev = !(as.character(Var1) == as.character(Var2)),
+         y = as.numeric(Var1),
+         yend = as.numeric(Var2),
+         x = 0,
+         xend = 1)
+
+my_theme <- theme(legend.position = "none", 
+               plot.margin = unit (c (0,0,0,0), "pt"),
+               text =  element_text(family = "Times")) +
+  theme_dendro()
+p1 <- ggplot(data = phylo$segments) +
+  geom_segment(aes(x = x, y = y, yend = yend, xend = xend), 
+               size = 1, colour = "grey30") +
+  coord_flip() + ggtitle("Pollinators / Parasites") + my_theme 
+p2 <- p1 + scale_y_reverse(expand = c(0.2, 0)) + ggtitle("Plants / Hosts") + 
+    geom_text(data = phylo$labels, aes (x = x, y = y - 1.2, label = paste(label, "'", sep = ""))) +
+    my_theme
+p1 <- p1 + geom_text(data = phylo$labels, aes (x = x, y = y - 0.8, label = label))
+
+i <- int %>%
+  ggplot() +
+  geom_segment(aes(x = x, y = y, xend = xend, yend = yend, linetype = coev),
+               size = 1) +
+  geom_point(aes(x = x, y = y)) +
+  geom_point(aes(x = xend, y = yend)) + 
+  my_theme + ggtitle("Interactions")
+  
+multiplot(p2, i, p1, layout =  matrix(c(1,1,1,2,2,3,3,3), nrow = 1, byrow = T))
+
+```
+
+There is a second hypothesis that arises from this reasoning: the relative importance of contemporary ecological factors and the evolutionary dynamics in the interaction strength depends on the degree of ecosystem modification. Arguably species use physiological and behavioral adaptations to cope with ecosystem change. Adjustments on interaction strength caused by those changes (local extinctions or abundance changes of interacting species, arrival of invasive competitors or novel resources, etc.) might blur the evolutionary signature on interaction strength. 
+
+
+# The contribution of evolution and spatiotemporal patterns to network structure
+
+Hypothesis modularity comes from phylogenetic hystory and ecological traits. Nestedness come from spatiotemporal patterns (recent immigration, spatial and temporal overlap). Though nestedness can also arrise from weak coevolution and phenotype differences (which they argue is the one acting on species rich comunities)
+
+## Phylogenetic history of modularity
+
+Modules should show higher agreement to phylogenies than random modules
+
+Dataset: all kind of networks we can get hands on
+
+## Nestedness 
+
+Specialists are more likely to be recent immigrants
+
+Dataset: Wasps for spatial/ecological patterns
+Dataset: Temporal pollina
+
+Some evidence shows that most specialist species can be actually rencet imigrants and havent had the time adapt and either evolve large impacts on hosts or to become generalists [@Nuismer2003]. 
+
+If that is true, then one should be able a) to see that the patterns of generalism/specialism for a species speciest changes in spatial scales; b) to see that individuals behaving as generalists in their communities should have greater performance (fitness, impact?) than the individuals from the same species behaving as generalists in their comunities. And that c) species should show be more specialists towards the fringes of their spatial distribution. Can we test that with the wasp-parasite UWA dataset?
+
+Also in therms of phase shifts, if there is a sudden change in abiotic-conditions/community structure, then specialists would have a harder time adapting than generalists. Right? Is change in niche overlap what creates alternate stable states? Or if a specialist is still there will their perfornance decreasse after/along with the shif?
+
+\chapter{How community structure affects stability}
+
+# Functional redundancy and stability
+
+Species that share similar interactions in a ecological network can be grouped in modules. In food webs for example, modules can successfully encapsulate trophic groups that resemble energetic pathways [@Gauzens2014]. In host/parasite networks, a parasite is more likely to share hosts with other parasites within than outside it's module [@Weitz2013]. Similarly in mutualistic networks, pollinators within a module function as a group with preferences for some particular plants. 
+
+Because the species's functional role in the community is, at least to a great extent, defined by its interactions [@Dehling2014], modules should implicitly group species with similar functional roles [@Dupont2009].
+
+Functional redundancy has been proposed as an important factor in determining the ecosystem's response to disturbaces [@Brandl2014a]. Particularly when the 
+
+
+In pollination networks   can be th  similarity of In ecological networks, 
+
+Functional redundancParadojically high functional redundancy represents
+
+Hypothesis: Functional redundant systems are more stable and resilient
+
+Hypothesis: Systems with loss of functional groups are more vulnerable
+
+# Dead ends in fitness landscapes
+
+Hypothesis: very efficient performers in a fitness landscape are more vulnerable because the loss capacity of adaptation
+
+
+# What is stability
+
+# Coexistence and stability
+
+Niche changes over time. Throphic plasticity Consequences for stability
+
+## Niche overlap
+
+# Multilevel interactions and ecosystem feedbacks
+
+\chapter{Temporal dynamics in ecological networks}
+
+# Reconstructing historical networks
+
+Measuring network fitness
+
+Meassuring impact of hosts/infectivity
+
+How is related to niche overlap and coexistence theory - Niche change over time
+
+# Perturbing networks
+
+\newgeometry{margin=1in, twoside=FALSE}
+\chapter*{References}
+
