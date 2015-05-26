@@ -39,42 +39,23 @@ source("./code/multiplot.R")
 
 Species in a ecological community form networks of interactions that determine the functioning of the ecosystem. Chiefly, interactions can be antagonistic ---like those between hosts and parasites or plant and herbivores--- or mutualistic ---like those between plants and pollinators or coral and their symbiotic algae. 
 
-Anthropogenic pressures are a major driver of ecosystem change. The way ecosystems respond to those drivers is largely determined by the structure or their interaction networks. Because ecosystem interactions are of tremendous importance for global biogeochemical cycles, ecosystem services, and the maintenance of global biodiversity, understanding the implications of network structure for ecosystem response is paramount.
+Anthropogenic pressures are a major driver of ecosystem change [@Large2015]. The way ecosystems respond to those drivers is largely determined by the structure or their interaction networks. Because ecosystem interactions are of tremendous importance for global biogeochemical cycles, ecosystem services, and the maintenance of global biodiversity, understanding the implications of network structure for ecosystem response is paramount.
 
 For my dissertation I propose to study the role of species' interactions on the response of ecosystems to drivers of change. Specifically I aim to build a general understanding of how network structure and species coexistence interplays with the ecosystem's stability, resilience and adaptive capacity. 
 
 These three concepts ---introduced by Holling [-@Holling1973] and later reviewed by Gunderson [-@Gunderson2000]--- have been key in quantifying the dynamics and behaviour of ecosystems. **Stability** describes the property of a system to return to an equilibrium point after disturbance. On the other hand **Resilience** is a meassure of stability that mediates transitions between ecosystem stable states; it is defined by "the amount of disturbance that an ecosystem could withstand without changing self-organized processes and structures" (stable states) or as "the return time to a stable state following a perturbation". In turn the **adaptive capacity** describes "the processes that modify ecological resilience".
 
-I start by stuyding the outcome of species invasions under different structures of mutualistic networks. Species invasions are a major driver of change in many ecosystems, with important consequences on ecosystem functioning and biodiversity [@Ehrenfeld2010; @Powell2011; @Thomsen2014]. Mutuallistic networks, on the other hand, are crucial for the maintenance of global biodiversity. For instance mutuallistic networks are responsible of 90% of seed dispersal in tropical plants [@Bascompte2007] and the pollination of arround 70% of the global food crops [@Tylianakis2013]. 
+I start by stuyding the outcome of species invasions under different structures of mutualistic networks. Species invasions are a major driver of change in many ecosystems, with important consequences on ecosystem functioning and biodiversity [@Ehrenfeld2010; @Powell2011; @Thomsen2014]. Mutuallistic networks, on the other hand, are crucial for the maintenance of global biodiversity. For instance mutuallistic networks are responsible of 90% of seed dispersal in tropical plants [@Bascompte2007] and the pollination of arround 70% of the global food crops [@Klein2007]. 
 
-In reality ecosystems dynamics are comprised by feedbacks that include more than one type of interactions. In fact most of our understading of the ecosystem's suceptibility to invasion and its stability comes from studies in the context of antagonistic interactions. I propose to  We already know that the network's structural patterns that promote stability vary depending on the type of interaction [@Thebault2010; @Sauve2014], but little is known about the factors that make an ecosystem more resilient against invasors and other drivers. 
+In reality ecosystems dynamics are comprised by feedbacks that include more than one type of interactions. I propose to expand the understanding of ecosystem invasibility when it includes agonistic interactions in the second chaper of my dissertation. Previous evidence shows that the network's structural patterns that promote stability vary depending on the type of interaction [@Thebault2010; @Sauve2014], but little is known about the factors that make an ecosystem more resilient against invasors and other drivers. 
+
+Species that share similar interactions in a ecological network can be grouped in modules. Because the species's functional role in the community is, at least to a great extent, defined by its interactions [@Dehling2014], modules should implicitly group species with similar functional roles [@Dupont2009]. Functional redundancy has been proposed as an important factor in determining the ecosystem's response to disturbaces [@Brandl2014a]. For the trhid chapter, I propose to analyse the role that functional groups have in the ecosystem's resilience, and how the disruption of functional groups affects the ecosystem's adaptive capacity. 
+
+In these first three chapters, I analise stability ignoring one important aspect: that some ecosystem stable states are more desirable than others (in terms of ecosystem services). Anthropogenic drivers or ecosystem change are multidimensional and are escalating at an alarmant rate. Understanding what causes the transition between different different ecosystem's stable states is a crucial step towards preventing undesirable transitions and restoring ecosystems that are already in an alternate undesirable state.
 
 
 
-
-Besides mutualistic, antagonistic interactions are also generate ecosym feedbacks  are comprised by both   I then follow by expanding the 
-
-
-under different network structures. I use mutuallistic networks as the 
-system model 
-
-Drivers include overfishing, nurtients, climate change and invasive species
-
-Ecosystem responses include changes on biodiversity, habitat modification (fragmentation, complexity), disease outbreaks, foodweb distortion, and potentially increassed fragility, loss of resilience
-
-It is unknown 
-
-Feedbacks are the ones that create the non linearitues
-
-Ecosystems are subject to 
-
-It is still unknown how ecosystem respond to different drivers of change
-
-There is a paucity of information on how ecosystem respond to escalating drivers. 
-
-Regime shifts
-There are 
-Understanding the role that
+\iffalse
 
 
 Environmental drivers to ecosystem responses. 
@@ -102,15 +83,11 @@ From an individual perspective to a group perspective.
 \chapter*{Timeline}
 \addcontentsline{toc}{chapter}{Timeline}
 
-\iffalse
-
 \chapter{Pet projects}
 
-# Apparent coevolution on plant antagonistic + mutualistic networks
+# Global biogeographic patterns of plants and pollinators
 
 # Biogeography and phylogenies: evolutionary patterns of tropical coral reefs and fishes
-
-# Your 
 
 # Effect of coevolution on network stability
 
