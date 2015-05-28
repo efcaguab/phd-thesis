@@ -1,0 +1,51 @@
+---
+title: "New Zealand International Doctoral Research Scholarship - Research Proposal"
+author: "Fernando Cagua"
+date: "28/05/2015"
+output: pdf_document
+bibliography: ../../references.bib
+csl: ../nature.csl
+---
+
+---
+geometry: a4paper
+---
+
+\begin{center}
+\section{Ecosystem responses to escalating drivers}
+\end{center}
+
+Species in an ecological community form networks of interactions that determine the functioning of the ecosystem. Those interactions are of tremendous importance for example for the provision of ecosystem services, and the maintenance of global biodiversity and biogeochemical cycles. On the other hand, human generated impacts---like climate change, land use modification, overexploitation, nutrient enrichment, and invasive species---are heavily modifying the functioning of many of the ecosystems we depend on[@Large2015]. The intensity of those drivers is increassing, and that trend is likely to continue. 
+
+Despite the fact that the effect of those drivers permeates across entire communities, our understanding of their impacts is mostly based on studies of one or a few species. Contrastingly, a network approach in ecology recognises that species live within a comminity and the interactions between them. This approach---built upon tools from statistical physics and the social sciences---has been key in revealing structural patterns that trascend specific ecosystems. For instance, we have recently learnt that the architechture of empirical interaction networks not only determines the ecosystem functions but, in fact, is also able to mediate its response to disturbances. We still don't understand, however, the mechanisms that link species interactions with the ecosystem's resilience.
+
+The overall objective of my proposed research is to improve our current understanding of the ecosystems response to multiple anthopogenic drivers and their cummulative impacts. In particular, I propose to focus on the role that networks of species interactions have in modulating those responses. I will use models 
+
+This is the best shit in the world for me and for the world itself
+
+### References
+
+\iffalse
+
+Funder guidelines:
+
+* Your proposal should be thoroughly researched, well thought out, feasible, and clearly articulated
+* Your proposal should identify specific areas of study and outline methodology
+* Include an assessment of the benefits (both professional and personal) that you expect from your proposed research
+
+Considerations:
+
+1. Hook attention from the get go
+2. Make sure it fits what they want
+3. Audience = no idea about anthing
+4. I matter. Sell myself. Carrer highlights and contributions to date
+5. Good title. Grandma should understand it, avoid questions, short and to the point, tell why is so bloody important
+6. Tell. What I'm gonna do. WHy is so exciting. What will it solve
+7. Tell inmediatelly what I'm intending to reseracg. An assessor wants to see that you’ll be proposing to do x, y and z such that you can answer big questions a, b and c efficiently, effectively and convincingly.
+8. Convince it's exciting. Make anyone who read it excited
+9. Explain applied outcomes. how your results will affect the real world, either through policy, technology or remediation
+10. State hypothesis and predictions and how to test them. Be realistic about them
+11. Methodologically specific. 
+12. Communication strategy. Reaches for the public with clever and inovative ways
+
+\fi

@@ -1,0 +1,20 @@
+---
+title: "New Zealand International Doctoral Research Scholarship - Impact Statement"
+author: "Fernando Cagua"
+date: "28/05/2015"
+output: pdf_document
+---
+
+Funder guidelines:  
+
+Specifically, comment on how your research will have a tangible, positive effect on: 
+
+* New Zealand’s economy, in terms of international trade and business development in key sectors, OR
+* New Zealand’s population in terms of health and safety, OR
+* Research and scholarship in the above two areas
+
+Please also comment on:
+
+ - How innovative your research is
+ - The extent to which your research will attract international interest 
+ - The extent to which your research encourages international academic relationships and collaborations
