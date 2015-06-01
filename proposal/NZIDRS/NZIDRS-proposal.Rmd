@@ -1,27 +1,36 @@
 ---
-title: "New Zealand International Doctoral Research Scholarship - Research Proposal"
+title: 'Proposal - Ecosystem responses to escalating drivers: linking species interactions
+  and resilience'
 author: "Fernando Cagua"
-date: "28/05/2015"
+csl: ../nature.csl
 output: pdf_document
 bibliography: ../../references.bib
-csl: ../nature.csl
 ---
 
 ---
 geometry: a4paper
 ---
-
+\iffalse
 \begin{center}
-\section{Ecosystem responses to escalating drivers}
+\subsubsection{Research Proposal - New Zealand International Doctoral Research Scholarship}
 \end{center}
+\fi
 
-Species in an ecological community form networks of interactions that determine the functioning of the ecosystem. Those interactions are of tremendous importance for example for the provision of ecosystem services, and the maintenance of global biodiversity and biogeochemical cycles. On the other hand, human generated impacts---like climate change, land use modification, overexploitation, nutrient enrichment, and invasive species---are heavily modifying the functioning of many of the ecosystems we depend on[@Large2015]. The intensity of those drivers is increassing, and that trend is likely to continue. 
+The intensity of human generated drivers---climate change, land use, defaunation, nutrient enrichment, and biotic invasions---is increassing, and the trend is likely to continue [@Hughes2013a]. Those drivers are heavily modifying the functioning of many of the ecosystems we depend on [@Large2015]. On the other hand, species in an ecological community form an network of interactions of tremendous importance for example, for the provision of ecosystem functioning, the provision of services, the maintenance of global biodiversity, and biogeochemical cycles [@DeAngelis1992; @Bascompte2006; @Dobson2006; @Reiss2009]. 
 
-Despite the fact that the effect of those drivers permeates across entire communities, our understanding of their impacts is mostly based on studies of one or a few species. Contrastingly, a network approach in ecology recognises that species live within a comminity and the interactions between them. This approach---built upon tools from statistical physics and the social sciences---has been key in revealing structural patterns that trascend specific ecosystems. For instance, we have recently learnt that the architechture of empirical interaction networks not only determines the ecosystem functions but, in fact, is also able to mediate its response to disturbances. We still don't understand, however, the mechanisms that link species interactions with the ecosystem's resilience.
+The overall objective of my proposed research is to improve our current understanding of the ecosystems response to multiple anthopogenic drivers and their cummulative impacts. In particular, I will focus on the role that networks of species interactions have in modulating the resilience of ecosystems---the amount of disturbance a system can withstand without entering a regime shift [@Holling1973].
 
-The overall objective of my proposed research is to improve our current understanding of the ecosystems response to multiple anthopogenic drivers and their cummulative impacts. In particular, I propose to focus on the role that networks of species interactions have in modulating those responses. I will use models 
+Regime shifts are large, persistent changes in the function and structure of the ecosystem [@Gunderson2000]---like the (often sudden) shift from a transparent to a turbid lake, from a woodland to a grassy landscape, from a self-sustaining fishery to a collapsed one, or from a coral dominated reef to one dominated by algae [@Scheffer2001a]. A neccessary step to anticipate, prevent and reverse unwanted regime shifts caused by drivers of environmental change, is to understand the processes that support or undermine resilience and the role played by species interactions [@Hughes2005; @Tylianakis2008]. 
 
-This is the best shit in the world for me and for the world itself
+Despite the fact that the effect of those drivers permeates across entire communities, our understanding of their impacts is mostly based on studies of one or a few species. For my research I will use a complex network approach, which recognises that species live within a comminity, and that they interact between them. This approach---built upon tools from statistical physics and the social sciences---has been key in revealing structural patterns that trascend specific ecosystems [@Williams2000; @Dunne2002; @Stouffer2005a]. Using a combination of complex system theory, population models, resilience theory and previoulsy published empirical data I aim to untangle the mechanisms that link species interactions with the ecosystem's resilience to environmental drivers of change. 
+
+As a model system, I will use mutuallistic plant-pollinator networks, which are critical for global food production and biodiversity maintenance [@Bascompte2007; @Klein2007]. Initially I will use biotic invasions as the environmental driver. Because of the paucity of empirical observations of network dynamics subject to invasions, I will simmulate community-wide interspecies coexistence dynamics, and explicitly quantify the stability of the system from population fluctuations [@Bastolla2009; @Garcia-Algarra2013]. This approach will enable me to predict how the structural and dynamic characteristics of the network determine the "invasibility" of an ecosystem, and when invasions are likely to lead to a regime shift [@Romanuk2009; @Rohr2014]. 
+
+Biotic invasions often act over ecosystems that are already degraded [@Bennett2015]. Using a similar methodology as for the species invasions, I will follow by styding how defaunation---from a functional perspective---affect the pre-invasion ecosystem resilience. Although some species (like beavers for example) are functionally unique in the ecosystem, some others are redundant in that they contribute in similar ways to an ecosystem fucntion [@Naeem1998]. Despite theoretical and empirical evidence showing that the degree of functional redundancy has major effects on ecosystem stability and species coexistence [@Walker1999; @Fonseca2001; @Bellwood2003b; @Loreau2004; @Allison2008; @Brandl2014a], we still don't know how diversity witin functional groups maps into different stability domains in the ecosystem [@Rohr2014].
+
+The final objective of my proposed research is to translate the gained insight into useful lessons for ecosystem management. Recent work has highlighted that in theory it is possible to control a complex network, by inducing compensatory perturbations [@Cornelius2013], but this approach has never been used in ecology. I propose to expand this method to find the minimum number of species that have to be directly managed to move the ecosystem from one state to another, or to rescue one at the bring of failure. I will use empirical and simulated networks from ecosystems that have undergone a regime shift  
+
+Over the last years I have been focused on studying the ecology of tropical marine organisms. Through my previous research I have withnessed how entire ecosystems transform due to human pressures. Understanding what makes ecosystems vulnerable, and how to prevent and revert those undersirable transformations---not only on marine ecosystems---became my top scientific interest; I want to answer fundamental questions in ecology and ultimately improve the management of the ecosystems I love. I am aware long term goal that is likely to guide my scientific career for the next decade. My proposed PhD research, and the support from the NZIDRS, are going to be instrumental to reach those goals.
 
 ### References
 
