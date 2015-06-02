@@ -1,12 +1,10 @@
 ---
-title: 'Proposal - Ecosystem responses to escalating drivers: linking species interactions
-  and resilience'
+title: 'Proposal - Ecosystem responses to escalating drivers: linking species interactions and resilience'
 author: "Fernando Cagua"
 csl: ../nature.csl
 output: pdf_document
 bibliography: ../../references.bib
 ---
-
 ---
 geometry: a4paper
 ---
@@ -28,7 +26,7 @@ As a model system, I will use mutuallistic plant-pollinator networks, which are 
 
 Biotic invasions often act over ecosystems that are already degraded [@Bennett2015]. Using a similar methodology as for the species invasions, I will follow by styding how defaunation---from a functional perspective---affect the pre-invasion ecosystem resilience. Although some species (like beavers for example) are functionally unique in the ecosystem, some others are redundant in that they contribute in similar ways to an ecosystem fucntion [@Naeem1998]. Despite theoretical and empirical evidence showing that the degree of functional redundancy has major effects on ecosystem stability and species coexistence [@Walker1999; @Fonseca2001; @Bellwood2003b; @Loreau2004; @Allison2008; @Brandl2014a], we still don't know how diversity witin functional groups maps into different stability domains in the ecosystem [@Rohr2014].
 
-The final objective of my proposed research is to translate the gained insight into useful lessons for ecosystem management. Recent work has highlighted that in theory it is possible to control a complex network, by inducing compensatory perturbations [@Cornelius2013], but this approach has never been used in ecology. I propose to expand this method to find the minimum number of species that have to be directly managed to move the ecosystem from one state to another, or to rescue one at the bring of failure. I will use empirical and simulated networks from ecosystems that have undergone a regime shift  
+The final objective of my proposed research is to translate the gained insight into useful lessons for ecosystem management. Recent work has highlighted that it is possible to control a complex network, by inducing perturbations that compensate previous disturbances [@Cornelius2013]. However this approach has never been used in ecology. I propose to expand this method to find the minimum number of species that have to be directly managed to move the ecosystem from one state to another, or to rescue one at the bring of failure. To do that I will use empirical and simulated networks from ecosystems that have undergone a regime shift to evaluate the feasibility of such and approach and it's management consequences. 
 
 Over the last years I have been focused on studying the ecology of tropical marine organisms. Through my previous research I have withnessed how entire ecosystems transform due to human pressures. Understanding what makes ecosystems vulnerable, and how to prevent and revert those undersirable transformations---not only on marine ecosystems---became my top scientific interest; I want to answer fundamental questions in ecology and ultimately improve the management of the ecosystems I love. I am aware long term goal that is likely to guide my scientific career for the next decade. My proposed PhD research, and the support from the NZIDRS, are going to be instrumental to reach those goals.
 
