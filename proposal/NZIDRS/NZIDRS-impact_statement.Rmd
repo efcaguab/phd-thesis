@@ -10,6 +10,18 @@ bibliography: ../../references.bib
 geometry: a4paper
 ---
 
+The overall objective of my proposed research is to improve our current understanding of the ecosystems response to multiple anthopogenic drivers and their cumulative impacts. In particular, I will focus on the role that networks of species interactions have in modulating the resilience of ecosystems---the amount of disturbance a system can withstand without entering a regime shift [@Holling1973]. 
+
+To answer those questions I will focus on model systems and drivers that have global relevance but are particularly important for New Zealand. Specifically I will focus on 1) mutuallistic plant-pollinator networks which are globally and locally important for the maintenance of biodiversity and production of crops [@Bascompte2007; @Klein2007]; and 2) biotic invasions and defaunation, a significant component of human-caused global change for which New Zealand is particularly vulnerable [@Loevei1997; @Vitousek1997].
+
+About two thirds or New Zealand plants are pollinated by birds or insects. For instance, they are responsible for the pollination of iconic native plants (like kowhai and pohutukawa), and economically important crops (like kiwifruit, apples and grapes). In contrast with other locations, pollination networks in New Zealand are mainly composed by generalist species---plants that attract a wide range of pollinator species and pollinators that visit a wide range of plants [@Heine1937; @Primack1983]. My proposed research will help elucidate how this structural difference is reflected on the resilience and stability of New Zealand's pollination systems, particularly when original ecosystems have changed due to invasions. For instance, New Zealand flora is vulnerable to declines in pollination services [@Newstrom2005], especially since pollination services have been distorted by the introduction of foreign bees [@Huryn1995], and the population depletion of native birds (like tuis and bellbirds) [@Anderson2003; @Robertson2009]. Understanding how biotic invasions interact with defaunation in ecological networks is a global priority, and essential for conserving, restoring and managing New Zealand ecosystems [@Newstrom2005]. 
+
+Although my proposed research is 
+
+
+### References
+
+
 \iffalse
 
 Funder guidelines:  
@@ -25,5 +37,20 @@ Please also comment on:
  - How innovative your research is
  - The extent to which your research will attract international interest 
  - The extent to which your research encourages international academic relationships and collaborations
+ 
+Considerations:
+
+1. Hook attention from the get go
+2. Make sure it fits what they want
+3. Audience = no idea about anthing
+4. I matter. Sell myself. Carrer highlights and contributions to date
+5. Good title. Grandma should understand it, avoid questions, short and to the point, tell why is so bloody important
+6. Tell. What I'm gonna do. WHy is so exciting. What will it solve
+7. Tell inmediatelly what I'm intending to reseracg. An assessor wants to see that you’ll be proposing to do x, y and z such that you can answer big questions a, b and c efficiently, effectively and convincingly.
+8. Convince it's exciting. Make anyone who read it excited
+9. Explain applied outcomes. how your results will affect the real world, either through policy, technology or remediation
+10. State hypothesis and predictions and how to test them. Be realistic about them
+11. Methodologically specific. 
+12. Communication strategy. Reaches for the public with clever and inovative ways
  
 \fi
