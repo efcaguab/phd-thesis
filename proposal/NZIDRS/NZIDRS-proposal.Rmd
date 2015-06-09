@@ -1,8 +1,9 @@
 ---
-title: 'Proposal - Ecosystem responses to escalating drivers: linking species interactions and resilience'
+title: 'Proposal - Ecosystem responses to escalating drivers: linking species interactions
+  and resilience'
 author: "Fernando Cagua"
 csl: ../nature.csl
-output: pdf_document
+output: word_document
 bibliography: ../../references.bib
 ---
 ---
@@ -22,7 +23,7 @@ Regime shifts are large, persistent changes in the function and structure of the
 
 Despite the fact that the effect of those drivers permeates across entire communities, our understanding of their impacts is mostly based on studies of one or a few species. For my research I will use a complex network approach, which recognises that species live within a comminity, and that they interact between them. This approach---built upon tools from statistical physics and the social sciences---has been key in revealing structural patterns that trascend specific ecosystems [@Williams2000; @Dunne2002; @Stouffer2005a]. Using a combination of complex system theory, population models, resilience theory and previoulsy published empirical data I aim to untangle the mechanisms that link species interactions with the ecosystem's resilience to environmental drivers of change. 
 
-As a model system, I will use mutuallistic plant-pollinator networks, which are critical for global food production and biodiversity maintenance [@Bascompte2007; @Klein2007]. Initially I will use biotic invasions as the environmental driver. Because of the paucity of empirical observations of network dynamics subject to invasions, I will simmulate community-wide interspecies coexistence dynamics, and explicitly quantify the stability of the system from population fluctuations [@Bastolla2009; @Garcia-Algarra2013]. This approach will enable me to predict how the structural and dynamic characteristics of the network determine the "invasibility" of an ecosystem, and when invasions are likely to lead to a regime shift [@Romanuk2009; @Rohr2014]. 
+As a model system, I will use mutuallistic plant-pollinator networks, which are critical for global food production and biodiversity maintenance [@Bascompte2007; @Klein2007]. Initially I will use biotic invasions as the environmental driver. Because of the paucity of empirical observations of network dynamics subject to invasions, I will simmulate community-wide interspecies coexistence dynamics, and explicitly quantify the stability of the system from population fluctuations [@Bastolla2009; @Garcia-Algarra2013]. This approach will enable me to predict how the structural and dynamic characteristics of the network determine the "invasibility" of an ecosystem, and when invasions are likely to lead to a regime shift [@Romanuk2009; @Rohr2014; @Tylianakis2014]. 
 
 Biotic invasions often act over ecosystems that are already degraded [@Bennett2015]. Using a similar methodology as for the species invasions, I will follow by styding how defaunation---from a functional perspective---affect the pre-invasion ecosystem resilience. Although some species (like beavers for example) are functionally unique in the ecosystem, some others are redundant in that they contribute in similar ways to an ecosystem fucntion [@Naeem1998]. Despite theoretical and empirical evidence showing that the degree of functional redundancy has major effects on ecosystem stability and species coexistence [@Walker1999; @Fonseca2001; @Bellwood2003b; @Loreau2004; @Allison2008; @Brandl2014a], we still don't know how diversity witin functional groups maps into different stability domains in the ecosystem [@Rohr2014].
 
