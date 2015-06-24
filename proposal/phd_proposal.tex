@@ -1,0 +1,54 @@
+\documentclass[a4paper]{report}
+\usepackage{afterpage}
+\usepackage{hanging}
+\usepackage{setspace}
+\usepackage{geometry}
+
+\onehalfspacing
+
+% to remove pages from the index counter
+\newcommand\blankpage{  
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage}
+    
+\pagestyle{plain}
+
+
+\title{
+	{\large PhD Thesis Proposal:} \\
+	{\huge \textbf{I need to find a good title}} \\
+	{\large Department of Biological Sciences, University of Canterbury}
+}
+\author{
+  {\Large Fernando Cagua} \\
+}
+\date{\normalsize \today}
+
+\begin{document}
+
+\maketitle
+
+\newgeometry{right=3in, twoside=FALSE}
+
+\chapter*{Summary}
+\addcontentsline{toc}{chapter}{Summary}
+
+Natural ecosystems provide important services---like food, recreation, and water---we depend on. 
+The functioning of the ecosystems that produce these services is chiefly determined by the network of interactions between the species that inhabit it. 
+Human caused stressors, like biological ivasions, defaunation, or habitat degradation, can cause functional transformations that undermine the provisioning of ecosystem services. 
+Despite it's importance we dont completely understand the dynamics that lead to these transformations.
+My proposed research aims to quantify the role played by species interactions on determining the resilience of ecosystems.
+I will use a combination of empirical data, computer simulations and ecological theory. 
+By looking at the structural and dynamic properties of ecological networks, I aim to build the fundations for determining why, when and how these unwanted transformations occur. 
+
+\tableofcontents
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+
+\chapter*{Research Plan}
+\addcontentsline{toc}{chapter}{Research Plan}
+\end{document}
