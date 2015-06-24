@@ -1,9 +1,8 @@
 ---
-title: 'Impact - Ecosystem responses to escalating drivers: linking species interactions
-  and resilience'
+title: 'Impact - Ecosystem responses to escalating drivers: linking species interactions and resilience'
 author: "Fernando Cagua"
 csl: ../nature.csl
-output: word_document
+output: pdf_document
 bibliography: ../../references.bib
 ---
 
@@ -11,63 +10,32 @@ bibliography: ../../references.bib
 geometry: a4paper
 ---
 
-The overall objective of my proposed research is to improve our current understanding of the ecosystems response to multiple anthopogenic drivers and their cumulative impacts. 
-In particular, I will focus on the role that networks of species interactions have in modulating the resilience of ecosystems. 
+It has been recently shown that the architecture of networks of species interactions is essential for the maintenance of global biodiversity and ecosystem functioning, and therefore it can mediate the respose of ecosystems to disturbances [@Rezende2007; @Bastolla2009; @Berlow2009; @Stouffer2010; @Stouffer2012]. 
+However, very few studies have investigated the link between species interactions and reslience [@Lever2014; @Tylianakis2014]. 
+My proposed research aims to improve our current understanding of the ecosystem responses to multiple anthopogenic drivers and their cumulative impacts. 
+In particular, I will quantify the role played by species interactions in modulating ecosystem resilience.
 
-To answer those questions I will focus on model systems and drivers that have global relevance but are particularly important for New Zealand. 
-Specifically I will focus on 1) mutuallistic plant-pollinator networks which are of tremendous importantance for the maintenance of biodiversity and production of crops [@Bascompte2007; @Klein2007]; and 2) biotic invasions and defaunation wich are a significant component of human-caused global change for which New Zealand is notably vulnerable [@Vitousek1997]. 
-However, the theoretical and quantitative approach I will use, will facilitate the future extension to other processes, ecosystems and drivers.
-
-About two thirds or New Zealand plants are pollinated by birds or insects. 
-For instance, they are responsible for the pollination of iconic native plants (like kowhai and pohutukawa), and economically important crops (like kiwifruit, apples and grapes). 
-New Zealand flora is particularly vulnerable to declines in pollination services [@Newstrom2005], yet those services have been distorted by the introduction of foreign bees [@Huryn1995], and the population depeltion of native birds[@Anderson2003; @Robertson2009].
-Also, in contrast with other locations, pollination networks in New Zealand are dominated by generalist species[@Heine1937; @Primack1983]---plants that attract a wide range of pollinator species and pollinators that visit a wide range of plants. 
-My proposed research will help elucidate how this structural differences are reflected on the resilience and stability of New Zealand's pollination systems when considering that original ecosystems have been changed by biotic invasions.
+To answer those questions, I will center on model systems and drivers that have global relevance, but are particularly important for New Zealand. 
+Specifically I will focus on 1) mutuallistic plant-pollinator networks which are of tremendous importantance for the maintenance of biodiversity and production of crops [@Bascompte2007; @Klein2007]; and 2) biotic invasions and defaunation wich are top components of human-caused global change for which New Zealand has both suffered and remains notably vulnerable [@Vitousek1997]. 
+About two thirds of New Zealand plants are pollinated by birds or insects. 
+Moreover they are responsible for the pollination of iconic native plants (like kowhai and pohutukawa), and economically important crops (like kiwifruit, apples and grapes). 
+This implies that New Zealand flora is particularly vulnerable to declines in pollination services [@Newstrom2005], and those services have already been distorted by the introduction of foreign bees [@Huryn1995] and the population depeltion of native birds[@Anderson2003; @Robertson2009].
+Also, in contrast with other locations, pollination networks in New Zealand are dominated by generalist species[@Heine1937; @Primack1983]---plants that attract a wide range of pollinator species, and pollinators that visit a wide range of plants. 
+My proposed research will help elucidate how this structural differences are reflected on the resilience and stability of New Zealand's pollination systems when considering that original ecosystems have been changed by invasive species.
 Understanding how invasions interact with defaunation in ecological networks is a global research priority, and essential for conserving, restoring and managing New Zealand ecosystems [@Newstrom2005]. 
 
-It has been recently shown that the architecture of empirical and simulated interaction networks mediates the respose to drivers like defaunation and species invasions, and increase its ability to support greater numbers of species [@Rezende2007; @Bastolla2009; @Berlow2009; @Stouffer2010; @Stouffer2012]. 
-Very few studies have investigated the link between species interactions and reslience in the context of human-caused drivers [@Lever2014; @Tylianakis2014]. 
-My proposed research aims to fill this gap and to answer several exciting research questions that are raised when network theory is merged with resilience and critical transition theory.
+The results of my research will also have direct application to ecosystem management, and in the future clear conservation benefits not only for New Zealand, but also ecosystems elsewhere. 
+For example, the introduction, and posterior invasion, of stoats in New Zealand was an expensive mistake in which species interactions were not taken into account. 
+What is more, although we know the effects of this invasion on iconic native species, we currently do not understand how the changes on ecosystem dynamics is affecting the resilience of the ecosystems as a whole.
+The research I propose intends to establish a general theory neccessary to answer this question. 
+This is particularly important when the ecosystem response might be inconspicous until transformation is inminent.
+By better understading the dynamics behind species interactions, we will hopefully be better prepared to anticipate, prevent and reverse unwanted ecosystem transformations.
 
-My PhD will take place at [Daniel Stouffer's lab](http://www.stoufferlab.org/)---a Rutherfurd Discovery Fellow at the University of Canterbury. 
-His group is very internationally active and has several current visiting scientists for example from the Universidade de Sao Paulo, the Ecole normale superieure and the University of Western Sydney. 
-My proposed project also aligns nicely with the interests of several highly cited researchers: [Jason Tylianakis](http://www.tylianakislab.org/) (University of Canterbury), [Jordi Bascompte](http://www.bascompte.net/) (University of Zurich), [Martin Scheffer](http://www.sparcs-center.org/) (Wagenigen University), and [Carl Folke](http://www.stockholmresilience.org/21/contact/staff/1-15-2008-folke.html) (Stockholm Resilience Center). 
-In fact, I've already initiated contact with some of them and collaborations seem highly likely. 
+My PhD will take place at [Dr. Daniel Stouffer's lab](http://www.stoufferlab.org/)---a Rutherfurd Discovery Fellow at the University of Canterbury. 
+His interdisciplinary research group is very active internationally and regularly receives visiting scientists. 
+To mention some, current collaborations include scientist from the Universidade de Sao Paulo (Brasil), the Ecole Normale Superieure (France), and the University of Queensland (Australia). 
+My proposed project also aligns nicely with the interests of several highly cited researchers with whom collaborations might be very advantageous: [Jason Tylianakis](http://www.tylianakislab.org/) (University of Canterbury), [Jordi Bascompte](http://www.bascompte.net/) (University of Zurich), [Martin Scheffer](http://www.sparcs-center.org/) (Wagenigen University), and [Carl Folke](http://www.stockholmresilience.org/21/contact/staff/1-15-2008-folke.html) (Stockholm Resilience Center). 
 
-Many ecosystems respond non-linearly to global change and human activities. When stresors reach a tipping point, ecosystems collapse and enter into a new undesirable regime. By using fundamental ecological theory and quantitave approaches I aim to contribute to our understanding of how to predict and prevent these undesirable shifts, and importantly how to recover from them. With your support, I will tackle fundamental, globally important, ecological questions that are of especial relevance for New Zealand's natural heritage and agricultural sector. 
+With your support, I will tackle fundamental, globally important, ecological questions that are of especial relevance for New Zealand's natural heritage and agricultural sector. 
 
 ### References
-
-
-\iffalse
-
-Funder guidelines:  
-
-Specifically, comment on how your research will have a tangible, positive effect on: 
-
-* New Zealand’s economy, in terms of international trade and business development in key sectors, OR
-* New Zealand’s population in terms of health and safety, OR
-* Research and scholarship in the above two areas
-
-Please also comment on:
-
- - How innovative your research is
- - The extent to which your research will attract international interest 
- - The extent to which your research encourages international academic relationships and collaborations
- 
-Considerations:
-
-1. Hook attention from the get go
-2. Make sure it fits what they want
-3. Audience = no idea about anthing
-4. I matter. Sell myself. Carrer highlights and contributions to date
-5. Good title. Grandma should understand it, avoid questions, short and to the point, tell why is so bloody important
-6. Tell. What I'm gonna do. WHy is so exciting. What will it solve
-7. Tell inmediatelly what I'm intending to reseracg. An assessor wants to see that you’ll be proposing to do x, y and z such that you can answer big questions a, b and c efficiently, effectively and convincingly.
-8. Convince it's exciting. Make anyone who read it excited
-9. Explain applied outcomes. how your results will affect the real world, either through policy, technology or remediation
-10. State hypothesis and predictions and how to test them. Be realistic about them
-11. Methodologically specific. 
-12. Communication strategy. Reaches for the public with clever and inovative ways
- 
-\fi
