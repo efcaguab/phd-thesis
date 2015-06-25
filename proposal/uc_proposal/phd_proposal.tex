@@ -3,20 +3,21 @@
 \usepackage{hanging}
 \usepackage{setspace}
 \usepackage{geometry}
+\usepackage{doi}
+\usepackage[super,sort&compress,comma]{natbib}
+\bibliographystyle{unsrtnat}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=magenta,
+}
+\setlength{\parskip}{0.75em}
 \onehalfspacing
-
-% to remove pages from the index counter
-\newcommand\blankpage{  
-    \null
-    \thispagestyle{empty}
-    \addtocounter{page}{-1}
-    \newpage}
-    
 \pagestyle{plain}
 
 
 \title{
-	{\large PhD Thesis Proposal:} \\
+	{\large Doctoral Thesis Proposal} \\
 	{\Huge \textsc{I need to find a good title}} \\
 	{\large Department of Biological Sciences, University of Canterbury}
 }
@@ -44,52 +45,46 @@ By looking at the structural and dynamic properties of ecological networks, I ai
 \addcontentsline{toc}{chapter}{Introduction}
 
 From food and fresh water production, to recreation and carbon sequestration, ecosystems provide a wide range of services we value. When ecosystems transform, their ability to provide those services we depend on is undermined. 
-The frequency of undesired ecosystem transformations---like the (often sudden) shift from a transparent to a turbid lake or from a self-sustaining fishery to a collapsed one---is dramatically increasing \cite{Scheffer2001a}. 
-A necessary step to anticipate, prevent and reverse those unwanted transformations, is to understand the processes that support or undermine ecosystem resilience \cite{Hughes2005, Tylianakis2008}. 
+The frequency of undesired ecosystem transformations---like the (often sudden) shift from a transparent to a turbid lake or from a self-sustaining fishery to a collapsed one---is dramatically increasing \citep{Scheffer2001a}. 
+A necessary step to anticipate, prevent and reverse those unwanted transformations, is to understand the processes that support or undermine ecosystem resilience \citep{Hughes2005, Tylianakis2008}. 
+ 
+Resilience is the amount of disturbance that an ecosystem could withstand without tipping into a regime shift---a large, persistent transformation in its functioning and structure \citep{Holling1973, Gunderson2000}. 
+Ecosystem functioning, structure, and ultimately its response to disturbances is largely determined by the network of interactions formed by species in an ecological community \citep{Bascompte2006, Dobson2006, Tylianakis2008, Reiss2009}. 
+\textbf{Therefore, the overall objective of my proposed research is to quantify the role played by species interactions in modulating ecosystem resilience}.  
 
-Resilience is the amount of disturbance that an ecosystem could withstand without tipping into a regime shift---a large, persistent transformation in its functioning and structure \cite{Holling1973, Gunderson2000}. 
-Ecosystem functioning, structure, and ultimately its response to disturbances is largely determined by the network of interactions formed by species in an ecological community \cite{Bascompte2006, Dobson2006, Tylianakis2008, Reiss2009}. 
-**Therefore, the overall objective of my proposed research is to quantify the role played by species interactions in modulating ecosystem resilience**.  
-
-Because of its importance for food production and the maintenance of global biodiversity \cite{Bascompte2006, Bascompte2007, Klein2007}, I will focus on the network of mutualistic interactions between plants and pollinators. 
-Biotic invasions are a significant component of human-caused global change \cite{Vitousek1997}
+Because of its importance for food production and the maintenance of global biodiversity \citep{Bascompte2006, Bascompte2007, Klein2007}, I will focus on the network of mutualistic interactions between plants and pollinators. 
+Biotic invasions are a significant component of human-caused global change \citep{Vitousek1997}
 The first objective of my research is to determine how the properties of the networks determine the susceptibility of an ecosystem to biotic invasions.
-I will use a combination of complex network theory---built upon tools from statistical physics and the social sciences---and dynamic models of the populations of the species in the community\cite{Bastolla2009, Garcia-Algarra2013}. 
-This approach will allow me to to determine when invasions are likely to lead to a regime shift \cite{Romanuk2009, Rohr2014, Tylianakis2014}. 
+I will use a combination of complex network theory---built upon tools from statistical physics and the social sciences---and dynamic models of the populations of the species in the community \citep{Bastolla2009, Garcia-Algarra2013}. 
+This approach will allow me to to determine when invasions are likely to lead to a regime shift \citep{Romanuk2009, Rohr2014, Tylianakis2014}.
 
-Biotic invasions often occur in ecosystems that have already been degraded \cite{Bennett2015}. 
-Also, theoretical and empirical evidence shows that the degree of species functional redundancy has major effects on ecosystem stability \cite{Walker1999, Fonseca2001, Bellwood2003b, Loreau2004, Allison2008, Brandl2014a}. 
+Biotic invasions often occur in ecosystems that have already been degraded \citep{Bennett2015}. 
+Also, theoretical and empirical evidence shows that the degree of species functional redundancy has major effects on ecosystem stability \citep{Walker1999, Fonseca2001, Bellwood2003b, Loreau2004, Allison2008, Brandl2014a}. 
 My second objective is to determine how biodiversity loss---from a functional perspective---affects the resilience of an ecosystem. 
 To answer that question I will extend the theoretical models I will develop and contrast them with previously collected empirical data.
 I will compare the role of species in invaded vs. non-invaded ecosystems, and before vs. after regime shifts.
 I aim to to quantify how ecosystem's resilience changes due to the structural and dynamic changes generated by the loss of species and invasive species.
-In turn, I will be able to determine how  diversity within species functional groups affects ecosystem resilience \cite{Rohr2014}.
+In turn, I will be able to determine how  diversity within species functional groups affects ecosystem resilience \citep{Rohr2014}.
 
 I will use a similar approach for my third objective: to translate the gained insight into useful lessons for ecosystem management.
-Recent work in theoretical physics has highlighted the possibility of controlling a complex system, by inducing perturbations that compensate for previous disturbances \cite{Cornelius2013}.
+Recent work in theoretical physics has highlighted the possibility of controlling a complex system, by inducing perturbations that compensate for previous disturbances \citep{Cornelius2013}.
 Because this approach has never been used in ecology, I propose to build upon it to find how ecosystems can be managed to maximise resilience, rather than managing for individual species.
 I aim to determine the feasibility of using this approach to modify an ecosystem state, or to rescue it from the brink of collapse.
 
-Over the last years I have focused on the ecology of tropical marine organisms, and witnessed how entire ecosystems are transformed due to human pressures.
-Understanding what makes ecosystems vulnerable, and how to prevent and revert these undesirable transformations became my top scientific interest.
-I want to answer fundamental questions in ecology, and ultimately improve the management of the ecosystems I love.
-I am aware that this is likely to guide my scientific career for the next decade.
-The support from the NZIDRS is going to be instrumental to reach this goal.
-
-It has been recently shown that the architecture of networks of species interactions regulates ecosystem functioning, and therefore it can mediate the respose of ecosystems to disturbances \cite{Rezende2007, Bastolla2009, Berlow2009, Stouffer2010, Stouffer2012}. 
-However, very few studies have investigated the link between species interactions and reslience \cite{Lever2014, Tylianakis2014}. 
+It has been recently shown that the architecture of networks of species interactions regulates ecosystem functioning, and therefore it can mediate the respose of ecosystems to disturbances \citep{Rezende2007, Bastolla2009, Berlow2009, Stouffer2010, Stouffer2012}. 
+However, very few studies have investigated the link between species interactions and reslience \citep{Lever2014, Tylianakis2014}. 
 My proposed research aims to improve our current understanding of the ecosystem responses to anthopogenic drivers, and their cumulative impacts. 
 In particular, I will quantify the role played by species interactions in modulating ecosystem resilience.
 
 To answer these questions, I will center on systems and drivers that have global relevance, but are particularly important for New Zealand. 
-Specifically I will focus on 1) mutualistic plant-pollinator networks which are pivotal for the maintenance of biodiversity and crop production \cite{Bascompte2007, Klein2007}; and 2) biotic invasions and defaunation, wich are top components of human-caused global change for which New Zealand has both suffered and remains notably vulnerable \cite{Vitousek1997}. 
+Specifically I will focus on 1) mutualistic plant-pollinator networks which are pivotal for the maintenance of biodiversity and crop production \citep{Bascompte2007, Klein2007}; and 2) biotic invasions and defaunation, wich are top components of human-caused global change for which New Zealand has both suffered and remains notably vulnerable \citep{Vitousek1997}. 
 
 About two thirds of New Zealand plants are pollinated by birds or insects. 
 Moreover, they are responsible for the pollination of iconic native plants (like kowhai and pohutukawa), and economically important crops (like kiwifruit, apples and grapes). 
-This implies that New Zealand flora is particularly vulnerable to declines in pollination services \cite{Newstrom2005}, and those services have already been distorted by the introduction of foreign bees \cite{Huryn1995} and the population depeltion of native birds\cite{Anderson2003, Robertson2009}.
-Also, in contrast with other locations, pollination networks in New Zealand are dominated by generalist species\cite{Heine1937, Primack1983}---plants that attract a wide range of pollinator species, and pollinators that visit a wide range of plants. 
+This implies that New Zealand flora is particularly vulnerable to declines in pollination services \citep{Newstrom2005}, and those services have already been distorted by the introduction of foreign bees \citep{Huryn1995} and the population depeltion of native birds\citep{Anderson2003, Robertson2009}.
+Also, in contrast with other locations, pollination networks in New Zealand are dominated by generalist species\citep{Heine1937, Primack1983}---plants that attract a wide range of pollinator species, and pollinators that visit a wide range of plants. 
 The research I propose will help elucidate how these structural differences affect the resilience of New Zealand's pollination systems when considering that original ecosystems have been changed by invasive species.
-Understanding how invasions interact with defaunation in ecological networks is a global research priority, and essential for conserving, restoring and managing New Zealand ecosystems \cite{Newstrom2005}. 
+Understanding how invasions interact with defaunation in ecological networks is a global research priority, and essential for conserving, restoring and managing New Zealand ecosystems \citep{Newstrom2005}. 
 
 The results of my research will also have direct application to ecosystem management, and in the future clear conservation benefits not only for New Zealand, but also ecosystems elsewhere. 
 For example, the introduction, and posterior invasion, of stoats in New Zealand was an expensive mistake in which species interactions were not taken into account. 
@@ -98,13 +93,6 @@ The research I propose intends to establish a general theory neccessary to answe
 This is particularly important when the ecosystem response might be inconspicous until transformation is inminent.
 By better understading the dynamics behind species interactions, we will hopefully be better prepared to anticipate, prevent and reverse unwanted ecosystem transformations.
 
-My PhD will take place at Dr. Daniel Stouffer's lab---a Rutherfurd Discovery Fellow at the University of Canterbury. 
-His interdisciplinary research group is very active internationally and regularly receives visiting scientists. 
-To mention some, current collaborations include scientist from the Universidade de Sao Paulo (Brasil), the Ecole Normale Superieure (France), and the University of Queensland (Australia). 
-My proposed project also aligns nicely with the interests of several highly cited researchers with whom collaborations might be very advantageous: Jason Tylianakis (University of Canterbury), Jordi Bascompte (University of Zurich), Martin Scheffer (Wagenigen University), and Carl Folke (Stockholm Resilience Center). 
-
-With your support, I will use a combination of empirical data, computer simulations and ecological theory to tackle, globally important, ecological questions. Answering those questions, however, has especial relevance for New Zealand's natural heritage and agricultural sector. 
-
 \chapter*{Chapter 1}
 
 dsfsdfsd asd asd asdasasd as asd asd
@@ -112,7 +100,7 @@ dsfsdfsd asd asd asdasasd as asd asd
 \chapter*{Chapter 2}
 
 sdfrdf sd
-
+asd
 \chapter*{Chapter 3}
 
 sdfxc 
@@ -120,7 +108,6 @@ sdfxc
 \chapter*{Research Plan}
 \addcontentsline{toc}{chapter}{Research Plan}
 
-\bibliographystyle{naturemag}
 \bibliography{../../references}
 
 \end{document}
