@@ -1,0 +1,17 @@
+---
+title: 'Ecosystem responses to escalating drivers: linking species interactions and
+  resilience'
+author: "Fernando Cagua"
+output: pdf_document
+documentclass: article
+---
+
+---
+geometry: a4paper
+geometry: showframe
+geometry: margin=2in
+geometry: bindingoffset=0in
+geometry: twoside=FALSE
+---
+
+The overall objective of my proposed research is to improve our current understanding of ecosystem responses to global change drivers and their cumulative impacts. In particular, I will study the role that species interactions have in determining ecosystem resilience—the amount of disturbance a community can withstand without changing its function and structure—to biotic invasions and defaunation. These two drivers, as well as the model system I will employ, have global relevance but are particularly important for New Zealand. Specifically, I will focus on mutualistic interactions (like those between plant and pollinators or between coral and photosynthetic algae), which are of tremendous importance for the maintenance of biodiversity in worldwide ecosystems. I will use a complex network approach—building upon tools from statistical physics and the social sciences—in combination with empirical data and high performance computer simulations to predict, prevent and manage undesirable ecosystem transformations. 

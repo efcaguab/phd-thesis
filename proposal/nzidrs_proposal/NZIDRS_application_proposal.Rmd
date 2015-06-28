@@ -1,0 +1,92 @@
+---
+title: "Quantifying how species interactions underpin ecological resilience"
+author: "Fernando Cagua"
+csl: nature.csl
+output: word_document
+bibliography: ../../references.bib
+---
+---
+geometry: a4paper
+---
+\vfill
+\begin{center}
+\subsubsection{Research Summary}
+\end{center}
+
+Natural ecosystems provide important services---like food and water---we depend on to a large extent. 
+The functioning of the ecosystems that produce these services is determined by the network of interactions between the species that inhabit them. 
+Much like the failure of a single key financial institution can trigger unexpected crashes on the stock market, human pressures---like biological invasions---can cause sudden collapses that severely undermine the provisioning of ecosystem services. 
+To answer this question I will focus on mutuallistic interactions, like those between plants and their pollinators, and a combination of empirical data, computer simulations and ecological theory.
+Despite its importance, we do not completely understand the dynamics that make ecosystems resilient to collapses.
+My proposed research aims to quantify the role played by species interactions on determining the resilience of ecosystems, and consequently why, when and how collapses occur.
+
+\vfill
+\vfill
+\vfill
+
+\newpage
+
+## Research Proposal
+
+Unfortunately, the frequency of undesired ecosystem collapses---like the (often sudden) shift from a transparent to a turbid lake or from a self-sustaining fishery to a collapsed one---is dramatically increasing [@Scheffer2001a]. 
+From food and freshwater production, to recreation and carbon sequestration, ecosystems provide a wide range of services of considerable value.
+When ecosystem resilience is limited, however, breakdowns are more likely, and their ability to provide those services we depend on is endangered.
+A necessary step to anticipate, prevent and reverse ecosystem collapse, is to understand the processes that support or undermine ecosystem resilience [@Hughes2005; @Tylianakis2008]. 
+
+Resilience is related to the amount of disturbance that an ecosystem could withstand without collapsing, or, in ecological jargon, tipping into a regime shift---a large, persistent transformation in its functioning and structure [@Holling1973; @Gunderson2000]. 
+Ecosystem functioning and structure are largely determined by the network of interactions formed by species in an ecological community [@Bascompte2006; @Dobson2006; @Tylianakis2008; @Reiss2009]. 
+Since these factors ultimately determine the ecosystem response to disturbances, **the overall objective of my proposed research is to quantify the role played by species interactions in modulating ecosystem resilience**.  
+
+Because of its importance for food production and the maintenance of global biodiversity [@Bascompte2006; @Bascompte2007; @Klein2007], I will focus on the network of mutualistic interactions between plants and pollinators. 
+Despite its significance, we do not know the vulnerability of pollination systems to biotic invasions---an important component of human-caused global change [@Vitousek1997].
+*The first objective of my research is to determine how the properties of a network determine the susceptibility and resilience of an ecosystem to biotic invasions*.
+Previous studies have largely focused on individual methods to understand resilience.
+To answer this question, I will use a combination of complex-network theory---built upon tools from statistical physics and the social sciences[@Strogatz2001; @Newman2003]---and computer simulated models of the populations of the species in the community[@Bastolla2009; @Garcia-Algarra2013]. 
+By combining the structural (complex networks) and dynamical (population models) properties of the ecosystem, I will be better positioned to determine how resilience is modified by invasions, and when they are likely to lead to a regime shift [@Romanuk2009; @Rohr2014; @Tylianakis2014]. 
+
+Ecosystem pressures rarely act on isolation.
+It has been shown that biotic invasions often occur in ecosystems that have already been degraded by species removal [@Bennett2015]. 
+*My second objective is to determine the compound effect of biodiversity loss and invasive species on the resilience of an ecosystem*.
+To do that, I will contrast previously collected empirical data with an extension of the theoretical models developed for the first objective.
+In particular I will compare species' role in invaded/non-invaded, defaunated/non-defaunated ecosystems, and before/after regime shifts, in both real and simulated systems.
+This approach will facilitate a mechanistic understanding of how the role and function of species that are added (trough invasion) or removed (trough defaunation) from an ecosystem shapes its resilience. 
+
+*My third objective is to translate the gained insight into useful lessons for ecosystem management*.
+Ecosystems are complex, non-linear systems that are very difficult to control. 
+However, recent work in theoretical physics has highlighted the possibility of regulating a complex system by inducing perturbations that compensate for previous disturbances [@Cornelius2013].
+I propose to build upon this findings, to determine the optimal set of species---from a feasibility and effectiveness perspective---that are required to modify an ecosystem state.
+To rescue ecosystems from the brink of collapse and recovering them from undesired shifts is a major goal in conservation science.
+Finding a way in which realistic targeted actions on a specific subset of species can maximise the ecosystem resilience, will bring us much closer to that goal.
+In a world of constant change, building resilience is our best insurance against losing the ecosystem services we value and depend on.
+
+\newpage
+
+## Impact Statement
+
+About two thirds of New Zealand plants are pollinated by birds or insects[@Cox2000]. 
+Moreover, they are responsible for the pollination of iconic native plants (like kowhai and pohutukawa), and economically important crops (like kiwifruit, apples and grapes). 
+The deletion of native birds [@Anderson2003; @Robertson2009] is a prime example of how pollination systems in New Zealand are loosing key pollinators, plants and habitats[@Cox2000].
+At the same time they are being disrupted by naturalised or invasive species [@Cox2000]: 50% of plant species are introduced[@Wilton2000], and imported social bees are now an important component of pollinator fauna in New Zealand [@Lloyd1985; @Newstrom2005]. 
+This, in combination with low levels of pollinator diversity makes New Zealand flora is particularly vulnerable to declines in pollination services [@Newstrom2005; @Cox2000].
+Also, in contrast with other locations, pollination networks in New Zealand are dominated by generalist species[@Heine1937; @Primack1983]---plants that attract a wide range of pollinator species, and pollinators that visit a wide range of plants. 
+The research I propose will help elucidate how these structural differences affect the resilience of New Zealand's pollination systems, especially when considering that original ecosystems have been changed both by extinctions and invasive species.
+
+My proposed research is centered on systems and drivers that are particularly important for New Zealand but have international relevance.
+First, mutualistic plant-pollinator networks are pivotal for the maintenance of biodiversity and crop production [@Bascompte2007; @Klein2007].
+And second, biotic invasions along with defaunation are top components of human-caused global change that have planetary reach, but from which New Zealand has both especially suffered and remains notably vulnerable [@Vitousek1997]. 
+Understanding how invasions interact with defaunation in ecological networks is a research priority, and essential for conserving, restoring and managing New Zealand ecosystems [@Newstrom2005]. 
+
+My PhD will take place at [Dr. Daniel Stouffer's lab](http://www.stoufferlab.org/) at the University of Canterbury. 
+Dr. Stouffer is a Rutherford Discovery Fellow whose interdisciplinary research group is quite visible internationally, collaborates widely, and regularly receives visiting scientists from several countries. 
+My proposed project also aligns nicely with the interests of some highly cited researchers with whom collaborations might be very advantageous: [Jason Tylianakis](http://www.tylianakislab.org/) (University of Canterbury), [Jordi Bascompte](http://www.bascompte.net/) (University of Zurich), [Martin Scheffer](http://www.sparcs-center.org/) (Wagenigen University), and [Carl Folke](http://www.stockholmresilience.org/21/contact/staff/1-15-2008-folke.html) (Stockholm Resilience Center). As such, I expect there to be a widespread international interest on the scientific outcomes of my research.
+
+The outcomes of my research will also have direct application to ecosystem management, and subsequent clear conservation benefits for ecosystems in New Zealand and elsewhere. 
+For example, the introduction, and posterior invasion, of stoats in New Zealand was an expensive mistake in which species interactions were not taken into account [@Kuiti1992; @Thomson2011]. 
+What is more, although we know the effects of this invasion on iconic native species, we currently do not understand how the changes on ecosystem dynamics is affecting the resilience of the ecosystems as a whole.
+The research I propose intends to establish a general theory necessary to answer this question. 
+This is particularly important when the ecosystem response might be inconspicuous until transformation is imminent.
+By better understanding the dynamics behind species interactions, we will hopefully be better prepared to anticipate, prevent and reverse unwanted ecosystem transformations.
+
+\newpage
+
+## References 
