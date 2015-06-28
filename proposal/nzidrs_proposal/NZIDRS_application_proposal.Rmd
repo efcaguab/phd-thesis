@@ -2,7 +2,7 @@
 title: "Quantifying how species interactions underpin ecological resilience"
 author: "Fernando Cagua"
 csl: nature.csl
-output: word_document
+output: pdf_document
 bibliography: ../../references.bib
 ---
 ---
@@ -39,14 +39,17 @@ Since these factors ultimately determine the ecosystem response to disturbances,
 
 Because of its importance for food production and the maintenance of global biodiversity [@Bascompte2006; @Bascompte2007; @Klein2007], I will focus on the network of mutualistic interactions between plants and pollinators. 
 Despite its significance, we do not know the vulnerability of pollination systems to biotic invasions---an important component of human-caused global change [@Vitousek1997].
-*The first objective of my research is to determine how the properties of a network determine the susceptibility and resilience of an ecosystem to biotic invasions*.
+*The first objective of my research is to determine how the properties of a network determine the susceptibility and resilience of an ecosystem to biotic invasions*. 
+However, ecosystem pressures rarely act on isolation.
+It has been shown that biotic invasions often occur in ecosystems that have already been degraded by species removal [@Bennett2015]. 
+*My second objective is to determine the compound effect of biodiversity loss and invasive species on the resilience of an ecosystem*.
+
+
 Previous studies have largely focused on individual methods to understand resilience.
 To answer this question, I will use a combination of complex-network theory---built upon tools from statistical physics and the social sciences[@Strogatz2001; @Newman2003]---and computer simulated models of the populations of the species in the community[@Bastolla2009; @Garcia-Algarra2013]. 
 By combining the structural (complex networks) and dynamical (population models) properties of the ecosystem, I will be better positioned to determine how resilience is modified by invasions, and when they are likely to lead to a regime shift [@Romanuk2009; @Rohr2014; @Tylianakis2014]. 
 
-Ecosystem pressures rarely act on isolation.
-It has been shown that biotic invasions often occur in ecosystems that have already been degraded by species removal [@Bennett2015]. 
-*My second objective is to determine the compound effect of biodiversity loss and invasive species on the resilience of an ecosystem*.
+
 To do that, I will contrast previously collected empirical data with an extension of the theoretical models developed for the first objective.
 In particular I will compare species' role in invaded/non-invaded, defaunated/non-defaunated ecosystems, and before/after regime shifts, in both real and simulated systems.
 This approach will facilitate a mechanistic understanding of how the role and function of species that are added (trough invasion) or removed (trough defaunation) from an ecosystem shapes its resilience. 
