@@ -6,8 +6,9 @@
 * Invaders use efficiently available pollinators [@Richardson2000]
 
 * Invasive plants affect the others trough two mechanisms [@Bjerknes2007]:
-    - Effects on pollinator populations
-    - Effects on pollinator behaviour
+    - Effects on pollinator populations: Positive for example by supporting pollinators with more resources, especially in different times as the natives. Neggative as for example being toxic for pollinator larvae
+    - Effects on pollinator behaviour:
+    ![changes_in_poll_behaviour_bjerknes2007](figures/changes_in_poll_behaviour_bjerknes2007)
 
 * There is evidence that native plants that have similar traits (morphological at least) to invaders might have a receive less visits than before [@Morales2009], there is also evidence that they dont [@Vila2009]
 
@@ -24,6 +25,5 @@
 * A reason for a pollen pool: Visitation frequency is a surrogate of total interaction effect [@Vazquez2005], but that only takes into account immediate consequences of pollen deposition or seeds removal, not take into account fraction of outcrossed pollen or germination rate/defecated seeds. Relationship between visitation and effect is not linear. eg. infinite visitation doesn't lead to infinite benefit (saturation of polen). It can be bellshaped.
 
 * Studies that explored the effects of invasions on network "stability" (in the broad sense): @Olesen2002, @Aizen2008, @Bartomeus2008, @Vila2009
-
 
 ### References
