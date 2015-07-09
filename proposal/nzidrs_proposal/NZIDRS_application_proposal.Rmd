@@ -1,5 +1,5 @@
 ---
-title: "How species interactions shape ecological resilience?"
+title: "Find a good title..."
 author: "Fernando Cagua"
 classoption: a4paper
 output: pdf_document
