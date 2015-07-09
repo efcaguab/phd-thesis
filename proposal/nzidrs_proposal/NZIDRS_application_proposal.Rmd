@@ -25,6 +25,32 @@ Ultimately I want to better understand why, when and how ecosystem collapses occ
 \vfill
 \vfill
 
+\subsubsection{Titles}
+
+Anticipating and managing ecosystem collapses
+
+Understanding ecosystem collapses
+
+How do species interactions regulate ecosystem collapses?
+
+How do species interactions determine ecosystem collapses?
+
+Ecosystem collapses are regulated by species interactions
+
+How are ecosystem collapeses regulated by species interactions
+
+Ecosystem responses to drivers of global change
+
+Building resilience: how do species interactions regulate ecosystem collapses?
+
+Insuring ecosystem services: how do species interactions regulate ecosystem collapses?
+
+Salvaging ecosystem services: how do species interactions regulate ecosystem collapses?
+
+Salvaging ecosystem services: how do ecological networks regulate ecosystem collapses?
+
+\vfill
+
 \newpage
 
 ## Research Proposal
