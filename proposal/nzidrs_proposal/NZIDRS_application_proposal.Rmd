@@ -1,5 +1,5 @@
 ---
-title: "Find a good title..."
+title: "Building resilience: how do species interactions regulate ecosystem collapse?"
 author: "Fernando Cagua"
 classoption: a4paper
 output: pdf_document
@@ -23,32 +23,6 @@ Ultimately I want to better understand why, when and how ecosystem collapses occ
 
 \vfill
 \vfill
-\vfill
-
-\subsubsection{Titles}
-
-Anticipating and managing ecosystem collapses
-
-Understanding ecosystem collapses
-
-How do species interactions regulate ecosystem collapses?
-
-How do species interactions determine ecosystem collapses?
-
-Ecosystem collapses are regulated by species interactions
-
-How are ecosystem collapeses regulated by species interactions
-
-Ecosystem responses to drivers of global change
-
-Building resilience: how do species interactions regulate ecosystem collapses?
-
-Insuring ecosystem services: how do species interactions regulate ecosystem collapses?
-
-Salvaging ecosystem services: how do species interactions regulate ecosystem collapses?
-
-Salvaging ecosystem services: how do ecological networks regulate ecosystem collapses?
-
 \vfill
 
 \newpage
@@ -80,7 +54,7 @@ I propose to build upon these findings to determine the optimal set of species--
 Rescuing ecosystems from the brink of collapse and recovering them from undesired shifts is a major goal in conservation science.
 Finding a way in which actions targeted to specific species can maximise the ecosystem resilience will bring us much closer to achieving that goal.
 
-My main personal and profesional goal is to gain a deeper understanding, and ultimately improve the management, of the ecosystems I love.
+My main personal and professional goal is to gain a deeper understanding, and ultimately improve the management, of the ecosystems I love.
 Despite the quantitative insight I gained as an engineer, my scientific career in biology, both in academia and the non-for-profit sector, has been largely centered on taking an empirical approach to conservation ecology.
 However, over the last years, I have discovered the need to also incorporate fundamental ecological theory.
 My proposed research is heavily influenced by this realisation.
@@ -109,7 +83,7 @@ Second, biotic invasions and defaunation are critical components of human-caused
 
 The results of my research will also have direct application to ecosystem management, and subsequent clear conservation benefits for ecosystems in New Zealand and elsewhere.
 For example, the introduction, and subsequent invasion, of stoats in New Zealand was an expensive mistake in which species interactions were not taken into account [@Kuiti1992; @Thomson2011].
-Moreover, although we have identifed the effects of this invasion on some iconic native species [@Brown1993; @McLennan1996], we currently do not understand how the changes to ecosystem dynamics are affecting the resilience of the ecosystems as a whole.
+Moreover, although we have identified the effects of this invasion on some iconic native species [@Brown1993; @McLennan1996], we currently do not understand how the changes to ecosystem dynamics are affecting the resilience of the ecosystems as a whole.
 The research I propose intends to establish the general theory necessary to answer this question.
 Doing so is especially important when the ecosystem response might be inconspicuous until transformation is imminent [@Lever2014; @Tylianakis2014].
 Only by better understanding the dynamics behind species interactions can we hopefully be better prepared to anticipate, prevent and reverse undesired ecosystem collapses.
