@@ -1,31 +1,34 @@
-\documentclass[a4paper]{report}
+\documentclass[a4paper]{article}
 \usepackage{afterpage}
 \usepackage{hanging}
 \usepackage{setspace}
-\usepackage{geometry}
+\usepackage[a4paper, margin=1.2in]{geometry}
 \usepackage{todonotes}
 \usepackage{doi}
 \usepackage[super,sort&compress,comma]{natbib}
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
 \bibliographystyle{unsrtnat}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     citecolor=magenta,
+    linkcolor=magenta
 }
 \setlength{\parskip}{0.75em}
 \onehalfspacing
 \pagestyle{plain}
-
+\graphicspath{ {./figures/} }
+\renewcommand{\abstractname}{Summary}
 
 \title{
-	{\large Doctoral Thesis Proposal} \\
-	{\Huge \textsc{How species interactions shape ecological resilience?}} \\
-	{\large Department of Biological Sciences, University of Canterbury}
+	{\normalsize Doctoral Thesis Proposal} \\
+	{\LARGE \textsc{Building Resilience: How do Species Interactions Shape Ecosystem Collapse?}}
 }
 \author{
-  {\Large Fernando Cagua}
+  {\large Fernando Cagua}
 }
-\date{\normalsize \today}
+\date{}
 
 \begin{document}
 
