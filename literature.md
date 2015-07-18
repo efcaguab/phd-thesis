@@ -6,7 +6,19 @@
 
 * Population dynamic models of mutualism there is an explosion of positive feedback and runaway in the populations [@May1982], that is related to invasion meldown [@Simberloff1999]
 
+## Global change
+
+* Mutualistic interactions are generally affected negatively by global change [@Tylianakis2008]
+
+* Global change (temperature increasses) disrupt plant pollinator networks by making phenologies missmatch or spatial distributions change and local abbundances [@Memmott2007; @Hegland2009]
+
+* Habitat fragmentation, habitat modification and other neggative impact references are in [@Tylianakis2008]
+
+* Effects of defaunation
+
 ## Invasive species & mutualisms
+
+* Pollination is a key proces fior the establishment of invasive species and the community assemby [@Sargent2008]
 
 * Successful invasive species tend to be super-generalists [@Richardson2000; @Vila2009]
     - Non suitable pollinators limit the spread of alien species, those that can have pollinators are more likely to necome invasive [suggested by @Richardson2000]
@@ -41,5 +53,53 @@
 * A reason for a pollen pool: Visitation frequency is a surrogate of total interaction effect [@Vazquez2005], but that only takes into account immediate consequences of pollen deposition or seeds removal, not take into account fraction of outcrossed pollen or germination rate/defecated seeds. Relationship between visitation and effect is not linear. eg. infinite visitation doesn't lead to infinite benefit (saturation of polen). It can be bellshaped.
 
 * Studies that explored the effects of invasions on network "stability" (in the broad sense): @Olesen2002, @Aizen2008, @Bartomeus2008, @Vila2009
+
+## Stability
+
+* Coexistence stable states makes throphic networks less connected, less nested and more modular than intial parameters before equilibrium [@Thebault2010]
+
+* Interaction diversity, nestedness, distributions and patterns of interaction strength, compartmentalization and degree distribution are structural network factors though to have an impact on stability [@Tylianakis2010]
+
+### In mutualistic networks
+
+* Asymetric networks (so that if a plant species depends strongly on an animal species, the animal depends weakly on the plant) facilitate coexistence [@Bascompte2006]
+
+* Coexistence stable states makes mutualistic networks more connected, more nested and less modular than intial parameters before equilibrium [@Thebault2010]
+
+*
+
+Bascompte2006,Rooney2006,Okuyama2008,Thebault2010,Rohr2014,Sauve2014
+
+## Polen pool
+
+* Mutualism facilitate plant reproduction, yet it is well recognised that mutualismns can be substantually altered if co-flowering species compete for the serviices of shared pollinators [@Sargent2008, @Mitchell2009].
+
+* Ine step further: Studies of pairwise interactions have shown that an alien plant can affect the pollination of a native plant, this effect being mediated by shared pollinators [@Lopezaraiza-Mikel2007]
+
+* Overall neggative effect of invasive species in native pollination services Reviewed by @Morales2009
+
+* Competition for pollinators is termed Interspecific Polen Transfer, which can be divided into heterospecific pollen deposition and conspecific polen loss [@Morales2008]
+
+* @Ghazoul2006 deals with apparent facilitation and competition in  mutualistic networks
+
+* Visitation is correlated with pollen transport, but there is a high proportion of pollinators (~25-35%) that don't carry conspecific pollen [@Alarcon2010]. Pollen transport networks seem to be dominated by alien polen [@Lopezaraiza-Mikel2007]
+
+* Although there might be mechanisms to mitigate the impacts of alien polen (morphological differences on where each type of pollen is attached, individual pollinator fidelity and differnt flower phenologies), polen from invasive species was present in the majority of pollinators [@Bartomeus2008a]
+
+* At high densities alien species negatively affect pollination visitation rates and seed output in natives [@Munoz2008], however it might increasse it at low densities by attracting new pollinators to the community [@Munoz2008]
+
+* Invasive species co-opt pollinators from native ones [@Pysek2011]
+
+## Coexistence
+
+* Alternatuve model to @Garcia-Algarra2013 is @Fishman2010
+
+## Structure and invasions
+
+* Invasions are more likely in less complex networks @Romanuk2009
+
+## Defaunation
+
+* Defaunation can reduce polen transfer and plant densities [@Nia2011]
 
 ### References
