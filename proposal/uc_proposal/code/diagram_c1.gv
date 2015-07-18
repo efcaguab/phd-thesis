@@ -1,0 +1,17 @@
+digraph{
+	
+	graph [rankdir = LR]
+	
+	node [fixedsize = TRUE, shape = circle, width = 0.8, fontsize = 9, color = grey10]
+	ns [label = "Network\nStructure"] 
+	bi [label = "Biotic\nInvasion"]
+	df [label = "Defaunation"]
+	
+	edge [color = grey10]
+	ns -> bi
+	bi -> ns
+	df -> ns
+	ns -> df
+	bi -> df
+}
+
