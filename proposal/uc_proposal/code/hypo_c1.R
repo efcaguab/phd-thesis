@@ -37,7 +37,7 @@ p1 <- dplyr::data_frame(x = rep(1:len, 2),
 # 	theme(plot.margin=unit(c(0,4,0,0),"mm")) +
 	xlab("nestedness") +
 	ylab("invasibility") +
-	ggtitle("a)")
+	ggtitle("(a)")
 
 p2 <- dplyr::data_frame(x = rep(1:len, 2),
 									type = rep(c("pool", "no_pool"), each = len),
@@ -50,7 +50,7 @@ p2 <- dplyr::data_frame(x = rep(1:len, 2),
 	theme(legend.position = c(0.67, 0.85)) +
 	xlab("compartmentalization") +
 	ylab("") +
-	ggtitle("b)")
+	ggtitle("(b)")
 
 pdf("./figures/hypo_c1.pdf", width = 5.75 ,height = 1.92)
 multiplot(p1, p2, cols = 2)
