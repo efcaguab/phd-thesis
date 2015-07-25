@@ -234,11 +234,109 @@ The research I propose will help disentangle these two seemingly disparate obser
 
 Random or top down, down-top, not functional
 
-\end{figure}
-\section{Controlling ecological networks}
-\addcontentsline{toc}{chapter}{Chapter 3}
 
-sdfxc
+
+
+\section{Controlling ecosystems for resilience management}
+
+A plethora of empirical and theoretic evidence suggest that ecosystems have stable states on which self-organised processes and structures persist in equilibrium \cite{Gunderson2000,Ives2007}.
+However, disturbances, when large enough, can cause the ecosystem to move to a critical transition point.
+When the ecosystem has reached this critical point, it can collapse, or more precisely, it can undergo a regime shift (a large, persistent transformation in ecosystem functioning and structure) after which the ecosystem enters an alternate stable state \cite{Holling1973,May1976, Gunderson2000} (\hyperref[fig:critical_tran]{Figure \ref{fig:critical_tran}a}, \ref{fig:alt_ss}).
+
+
+\begin{figure}[p]
+  \centering
+  \includegraphics{critical_tran}
+  \caption{
+  \label{fig:critical_tran}
+  Ecosystems tend to converge into stable states (dark blue circles).
+  (a) After a small disturbance, the ecosystem is likely to return to the original stable state (black arrows) at a rate determined by its resilience (depicted in the figure as the slope of the curve).
+  However, large disturbance (or a combination of smaller ones) can bring the ecosystem into a critical transition point (light blue) from which the ecosystem can undergo a regime shift and enter into an alternate stable state.
+  Under a ``businness as usual'' scenario (b), the resilience of the desired state is diminished and human disturbances (red arrow) can push the ecosystem into an alternate stable state from which recovery is very difficult.
+  By controlling the abundances of a set of key species (c), in theory, it is possible to induce a compensatory perturbation that weakens the resilience of the undesirable alternate stable state, and possibly push the ecosystem into recovery.
+  }
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{aas_before}
+        \caption{Before}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{aas_after}
+        \caption{After}
+    \end{subfigure}
+    \hfill
+    \caption{
+    One example of alternate states in tropical coral reefs, (a) assemblages dominated by corals in the Caribbean in 1979, and (b) the same reef, degraded and smothered by fleshy seaweed two decades later.
+     By definition, regime shifts among alternate states constitute profound and often sudden changes in species composition, with major economic and social consequences. Reproduced from Hughes et al. 2005\cite{Hughes2005}.
+    }
+    \label{fig:alt_ss}
+\end{figure}
+
+Often, ecosystems enter into these alternate stable states in response to anthropogenic pressures of global change like climate, invasive species, overexploitation or habitat loss (\hyperref[fig:critical_tran]{Figure \ref{fig:critical_tran}b}).
+Unfortunately the frequency regime shifts is increasing, and this trend is likely to continue \cite{Hughes2005}, which is severely compromising the provision of important ecosystem services we, and other species, strongly depend on \cite{Hughes2013a}.
+Some examples include the diminished production of fish after a food-web or habitat collapse in marine ecosystems \cite{Hare2000, Daskalov2007, MacNeil2015}, or failure of crops after a collapse on pollination services \cite{Pauw2007,Lever2014}.
+
+As evidenced by the limited amount of success of restoration projects, bringing back ecosystems to a pre-disturbance state, or even to a more `desirable' state of ecosystem function, in which ecosystem services are somewhat recovered, is a particularly challenging endeavor \cite{Graham2013a}.
+So far we have only small-scale and localised examples of recovery \cite{Carpenter2006a, Stockwell2009}, and in many cases the ecosystem fails to recover even after the disturbances that caused the regime shift are removed \cite{Hughes2005}.
+Moreover,some evidence suggest that recovery is at least partially determined by pre-disturbance structure of the community \cite{Graham2015}, but we do not understand the mechanisms behind.
+How to recover ecosystems from these undesirable alternate stable state is currently a major question in conservation and theoretical ecology.
+
+The recovery of ecosystem depends strongly on the interactions between all species in the community and the dynamics that arise from these interactions.
+Therefore, there have been calls to replace the predominant species-level approaches by ecosystem scale approaches to management and conservation.
+However, perhaps with the exception of the mitigation of human-caused disturbances, ecosystem wide management can be expensive and difficult to attain.
+Contrastingly, even though the efficacy of conservation measures directed to individual species can be argued, they are more intuitive, tractable, and usually easier to implement.
+ but we do not know how compatible they are with network theory ecosystem dynamics.
+
+Unfortunately, we still do not understand how species-level interventions relate to the stability of the ecosystem as a whole.
+This is important because it will allow us to determine if current interventions are indeed pushing the ecosystem to recovery or not.
+Also, scaling the dynamics of individual species to the ecosystem level, will help to elucidate how to weaken the resilience of undesirable stable states, or strengthen the resilience of desirable states \cite{Graham2013a}.
+What is more, it will also help to determine if ecosystem recovery to a pre-disturbance state is possible and feasible from a management perspective.
+Here, I propose to go one step beyond, and study the controllability of ecological networks.
+
+Ecosystems are challenging to control because they are large, complex, inhomogeneous, and non-linear systems.
+However, recent work from theoretical physics has highlighted the possibility of regulating ecological networks by using targeted interventions in just some key species.
+These species are not necessarily the most or least abundant, or invasive, but rather those that can drive the entire ecosystem dynamics \cite{Liu2011} (\hyperref[fig:control_net]{Figure \ref{fig:control_net}a}).
+By modifying the abundances of driver species, is in theory possible to control the state of the ecosystem, and possibly push the ecosystem into a pre-disturbance state or at least a more desirable alternate state of ecosystem function (\hyperref[fig:critical_tran]{Figure \ref{fig:critical_tran}c}, \hyperref[fig:control_net]{\ref{fig:control_net}b}).
+
+\begin{figure}
+  \centering
+  \includegraphics{control_net}
+  \caption{
+  \label{fig:control_net}
+  In an ecological network, due to the interactions between species, changes in the abundances of any species are necessarily reflected in the abundances of their direct and indirect partners.
+  (a) It is possible to find a minimal set of species (dark blue), such that the abundances of all other species (light blue) can be modified by interventions on the minimal set.
+  If targeted interventions on those species are feasible (b), it is, in theory, possible to regulate the state of the ecosystem, and therefore reverse a regime shift that has lead an ecosystem into an alternate stable state (shaded area).
+  }
+\end{figure}
+
+To achieve that, the first step is to determine the smallest possible set of driver species in which to apply conservation measures that modify their abundance \cite{Liu2011, Isbell2013}.
+I will determine these species by using `maximally matching' on the network of interactions---an algorithm that is already commonly used to find minimum sets in diverse areas of graph theory, image processing, and computational chemistry \cite{Hopcroft1973,Neumann2010}.
+
+By applying this framework to six pairs of invaded and uninvaded pollination networks \cite{Bartomeus2008} I will examine the utility of this approach in a real world scenario.
+Specifically I will explore the characteristics that make an species (such as the degree of generalisation or it's contribution to nestedness) more or less likely to function as a driver of ecosystem state, and whether these characteristics depend on the presence of an invasive species in the ecosystem.
+
+The second step is to determine which interventions on the driver species are necessary to guide the ecosystem to the desired state.
+Here I will use the subset of the population dynamics models developed for the previous research objective that show multiple alternate stable states.
+I will then employ a recently developed algorithm that accounts for the non-linear dynamics present in ecological community \cite{Cornelius2013, Cornelius2013a} to find the interventions that are necessary to modify ecosystem state.
+
+However not all interventions are feasible; in reality, they are severely constrained by costs and scale.
+For example, the an intuitive intervention to restore a coral reef from an algal dominated stable state (\hyperref[fig:alt_ss]{Figure \ref{fig:alt_ss}b}) to a coral dominated stable state (\hyperref[fig:alt_ss]{Figure \ref{fig:alt_ss}a}) is to simply decrease the abundance of fleshy seaweed and increase the abundance of stony corals.
+This however is totally impractical; other interventions, for example those focused on species that predate on herbivore fishes, are more practical and might lead to similar results \cite{Bennett2015}.
+Therefore, I will focus on the feasible interventions that allow to modify the state of an ecosystem even when that state is not directly accessible.
+These interventions are tailored on weakening the resilience of the undesirable state \cite{Graham2013a, Standish2014a, Selkoe2015}.
+
+Nevertheless, I anticipate to find empirical and simulated ecological communities in which none of the feasible interventions can lead to recovery to the original state.
+In these cases, I will focus on exploring the implications of accepting a `novel ecosystem' \cite{Hobbs2006}.
+The concept of novel ecosystems highlights the possibility of an intermediate state, different from the original state, but one in which some ecosystem function and services have been restored \cite{Graham2014a, Graham2015a}.
+As pristine environments become less and less common, restoring some altered ecosystems back seems unrealistic under escalating anthropogenic pressures \cite{Graham2015a}
+Therefore I will find the interventions that maximise one ecosystem service, like pollination, while maintaining novel components in the ecosystem like invasive species.
+Embracing change will ``allows conservation and management efforts to be directed more appropriately towards goals that are achievable''\cite{Graham2014a}.
 
 \section*{Research Plan}
 \addcontentsline{toc}{chapter}{Research Plan}
