@@ -151,8 +151,8 @@ ijole <- . %>% {
 }
 
 pdf("./figures/dynamics.pdf", width = 5.75 ,height = 1.92)
-multiplot(ijole(no_suc) + ggtitle("a)") + ylab("abbundance"),
-					ijole(no_shi) + ggtitle("b)") + xlab("time"),
-					ijole(shi) + ggtitle("c)"), 
+multiplot(ijole(no_suc) + ggtitle("(a)") + ylab("abbundance"),
+					ijole(no_shi) + ggtitle("(b)") + xlab("time"),
+					ijole(shi) + ggtitle("(c)"), 
 					cols = 3)
 dev.off()
