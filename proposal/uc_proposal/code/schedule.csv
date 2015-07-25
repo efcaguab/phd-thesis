@@ -1,1 +1,32 @@
-name,start,mean,end,category,typeWarm up project,2015-02-01,2015-03-01,2015-10-01,research activities,lineAnalysis Objective 2,2015-09-01,2015-10-01,2016-02-01,research activities,lineWrite paper Objective 2,2015-11-01,2015-12-01,2016-05-01,research activities,lineAnalysis Obpjective 1A,2016-05-01,2016-06-01,2017-01-01,research activities,lineAnalysis Obpjective 1B,2016-10-01,2016-11-01,2017-06-01,research activities,lineWrite paper Objective 1,2017-04-01,2017-05-01,2017-10-01,research activities,lineWrite & submit proposal,2015-02-01,2015-03-01,2015-08-01,milestones,lineWrite & submit proposal,,2015-08-01,,milestones,dotDoctoral confirmation,,2016-02-01,,milestones,dotProgress report,,2016-08-01,,milestones,dotProgress report,,2017-02-01,,milestones,dotProgress report,,2017-08-01,,milestones,dotWrite & submit thesis,2017-10-01,2017-11-01,2018-03-01,milestones,lineWrite & submit thesis,,2018-03-01,,milestones,dotAustralian Society for Fish Biology Annual Meeting,,2015-10-10,,outreach,dotUC Annual Biology Conference,,2015-10-16,,outreach,dotUC Annual Biology Conference,,2016-10-16,,outreach,dotUC Annual Biology Conference,,2017-10-16,,outreach,dotNew Zealand Ecological Society Conference,,2015-11-16,,outreach,dotNew Zealand Ecological Society Conference,,2016-11-16,,outreach,dotNew Zealand Ecological Society Conference,,2017-11-16,,outreach,dotImbizo IV,,2015-10-25,,outreach,dotInternational Coral Reef Conference,,2016-07-15,,outreach,dotBritish Ecological Society Annual Meeting,,2016-12-05,,outreach,dotEcological Society of America Conference,,2017-08-10,,outreach,dotAustralian Ecological Society Conference,,2017-11-10,,outreach,dotPlanned breaks,2016-01-01,,2016-01-15,,linePlanned breaks,2016-05-15,,2016-07-01,,linePlanned breaks,2017-01-01,,2017-01-15,,linePlanned breaks,2018-01-01,,2018-01-15,,linePlanned breaks,2017-05-01,2017-06-01,2017-07-01,,line
+name,start,mean,end,category,type,completed
+Warm-up project,2015-02-01,2015-03-01,2015-10-01,research activities,line,completed
+Analysis Objective 2,2015-09-01,2015-10-01,2016-02-01,research activities,line,
+Write paper Objective 2,2015-11-01,2015-12-01,2016-05-01,research activities,line,
+Analysis Objective 1A,2016-05-01,2016-06-01,2017-01-01,research activities,line,
+Analysis Objective 1B,2016-10-01,2016-11-01,2017-06-01,research activities,line,
+Write paper Objective 1,2017-04-01,2017-05-01,2017-12-01,research activities,line,
+Write & submit proposal,2015-02-01,2015-03-01,2015-08-01,milestones,line,completed
+Write & submit proposal,,2015-08-01,,milestones,dot,completed
+Doctoral confirmation,,2016-02-01,,milestones,dot,
+Progress reports,,2016-08-01,,milestones,dot,
+Progress reports,,2017-02-01,,milestones,dot,
+Progress reports,,2017-08-01,,milestones,dot,
+Write & submit thesis,2017-10-01,2017-11-01,2018-03-01,milestones,line,
+Write & submit thesis,,2018-03-01,,milestones,dot,
+ASFB Annual Meeting,,2015-10-10,,outreach,dot,
+UC Annual Biology Conference,,2015-10-16,,outreach,dot,
+UC Annual Biology Conference,,2016-10-16,,outreach,dot,
+UC Annual Biology Conference,,2017-10-16,,outreach,dot,
+NZ Ecological Society Conference,,2015-11-16,,outreach,dot,
+NZ Ecological Society Conference,,2016-11-16,,outreach,dot,
+NZ Ecological Society Conference,,2017-11-16,,outreach,dot,
+Imbizo IV,,2015-10-25,,outreach,dot,
+International Coral Reef Conference,,2016-07-15,,outreach,dot,
+British Ecological Society Annual Meeting,,2016-12-05,,outreach,dot,
+Ecological Society of America Conference,,2017-08-10,,outreach,dot,
+Australian Ecological Society Conference,,2017-11-10,,outreach,dot,
+Planned breaks,2016-01-01,,2016-01-15,,line,
+Planned breaks,2016-06-15,,2016-08-01,,line,
+Planned breaks,2017-01-01,,2017-01-15,,line,
+Planned breaks,2018-01-01,,2018-01-15,,line,
+Planned breaks,2017-06-01,2017-06-15,2017-07-01,,line,
