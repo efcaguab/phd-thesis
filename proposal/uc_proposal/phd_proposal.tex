@@ -22,6 +22,7 @@ autocite=superscript
 \usepackage{subcaption}
 \usepackage{pdflscape}
 
+\renewcommand{\thefootnote}{\alph{footnote}}
 \newcommand{\sectionbreak}{\clearpage}
 \renewcommand*{\bibfont}{\footnotesize}
 \addbibresource{../../references.bib}
@@ -251,9 +252,119 @@ It is also possible to quantify the stability of an ecosystem by measuring the n
 Paradoxically, the same structures that I propose are the most vulnerable to invasions, have also been shown to be the most robust to cascading extinctions in ecological networks \cite{Tylianakis2010, Stouffer2011, Albrecht2014}.
 The research I propose will help disentangle these two seemingly disparate observations.
 
-\section{Species redundancy promotes resilience}
 
-Random or top down, down-top, not functional
+
+
+
+
+
+
+
+\section{The effects of structural redundancy on stability}
+
+\iffalse
+The introduction of species is not the only factor currently threatening the provision of ecosystem services, the loss of species from ecological communities is also a major driver of global ecological change \autocite{Dirzo2014}.
+Whether caused by habitat loss or fragmentation \autocite{Saunders1992, Hanski2013}, or invasive species \autocite{Jeschke2014}, species extinctions are affecting pollination, carbon sequestration and human health \autocite{Dirzo2014}.
+Because of the impacts on biodiversity and ecosystem function, the loss species can also have direct effects on the stability of the ecosystem \autocite{Loreau2001}.
+\fi
+
+In financial markets, risk is reduced by investing in a diverse portfolio; even if one or some investments do not generate the expected returns, the risk of possible loss in the mean asset value is much smaller than the risk of individual assets.
+Similarly, in ecology, a positive relationship between biodiversity and stability has also been observed \autocite{Tilman1996, Doak1998,Tilman1998}.
+This ``portfolio effect'' states that aggregated properties of the community (like total biomass or abbundances) are less variable that those of of independent species when species populations fluctuate asynchronously.
+Indeed there is both theoretical \autocite{Tilman1998} and empirical \autocite{Tilman1996,Tilman2006, Valone2008, Hector2010} evidence that the portfolio effect occurs trough two different processes.
+One is given by the difference between species on either the way they respond to perturbations \autocite{Loreau2001}.
+The other, which arises from species interactions is mediated by negative correlations between the species' populations (for example trough competitition) \autocite{Doak1998, Tilman1999, Lehman2000, Tilman2006}.
+
+Grouping species by ecological equivalency---such as the way the respond to perturbations, the role they have on ecosystem processes or the structural patterns of their interactions---is a useful device for understanding complexity in ecological systems \autocite{Naeem1998}.
+One possibility is to group species that have similar roles in ecosystem functioning using traits---morphological, physiological or phenological features that influence individual's performance \autocite{Raunkiaer1934, Fonseca2001, Mouillot2013}.
+Functional groups (like for example, herbivore grazers in coral reefs, decomposers in a forest, or nitrogen-fixing legumes in agricultural systems) have been widely adopted because of their importance for ecosystem processes and services \autocite{Daz2001, Tilman2001a, Wardle2005}.
+However trait based functional groups are not the only meaningful way to group species.
+Another possibility is to group species by guilds---based on the similarity on the way the exploit environmental resources \autocite{Root1967}, or their trophic position \autocite{Hairston1960}.
+
+Ecological interactions are, at least partially, determined by the traits of the involved species \autocite{Cohen1993, Stang2009, Edwards2011}.
+Moreover, the network of interactions contains substantial information on their species niche differentiation (the way species use different resources) and energy pathways in the ecological community \autocite{Gauzens2014}.
+Therefore, grouping species by the structural similarity of their interactions can capture information that is particularly meaningful for the functioning of the community \autocite{Thebault2010, Stouffer2011}.
+There are also several ways to group species based on the structure of their interactions.
+A global perspective to species grouping separates species by compartments, in which species interact more often with other species in the same compartment than otherwise(\autoref{fig:networks}).
+A local perspective, on the other hand, it is possible to group species using ``network motifs'' \autocite{Holt2001, Milo2002, Stouffer2007a}, a set of smaller sub-networks which put together can form the original network (\autoref{fig:motifs}).
+
+\begin{figure}[bp]
+  \centering
+  \includegraphics{motifs}
+  \caption{
+  \label{fig:motifs}
+  Motifs are sub-networks that represent different patterns of interactions in ecological networks.
+  Motifs can be seen as simple “building blocks” that show the underlying structure of the community and include different forms redundancy (generalisation/specialisation).
+  The most redundant type of motifs in mutualistic networks is shown on the left and the least redundant on the right.
+  }
+\end{figure}
+
+It has been shown that these structural groupings (compartments and motifs) can have important consequences for the stability and persistence of the communities \autocite{Neutel2002, Kondoh2008, Thebault2010, Stouffer2010, Stouffer2011}.
+In food webs, for example, where most interactions are antagonistic, a high degree of compartmentalisation increases the persistence of the community by buffering the propagation of the effects of species extinctions beyond their compartment \autocite{Stouffer2011}.
+Similarly, a food-web tri-trophic motif\footnote{A three species food chain with one producer, one consumer and one top predator} is more persistent in isolation than an omnivory motif\footnote{A three species web with one producer, one consumer and an omnivore that predates on the consumer and the primary producer}, however although less efficient by itself, the omnivory motif increases the persistence of the whole food web by a larger proportion \autocite{Stouffer2010}, perhaps because of the redundancy conferred by the omnivorous link.
+This suggest that regardless if the ecological groups are structural or functional, consistent with the portfolio effect, redundancy within groups confers an insurance effect to the ecosystem \autocite{Walker1992}.
+
+Here I propose to explicitly evaluate the effects that structural redundancy has in the stability of ecological networks.
+Despite the clear positive implications of redundancy in overall stability, from a theoretical point of view it is expected to also have negative effects for individual species because it reduces the niche differentiation with its competitors.
+Therefore I am interested in looking at the implications that redundancy has on both the conditions for stable coexistence (similar as in the previous section) and on the response of ecosystem to perturbations.
+Because there are several ways to quantify the structural redundancy of a species, I aim to identify the redundancy that is most relevant to species coexistence and ultimately, ecosystem collapse.
+
+In engineering, the reliability of a system is increased by making components that perform critical functions redundant.
+Similarly in ecology, redundancy has been proposed to be a key factor contributing to the persistence of the ecosystem \autocite{Naeem1997,Naeem1998}.
+There is both theoretical \autocite{Yachi1999} and empirical \autocite{Valone2008} evidence for the insurance hypothesis and, as mentioned, previous findings in food webs of antagonistic interactions support it.
+However on pollination networks, where interactions are considered to be mutualistic, the effects of structural redundancy have not been thoroughly explored.
+To date, only one study \autocite{Thebault2010} has explicitly looked at the effects of compartmentalisation on the stability of mutualistic networks.
+Remarkably, contrary to what would be expected in an antagonistic system, some evidence suggest that compartmentalisation decreases both the persistence and resilience of mutualistic networks.
+This might explain the fact that empirical mutualistic networks are in average less compartmentalised that their antagonistic counterparts \autocite{Thebault2010}.
+But it does not explain why a large proportion of observed mutualistic networks are still significantly modular.
+
+Previous theoretical work has largely assumed that the feedbacks of mutualistic interactions increase the growth rates of the focal species, while antagonistic interactions decrease it, which in turns allows the coexistence of a larger number of species (\autoref{fig:networks}) \autocite{Moeller2004, Bastolla2009}.
+This assumption, however, ignores that in mutualistic systems, organisms might also compete to optimise the obtained benefits \autocite{Levin1970}.
+Indeed evidence suggest that in plant-pollinator systems, the increase of mutualistic interactions caused by invasive species, does not translate in increased facilitation \autocite{Lopezaraiza-Mikel2007}.
+Because plant reproduction depends strongly in the quality of the mutualistic service, mutualisms can be strongly altered when co-flowering species compete for the service of shared pollinators \autocite{Sargent2008, Mitchell2009}.
+This happens because the visit of a pollinator does not lead to reproduction if pollen is transfered between different species of plants \autocite{Morales2008}.
+Even though there are some mechanisms to mitigate the impacts of competition for mutualism and inter-specific pollen transfer \autocite{Waser1979, Ghazoul2006, Bartomeus2008a}, it has been found that invasive species, at high densities, are able to co-opt pollinators from native species \autocite{Pysek2011}, dominate the networks of pollen transport \autocite{Lopezaraiza-Mikel2007, Alarcon2010}, and ultimately decrease the seed output of native species \autocite{Munoz2008}.
+
+Standard models of mutualism, which are used in both coexistence and collapse research, have so far only included intra-guild competition (for example competition for resources among plants) \autocite{Lever2014, Bastolla2009}, however stability attributes can change drastically if inter-guild interactions are not exclusively facilitative.
+For instance, if only facilitation is taken into account, a fully connected and maximally redundant structure (left panel in \autoref{fig:networks} and \ref{fig:motifs}) represent the most favourable conditions for species coexistence and ecosystem collapse \autocite{Bastolla2009, Lever2014}.
+On the other hand the same structure will be the undesirable if interactions were antagonistic because niche differentiation would be minimal \autocite{Stouffer2010}.
+
+Although these standard models have been useful in recognising that all else being equal, a nested structure is indeed better than a random structure at facilitating biodiversity and delaying the onset of catastrophic collapses, they also predict that a maximally redundant network is better than the nested structure we tend to observe in nature (\autoref{fig:hypo_c2}).
+My hypothesis is that competition for pollinators and its interplay with structural redundancy might be the key for explaining this discrepancy as well as the structural differences between mutualistic and antagonistic networks.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics{hypo_c2}
+  \caption{
+  \label{fig:hypo_c2}
+  (a) Standard models of mutualism predict a positive relationship between connectance (higher global redundancy) and biodiversity (light blue line), yet this is not observed in empirical communities. I argue that including competition-for-pollination will help explain why this orgy of facilitation is not observed in nature.
+  Also, (b) standard models of pollination have found that a the more connected the network (red lines) the more it is resistant to drivers of decline; nested structures (green line) are also able to delay the onset of catastrophic declines more efficiently than random structures with no redundancy, the response to declines when competition for pollination is included (blue line) is however unknown.
+  I predict that because plants that share pollinators are not exclusively facilitating each other, they do not collapse independently.
+  Therefore decline should be more gradual and the hysteresis should be reduced.
+  }
+\end{figure}
+
+I will use two approaches to evaluate this hypothesis.
+In the first approach In the second approach I will take hand of motifs as an intuitive local metric of redundancy.
+In a similar methodology as that used by Stouffer and Bascompte (2010) \autocite{Stouffer2010}, I will first evaluate the persistence of individual motifs (\autoref{fig:motifs}) with and without competition-for-pollinators when taken in isolation.
+Then I will examine the relationship between the frequency with which those modules appear on empirical networks and the impact on the persistence of the pollination system.
+I expect to
+
+In the second approach I will extend the models developed in the previous section to explicitly include competition for pollinators.
+Then I will construct a large number of synthetic networks of varied structure and numerically determine those that enable a large number of species to coexist (\hyperref[fig:hypo_c2]{Figure \ref{fig:hypo_c2}a}).
+Also, I will explore the consequences that competition-for-pollinators has on delaying the onset of catastrophic collapse (\hyperref[fig:hypo_c2]{Figure \ref{fig:hypo_c2}b}).
+I predict that the structure of ``optimal'' networks that include competition-for-pollinators is more consistent with the structure of networks observed on nature.
+I argue that this empirical structure is the reflection of a balance between the redundancy required to maximise the facilitation effect of shared pollinators and minimise the competitive effects of interspecific pollen transfer.
+
+Summing-up, I expect this research to help clarify the mechanisms that drive the structure of mutualistic networks.
+While high redundancy might have biodiversity and stability benefits in mutualistic systems, it might also be responsible for the catastrophic collapses that occur once the perturbation has reached critical levels.
+Ultimately we will be better positioned to understand why high diversity doesn't necessarily translate in higher redundancy \autocite{Bellwood2003b}.
+
+
+
+
+
+
 
 
 
