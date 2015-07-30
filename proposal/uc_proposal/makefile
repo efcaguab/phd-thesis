@@ -18,6 +18,12 @@ figures/critical_tran.pdf: code/critical_tran.R
 
 figures/control_net.pdf: code/control_net.R
 	Rscript $<
+	
+figures/motifs.pdf: code/motifs.R
+	Rscript $<
+	
+figures/hypo_c2.pdf: code/hypo_c2.R
+	Rscript $<
 
 figures/schedule.pdf: code/schedule.R code/schedule.csv
 	Rscript	$<
