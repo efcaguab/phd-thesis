@@ -69,7 +69,7 @@ theme_mine <- theme_bw() +
 				axis.ticks.x = element_blank(),
 				axis.ticks.y = element_blank(),
 				axis.title = element_text(size = 9),
-				plot.title = element_text(hjust = 0, size = 9),
+				plot.title = element_text(hjust = 0, size = 9, vjust = 1),
 				panel.grid = element_blank())
 
 pm <- modu %>%
@@ -100,8 +100,8 @@ pt <- toda %>%
 
 space <- 9
 pdf("./figures/networks.pdf", width = 5.75 ,height = 2.1)
-multiplot(pt + ggtitle("fully connected"),
-					pn + ggtitle("nested") + theme(plot.margin =unit(c(0,space,space,0),"mm")),
-					pm + ggtitle("compartmentalised")+ theme(plot.margin =unit(c(0,space*2,space*2,0),"mm")), 
+multiplot(pt + ggtitle("(a) fully connected"),
+					pn + ggtitle("(b) nested") + theme(plot.margin =unit(c(0,0,space,space),"mm")),
+					pm + ggtitle("(c) compartmentalised")+ theme(plot.margin =unit(c(0,space,space*2,space),"mm")), 
 					cols = 3)
 dev.off()
