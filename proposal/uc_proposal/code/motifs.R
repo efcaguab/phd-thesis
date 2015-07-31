@@ -5,6 +5,7 @@ library(reshape2)
 library(dplyr)
 library(magrittr)
 library(igraph)
+library(grid)
 
 source("../code/multiplot.R")
 
@@ -90,7 +91,7 @@ my_theme <- theme_bw() +
 				axis.ticks.x = element_blank(),
 				axis.ticks.y = element_blank(),
 				axis.title = element_text(size = 9),
-				plot.title = element_text(hjust = 0.05, vjust = -1.5, size = 9),
+				plot.title = element_text(hjust = 0.5, vjust = -7, size = 9),
 				panel.grid = element_blank())
 
 
@@ -105,13 +106,30 @@ m1 <- get_net(matrix(c(1,0,0,1), n_pla, n_pol))
 m2 <- get_net(matrix(c(1,1,0,1), n_pla, n_pol))
 m3 <- get_net(matrix(c(1,1,1,1), n_pla, n_pol))
 
+############ redundancy arrow########################
+
+colo <- "grey20"
+d <- 0.075
+width <- 0.7
+linetype <- 1
+
+p4 <- ggplot() +
+	annotate(geom = "text", label = "redundancy", x = 0.5, y = 0, size = 3.4, family = "Times", colour = colo) +
+	geom_segment(aes(x = 0.5 + d, xend = 0.9, y = 0, yend = 0), colour = colo, size = width, linetype = linetype) +
+	geom_segment(aes(x = 0.5 - d, xend = 0.1, y = 0, yend = 0), arrow = arrow(length = unit(0.2,"cm")), colour = colo, size = width, linetype = linetype) +
+	my_theme +
+	theme(axis.title = element_blank(),
+				plot.margin=unit(c(0,0,-4,0),"mm")) +
+	xlim(0,1)
+
 ################### plots #########################
 
-p1 <- plot_motif(m1)
-p2 <- plot_motif(m2)
-p3 <- plot_motif(m3)
+p1 <- plot_motif(m1) + ggtitle("(c)")
+p2 <- plot_motif(m2) + ggtitle("(b)")
+p3 <- plot_motif(m3) + ggtitle("(a)")
 
-pdf("./figures/motifs.pdf", width = 5.75 ,height = 1)
-multiplot(p3, p2, p1, cols = 3)
+pdf("./figures/motifs.pdf", width = 5.75 ,height = 1.2)
+multiplot(p3, p2, p1, p4, 
+					layout = matrix(c(4,4,4,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3), ncol = 3, byrow = T))
 dev.off()
 
