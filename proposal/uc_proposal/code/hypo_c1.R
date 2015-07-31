@@ -29,6 +29,7 @@ theme_mine <- theme_bw() +
 p1 <- dplyr::data_frame(x = rep(1:len, 2),
 									type = rep(c("pool", "a_no_pool"), each = len),
 									inv = c(log((x[1:len]*1.5)^2.5)*(x[1:len])^0.01 + 10, log(x[1:len]*0.5) + 10)) %>%
+	dplyr::filter(type == "pool") %>%
 	ggplot() +
 	geom_line(aes(x = x, y = inv, colour = type), size = 0.7) +
 	ylim(5,25) +
@@ -42,12 +43,13 @@ p1 <- dplyr::data_frame(x = rep(1:len, 2),
 p2 <- dplyr::data_frame(x = rep(1:len, 2),
 									type = rep(c("pool", "no_pool"), each = len),
 									inv = c(sigmoidal(1,0,-20,0.04,x[1:len]),sigmoidal(1,0,-20,0.08,x[1:len]))) %>%
+	dplyr::filter(type == "pool") %>%
 	ggplot() +
 	geom_line(aes(x = x, y = inv, colour = type), size = 0.7) +
 	ylim(-0.03,0.37) +
 	scale_color_manual(values = c("#1f78b4", "#a6cee3"), name = "", labels = c("facilitation + competition", "facilitation")) +
 	theme_mine +
-	theme(legend.position = c(0.67, 0.85)) +
+	# theme(legend.position = c(0.67, 0.85)) +
 	xlab("compartmentalization") +
 	ylab("") +
 	ggtitle("(b)")
