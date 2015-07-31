@@ -187,13 +187,9 @@ This will allow me to evaluate if the network structures that have been found to
 
 The second step is to develop models of the population dynamics in mutualistic communities in which the abundances of each species present on the community depends on their growth rate ($births - deaths$).
 These growth rates can in turn be affected by the feedbacks imposed by the interactions with other species.
-Previous theoretical work has largely assumed that the feedbacks of mutualistic interactions increase the growth rates of the focal species, while antagonistic interactions decrease it, which in turns allows the coexistence of a larger number of species (\autoref{fig:networks}) \cite{Moeller2004, Bastolla2009}.
-
-This assumption, however, ignores that in mutualistic systems, organisms might also compete to optimise the obtained benefits.
-Indeed evidence suggest that in plant-pollinator systems, the increase of mutualistic interactions caused by invasive species, does not translate in increased facilitation \cite{Lopezaraiza-Mikel2007}.
-Because plant reproduction depends strongly in the quality of the mutualistic service, mutualisms can be strongly altered when co-flowering species compete for the service of shared pollinators \cite{Sargent2008, Mitchell2009}.
-This happens because the visit of a pollinator does not lead to reproduction if pollen is transfered between different species of plants \cite{Morales2008}.
-Even though there are some mechanisms to mitigate the impacts of competition for mutualism and inter-specific pollen transfer \cite{Ghazoul2006, Bartomeus2008a}, it has been found that invasive species, at high densities, are able to co-opt pollinators from native species \cite{Pysek2011}, dominate the networks of pollen transport \cite{Lopezaraiza-Mikel2007, Alarcon2010}, and ultimately decrease the seed output of native species \cite{Munoz2008}.
+In this model, there is competition between species that belong to the same group (plants or pollinators), while facilitation ocurs between species that belong to different groups.
+Specifically I will use a recently introduced logistic model that is mathematically simpler but preserves the dynamic richness of previous models \autocite{Garcia-Algarra2013}.
+Like in previous studies using dynamic models \autocite{Okuyama2008, Bastolla2009}, I will assume that the beneficial effect of mutualistic partners saturates at high abundances.
 
 The third step is to analyse the ecosystem response to an alien species.
 Depending on the network structure, and the traits of the native and alien species, the outcome of an species introduction can vary.
@@ -213,14 +209,9 @@ Therefore, I will quantify the invasibility of the community as the likelihood t
   }
 \end{figure}
 
-Because, as mentioned, a nested structure maximises the number of species that can stably coexist \autocite{Bastolla2009}, I predict that a similar relationship exists between invasibility and nestedness.
-However, I also argue that the competition for pollinators confers the community a resistance to invasions that has not been accounted for in previous theoretical or empirical research (\autoref{fig:hypo_c1}).
-These hypotheses link concepts of network structure, apparent competition/facilitation and ecosystem stability, and will allow us to put limited and somewhat disparate empirical observations in context.
-
-Despite the general belief that successful invasive species tend to be super-generalists \autocite{Richardson2000, Aizen2008, Vila2009, Albrecht2014}, a recent meta-analysis has shown that invasive species become very integrated in pollination networks \autocite{Stouffer2014}.
-Specifically, invasive plants seem to interact preferentially with pollinators that are weak contributors to community nestedness, which have been shown to be the less vulnerable to extinction \autocite{Saavedra2011, Stouffer2014}.
-However this empirical observation has not yet been explained mechanistically.
-By testing the hypotheses I propose, not only light will be shed on what makes ecosystem vulnerable to invasions, but also, because they deal with fundamental tenets in theoretical ecology, we will also gain a better understanding of the implications of network structure on the persistence of biodiversity, the link between stability and biodiversity, and the assembly of ecological communities.
+Because, as mentioned, a nested structure maximises the number of species that can stably coexist \autocite{Bastolla2009}, I predict that a similar relationship exists between invasibility and nestedness (\hyperref[fig:hypo_c1]{Figure \ref{fig:hypo_c1}a}).
+Additionally because a compartmentalised structure, might limit the potential for apparent facilitation between the native and invasive species I argue that there is a neggative relationship between invasibility and compartmentalisation (\hyperref[fig:hypo_c1]{Figure \ref{fig:hypo_c1}b}).
+This hypotheses link concepts of network structure, apparent competition/facilitation and ecosystem stability, and will allow us to put limited and somewhat disparate empirical observations in context.
 
 \begin{figure}[tbp]
   \includegraphics{hypo_c1}
@@ -228,12 +219,18 @@ By testing the hypotheses I propose, not only light will be shed on what makes e
   \label{fig:hypo_c1}
   It has been found that (a) an increasingly nested structure enhances the number of species that can stable coexist, while (b) a compartmentalized structure decreases it.
   I hypothesise that a similar relationship exist between these attributes of network structure and the invasibility of the community.
-  In addition, I argue that the apparent competition for pollinators increases the resistance of mutualistic communities to invasions by counteracting the positive feedbacks of apparent facilitation.}
+  }
 \end{figure}
+
+Despite the general belief that successful invasive species tend to be super-generalists \autocite{Richardson2000, Aizen2008, Vila2009, Albrecht2014}, a recent meta-analysis has shown that invasive species become very integrated in pollination networks \autocite{Stouffer2014}.
+Specifically, invasive plants seem to interact preferentially with pollinators that are weak contributors to community nestedness, which have been shown to be the less vulnerable to extinction \autocite{Saavedra2011, Stouffer2014}.
+However this empirical observation has not yet been explained mechanistically.
+By testing the hypotheses I propose, not only will light be shed on what makes ecosystem vulnerable to invasions, but also, because they deal with fundamental tenets in theoretical ecology, we will also gain a better understanding of the implications of network structure on the persistence of biodiversity, the link between stability and biodiversity, and the assembly of ecological communities.
 
 \subsection{Invasions change the structure of mutualistic networks}
 
-After analyising the structures that make an ecological network more or less susceptible to invasions, I then follow by investigating the consequences for the community when the invasion is successful (\autoref{fig:diagram_c1}). On one hand, I will explore the feedbacks on the structure of mutualistic network after an successful invasion; on the other hand I will explore when the invasions lead to a large number of secondary extinctions and ultimately ecosystem collapse (\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}c}).
+After analyising the structures that make an ecological network more or less susceptible to invasions, I then follow by investigating the consequences for the community when the invasion is successful (\autoref{fig:diagram_c1}).
+On one hand, I will explore the feedbacks on the structure of mutualistic network after an successful invasion; on the other hand I will explore when the invasions lead to a large number of secondary extinctions and ultimately ecosystem collapse (\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}c}).
 
 \begin{figure}[tbp]
   \centering
@@ -330,7 +327,7 @@ But it does not explain why a large proportion of observed mutualistic networks 
 
 Previous theoretical work has largely assumed that the feedbacks of mutualistic interactions increase the growth rates of the focal species, while antagonistic interactions decrease it, which in turns allows the coexistence of a larger number of species (\autoref{fig:networks}) \autocite{Moeller2004, Bastolla2009}.
 This assumption, however, ignores that in mutualistic systems, organisms might also compete to optimise the obtained benefits \autocite{Levin1970}.
-Indeed evidence suggest that in plant-pollinator systems, the increase of mutualistic interactions caused by invasive species, does not translate in increased facilitation \autocite{Lopezaraiza-Mikel2007}.
+Indeed evidence suggests that, in plant-pollinator systems, the increase of mutualistic interactions caused by invasive species does not translate into increased facilitation \autocite{Lopezaraiza-Mikel2007}.
 Because plant reproduction depends strongly in the quality of the mutualistic service, mutualisms can be strongly altered when co-flowering species compete for the service of shared pollinators \autocite{Sargent2008, Mitchell2009}.
 This happens because the visit of a pollinator does not lead to reproduction if pollen is transfered between different species of plants \autocite{Morales2008}.
 Even though there are some mechanisms to mitigate the impacts of competition for mutualism and inter-specific pollen transfer \autocite{Waser1979, Ghazoul2006, Bartomeus2008a}, it has been found that invasive species, at high densities, are able to co-opt pollinators from native species \autocite{Pysek2011}, dominate the networks of pollen transport \autocite{Lopezaraiza-Mikel2007, Alarcon2010}, and ultimately decrease the seed output of native species \autocite{Munoz2008}.
