@@ -54,6 +54,6 @@ p2 <- dplyr::data_frame(x = rep(1:len, 2),
 	ylab("") +
 	ggtitle("(b)")
 
-pdf("./figures/hypo_c1.pdf", width = 5.75 ,height = 1.92)
+pdf("./figures/hypo_c1.pdf", width = 5.75 ,height = 1.6)
 multiplot(p1, p2, cols = 2)
 dev.off()
