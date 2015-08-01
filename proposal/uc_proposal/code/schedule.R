@@ -37,8 +37,7 @@ mytheme <- theme_bw() +
 		legend.key = element_rect(colour = "white"),
 		# Change font
 				text = element_text(family = "Times", size = 11),
-				plot.margin=unit(c(0,0,0,0),"mm"),
-				panel.margin=unit(c(0,0,0,0),"mm"),
+				plot.margin=unit(c(0,0,-2,-2),"mm"),
 				axis.title = element_blank(),
 				panel.border = element_blank(),
 				panel.grid.major.y = element_line(colour = "grey80", linetype = 2, size = 0.2),
@@ -57,18 +56,19 @@ p <- ggplot() +
 	annotate(geom = "text", x = as.Date ("2018-04-15"), y = categ$m, label = categ$category, 
 					 family = "Times", angle = -90, size = 3.5) + 
 	geom_rect(data = filter(chart, type == "line"),
-						aes(xmin = start, xmax = end, ymin = as.numeric(name) - 0.18,
-								ymax = as.numeric(name) + 0.18, fill = completed),
+						aes(xmin = start, xmax = end, ymin = as.numeric(name) - 0.25,
+								ymax = as.numeric(name) + 0.25, fill = completed),
 						colour = "black", show_guide = FALSE) +
 	geom_point(data = filter(chart, type == "dot"),
 						 aes(x = mean, y = name, fill = completed), shape = 23, size = 3) +
 	# Change fill colours
 	scale_fill_manual("", values = c("#a6cee3"), na.value = "#1f78b4") + 
 	guides(fill = guide_legend(label.position = "right")) +
-	scale_x_date(expand = c(0,0), labels = date_format("%B %Y"), minor_breaks =  date_breaks("months")) + 
+	scale_x_date(expand = c(0,0), labels = date_format("%b. %Y"), minor_breaks =  date_breaks("months")) + 
 	mytheme
 
 # Save as pdf
-pdf("./figures/schedule.pdf", width = 9.3, height = 5.3)
+# pdf("./figures/schedule.pdf", width = 9.3, height = 5.3)
+pdf("./figures/schedule.pdf", width = 5.85, height = 5.1)
 p
 dev.off()
