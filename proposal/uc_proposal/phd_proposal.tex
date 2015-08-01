@@ -141,14 +141,14 @@ Only by better understanding the dynamics behind species interactions, can we ho
 
 \section{Ecosystems stability to species invasions} \label{chapter1}
 
-The invasion of naturalized species is changing ecosystems worldwide.
-Fortunately, during the last four decades, there has been steady progress in understanding the causes and outcomes of biotic invasions.
-For instance, we now understand that the success of an ecological invasion depends on geographic, bio-climatic, and taxonomic factors, as well as aspects of reproductive biology and general ecology of the introduced organisms.
+The invasion of naturalized species is changing ecosystems worldwide \autocite{Loevei1997, Ehrenfeld2010}.
+Fortunately, during the last four decades, there has been steady progress in understanding the causes and outcomes of biotic invasions \autocite{Romanuk2009, Powell2011}.
+For instance, we now understand that the success of an ecological invasion depends on geographic, bio-climatic, and taxonomic factors, as well as aspects of reproductive biology and general ecology of the introduced organisms \autocite{Simberloff1999, Richardson2000, Strayer2012, Thomsen2014, Galiana2014}.
 However, we are still unable to successfully predict the outcome of species introductions in a large proportion of cases.
 
-One of the potential explanations for this limited predictive success is that research on both the causes and consequences of invasive species, have focused on the negative interactions between species in the community (competition, and predator-prey relationships).
-However the establishment of an introduced species depends on, or at least is greatly enhanced, by the establishment of  mutualistic relationships \autocite{Richardson2000}---in which both interacting species have a positive outcome.
-In fact, there are multiple empirical examples of plants that only become successful invaders, when mutualistic partners that pollinate their flowers, or disperse their seeds, are available \autocite{Simberloff1999, Simberloff2006, Prior2014}.
+One of the potential explanations for this limited predictive success is that research on both the causes and consequences of invasive species, have focused on the negative interactions between species in the community (for example competition and predator-prey relationships).
+However, the establishment of an introduced species depends on, or at least is greatly enhanced, by the establishment of  mutualistic relationships \autocite{Richardson2000}---in which both interacting species have a positive outcome.
+In fact, there are multiple empirical examples of plants that only become successful invaders when mutualistic partners that pollinate their flowers, or disperse their seeds, are available \autocite{Simberloff1999, Simberloff2006, Prior2014}.
 Understanding the reciprocal relationship between biotic invasions and mutualism is a key step necessary to both improving current predictions of invasion outcomes, as well as evaluating how invasive species are modifying mutualistic systems \autocite{Richardson2000}.
 
 \subsection{Species coexistence theory underpins the invasibility of ecosystems}
@@ -166,19 +166,20 @@ Some evidence suggest other factors of global change like biotic invasions can a
 
 I hypothesise that network structure is not only modified by the succesive invasion of alien species, but it also plays an important role in determining the invasibility of the community.
 Two facts provide support to this hypothesis.
-First, mutualistic interactions are key for the invasion success of introduced species because introduced species need to have suitable pollinators in the new habitat in order to establish themselves in the community \autocite{Richardson2000, Sargent2008}.
+First, mutualistic interactions are key for the invasion success of introduced species because introduced plants need to have suitable pollinators in the new habitat in order to establish themselves in the community \autocite{Richardson2000, Sargent2008}.
 Second, the structure of mutualistic interactions is known to have direct implications for the number of coexisting species in the community \autocite{Moeller2004, Bascompte2006, Bascompte2007, Bastolla2009}.
 Specifically, structures that minimise plant competition seem to facilitate species coexistence and promote biodiversity \autocite{Bastolla2009}.
-Therefore structural attributes---like the degree of specialisation/generalisation, and the contribution to nestedness, of available pollinators---should influence the likelihood an introduced species becomes invasive \autocite{Stouffer2014}.
+Therefore structural attributes---like the degree of specialisation/generalisation, and the contribution to nestedness\footnote{Each species ‘contribution’ to the nested architecture is defined as the degree to which the organization of their interactions increases overall nestedness\autocite{Saavedra2011} (\autoref{fig:networks}).}, of available pollinators---should influence the likelihood an introduced species becomes invasive \autocite{Stouffer2014}.
 
 Previous studies have have found that simpler networks, with fewer species and fewer interactions between species, are easier to invade \autocite{Romanuk2009, Galiana2014}.
 However, these studies are strictly limited to trophic networks in which interactions are chiefly antagonistic (prey-predator) \autocite{Romanuk2009, Baiser2010, Galiana2014}.
 Unfortunately, these results cannot be easily extrapolated because mutualistic interactions introduce facilitative and competitive feedbacks that are not present in antagonistic interactions.
-Here I will fill that gap, and study the link between different structural attributes of mutualistic networks---degree of nestedness, contribution to nestedness, and compartmentalisation.
+Here I will fill that gap and study the link between different structural attributes of mutualistic networks---degree of nestedness, contribution to nestedness, and compartmentalisation.
 
-The first step to achieve that is to construct simulated communities of mutualistic interactions.
-The structure of those communities will be determined by implementing the varying structure of empirically observed networks, as well as by constructing simulated networks with a wide range of structural parameters (\autoref{fig:networks}).
-This will allow me to evaluate if the network structures that have been found to minimise competition also make the community more vulnerable to invasions.
+The first step to fill that gap is to construct simulated communities of mutualistic interactions.
+Initially I will build synthetic communities with a wide range of structural parameters (connectance, nestedness and compartmentalisation; \autoref{fig:networks}).
+Then I will follow by building communities that copy the structure of a collection of empirically observed mutualistic networks \autocite{Stouffer2014}.
+These two approaches will allow me to evaluate if the network structures that have been found to minimise competition also make the community more vulnerable to invasions.
 
 \begin{figure}[tbp]
   \includegraphics{networks}
@@ -199,9 +200,8 @@ Like in previous studies using dynamic models \autocite{Okuyama2008, Bastolla200
 
 The third step is to analyse the ecosystem response to an alien species.
 Depending on the network structure, and the traits of the native and alien species, the outcome of an species introduction can vary.
-One possible outcome option is that alien species is not able to invade the community(\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}a}).
+One possible outcome option is that alien species is not able to invade the community (\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}a}).
 Another possibility is that the alien species becomes an invader, which can, in some instances, have catastrophic consequences for other species in the community (\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}b, c}).
-respond.
 Therefore, I will quantify the invasibility of the community as the likelihood that an invader is successful \autocite{Ives2007, Romanuk2009}.
 
 \begin{figure}[tbp]
@@ -215,11 +215,11 @@ Therefore, I will quantify the invasibility of the community as the likelihood t
   }
 \end{figure}
 
-Because, as mentioned, a nested structure maximises the number of species that can stably coexist \autocite{Bastolla2009}, I predict that a similar relationship exists between invasibility and nestedness (\hyperref[fig:hypo_c1]{Figure \ref{fig:hypo_c1}a}).
-Additionally because a compartmentalised structure, might limit the potential for apparent facilitation between the native and invasive species I argue that there is a neggative relationship between invasibility and compartmentalisation (\hyperref[fig:hypo_c1]{Figure \ref{fig:hypo_c1}b}).
-This hypotheses link concepts of network structure, apparent competition/facilitation and ecosystem stability, and will allow us to put limited and somewhat disparate empirical observations in context.
+Because a nested structure is thought to maximise the number of species that can stably coexist \autocite{Bastolla2009}, I predict that a similar relationship exists between invasibility and nestedness (\hyperref[fig:hypo_c1]{Figure \ref{fig:hypo_c1}a}).
+Additionally, because a compartmentalised structure might limit the potential for apparent facilitation between the native and invasive species, I argue that there is a negative relationship between invasibility and compartmentalisation (\hyperref[fig:hypo_c1]{Figure \ref{fig:hypo_c1}b}).
+This hypotheses link concepts of network structure, apparent competition/facilitation and ecosystem stability, and testing them will allow us to put limited and somewhat disparate empirical observations in context.
 
-\begin{figure}[p]
+\begin{figure}[tbp]
   \includegraphics{hypo_c1}
   \caption{
   \label{fig:hypo_c1}
@@ -230,39 +230,30 @@ This hypotheses link concepts of network structure, apparent competition/facilit
 
 Despite the general belief that successful invasive species tend to be super-generalists \autocite{Richardson2000, Aizen2008, Vila2009, Albrecht2014}, a recent meta-analysis has shown that invasive species become very integrated in pollination networks \autocite{Stouffer2014}.
 Specifically, invasive plants seem to interact preferentially with pollinators that are weak contributors to community nestedness, which have been shown to be the less vulnerable to extinction \autocite{Saavedra2011, Stouffer2014}.
-However this empirical observation has not yet been explained mechanistically.
-By testing the hypotheses I propose, not only will light be shed on what makes ecosystem vulnerable to invasions, but also, because they deal with fundamental tenets in theoretical ecology, we will also gain a better understanding of the implications of network structure on the persistence of biodiversity, the link between stability and biodiversity, and the assembly of ecological communities.
+However, this empirical observation has not yet been explained mechanistically.
+By testing the hypotheses I propose light be shed on what makes ecosystem vulnerable to invasions.
+Also, because they deal with fundamental tenets in theoretical ecology, we will also gain a better understanding of the implications of network structure on the persistence of biodiversity, the link between stability and biodiversity, and the assembly of ecological communities.
 
 \subsection{Invasions change the structure of mutualistic networks}
 
-After analyising the structures that make an ecological network more or less susceptible to invasions, I then follow by investigating the consequences for the community when the invasion is successful (\autoref{fig:diagram_c1}).
-On one hand, I will explore the feedbacks on the structure of mutualistic network after an successful invasion; on the other hand I will explore when the invasions lead to a large number of secondary extinctions and ultimately ecosystem collapse (\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}c}).
+After analyising the structures that make an ecological network more or less susceptible to invasions, I will then investigate the consequences for the community when the invasion is successful.
+On the one hand, I will explore the feedbacks on the structure of mutualistic network after an successful invasion; on the other, I will explore when the invasions lead to a large number of secondary extinctions and ultimately ecosystem collapse (\hyperref[fig:dynamics]{Figure \ref{fig:dynamics}c}).
 
-\begin{figure}[p]
-  \centering
-  \includegraphics{diagram_c1}
-  \caption{
-  \label{fig:diagram_c1}
-  The network structure determines the invasibility of an ecological community.
-  However, successful invasions also modify the structure itself, whether trough a shift in interaction partners or trough secondary extinctions in the community.
-  }
-\end{figure}
+Successful invasive species have been shown to have detrimental effects in the native species through changes on pollinator populations and behavior \autocite{Christian2001, Bjerknes2007, Morales2009, Vila2009}.
+Although they can have facilitative effects by increasing the total visitation rates \autocite{Bjerknes2007, Sargent2008}, they can also have negative effects by decreasing conspecific or increasing heterospecific pollen transfer \autocite{Morales2009}.
+Therefore, changes to the structure of networks are expected.
 
-Successful invasive species have been shown to have pollination effects in the native species trough changes on pollinator populations and behavior \autocite{Christian2001, Bjerknes2007, Morales2009, Vila2009}.
-Although, as mentioned, they can have facilitative effects by increasing the total visitation rates \autocite{Bjerknes2007, Sargent2008}, they can also have negative effects by decreasing con-specific or increasing hetero-specific pollen transfer \autocite{Morales2009}.
-Therefore, changes on the structure of networks are expected.
-
-Although there are few empirical studies that measure the consequences of ecological invasions in network structure, evidence suggest that invasive species have indeed the ability to modify the structure of mutualistic networks.
+Although there are few empirical studies that measure the consequences of ecological invasions in network structure, evidence suggest that invasive species have the ability to modify the structure of mutualistic networks.
 In particular, invaded communities seem to be more nested \autocite{Bartomeus2008, Stouffer2014} and less compartmentalised \autocite{Albrecht2014} than their un-invaded counterparts , while also having altered visitation patterns \autocite{Vila2009}.
-However results are somewhat contradictory \autocite{Gilberto2012}, and the limited amount of evidence precludes the generalisation of the patterns observed.
+Nevertheless, these results are somewhat contradictory \autocite{Gilberto2012}, and the limited amount of evidence precludes the generalisation of the patterns observed.
 
 I will use the theoretical results obtained from the population dynamics model to fill the gap on empirical data.
-Specifically I will quantify the changes on network structure (nestedness, and compartmentalisation) induced by the invasive species, and the contribution to structure of both the invasive species, and the species it interacts with \autocite{Saavedra2011, Stouffer2014}.
+Specifically, I will quantify the changes to network structure (nestedness and compartmentalisation) induced by the invasive species, and the contribution to structure of both the invasive species, and the species it interacts with \autocite{Saavedra2011, Stouffer2014}.
 Therefore, it will be possible to quantify how an initial successful invasion affects the future invasibility of the community.
-However a successful invasion can, not only affect future invasibility by causing changes on network structure, but also by causing extinction cascades that disrupt mutualisms in the community \autocite{Christian2001, RodriguezCabal2013}.
+A successful invasion can not only cause changes on network structure, but it can also cause extinction cascades that disrupt mutualisms in the community \autocite{Christian2001, RodriguezCabal2013}.
 
 It is also possible to quantify the stability of an ecosystem by measuring the number of species extinctions that follow a successful invasion \autocite{Post1983, Ives2007}.
-Paradoxically, the same structures that I propose are the most vulnerable to invasions, have also been shown to be the most robust to cascading extinctions in ecological networks \autocite{Tylianakis2010, Stouffer2011, Albrecht2014}.
+Paradoxically, the same structures that I propose are the most vulnerable to invasions have also been shown to be the most robust to cascading extinctions in ecological networks \autocite{Tylianakis2010, Stouffer2011, Albrecht2014}.
 The research I propose will help disentangle these two seemingly disparate observations.
 
 
