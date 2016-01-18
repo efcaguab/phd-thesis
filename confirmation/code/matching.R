@@ -91,8 +91,8 @@ p1 <- ggplot(allEdges) +  # Pretty simple plot code
 						 aes(x = x, y = y , fill = spe_c), size = 5, pch = 21,
 						 colour = "black") + 
 	geom_text(data = nodes, aes(x = x, y = y + pos, label = spe), size = 3, parse = T) +
-	scale_fill_manual(values = c("#377eb8", "white")) + 
-	scale_colour_manual(values = c("#377eb8", "black")) +
+	scale_fill_manual(values = c("#bdbdbd", "white")) + 
+	scale_colour_manual(values = c("#bdbdbd", "black")) +
 	my_theme + xlab("") + ylab("") + ylim(c(-0.27, 1.26)) +
  theme(plot.margin=unit(c(4,4,-4,-4),"mm"))
 			
@@ -133,8 +133,8 @@ p2 <- ggplot(allEdges) +  # Pretty simple plot code
 						 colour = "black") + 
 	geom_text(data = nodes, aes(x = x + 0.08, y = y + pos, label = spe_l), parse = T, size = 3) +
 	# coord_flip()  + scale_x_reverse() + scale_y_reverse() +
-	scale_fill_manual(values = c("#377eb8", "white")) + 
-	scale_colour_manual(values = c("#377eb8", "black")) +
+	scale_fill_manual(values = c("#bdbdbd", "white")) + 
+	scale_colour_manual(values = c("#bdbdbd", "black")) +
 	xlim(c(-0.12, 4.12)) + ylim(c(-0.27, 1.26)) +
 	my_theme + xlab("") + ylab("")
 

@@ -166,7 +166,7 @@ In a directed network, a matching is a subset of links in which no two links sha
     \centering
     \includegraphics[width=\textwidth]{control_net}
     \caption{
-    On the left a simple pollination network; the direction of the arrows indicates the direction of the largest dependency between species pairs. On the right the representation of the network used to calculate the maximum matching (in blue). Matched species, i.e. those whose dynamic could be ``controled'' by another species are shown in blue. Note that the maximum matching is not necessarely unique.
+    On the left a simple pollination network; the direction of the arrows indicates the direction of the largest dependency between species pairs. On the right the representation of the network used to calculate the maximum matching (in grey). Matched species, i.e. those whose dynamic could be ``controled'' by another species are shown in blue. Note that the maximum matching is not necessarely unique.
     }
     \label{fig:maximum_matching}
 \end{figure} 
@@ -177,14 +177,36 @@ To quantify to what extent the number of driver species is characteristic of the
 
 We quantified the relative importance of each species for network dynamics. To do this, we counted the number of times a particular species was a driver species across all possible maximum matchings in the pollination network. The number of maximum matchings were found by generating the line graph of the alternative bipartite network representation (\autoref{fig:maximum_matching}), and then enumerating the maximal cliques in the complement of the line graph \autocite{Csardi2006}. 
 
-Finally, we asked the question wheter some structural properties can predict the relative importance of driver species. We regressed the importance of each species against measures of centrality (degree, betweeness), measures related to network robustness (contribution to nestedness) and measures of strength of association (visitation levels). 
+Finally, we tackeld the question wheter some structural properties can predict the relative importance of driver species. Here, we regressed the importance of each species against measures of centrality (degree, betweeness), measures related to network robustness (contribution to nestedness) and measures of strength of association (visitation levels). 
 
-\subsubsection*{Preliminary results} 
+\subsubsection*{Preliminary results \& Discussion} 
+
+To date only data from the National Cap de Creus in Northeastern Spain has been analysed. We found that if we were to control the dynamics of the whole community, we would need to control between 55 and 75\% of the species in the community. The proportion of driver species did was not significanctly different between invaded and uninvaded ecosystems (\autoref{fig:n_driver}). 
+
+\begin{figure}
+    \centering
+		\includegraphics{n_driver}
+    \caption{
+    Proportion of species that needs to be controled for all networks. There are no significant differences between invaded and uninvaded communities.
+    }
+    \label{fig:n_driver}
+\end{figure} 
+
+When looking at how empirical pollination networks compare to null models that mantain 
+
+\begin{figure}
+    \centering
+		\includegraphics{random_degree}
+    \caption{
+    Difference between the number of driver species in the empirical pollination networks versus randomisations of the same networks. The unshaded areas suggest a significant difference.
+    }
+    \label{fig:random_degree}
+\end{figure} 
 
 
 \section*{Research Plan}
 
-So far dates estimated in the proposal research plan have been 
+So far dates estimated in the proposal research plan have been  
 
 \subsubsection*{Schedule:}
 %\includegraphics{schedule}
