@@ -84,8 +84,7 @@ nodes <- data.frame(layoutCoordinates) %>%
 								pos = rep(c(0.25, -0.25), c(3,2)))
 
 p1 <- ggplot(allEdges) +  # Pretty simple plot code
-	geom_path(aes(x = x, y = y, group = Group, colour = type), 
-						size = 0.7,
+	geom_path(aes(x = x, y = y, group = Group, colour = type, size = type), 
 						arrow = arrow(type = "closed", angle = 15, length = grid::unit(0.1, "inches"))) + # and taper
 	geom_point(data = nodes,  # Add nodes
 						 aes(x = x, y = y , fill = spe_c), size = 5, pch = 21,
@@ -94,7 +93,9 @@ p1 <- ggplot(allEdges) +  # Pretty simple plot code
 	scale_fill_manual(values = c("#bdbdbd", "white")) + 
 	scale_colour_manual(values = c("#bdbdbd", "black")) +
 	my_theme + xlab("") + ylab("") + ylim(c(-0.27, 1.26)) +
- theme(plot.margin=unit(c(4,4,-4,-4),"mm"))
+ theme(plot.margin=unit(c(4,4,-4,-4),"mm")) +
+	scale_size_manual(values = c(0.7, 0.4))
+
 			
 source("~/github/driver-species/code/functions/digraph_bipartite.R")
 	
@@ -126,8 +127,7 @@ nodes <- data.frame(layoutCoordinates) %>%
 								pos = rep(c(0.25, -0.25), each = 5))
 
 p2 <- ggplot(allEdges) +  # Pretty simple plot code
-	geom_path(aes(x = x, y = y, group = Group, colour = type), 
-						size = 0.7) + # and taper
+	geom_path(aes(x = x, y = y, group = Group, colour = type, size = type)) + # and taper
 	geom_point(data = nodes,  # Add nodes
 						 aes(x = x, y = y, fill = spe_c), size = 5, pch = 21,
 						 colour = "black") + 
@@ -136,7 +136,8 @@ p2 <- ggplot(allEdges) +  # Pretty simple plot code
 	scale_fill_manual(values = c("#bdbdbd", "white")) + 
 	scale_colour_manual(values = c("#bdbdbd", "black")) +
 	xlim(c(-0.12, 4.12)) + ylim(c(-0.27, 1.26)) +
-	my_theme + xlab("") + ylab("")
+	my_theme + xlab("") + ylab("") +
+	scale_size_manual(values = c(0.7, 0.4))
 
 pdf("./figures/control_net.pdf", width = 5.75 ,height = 1.35)
 multiplot(p1, p2, layout = matrix(nrow = 1, c(1,1,1,2,2,2,2,2)))
