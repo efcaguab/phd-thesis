@@ -26,5 +26,10 @@ maincolor: BrickRed
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(out.width = '90%', fig.align = 'center')
+knitr::opts_chunk$set(out.width = '90%', 
+                      fig.align = 'center',
+                      echo = FALSE, 
+                      message = FALSE, 
+                      warning = FALSE)
+options(knitr.kable.NA = '')
 ```
