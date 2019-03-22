@@ -1,2 +1,2 @@
 book_filename: thesis
-rmd_files: ["index.Rmd", "introduction.Rmd", "driver-species.Rmd"]
+rmd_files: ["index.Rmd", "introduction.Rmd", "driver-species.Rmd", "conclusion.Rmd"]
