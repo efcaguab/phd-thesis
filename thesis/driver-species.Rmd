@@ -63,7 +63,7 @@ dplyr::data_frame(rows = c(rbind(names(defs), unlist(defs))), dummy2 = "") %>%
                caption = "Glossary", 
                escape = F, 
                linesep = c('', '\\addlinespace')) %>% 
-  kableExtra::kable_styling(font_size = 10) %>%
+  kableExtra::kable_styling(font_size = 10, latex_options = "hold_position") %>%
   kableExtra::add_indent(seq(2, length(defs)*2, by = 2)) %>%
   kableExtra::column_spec(1, width = paste0(fig_sizes()$two_column_width * 0.9, "in"))
 ```
