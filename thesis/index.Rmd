@@ -21,7 +21,7 @@ colorlinks: no
 lot: no
 lof: no
 site: bookdown::bookdown_site
-logo: images/bookdownplus-logo.pdf
+logo: images/uc-logo.jpg
 ---
 
 ```{r, include=FALSE}

@@ -31,8 +31,8 @@
                 footinclude=true,cleardoublepage=empty,
                 BCOR=5mm,paper=b5,fontsize=11pt, % Binding correction, paper type and font size
                 ngerman,american, % Languages
-                ]{scrreprt} 
-%\usepackage{CJK}                
+                ]{scrreprt}
+%\usepackage{CJK}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Thesis Configuration File
 %
@@ -52,18 +52,18 @@
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 % Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
 
-\newcommand{\myTitle}{A Classic Thesis Style\xspace}
-\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
+\newcommand{\myTitle}{The resilience of ecological networks\xspace}
+\newcommand{\mySubtitle}{A Thesis for Doctorate at the UC\xspace}
 \newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
-\newcommand{\myName}{Andr\'e Miede\xspace}
-\newcommand{\myProf}{Put name here\xspace}
-\newcommand{\myOtherProf}{Put name here\xspace}
-\newcommand{\mySupervisor}{Put name here\xspace}
-\newcommand{\myFaculty}{Put data here\xspace}
-\newcommand{\myDepartment}{Put data here\xspace}
-\newcommand{\myUni}{Put data here\xspace}
-\newcommand{\myLocation}{Darmstadt\xspace}
-\newcommand{\myTime}{December 2011\xspace}
+\newcommand{\myName}{Fernando Cagua\xspace}
+\newcommand{\myProf}{Daniel Stouffer\xspace}
+\newcommand{\myOtherProf}{Jason Tylianakys\xspace}
+\newcommand{\mySupervisor}{Daniel Stouffer\xspace}
+\newcommand{\myFaculty}{College of Science\xspace}
+\newcommand{\myDepartment}{School of Biological Sciences\xspace}
+\newcommand{\myUni}{University pf Canterbury\xspace \linebreak Te Whare Wānanga o Waitaha}
+\newcommand{\myLocation}{Christchurch\xspace}
+\newcommand{\myTime}{December 2019\xspace}
 \newcommand{\myVersion}{version 4.0\xspace}
 
 %----------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@
 \newcommand{\ie}{i.\,e.}
 \newcommand{\Ie}{I.\,e.}
 \newcommand{\eg}{e.\,g.}
-\newcommand{\Eg}{E.\,g.} 
+\newcommand{\Eg}{E.\,g.}
 
 \newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
 \providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
@@ -85,10 +85,10 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 %------------------------------------------------
- 
+
 \PassOptionsToPackage{latin9}{inputenc} % latin9 (ISO-8859-9) = latin1+"Euro sign"
 \usepackage{inputenc}
- 
+
  %------------------------------------------------
 
 %\PassOptionsToPackage{ngerman,american}{babel}  % Change this to your language(s)
@@ -96,16 +96,16 @@
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
 \usepackage{babel}
 
-%------------------------------------------------			
+%------------------------------------------------
 
 \PassOptionsToPackage{square,numbers}{natbib}
  \usepackage{natbib}
- 
+
  %------------------------------------------------
 
-\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS
  \usepackage{amsmath}
- 
+
  %------------------------------------------------
 
 \PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
@@ -121,7 +121,7 @@
 
 %------------------------------------------------
 
-\usepackage{fixltx2e} % Fixes some LaTeX stuff 
+\usepackage{fixltx2e} % Fixes some LaTeX stuff
 
 %------------------------------------------------
 
@@ -136,7 +136,7 @@
 %------------------------------------------------
 
 \PassOptionsToPackage{pdftex}{graphicx}
-\usepackage{graphicx} 
+\usepackage{graphicx}
 
 %----------------------------------------------------------------------------------------
 %	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
@@ -148,7 +148,7 @@
 \newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
 \usepackage{caption}
 \captionsetup{format=hang,font=small}
-\usepackage{subfig}  
+\usepackage{subfig}
 
 $if(tables)$
 \usepackage{longtable,booktabs}
@@ -159,7 +159,7 @@ $endif$
 %	CODE LISTINGS SETUP
 %----------------------------------------------------------------------------------------
 
-\usepackage{listings} 
+\usepackage{listings}
 %\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
 \lstset{language=[LaTeX]Tex, % Specify the language for listings here
 keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
@@ -189,10 +189,10 @@ belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text
 
 \hypersetup{
 % Uncomment the line below to remove all links (to references, figures, tables, etc)
-%draft, 
+%draft,
 colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
 % Uncomment the line below if you want to have black links (e.g. for printing black and white)
-%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
+%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV,
 breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
 plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
 hypertexnames=true, pdfhighlight=/O, urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
@@ -205,7 +205,7 @@ pdfkeywords={},
 pdfcreator={pdfLaTeX},
 pdfproducer={LaTeX with hyperref and classicthesis}
 %------------------------------------------------
-}   
+}
 
 %----------------------------------------------------------------------------------------
 %	BACKREFERENCES
@@ -221,23 +221,23 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
 {
 \PassOptionsToPackage{hyperpageref}{backref}
-\usepackage{backref} % to be loaded after hyperref package 
+\usepackage{backref} % to be loaded after hyperref package
 \renewcommand{\backreftwosep}{ and~} % separate 2 pages
 \renewcommand{\backreflastsep}{, and~} % separate last of longer list
 \renewcommand*{\backref}[1]{}  % disable standard
 \renewcommand*{\backrefalt}[4]{% detailed backref
-\ifcase #1 
+\ifcase #1
 \backrefnotcitedstring
 \or
 \backrefcitedsinglestring{#2}
 \else
 \backrefcitedmultistring{#2}
 \fi}
-}{\relax} 
+}{\relax}
 
 %----------------------------------------------------------------------------------------
 %	AUTOREFERENCES SETUP
-%	Redefines how references in text are prefaced for different 
+%	Redefines how references in text are prefaced for different
 %	languages (e.g. "Section 1.2" or "section 1.2")
 %----------------------------------------------------------------------------------------
 
@@ -269,10 +269,10 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 
 %----------------------------------------------------------------------------------------
 
-\usepackage{style/classicthesis} 
+\usepackage{style/classicthesis}
 
 %----------------------------------------------------------------------------------------
-%	CHANGING TEXT AREA 
+%	CHANGING TEXT AREA
 %----------------------------------------------------------------------------------------
 
 %\linespread{1.05} % a bit more for Palatino
@@ -339,7 +339,7 @@ pdfproducer={LaTeX with hyperref and classicthesis}
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
-%\begin{CJK*}{GBK}{song} 
+%\begin{CJK*}{GBK}{song}
 
 \frenchspacing % Reduces space after periods to make text more compact
 
@@ -359,48 +359,58 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %	PRE-CONTENT THESIS PAGES
 %----------------------------------------------------------------------------------------
 
-%\include{FrontBackmatter/Titlepage} % Main title page
-
-% Title Page
-
-\begin{titlepage}
-
-\begin{addmargin}[-1cm]{-3cm}
+%*******************************************************
+% Little Dirty Titlepage
+%*******************************************************
+\thispagestyle{empty}
+%\pdfbookmark[1]{Titel}{title}
+%*******************************************************
 \begin{center}
-\large
+    \spacedlowsmallcaps{\myName} \\ \medskip
 
-\hfill
-\vfill
-
-\begingroup
-$if(subtitle)$
-\color{Maroon}\spacedallcaps{$title$} \\$subtitle$\\ \bigskip % Thesis title
-$else$
-\color{Maroon}\spacedallcaps{$title$} \\ \bigskip % Thesis title
-$endif$
-
-\endgroup
-
-\spacedlowsmallcaps{$author$} % Your name
-
-\vfill
-
-\includegraphics[width=6cm]{$logo$} \\ \medskip % Picture
-
-%\mySubtitle \\ \medskip % Thesis subtitle
-%\myDegree \\
-%\myDepartment \\
-%\myFaculty \\
-%\myUni \\ \bigskip
-
-%\myTime\ -- \myVersion % Time and version
-
-\vfill
-
+    \begingroup
+        \color{Maroon}\spacedallcaps{\myTitle}
+    \endgroup
 \end{center}
-\end{addmargin}
 
+%*******************************************************
+% Titlepage
+%*******************************************************
+\begin{titlepage}
+    %\pdfbookmark[1]{\myTitle}{titlepage}
+    % if you want the titlepage to be centered, uncomment and fine-tune the line below (KOMA classes environment)
+    \begin{addmargin}[-1cm]{-3cm}
+    \begin{center}
+        \large
+
+        \hfill
+
+        \vfill
+
+        \begingroup
+            \color{Maroon}\spacedallcaps{\myTitle} \\ \bigskip
+        \endgroup
+
+        \spacedlowsmallcaps{\myName}
+
+        \vfill
+
+        \includegraphics[width=6cm]{$logo$} \\ \medskip
+
+        \mySubtitle \\ \medskip
+        \myDegree \\
+        \myDepartment \\
+        \myFaculty \\
+        \myUni \\ \bigskip
+
+        \myTime\ -- \myVersion
+
+        \vfill
+
+    \end{center}
+  \end{addmargin}
 \end{titlepage}
+
 
 % \include{FrontBackmatter/Titleback} % Back of the title page
 
@@ -429,14 +439,14 @@ $endif$
 
 \manualmark
 \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
-\tableofcontents 
+\tableofcontents
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
 
 \clearpage
 
-\begingroup 
+\begingroup
 \let\clearpage\relax
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
@@ -463,23 +473,23 @@ $endif$
 \pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
 
 \listoftables
-        
+
 \vspace*{8ex}
 \newpage
-    
+
 %----------------------------------------------------------------------------------------
 %	List of Listings
-%---------------------------------------------------------------------------------------- 
+%----------------------------------------------------------------------------------------
 
 \refstepcounter{dummy}
 %\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
 \pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
 
-\lstlistoflistings 
+\lstlistoflistings
 
 \vspace*{8ex}
 \newpage
-       
+
 %----------------------------------------------------------------------------------------
 %	Acronyms
 %----------------------------------------------------------------------------------------
@@ -496,8 +506,8 @@ $endif$
 \acro{DRY}{Don't Repeat Yourself}
 \acro{API}{Application Programming Interface}
 \acro{UML}{Unified Modeling Language}
-\end{acronym}  
-                   
+\end{acronym}
+
 \endgroup
 
 \cleardoublepage
@@ -520,7 +530,7 @@ $body$
 \label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
 
 \manualmark
-\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}} 
+\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
 \refstepcounter{dummy}
 
 \addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
