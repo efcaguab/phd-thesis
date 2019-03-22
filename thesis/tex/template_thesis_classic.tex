@@ -465,12 +465,31 @@ pdfproducer={LaTeX with hyperref and classicthesis}
     1964\,--\,2009
 \end{center}
 
-
-
-
 %\cleardoublepage\include{FrontBackmatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
 
-%\cleardoublepage\include{FrontBackmatter/Abstract} % Abstract page
+%*******************************************************
+% Abstract
+%*******************************************************
+\cleardoublepage
+
+%\renewcommand{\abstractname}{Abstract}
+\pdfbookmark[1]{Abstract}{Abstract}
+% \addcontentsline{toc}{chapter}{\tocEntry{Abstract}}
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+\chapter*{Abstract}
+Short summary of the contents in English\dots a great guide by
+Kent Beck how to write good abstracts can be found here:
+
+
+\vfill
+
+\endgroup
+
+\vfill
 
 %\cleardoublepage\include{FrontBackmatter/Publication} % Publications from the thesis page
 
