@@ -4,3 +4,6 @@
 *.DS_Store
 *.log
 references.bib
+thesis/_book/thesis\.pdf
+
+thesis/_book/thesis\.tex
