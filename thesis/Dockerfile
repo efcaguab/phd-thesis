@@ -8,3 +8,4 @@ RUN R -e "install.packages('drake', repos = c(CRAN = 'https://mran.revolutionana
 RUN apt-get -y --no-install-recommends install libmagick++-dev
 # Bookdown plus is used for its Classic thesis template
 RUN R -e "install.packages('bookdownplus', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
+RUN R -e "install.packages('kableExtra', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"

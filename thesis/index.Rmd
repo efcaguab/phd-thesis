@@ -33,4 +33,5 @@ knitr::opts_chunk$set(out.width = '90%',
                       warning = FALSE)
 options(knitr.kable.NA = '')
 f <- lapply(list.files("code", full.names = T), source)
+library(magrittr)
 ```
