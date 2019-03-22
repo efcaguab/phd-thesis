@@ -32,4 +32,5 @@ knitr::opts_chunk$set(out.width = '90%',
                       message = FALSE, 
                       warning = FALSE)
 options(knitr.kable.NA = '')
+f <- lapply(list.files("code", full.names = T), source)
 ```
