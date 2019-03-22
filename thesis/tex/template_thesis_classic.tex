@@ -527,7 +527,32 @@ On behalf of all co-authors, the undersigned certifys that:
 \end{flushright}
 
 
-%\cleardoublepage\include{FrontBackmatter/Acknowledgments} % Acknowledgements page
+%*******************************************************
+% Acknowledgments
+%*******************************************************
+\cleardoublepage
+\pdfbookmark[1]{Acknowledgments}{acknowledgments}
+
+\begin{flushright}{\slshape
+    We have seen that computer programming is an art, \\
+    because it applies accumulated knowledge to the world, \\
+    because it requires skill and ingenuity, and especially \\
+    because it produces objects of beauty.} \\ \medskip
+    --- \defcitealias{knuth:1974}{Donald E. Knuth}\citetalias{knuth:1974} \citep{knuth:1974}
+\end{flushright}
+
+
+
+\bigskip
+
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+\chapter*{Acknowledgments}
+Thanks to everyone for being awesome
+
+\endgroup
 
 \pagestyle{scrheadings} % Show chapter titles as headings
 
