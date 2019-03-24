@@ -99,10 +99,12 @@
 
 %------------------------------------------------
 
-\PassOptionsToPackage{square,numbers}{natbib}
- \usepackage{natbib}
-% \usepackage{biblatex}
-% \addbibresource{phd-bibliography/driver-species.bib}
+% \PassOptionsToPackage{square,numbers}{natbib}
+ % \usepackage{natbib}
+ % TO break down urls in the references
+ % \usepackage[anythingbreaks]{breakurl}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{$bibliography$}
 
  %------------------------------------------------
 
@@ -591,7 +593,7 @@ On behalf of all co-authors, the undersigned certifys that:
     because it applies accumulated knowledge to the world, \\
     because it requires skill and ingenuity, and especially \\
     because it produces objects of beauty.} \\ \medskip
-    --- \defcitealias{knuth:1974}{Donald E. Knuth}\citetalias{knuth:1974} \citep{knuth:1974}
+    % --- \defcitealias{knuth:1974}{Donald E. Knuth}\citetalias{knuth:1974} \citep{knuth:1974}
 \end{flushright}
 
 
@@ -709,20 +711,22 @@ Thanks to everyone for being awesome
 $body$
 
 % Bibliography
+%
+\printbibliography
 
 \label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
-
+%
 \manualmark
 \markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
 \refstepcounter{dummy}
-
+%
 \addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
 \addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
-
-\bibliographystyle{plainnat}
-
-%\bibliography{bib/bib}
-\bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
-
-%\end{CJK*}
+%
+% \bibliographystyle{plainnat}
+%
+% %\bibliography{bib/bib}
+% \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
+%
+% %\end{CJK*}
 \end{document}

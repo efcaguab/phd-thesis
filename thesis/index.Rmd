@@ -7,14 +7,17 @@ output:
     template: tex/template_thesis_classic.tex
     keep_tex: yes
     # citation_package: biblatex
-#    latex_engine: xelatex
+    citation_package: biblatex
+    # biblio-style: alphabetic
+    # biblatexoptions: [backend=biber, maxbibnames=999]
+    latex_engine: pdflatex
     toc_depth: 3
     toc_unnumbered: no
     toc_appendix: yes
     pandoc_args:  --top-level-division=chapter
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 bibliography: [phd-bibliography/network-control.bib]
-biblio-style: apalike
+# biblio-style: apalike
 link-citations: yes
 colorlinks: no  
 # toc: no
