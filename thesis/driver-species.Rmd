@@ -203,3 +203,43 @@ Specifically, we also calculated the controllability (the size of the minimum dr
 Second, because interspecific dependencies themselves depend on the network topology and consequently on the accurate sampling of interactions, we tested the robustness of structural controllability to the uncertainty involved with the sampling of interactions. 
 Here, we compared the results obtained when using the full network and when randomly removing interactions from the weakest links in the network. 
 This effectively removed the rare interactions from the networks. 
+
+## Results
+
+### Controllability
+
+The size of the minimum driver-node set relative to the number of species in each network $n_D$ ranged between $n_D = 0.58$ and $n_D = 0.88$ (median 0.74). 
+
+### Differences between invaded and uninvaded networks
+
+We found that the relative size of the minimum driver-node set of invaded communities was not significantly different from that of communities that have not been invaded (Figure \@ref(fig:fig-emp-controllability)a). 
+In contrast, there was a large negative relationship between $n_D$ and the network asymmetry (Figure \@ref(fig:fig-emp-controllability)b).
+Furthermore, there were also negative, albeit weaker, relationships between $n_D$ and connectance, nestedness and species richness. 
+The relative size of the minimum driver-node set $n_D$ of empirical networks did not differ from that of a null model that roughly preserved the degree distribution and fully preserved the network connectance ($p = 0.66$; Figure \@ref(fig:fig-emp-controllability)c). 
+However, empirical networks had a larger $n_D$ than null models that preserved the interactions but shuffled the direction of control of the empirical network ($p = 2.4 \times 10^{-7}$). 
+
+### Species' roles
+
+Species varied widely in their control capacity (Figure \@ref(fig:fig-species-level)). 
+Pollinators had, in average, larger control capacities than plants. 
+That said, almost no pollinator was critical for network control, (where a species is critical for control if it has control capacity \(\phi_i = 1\)). 
+Plants had a multimodal distribution of control capacity with maxima at both extremes of the distribution (Figure \@ref(fig:fig-species-level)a). 
+Intriguingly, every invasive species was critical for network control in each of their communities.
+The species-level models identified a positive relationship between control capacity \(\phi\) and a species' contribution to nestedness, visitation strength, and the asymmetry of its dependences (Table \@ref(tab:tab-model-selection-table); Figure \@ref(fig:fig-species-partial)). 
+Comparatively, species' degree was only weakly associated with control capacity. 
+In fact, many species with a low degree, especially pollinators, exhibited a large control capacity in their communities.
+
+Species' control capacity $\phi$ was only weakly correlated with commonly used centrality metrics. 
+The Spearman correlation between these ranged between -0.14 (with betweeness centrality) and 0.42 (with eigen centrality). 
+The correlation coefficient with degree was 0.13, however most species with high degree also tended to attain a high control capacity.
+
+Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
+Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability); Supporting Information \@ref(S-structural-stability)). 
+
+## Testing assumptions
+
+We found that using visitation as a proxy for the strength of species' interactions leads to similar results than those obtained using pollinator importance [regarded as an accurate measure of the pollination service to plants; @neeman_framework_2010]. 
+Importantly, we also found that structural stability is robust to incomplete sampling of interactions. 
+Indeed, we found strong agreement between results obtained using the complete empirical networks and those obtained by randomly removing the weakest interactions. 
+Despite removing rare interactions and species, the relative size of the minimum driver-node set, the superior species, and the relative rankings of control capacity were generally maintained. Of particular note, we found that critical species in the full network were also critical in the vast majority of rarefied networks. 
+
