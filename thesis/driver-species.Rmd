@@ -113,7 +113,7 @@ Admittedly, the link between matchings and structural controllability may appear
 
 This link becomes apparent after examining the graphical interpretation of structural controllability: from a topological perspective, a network is structurally controllable if there are no inaccessible nodes—that is, nodes without incoming links—or dilations—*expansions* of the network (Figure \@ref(fig:fig-example-networks)b).
 The key is to note that these two fundamental conditions of structural controllability imply that there is a one-to-one relationship between *superior* and *subordinate* nodes just like the one-to-one relationship between jobs and applicants (Figure \@ref(fig:fig-example-networks)b, bottom left). 
-We thus use the maximum-matching algorithm to find an optimal pairing of superior (those that can control another node) and subordinate nodes (those that can be controlled by another node) in a manner consistent with the controllability conditions (Supporting Information Section \@ref(S-one-maximum-matching)). 
+We thus use the maximum-matching algorithm to find an optimal pairing of superior (those that can control another node) and subordinate nodes (those that can be controlled by another node) in a manner consistent with the controllability conditions. 
 Given the result, we can further decompose the matching into a set of paths that reveal how a control signal can flow across the links in a network to reach every node within it. 
 As recently shown [@liu_controllability_2011], the minimum driver-node set---those to which an external control input should be applied to make the system controllable---corresponds exactly to the *unmatched* nodes in the network (Figure \@ref(fig:fig-control-configuration)).
 
@@ -234,7 +234,7 @@ The Spearman correlation between these ranged between -0.14 (with betweeness cen
 The correlation coefficient with degree was 0.13, however most species with high degree also tended to attain a high control capacity.
 
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
-Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability); Supporting Information \@ref(S-structural-stability)). 
+Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
 ## Testing assumptions
 
