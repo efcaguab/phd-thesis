@@ -89,7 +89,7 @@ dplyr::data_frame(rows = c(rbind(names(defs), unlist(defs))), dummy2 = "") %>%
   knitr::kable("latex", 
                booktabs = T, 
                col.names = NULL,
-               caption = "Glossary", 
+               caption = "Controllability glossary", 
                escape = F, 
                linesep = c('', '\\addlinespace')) %>% 
   kableExtra::kable_styling(font_size = 10, latex_options = "hold_position") %>%
