@@ -687,6 +687,9 @@ Thanks to everyone for being awesome
 %	THESIS CONTENT - CHAPTERS
 %----------------------------------------------------------------------------------------
 
+\addtocontents{toc}{\protect\vspace{1em}} % Place front matter stuff slightly above the rest of the document content in the table of contents
+
+
 % \ctparttext{You can put some informational part preamble text here. Illo principalmente su nos. Non message \emph{occidental} angloromanic da. Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate publicationes via. Pan in terra summarios, capital interlingua se que. Al via multo esser specimen, campo responder que da. Le usate medical addresses pro, europa origine sanctificate nos se.} % Text on the Part 1 page describing  the content in Part 1
 
 
@@ -694,7 +697,11 @@ $body$
 
 % Bibliography
 %
-\printbibliography
+\addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
+\addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
+\printbibliography[
+heading=bibintoc
+]
 
 \label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
 %
@@ -702,8 +709,7 @@ $body$
 \markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
 \refstepcounter{dummy}
 %
-\addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
-\addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
+
 %
 % \bibliographystyle{plainnat}
 %
