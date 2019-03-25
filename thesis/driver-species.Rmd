@@ -236,7 +236,7 @@ The correlation coefficient with degree was 0.13, however most species with high
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
 Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
-## Testing assumptions
+### Testing assumptions
 
 We found that using visitation as a proxy for the strength of species' interactions leads to similar results than those obtained using pollinator importance [regarded as an accurate measure of the pollination service to plants; @neeman_framework_2010]. 
 Importantly, we also found that structural stability is robust to incomplete sampling of interactions. 
