@@ -31,10 +31,17 @@ maincolor: BrickRed
 ```{r, include=FALSE}
 knitr::opts_chunk$set(out.width = '90%', 
                       fig.align = 'center',
-                      echo = FALSE, 
+                      echo = FALSE,
                       message = FALSE, 
                       warning = FALSE)
 options(knitr.kable.NA = '')
-f <- lapply(list.files("code", full.names = T), source)
+
+# Load required packages
 library(magrittr)
+library(ggplot2)
+# Load functions
+f <- lapply(list.files("code", full.names = T, recursive = T, pattern = ".+\\.R"), source)
+
 ```
+
+
