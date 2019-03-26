@@ -150,6 +150,11 @@ We thus use the maximum-matching algorithm to find an optimal pairing of superio
 Given the result, we can further decompose the matching into a set of paths that reveal how a control signal can flow across the links in a network to reach every node within it. 
 As recently shown [@liu_controllability_2011], the minimum driver-node set---those to which an external control input should be applied to make the system controllable---corresponds exactly to the *unmatched* nodes in the network (Figure \@ref(fig:fig-control-configuration)).
 
+```{r fig-control-configuration, fig.cap = "Maximum matchings and control configurations. In directed networks, a maximum matching is the largest possible set of links that do not share start or end nodes (dark purple). Maximum matchings are not necessarily unique; instead, each of them is related to a possible minimum driver-node set in the network (the nodes to which an external control input, in orange, should be applied in order to ensure controllability). The size of the minimum driver-node set *D* corresponds exactly to the number of unmatched nodes (the number of nodes in the network *N* minus the matching size). To account for network size, we use the size of the minimum driver-node set relative to the total number of nodes *n~D~ = D/N* as a measure of the extent to which the network structure can be harnessed to control the system."}
+make_fig_control_configurations( example_ntw_matchings_chain(), example_ntw_matchings_star(), example_ntw_directions())
+```
+
+
 ### Differences between invaded and uninvaded networks
 
 Our first objective is to investigate whether the controllability of a community is associated with invasion status or not. 
