@@ -282,6 +282,30 @@ Species' control capacity $\phi$ was only weakly correlated with commonly used c
 The Spearman correlation between these ranged between -0.14 (with betweeness centrality) and 0.42 (with eigen centrality). 
 The correlation coefficient with degree was 0.13, however most species with high degree also tended to attain a high control capacity.
 
+```{r tab-model-selection-table}
+cc_table <- readRDS("data/driver_species/tab_model_selection.rds")
+
+cc_table %>%
+dplyr::bind_rows(cc_table) %>%
+  dplyr::select(-logLik, - AICc) %>%
+  dplyr::rename(Weight = weight) %>%
+  {set_names(., pretty_term_names_driver_species(colnames(.), "short"))} %>%
+  knitr::kable("latex", 
+               # col.names = pretty_term_names(colnames(.), "short"),
+               booktabs = T,
+               caption = "Selection table of the binomial generalised linear models of species' control capacity, $\\phi$. Only models with a weight larger or equal to 0.01 are shown.", 
+               row.names = F, 
+               digits = 2, 
+               escape = F) %>%
+  kableExtra::add_header_above(c("Model terms" = 10, " " = 3), escape = F) %>%
+  kableExtra::kable_styling(font_size = 8) %>%
+  kableExtra::footnote(general = "Terms: intercept (int), degree ($k$), trophic level ($l$), asymmetry ($a$), contribution to nestedness ($n$), visitation strength ($s$).", 
+                       general_title = "Note. ", 
+                       footnote_as_chunk = TRUE, 
+                       threeparttable = TRUE, 
+                       escape = F)
+```
+
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
 Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
