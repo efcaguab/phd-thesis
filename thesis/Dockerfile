@@ -12,3 +12,4 @@ RUN R -e "install.packages('kableExtra', repos = c(CRAN = 'https://mran.revoluti
 # Packages for driver species chapter
 RUN R -e "install.packages('bipartite', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
 RUN R -e "install.packages('latex2exp', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
+RUN R -e "install.packages('cowplot', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"

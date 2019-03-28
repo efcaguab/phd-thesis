@@ -256,6 +256,17 @@ Furthermore, there were also negative, albeit weaker, relationships between $n_D
 The relative size of the minimum driver-node set $n_D$ of empirical networks did not differ from that of a null model that roughly preserved the degree distribution and fully preserved the network connectance ($p = 0.66$; Figure \@ref(fig:fig-emp-controllability)c). 
 However, empirical networks had a larger $n_D$ than null models that preserved the interactions but shuffled the direction of control of the empirical network ($p = 2.4 \times 10^{-7}$). 
 
+```{r fig-emp-controllability, fig.cap="Drivers of network controllability. (a) Probability density of the relative size of the minimum driver-node set $n_D$ in the invaded (light) and uninvaded (dark) empirical networks. (b) Relationship between the asymmetry plant/pollinator richness and $n_D$. (c) Probability density of the difference between the relative size of the minimum driver-node set of random networks and that of empirical networks. We randomised either the species visitation patterns (light line) or randomised the direction of control between a species pair (dark line). The vertical dashed lines in (a) and (c) indicate the median values of the distributions."}
+fig_3_data <- readRDS("data/driver_species/fig_emp_controllaibility.rds")
+make_fig_emp_contollability(fig_3_data) %>%
+  purrr::map(function(x) x + theme(plot.margin = grid::unit(c(0.5, 1.5, 0.5, 1.5), "mm"))) %>% {
+    cowplot::plot_grid(plotlist = ., 
+                     nrow = 1, 
+                     align = "h")
+  }
+```
+
+
 ### Species' roles
 
 Species varied widely in their control capacity (Figure \@ref(fig:fig-species-level)). 
