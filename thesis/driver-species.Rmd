@@ -306,6 +306,17 @@ dplyr::bind_rows(cc_table) %>%
                        escape = F)
 ```
 
+```{r fig-species-level, fig.cap="Probability density of the control capacity $\\phi$ of (a) plants and (b) pollinators across all networks. The control capacity of all invasive species is $\\phi = 1$ and is depicted with solid circles."}
+fig_control_capacity_data <- readRDS("data/driver_species/fig_control_capacity.rds")
+metadata <- readRDS("data/driver_species/metadata.rds")
+fig_control_capacity <- make_fig_control_capacity(fig_control_capacity_data, metadata)
+fig_control_capacity[[2]] <- fig_control_capacity[[2]] +
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank())
+
+fig_control_capacity %>%
+    cowplot::plot_grid(plotlist = ., rel_widths = c(1.21,1), align = "h")
+```
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
 Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
