@@ -317,6 +317,21 @@ fig_control_capacity[[2]] <- fig_control_capacity[[2]] +
 fig_control_capacity %>%
     cowplot::plot_grid(plotlist = ., rel_widths = c(1.21,1), align = "h")
 ```
+
+```{r fig-species-partial, fig.cap= "Partial-residual plots for the independent variables: (a) contribution to nestedness, (b) visitation strength, (c) asymmetry of dependences, and (d) degree. Partial-residual plots show the relationship between control capacity and each of the independent variables while acccounting for all other remaining variables. Ploted values correpond to the predictions of the weighted average of the models shown in Table \\@ref(tab:tab-model-selection-table)."}
+fig_species_partial_data <- readRDS("data/driver_species/fig_partial_effects_control_capacity.rds")
+fig_species_partial <- make_fig_species_partial(fig_species_partial_data)
+suppressWarnings({
+  fig_species_partial %>%
+  purrr::map_at(2:4, function(x) x  + theme(axis.title.y = element_blank(),
+                                            axis.text.y = element_blank())) %>%
+    cowplot::plot_grid(plotlist = ., 
+                       align = "h", nrow = 1, 
+                       rel_widths = c(1.25, 1, 1,1))
+})
+
+```
+
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
 Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
