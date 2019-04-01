@@ -10,7 +10,7 @@ make_fig_emp_contollability <- function(fig_data){
                        guide = guide_legend(reverse = F), labels = c("invaded", "uninvaded")) +
     xlab(expression(paste(n[D]))) +
     base_ggplot_theme() +
-    theme(legend.position = c(0.98, 1.1),
+    theme(legend.position = c(0.98, 1.25),
           legend.justification = c(1,1),
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in"),
@@ -47,7 +47,7 @@ make_fig_emp_contollability <- function(fig_data){
                        name = "",
                        guide = guide_legend(reverse = T), labels = c("directions", "interactions")) +
     base_ggplot_theme() +
-    theme(legend.position = c(0.98,1.1),
+    theme(legend.position = c(0.98,1.25),
           legend.justification = c(1,1),
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in"),

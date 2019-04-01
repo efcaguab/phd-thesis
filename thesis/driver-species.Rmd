@@ -256,12 +256,13 @@ Furthermore, there were also negative, albeit weaker, relationships between $n_D
 The relative size of the minimum driver-node set $n_D$ of empirical networks did not differ from that of a null model that roughly preserved the degree distribution and fully preserved the network connectance ($p = 0.66$; Figure \@ref(fig:fig-emp-controllability)c). 
 However, empirical networks had a larger $n_D$ than null models that preserved the interactions but shuffled the direction of control of the empirical network ($p = 2.4 \times 10^{-7}$). 
 
-```{r fig-emp-controllability, fig.height = fig_sizes()$two_column_width/1.8*3, fig.cap="Drivers of network controllability. (a) Probability density of the relative size of the minimum driver-node set $n_D$ in the invaded (light) and uninvaded (dark) empirical networks. (b) Relationship between the asymmetry plant/pollinator richness and $n_D$. (c) Probability density of the difference between the relative size of the minimum driver-node set of random networks and that of empirical networks. We randomised either the species visitation patterns (light line) or randomised the direction of control between a species pair (dark line). The vertical dashed lines in (a) and (c) indicate the median values of the distributions.", fig.scap="Drivers of network controllability", out.extra=''}
+```{r fig-emp-controllability, fig.height = fig_sizes()$two_column_width/2*2.35, fig.cap="Drivers of network controllability. (a) Probability density of the relative size of the minimum driver-node set $n_D$ in the invaded (light) and uninvaded (dark) empirical networks. (b) Relationship between the asymmetry plant/pollinator richness and $n_D$. (c) Probability density of the difference between the relative size of the minimum driver-node set of random networks and that of empirical networks. We randomised either the species visitation patterns (light line) or randomised the direction of control between a species pair (dark line). The vertical dashed lines in (a) and (c) indicate the median values of the distributions.", fig.scap="Drivers of network controllability", out.extra=''}
 fig_3_data <- readRDS("data/driver_species/fig_emp_controllaibility.rds")
 make_fig_emp_contollability(fig_3_data) %>%
   cowplot::plot_grid(plotlist = ., 
                      ncol = 1, 
-                     align = "hv")
+                     align = "hv", 
+                     rel_heights = c(0.75,0.85,0.75))
   # purrr::map(function(x) x + theme(plot.margin = grid::unit(c(0.5, 1.5, 0.5, 1.5), "mm"))) %>% {
   #   
   # }
@@ -308,36 +309,28 @@ cc_table %>%
                        escape = F)
 ```
 
-```{r fig-species-level, fig.cap="Probability density of the control capacity $\\phi$ of (a) plants and (b) pollinators across all networks. The control capacity of all invasive species is $\\phi = 1$ and is depicted with solid circles.", fig.scap="Probability density of control capacity", out.extra=''}
+```{r fig-species-level, fig.height = fig_sizes()$two_column_width/2*1.5, fig.cap="Probability density of the control capacity $\\phi$ of (a) plants and (b) pollinators across all networks. The control capacity of all invasive species is $\\phi = 1$ and is depicted with solid circles.", fig.scap="Probability density of control capacity", out.extra=''}
 fig_control_capacity_data <- readRDS("data/driver_species/fig_control_capacity.rds")
 metadata <- readRDS("data/driver_species/metadata.rds")
 fig_control_capacity <- make_fig_control_capacity(fig_control_capacity_data, metadata)
-fig_control_capacity[[2]] <- fig_control_capacity[[2]] +
-  theme(axis.title.y = element_blank(),
-        axis.text.y = element_blank())
 
 fig_control_capacity %>%
-    cowplot::plot_grid(plotlist = ., rel_widths = c(1.21,1), align = "h")
+    cowplot::plot_grid(plotlist = ., align = "hv", ncol = 1)
 ```
 
-```{r fig-species-partial, fig.cap= "Partial-residual plots for the independent variables: (a) contribution to nestedness, (b) visitation strength, (c) asymmetry of dependences, and (d) degree. Partial-residual plots show the relationship between control capacity and each of the independent variables while acccounting for all other remaining variables. Ploted values correpond to the predictions of the weighted average of the models shown in Table \\@ref(tab:tab-model-selection-table).", fig.scap="Partial-residual plots of independent variables", out.extra=''}
+```{r fig-species-partial, fig.height = fig_sizes()$two_column_width/2*4*0.85, fig.cap= "Partial-residual plots for the independent variables: (a) contribution to nestedness, (b) visitation strength, (c) asymmetry of dependences, and (d) degree. Partial-residual plots show the relationship between control capacity and each of the independent variables while acccounting for all other remaining variables. Ploted values correpond to the predictions of the models weighted average.", fig.scap="Partial-residual plots of independent variables", out.extra=''}
 fig_species_partial_data <- readRDS("data/driver_species/fig_partial_effects_control_capacity.rds")
 fig_species_partial <- make_fig_species_partial(fig_species_partial_data)
-suppressWarnings({
   fig_species_partial %>%
-  purrr::map_at(2:4, function(x) x  + theme(axis.title.y = element_blank(),
-                                            axis.text.y = element_blank())) %>%
     cowplot::plot_grid(plotlist = ., 
-                       align = "h", nrow = 1, 
-                       rel_widths = c(1.25, 1, 1,1))
-})
+                       align = "hv", ncol = 1)
 
 ```
 
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
 Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
-```{r fig-structural-stability, fig.cap="Probability density of the structural stability of the communities after a single focal species is removed. Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances. The structural stability of communities in which critical species have been removed (darker line) is considerably smaller than that of communities in which non-critical species have been removed. This indicates that critical species contribute more to the stable coexistence of their communities. To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one. Here, we assume values of the mutualistic trade-off and mean interspecific competition of $\\delta = 0$ and $\\rho = 0.01$ respectively. However, the choice of these parameters does not affect the results.", fig.scap="Probability density of structural stability", out.extra=''}
+```{r fig-structural-stability, fig.height = fig_sizes()$two_column_width/2*0.75, fig.cap="Probability density of the structural stability of the communities after a single focal species is removed. Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances. The structural stability of communities in which critical species have been removed (darker line) is considerably smaller than that of communities in which non-critical species have been removed. This indicates that critical species contribute more to the stable coexistence of their communities. To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one. Here, we assume values of the mutualistic trade-off and mean interspecific competition of $\\delta = 0$ and $\\rho = 0.01$ respectively. However, the choice of these parameters does not affect the results.", fig.scap="Probability density of structural stability", out.extra=''}
 fig_structural_stability_data <- readRDS("data/driver_species/fig_structural_stability.rds")
 fig_structural_stability <- make_fig_structural_stability(fig_structural_stability_data)
 fig_structural_stability[[1]]

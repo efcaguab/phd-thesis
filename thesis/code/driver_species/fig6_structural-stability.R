@@ -25,10 +25,10 @@ make_fig_structural_stability <- function(critical_sp_df){
                        name = "",
                        labels = my.labs) +
     base_ggplot_theme() +
-    theme(legend.position = c(0, 1.15),
+    theme(legend.position = c(0, 1.25),
           legend.justification = c(0,1),
           legend.background = element_rect(fill = "NA"),
-          legend.key.size = unit(0.15, "in")) +
+          legend.key.size = unit(0.15, "in"),
           panel.border = element_blank(),
           axis.line.x = element_line(),
           axis.ticks.y = element_blank(),
