@@ -4,7 +4,7 @@ make_fig_emp_contollability <- function(fig_data){
   p1 <- d %>%
     ggplot(aes(x = n_D, colour = inv)) +
     stat_density(geom= "line", size = 0.5, position = position_identity()) +
-    geom_vline(data = medians_d, aes(xintercept = n_D, colour = inv),  linetype = 2, size = 0.5, show.legend = FALSE) +
+    geom_vline(data = medians_d, aes(xintercept = n_D, colour = inv),  linetype = 2, size = 0.25, show.legend = FALSE) +
     scale_color_manual(values = c(fig_metric("red_shade")[6], fig_metric("red_shade")[4]),
                        name = "",
                        guide = guide_legend(reverse = F), labels = c("Invaded", "Uninvaded")) +
@@ -42,7 +42,7 @@ make_fig_emp_contollability <- function(fig_data){
   p2 <- r %>%
     ggplot(aes(x = delta_n_D, color = randomisation)) +
     stat_density(geom = "line", position = position_identity(), size = 0.5) +
-    geom_vline(data = means, aes(xintercept = delta_n_D, color = randomisation), size = 0.5, linetype = 2, show.legend = F) +
+    geom_vline(data = means, aes(xintercept = delta_n_D, color = randomisation), size = 0.25, linetype = 2, show.legend = F) +
     scale_color_manual(values = c(fig_metric("red_shade")[6], fig_metric("red_shade")[4]),
                        name = "",
                        guide = guide_legend(reverse = T), labels = c("Directions", "Interactions")) +
