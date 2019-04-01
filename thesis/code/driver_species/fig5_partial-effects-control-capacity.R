@@ -52,12 +52,12 @@ partial_plot <- function(df, x, y, smooth_method = "lm"){
                 se = T,
                 size = 0.5,
                 alpha = 0.2) +
-    scale_color_manual(values = c(my_pallete()$dark_orange,
-                                  my_pallete()$dark_purple),
+    scale_color_manual(values = c(fig_metric("red_shade")[4],
+                                  fig_metric("red_shade")[6]),
                        name = "",
-                       labels = c("Plants", "Pollinators")) +
-    scale_fill_manual(values = c(my_pallete()$light_orange,
-                                 my_pallete()$light_purple),
+                       labels = c("plants", "pollinators")) +
+    scale_fill_manual(values = c(fig_metric("red_shade")[4],
+                                 fig_metric("red_shade")[6]),
                       name = "",
                       labels = c("plants", "pollinators")) +
     base_ggplot_theme() +

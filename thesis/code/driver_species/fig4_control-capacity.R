@@ -10,11 +10,11 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
                  bw = "SJ",
                  show.legend = FALSE) +
     geom_point(aes(x = 1, y = 0),
-               fill = my_pallete()$dark_orange,
+               fill = fig_metric("red_shade")[4],
                colour = "black",
                shape = 21,
                size = 1) +
-    scale_color_manual(values = my_pallete()$dark_orange) +
+    scale_color_manual(values = fig_metric("red_shade")[4]) +
     base_ggplot_theme() +
     labs(title = "(a) control capacity of plants",
          subtitle = "probability density",
@@ -38,7 +38,7 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
     stat_density(geom = "line",
                  bw = "SJ",
                  show.legend = FALSE) +
-    scale_color_manual(values = my_pallete()$dark_purple) +
+    scale_color_manual(values = fig_metric("red_shade")[6]) +
     base_ggplot_theme() +
     labs(title = "(b) control capacity of pollinators",
          subtitle = "probability density",

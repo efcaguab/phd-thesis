@@ -20,8 +20,8 @@ make_fig_structural_stability <- function(critical_sp_df){
                linetype = 2,
                size = 0.25,
                show.legend = F) +
-    scale_color_manual(values = c(my_pallete()$dark_grey,
-                                  my_pallete()$light_grey),
+    scale_color_manual(values = c(fig_metric("red_shade")[6],
+                                  fig_metric("red_shade")[4]),
                        name = "",
                        labels = my.labs) +
     base_ggplot_theme() +
