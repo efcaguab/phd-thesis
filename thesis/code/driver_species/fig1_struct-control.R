@@ -37,9 +37,10 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
                plot_2_height,
                div_height, plot_2_height,
                legend_height)
+  heights <- heights * fig_sizes()$two_column_width/fig_sizes()$one_column_width
   d <- 30
-  x <- 3.1
-  margin_h <- (fig_sizes()$one_column_width-x)
+  x <- fig_sizes()$two_column_width/1.096774
+  margin_h <- (fig_sizes()$two_column_width-x)
   widths <- c(margin_h, x/3-x/2/d, x/d, x/2-x/3-x/d, x/d, x/2-x/3-x/d/2, x/3,0.001)
 
   # pdf(pdf_out, width = sum(widths), height = sum(heights), paper='special')
@@ -63,14 +64,14 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
 
   rect(grconvertX(margin_h, "inches", "user"),
        grconvertY(sum(heights) - plot_1_height - heading_height, "inches", "user"),
-       grconvertX(3.5, "inches", "user"),
+       grconvertX( fig_sizes()$two_column_width, "inches", "user"),
        grconvertY(sum(heights) , "inches", "user"),
        col = box_col,
        border = NA)
 
   rect(grconvertX(margin_h, "inches", "user"),
        grconvertY(legend_height, "inches", "user"),
-       grconvertX(3.5, "inches", "user"),
+       grconvertX( fig_sizes()$two_column_width, "inches", "user"),
        grconvertY(plot_2_height * 2 + div_height + heading_thin_height + legend_height, "inches", "user"),
        col = box_col,
        border = NA)
@@ -84,7 +85,7 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
 
   rect(grconvertX(margin_h, "inches", "user"),
        grconvertY(legend_height, "inches", "user"),
-       grconvertX(3.5, "inches", "user"),
+       grconvertX( fig_sizes()$two_column_width, "inches", "user"),
        grconvertY(plot_2_height + div_height/2+ legend_height, "inches", "user"),
        col = box_col_2,
        border = NA)
