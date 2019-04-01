@@ -337,9 +337,9 @@ add_property <- function(x, element, attr_name = "type", attr_base, ...){
 
 get_color <- function(x = T){
   dplyr::case_when(
-    x == "matched" ~ fig_metric("blue_shade")[3],
-    x == "unmatched" ~ fig_metric("blue_shade")[5],
-    x == "control" ~ thesis_palette[1],
+    x == "matched" ~ fig_metric("red_shade")[4],
+    x == "unmatched" ~ fig_metric("red_shade")[6],
+    x == "control" ~ fig_metric("blue_shade")[5],
     x == "base" ~ my_pallete()$light,
     x == "dark" ~ "grey10",
     x == "bg" ~ "white",
