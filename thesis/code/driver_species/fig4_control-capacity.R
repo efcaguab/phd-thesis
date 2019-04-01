@@ -24,7 +24,11 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
           legend.justification = c(1,0),
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in"),
-          plot.margin = unit(c(0.5, 0.5, 0.5, 0.5), "mm"))
+          panel.border = element_blank(),
+          axis.line.x = element_line(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.title.y = element_blank())
 
   p6 <- sl_characteristics %>%
     filter_networks_df(metadata) %>%
@@ -44,6 +48,10 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in"),
           plot.margin = unit(c(0.5, 0.5, 0.5, 0.5), "mm"))
+          axis.line.x = element_line(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.title.y = element_blank())
 
   list(p5, p6)
 }

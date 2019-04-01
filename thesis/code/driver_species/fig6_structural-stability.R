@@ -29,8 +29,11 @@ make_fig_structural_stability <- function(critical_sp_df){
           legend.justification = c(0,1),
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in")) +
-    labs(y = "Probability density",
-         x = "Scaled structural stability")
+          panel.border = element_blank(),
+          axis.line.x = element_line(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.title.y = element_blank()) +
 
   list(p1)
 

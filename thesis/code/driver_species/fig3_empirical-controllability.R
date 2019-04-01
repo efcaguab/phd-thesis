@@ -12,7 +12,13 @@ make_fig_emp_contollability <- function(fig_data){
     base_ggplot_theme() +
     theme(legend.position = c(0.98, 1.1),
           legend.justification = c(1,1),
-          legend.background = element_rect(fill = "NA"), legend.key.size = unit(0.15, "in")) +
+          legend.background = element_rect(fill = "NA"),
+          legend.key.size = unit(0.15, "in"),
+          panel.border = element_blank(),
+          axis.line.x = element_line(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.title.y = element_blank()) +
     labs(title = "(a) invaded and uninvaded networks",
          subtitle = "probability density of controllability vs. invasion status",
          y = "probability density")
@@ -43,7 +49,13 @@ make_fig_emp_contollability <- function(fig_data){
     base_ggplot_theme() +
     theme(legend.position = c(0.98,1.1),
           legend.justification = c(1,1),
-          legend.background = element_rect(fill = "NA"), legend.key.size = unit(0.15, "in")) +
+          legend.background = element_rect(fill = "NA"),
+          legend.key.size = unit(0.15, "in"),
+          panel.border = element_blank(),
+          axis.line.x = element_line(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.title.y = element_blank()) +
     labs(title = "(c) difference between random and empirical networks",
          subtitle = "probability density of controllability difference",
          x = expression(paste(Delta, n[D])),
