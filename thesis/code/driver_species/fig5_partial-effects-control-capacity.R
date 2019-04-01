@@ -9,13 +9,15 @@ make_fig_species_partial <- function(df_cc){
   p1 <- partial_plot(df_cc, "pushpull_o", "I(pushpull_comp + res)", "lm") +
     labs(title = "(c) species dependence asymmetry",
          subtitle = "partial residual plot",
-         y = latex2exp::TeX("Partial residuals")) +
+         x = "asymmetry",
+         y = latex2exp::TeX("partial residuals")) +
     coord_cartesian(ylim = ylims)
 
   p2 <- partial_plot(df_cc, "strength_o", "I(strength_comp + res)", "lm") +
     labs(title = "(b) species visitation strength",
          subttle = "partial residual plot",
-         y = latex2exp::TeX("Partial residuals")) +
+         x = "strength",
+         y = latex2exp::TeX("partial residuals")) +
     scale_x_continuous(breaks = log(c(1,10,100)), labels = exp) +
     coord_cartesian(ylim = ylims)
 
@@ -23,13 +25,15 @@ make_fig_species_partial <- function(df_cc){
   p3 <- partial_plot(df_cc, "nested_o", "I(nested_comp + res)", "lm") +
     labs(title = "(a) species contribution to network nestedness",
          subtitle = "partial residual plot",
-         y = latex2exp::TeX("Partial residuals")) +
+         x = "contribution",
+         y = latex2exp::TeX("partial residuals")) +
     coord_cartesian(ylim = ylims)
 
   p4 <- partial_plot(df_cc, "degree_o", "I(degree_comp + res)", "lm") +
     labs(title = "(d) species degree",
          subtitle = "partial residual plot",
-         y = latex2exp::TeX("Partiall residuals")) +
+         x = "number of interacting species",
+         y = latex2exp::TeX("partiall residuals")) +
     scale_x_continuous(breaks = log(c(1,10,100)), labels = exp) +
     coord_cartesian(ylim = ylims)
 
@@ -55,7 +59,7 @@ partial_plot <- function(df, x, y, smooth_method = "lm"){
     scale_fill_manual(values = c(my_pallete()$light_orange,
                                  my_pallete()$light_purple),
                       name = "",
-                      labels = c("Plants", "Pollinators")) +
+                      labels = c("plants", "pollinators")) +
     base_ggplot_theme() +
     theme(legend.position = c(0, 1.15),
           legend.justification = c(0,1),

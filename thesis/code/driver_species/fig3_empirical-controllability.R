@@ -7,7 +7,7 @@ make_fig_emp_contollability <- function(fig_data){
     geom_vline(data = medians_d, aes(xintercept = n_D, colour = inv),  linetype = 2, size = 0.25, show.legend = FALSE) +
     scale_color_manual(values = c(fig_metric("red_shade")[6], fig_metric("red_shade")[4]),
                        name = "",
-                       guide = guide_legend(reverse = F), labels = c("Invaded", "Uninvaded")) +
+                       guide = guide_legend(reverse = F), labels = c("invaded", "uninvaded")) +
     xlab(expression(paste(n[D]))) +
     base_ggplot_theme() +
     theme(legend.position = c(0.98, 1.1),
@@ -45,7 +45,7 @@ make_fig_emp_contollability <- function(fig_data){
     geom_vline(data = means, aes(xintercept = delta_n_D, color = randomisation), size = 0.25, linetype = 2, show.legend = F) +
     scale_color_manual(values = c(fig_metric("red_shade")[6], fig_metric("red_shade")[4]),
                        name = "",
-                       guide = guide_legend(reverse = T), labels = c("Directions", "Interactions")) +
+                       guide = guide_legend(reverse = T), labels = c("directions", "interactions")) +
     base_ggplot_theme() +
     theme(legend.position = c(0.98,1.1),
           legend.justification = c(1,1),
