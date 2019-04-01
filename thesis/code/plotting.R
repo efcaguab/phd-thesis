@@ -10,16 +10,23 @@ fig_sizes <- function(){
 base_ggplot_theme <- function(){
   require(ggplot2)
   theme_bw() +
-    theme(text = element_text(family = "Helvetica"),
-          title = element_text(size = 7, hjust = 0),
-          legend.title = element_text(size = 8),
-          legend.text = element_text(size = 7),
-          axis.text = element_text(size = 7),
-          axis.title = element_text(size = 8, hjust = 0.5),
-          strip.text = element_text(size = 8, hjust = 0),
+    theme(text = element_text(size = 11, family = "Helvetica"),
+          axis.title = element_text(size = 10),
+          plot.title = element_text(size = 10, face = "bold", margin = margin(b = 0)),
+          plot.subtitle = element_text(size = 10, hjust = 0),
+          plot.tag = element_text(size = 10),
           strip.background = element_blank(),
-          plot.margin = grid::unit(c(0.5, 0.5, 0.5, 0.5), "mm"),
+          strip.text = element_text(hjust = 0),
+          legend.title = element_text(hjust = 0.5),
+          legend.key.size = unit(3, "mm"),
+          legend.margin = margin(),
+          axis.ticks.x = element_line(colour = "grey30", size = 0.05),
+          axis.ticks.y = element_line(colour = "grey30", size = 0.25),
+          # panel.border = element_blank(),
+          # axis.line.y = element_line(),
           panel.grid = element_blank(),
+          panel.background = element_blank(),
+          plot.background = element_blank(),
           legend.key = element_rect(fill = NA))
 }
 
