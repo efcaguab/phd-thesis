@@ -145,7 +145,7 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
   legend(0.5, 0.5,legend = c("Control input"), horiz = TRUE,
          lty = 1,
          col = get_color("control"),
-         lwd = 1.5, cex = 0.9, xjust=0.5, yjust=0.5, bty = "n")
+         lwd = 1.5, cex = 1, xjust=0.5, yjust=0.5, bty = "n")
   plot.new()
   # standalone_hline(lty = 1)
   # p <- recordPlot()
@@ -367,7 +367,7 @@ ntw_control_network_theme <- . %>%
   add_property(element = "vertex", attr_name = "color", attr_base = "control_type", "type == 'b' ~ get_color('bg')", "TRUE ~ get_color('base')") %>%
   add_property(element = "vertex", attr_name = "size",attr_base = "control_type",  "type == 'a' ~ 55", "TRUE ~ 45")
 
-standalone_text <- function(text, x = 0.5, y = 0.5, adj = c(0.5,0.5), font = 1, cex = 0.9, srt = 0){
+standalone_text <- function(text, x = 0.5, y = 0.5, adj = c(0.5,0.5), font = 1, cex = 1, srt = 0){
   plot.new()
   text(x, y, text, adj = adj, font = font, cex = cex, srt = srt)
 }

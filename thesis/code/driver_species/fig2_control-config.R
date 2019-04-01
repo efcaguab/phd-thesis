@@ -200,28 +200,28 @@ make_fig_control_configurations <- function(en_chain, en_star, en_direction, pdf
   legend(x_y[1, ],legend = c("Matched link"), horiz = TRUE,
          lty = 1,
          col = get_color("matched"),
-         lwd = 1.5, cex = 0.9, xjust=x_just, yjust=y_just, bty = "n")
+         lwd = 1.5, cex = 1, xjust=x_just, yjust=y_just, bty = "n")
   legend(x_y[2,], legend = c("Unmatched link"), horiz = TRUE,
          lty = 1,
          col = get_color("unmatched"),
-         lwd = 1.5, cex = 0.9, xjust=x_just, yjust=y_just, bty = "n")
+         lwd = 1.5, cex = 1, xjust=x_just, yjust=y_just, bty = "n")
   legend(x_y[3,], legend = c("Control input"), horiz = TRUE,
          lty = 1,
          col = get_color("control"),
-         lwd = 1.5, cex = 0.9, xjust=0.5, yjust=y_just, bty = "n")
+         lwd = 1.5, cex = 1, xjust=0.5, yjust=y_just, bty = "n")
 
   legend(x_y[4,], legend = c("Matched node"), horiz = TRUE,
          pch = 21,
          pt.bg = c(get_color("matched")),
          col =  c(get_color("matched")),
          pt.cex = 1.5,
-         cex = 0.9, xjust=x_just, yjust=y_just, bty = "n")
+         cex = 1, xjust=x_just, yjust=y_just, bty = "n")
   legend(x_y[5,], legend = c("Unmatched node"), horiz = TRUE,
          pch = 21,
          pt.bg = c(get_color("unmatched")),
          col =  c(get_color("unmatched")),
          pt.cex = 1.5,
-         cex = 0.9, xjust=x_just, yjust=y_just, bty = "n")
+         cex = 1, xjust=x_just, yjust=y_just, bty = "n")
 
   # plot.new()
   ## DIV LINES
