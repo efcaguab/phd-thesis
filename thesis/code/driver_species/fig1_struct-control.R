@@ -14,12 +14,12 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
     purrr::map(ntw_format_theme) %>%
     purrr::map(ntw_control_network_theme)
 
-  adjust_darker_bg <- . %>%
-    add_property("vertex", "color", "control_type", "type == 'b' ~ get_color('bg_dark')", "TRUE ~ get_color('bg')") %>%
-    add_property("vertex", "frame.color", "control_type", "type == 'b' ~ get_color('bg_dark')", "TRUE ~ 'black'")
-
-  formatted_en_structural[[3]] %<>% adjust_darker_bg()
-  formatted_en_structural[[5]] %<>% adjust_darker_bg()
+  # adjust_darker_bg <- . %>%
+  #   add_property("vertex", "color", "control_type", "type == 'b' ~ get_color('bg_dark')", "TRUE ~ get_color('bg')") %>%
+  #   add_property("vertex", "frame.color", "control_type", "type == 'b' ~ get_color('bg_dark')", "TRUE ~ 'black'")
+  #
+  # formatted_en_structural[[3]] %<>% adjust_darker_bg()
+  # formatted_en_structural[[5]] %<>% adjust_darker_bg()
 
   box_col <- get_color("bg")
   box_col_2 <- get_color("bg_dark")
@@ -62,19 +62,19 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
 
   plot.new()
 
-  rect(grconvertX(margin_h, "inches", "user"),
-       grconvertY(sum(heights) - plot_1_height - heading_height, "inches", "user"),
-       grconvertX( fig_sizes()$two_column_width, "inches", "user"),
-       grconvertY(sum(heights) , "inches", "user"),
-       col = box_col,
-       border = NA)
+  # rect(grconvertX(margin_h, "inches", "user"),
+  #      grconvertY(sum(heights) - plot_1_height - heading_height, "inches", "user"),
+  #      grconvertX( fig_sizes()$two_column_width, "inches", "user"),
+  #      grconvertY(sum(heights) , "inches", "user"),
+  #      col = box_col,
+  #      border = NA)
 
-  rect(grconvertX(margin_h, "inches", "user"),
-       grconvertY(legend_height, "inches", "user"),
-       grconvertX( fig_sizes()$two_column_width, "inches", "user"),
-       grconvertY(plot_2_height * 2 + div_height + heading_thin_height + legend_height, "inches", "user"),
-       col = box_col,
-       border = NA)
+  # rect(grconvertX(margin_h, "inches", "user"),
+  #      grconvertY(legend_height, "inches", "user"),
+  #      grconvertX( fig_sizes()$two_column_width, "inches", "user"),
+  #      grconvertY(plot_2_height * 2 + div_height + heading_thin_height + legend_height, "inches", "user"),
+  #      col = box_col,
+  #      border = NA)
 
   # rect(grconvertX(margin_h, "inches", "user"),
   #      grconvertY(plot_2_height  + legend_height +  heading_thin_height, "inches", "user"),
@@ -83,12 +83,12 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
   #      col = box_col_2,
   #      border = NA)
 
-  rect(grconvertX(margin_h, "inches", "user"),
-       grconvertY(legend_height, "inches", "user"),
-       grconvertX( fig_sizes()$two_column_width, "inches", "user"),
-       grconvertY(plot_2_height + div_height/2+ legend_height, "inches", "user"),
-       col = box_col_2,
-       border = NA)
+  # rect(grconvertX(margin_h, "inches", "user"),
+  #      grconvertY(legend_height, "inches", "user"),
+  #      grconvertX( fig_sizes()$two_column_width, "inches", "user"),
+  #      grconvertY(plot_2_height + div_height/2+ legend_height, "inches", "user"),
+  #      col = box_col_2,
+  #      border = NA)
 
 
   # 02
@@ -337,13 +337,13 @@ add_property <- function(x, element, attr_name = "type", attr_base, ...){
 
 get_color <- function(x = T){
   dplyr::case_when(
-    x == "matched" ~ my_pallete()$dark_purple,
-    x == "unmatched" ~ my_pallete()$light_purple,
-    x == "control" ~ my_pallete()$dark_orange,
+    x == "matched" ~ fig_metric("blue_shade")[3],
+    x == "unmatched" ~ fig_metric("blue_shade")[5],
+    x == "control" ~ thesis_palette[1],
     x == "base" ~ my_pallete()$light,
     x == "dark" ~ "grey10",
-    x == "bg" ~ "grey95",
-    x == "bg_dark" ~ "grey90",
+    x == "bg" ~ "white",
+    x == "bg_dark" ~ "white",
     TRUE ~ "white"
   )
 }
