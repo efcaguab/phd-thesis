@@ -29,19 +29,20 @@ maincolor: BrickRed
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(out.width = '\\textwidth', 
-                      fig.align = 'center',
-                      echo = FALSE,
-                      message = FALSE, 
-                      warning = FALSE)
-options(knitr.kable.NA = '')
-
 # Load required packages
 library(magrittr)
 library(ggplot2)
 # Load functions
 f <- lapply(list.files("code", full.names = T, recursive = T, pattern = ".+\\.R"), source)
-
+knitr::opts_chunk$set(out.width = '\\textwidth', 
+                      fig.width = fig_sizes()$two_column_width,
+                      fig.align = 'center',
+                      dpi = 300,
+                      echo = FALSE,
+                      message = FALSE, 
+                      warning = FALSE, 
+                      cache = FALSE)
+options(knitr.kable.NA = '')
 ```
 
 
