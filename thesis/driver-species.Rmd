@@ -286,10 +286,10 @@ The correlation coefficient with degree was 0.13, however most species with high
 cc_table <- readRDS("data/driver_species/tab_model_selection.rds")
 
 cc_table %>%
-dplyr::bind_rows(cc_table) %>%
-  dplyr::select(-logLik, - AICc) %>%
-  dplyr::rename(Weight = weight) %>%
-  {set_names(., pretty_term_names_driver_species(colnames(.), "short"))} %>%
+  dplyr::select(-logLik, - AICc, -df) %>%
+  dplyr::mutate(weight = round(weight, 2)) %>%
+  dplyr::rename(W. = weight) %>% 
+  {set_names(., pretty_term_names_driver_species(colnames(.), "short"))} %>% 
   knitr::kable("latex", 
                # col.names = pretty_term_names(colnames(.), "short"),
                booktabs = T,
@@ -298,9 +298,9 @@ dplyr::bind_rows(cc_table) %>%
                row.names = F, 
                digits = 2, 
                escape = F) %>%
-  kableExtra::add_header_above(c("Model terms" = 10, " " = 3), escape = F) %>%
-  kableExtra::kable_styling(font_size = 8) %>%
-  kableExtra::footnote(general = "Terms: intercept (int), degree ($k$), trophic level ($l$), asymmetry ($a$), contribution to nestedness ($n$), visitation strength ($s$).", 
+  kableExtra::add_header_above(c("Model terms" = 10, " " = 2), escape = F) %>%
+  kableExtra::kable_styling(font_size = 10) %>%
+  kableExtra::footnote(general = "Terms: intercept (int), degree ($k$), trophic level ($l$), asymmetry ($a$), contribution to nestedness ($n$), visitation strength ($s$). Model weight indicated with (W.)", 
                        general_title = "Note. ", 
                        footnote_as_chunk = TRUE, 
                        threeparttable = TRUE, 
