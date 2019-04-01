@@ -16,7 +16,8 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
                size = 1) +
     scale_color_manual(values = my_pallete()$dark_orange) +
     base_ggplot_theme() +
-    labs(title = "(a) Control capacity of plants",
+    labs(title = "(a) control capacity of plants",
+         subtitle = "probability density",
          x = latex2exp::TeX("Control capacity ($\\phi$)"),
          y = "Probability density") +
     scale_y_continuous(limits = c(0,9)) +
@@ -39,7 +40,8 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
                  show.legend = FALSE) +
     scale_color_manual(values = my_pallete()$dark_purple) +
     base_ggplot_theme() +
-    labs(title = "(b) Control capacity of pollinators",
+    labs(title = "(b) control capacity of pollinators",
+         subtitle = "probability density",
          x = latex2exp::TeX("Control capacity ($\\phi$)"),
          y = "Probability density") +
     scale_y_continuous(limits = c(0,9)) +

@@ -34,6 +34,10 @@ make_fig_structural_stability <- function(critical_sp_df){
           axis.ticks.y = element_blank(),
           axis.text.y = element_blank(),
           axis.title.y = element_blank()) +
+    labs(title = "structural stability of species removal",
+         subtitle = "probability density",
+         y = "probability density",
+         x = "scaled structural stability")
 
   list(p1)
 

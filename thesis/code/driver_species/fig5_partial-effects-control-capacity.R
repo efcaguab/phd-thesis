@@ -7,28 +7,28 @@ make_fig_species_partial <- function(df_cc){
 
   ylims <- c(-11, 20)
   p1 <- partial_plot(df_cc, "pushpull_o", "I(pushpull_comp + res)", "lm") +
-    labs(title = "(c)",
-         x = "Dependence asymmetry",
+    labs(title = "(c) species dependence asymmetry",
+         subtitle = "partial residual plot",
          y = latex2exp::TeX("Partial residuals")) +
     coord_cartesian(ylim = ylims)
 
   p2 <- partial_plot(df_cc, "strength_o", "I(strength_comp + res)", "lm") +
-    labs(title = "(b)",
-         x = "Visitation strength",
+    labs(title = "(b) species visitation strength",
+         subttle = "partial residual plot",
          y = latex2exp::TeX("Partial residuals")) +
     scale_x_continuous(breaks = log(c(1,10,100)), labels = exp) +
     coord_cartesian(ylim = ylims)
 
 
   p3 <- partial_plot(df_cc, "nested_o", "I(nested_comp + res)", "lm") +
-    labs(title = "(a)",
-         x = "Contribution to nestedness",
+    labs(title = "(a) species contribution to network nestedness",
+         subtitle = "partial residual plot",
          y = latex2exp::TeX("Partial residuals")) +
     coord_cartesian(ylim = ylims)
 
   p4 <- partial_plot(df_cc, "degree_o", "I(degree_comp + res)", "lm") +
-    labs(title = "(d)",
-         x = "Degree",
+    labs(title = "(d) species degree",
+         subtitle = "partial residual plot",
          y = latex2exp::TeX("Partiall residuals")) +
     scale_x_continuous(breaks = log(c(1,10,100)), labels = exp) +
     coord_cartesian(ylim = ylims)
@@ -61,6 +61,7 @@ partial_plot <- function(df, x, y, smooth_method = "lm"){
           legend.justification = c(0,1),
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in"),
-          plot.margin = unit(c(0.5, 0.5, 0.5, 0.5), "mm"))
+          plot.subtitle = element_blank(),
+          plot.title = element_text(margin = margin(b = "5.5")))
   p
 }
