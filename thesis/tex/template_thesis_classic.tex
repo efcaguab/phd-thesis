@@ -563,15 +563,18 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %*******************************************************
 \cleardoublepage
 
-%\renewcommand{\abstractname}{Abstract}
-\pdfbookmark[1]{Abstract}{Abstract}
-% \addcontentsline{toc}{chapter}{\tocEntry{Abstract}}
+% \renewcommand{\abstractname}{Summary}
+% \pdfbookmark[1]{Summary}{Summary}
+% \addcontentsline{toc}{chapter}{Summary}
+\setcounter{secnumdepth}{-1}
 \begingroup
 \let\clearpage\relax
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
-
-\chapter*{Abstract}
+\chapter{Summary}
+% \phantomsection
+% \addcontentsline{toc}{chapter}{Summary}
+% \addcontentsline{toc}{chapter}{\abstractname}
 Short summary of the contents in English\dots a great guide by
 Kent Beck how to write good abstracts can be found here:
 
@@ -579,6 +582,7 @@ Kent Beck how to write good abstracts can be found here:
 \vfill
 
 \endgroup
+\setcounter{secnumdepth}{3}
 
 \vfill
 
@@ -586,8 +590,11 @@ Kent Beck how to write good abstracts can be found here:
 % Publications
 %*******************************************************
 %
-\pdfbookmark[1]{Publications}{publications}
-\chapter*{Publications}%\graffito{This is just an early --~and currently ugly~-- test!}
+% \pdfbookmark[1]{Publications}{publications}
+\setcounter{secnumdepth}{-1}
+\chapter{Publications}%\graffito{This is just an early --~and currently ugly~-- test!}
+\setcounter{secnumdepth}{3}
+\addcontentsline{toc}{chapter}{Publications}
 % This might come in handy for PhD theses: some ideas and figures have appeared previously in the following publications:
 %
 \noindent The following peer-reviewed publications have been published by the candidate during the PhD term.
@@ -602,9 +609,11 @@ Kent Beck how to write good abstracts can be found here:
 %*******************************************************
 % Declaration
 %*******************************************************
-\pdfbookmark[0]{Coauthorship declaration}{declaration}
-\chapter*{Coauthorship declaration}
+% \pdfbookmark[0]{Coauthorship declaration}{declaration}
+\setcounter{secnumdepth}{-1}
+\chapter{Coauthorship declaration}
 \thispagestyle{empty}
+\setcounter{secnumdepth}{3}
 \begin{refsection}
 \autoref{structural-controllability} has been extracted from co-authored work \autocites{cagua_keystoneness_2019}.
 
@@ -641,7 +650,7 @@ On behalf of all co-authors, the undersigned certifys that:
 % Acknowledgments
 %*******************************************************
 \cleardoublepage
-\pdfbookmark[1]{Acknowledgments}{acknowledgments}
+% \pdfbookmark[0]{Acknowledgments}{acknowledgments}
 
 \begin{flushright}{\slshape
     We have seen that computer programming is an art, \\
@@ -654,15 +663,16 @@ On behalf of all co-authors, the undersigned certifys that:
 
 
 \bigskip
-
+\setcounter{secnumdepth}{-1}
 \begingroup
 \let\clearpage\relax
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
-\chapter*{Acknowledgments}
+\chapter{Acknowledgments}
 Thanks to everyone for being awesome
 
 \endgroup
+\setcounter{secnumdepth}{3}
 
 %*******************************************************
 % List of Figures and of the Tables
@@ -677,7 +687,7 @@ Thanks to everyone for being awesome
     %*******************************************************
     \phantomsection
     \addcontentsline{toc}{chapter}{\listfigurename}
-    \pdfbookmark[1]{\listfigurename}{lof}
+    % \pdfbookmark[1]{\listfigurename}{lof}
     \listoffigures
 
     \vspace{8ex}
@@ -687,7 +697,7 @@ Thanks to everyone for being awesome
     %*******************************************************
     \phantomsection
     \addcontentsline{toc}{chapter}{\listtablename}
-    \pdfbookmark[1]{\listtablename}{lot}
+    % \pdfbookmark[1]{\listtablename}{lot}
     \listoftables
 
     \vspace{8ex}
@@ -696,9 +706,9 @@ Thanks to everyone for being awesome
     %*******************************************************
     % List of Listings
     %*******************************************************
-    %\phantomsection
-    % \addcontentsline{toc}{chapter}{\lstlistlistingname}
-    \pdfbookmark[1]{\lstlistlistingname}{lol}
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\lstlistlistingname}
+    % \pdfbookmark[1]{\lstlistlistingname}{lol}
     \lstlistoflistings
 
     \vspace{8ex}
@@ -706,15 +716,17 @@ Thanks to everyone for being awesome
     %*******************************************************
     % Acronyms
     %*******************************************************
-    %\phantomsection
-    \pdfbookmark[1]{Acronyms}{acronyms}
+    \phantomsection
+    % \pdfbookmark[1]{Acronyms}{acronyms}
+    \setcounter{secnumdepth}{-1}
     \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
-    \chapter*{Acronyms}
+    \chapter{Acronyms}
     \begin{acronym}[UMLX]
         \acro{DRY}{Don't Repeat Yourself}
         \acro{API}{Application Programming Interface}
         \acro{UML}{Unified Modeling Language}
     \end{acronym}
+    \setcounter{secnumdepth}{3}
 
 \endgroup
 
