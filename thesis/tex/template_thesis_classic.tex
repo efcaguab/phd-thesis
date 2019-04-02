@@ -544,13 +544,14 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %*******************************************************
 % Table of Contents
 %*******************************************************
+\cleardoublepage
 \pagestyle{scrheadings}
-%\phantomsection
-\pdfbookmark[1]{\contentsname}{tableofcontents}
 \setcounter{tocdepth}{1} % <-- 2 includes up to subsections in the ToC
 \setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
 \manualmark
 \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\phantomsection
+\pdfbookmark[1]{\contentsname}{tableofcontents}
 \tableofcontents
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
