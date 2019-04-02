@@ -26,6 +26,9 @@ lof: no
 site: bookdown::bookdown_site
 logo: images/uc-logo.jpg
 maincolor: BrickRed
+urlcolor: BrickRed
+linkcolor: BrickRed
+citecolor: BrickRed
 ---
 
 ```{r, include=FALSE}
