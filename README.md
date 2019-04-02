@@ -1,6 +1,6 @@
 # Doctoral thesis: the resilience of ecological networks
 
-Fernando Cagua - School of Biological Sciences, University of Canterbury
+**Fernando Cagua** - *School of Biological Sciences, University of Canterbury*
 
 Expected submission: December 2019
 
