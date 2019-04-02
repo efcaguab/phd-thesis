@@ -385,7 +385,7 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %----------------------------------------------------------------------------------------
 
 %*******************************************************
-% Little Dirty Titlepage
+%Cover page
 %*******************************************************
 \thispagestyle{empty}
 
@@ -424,6 +424,27 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \restoregeometry % restores the geometry
 \nopagecolor% Use this to restore the color pages to white
 \color{black}
+
+%*******************************************************
+% Little Dirty Titlepage
+%*******************************************************
+\newpage\phantom{blabla}
+
+\cleardoublepage
+
+\thispagestyle{empty}
+
+% \pdfbookmark[1]{Titel}{title}
+% *******************************************************
+\begin{addmargin}[-1cm]{-3cm}
+\begin{center}
+    \spacedlowsmallcaps{\myName} \\ \medskip
+
+    \begingroup
+        \color{$maincolor$}\spacedallcaps{\myTitle}
+    \endgroup
+\end{center}
+\end{addmargin}
 
 %*******************************************************
 % Titlepage
