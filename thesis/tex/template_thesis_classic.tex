@@ -542,6 +542,22 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %\cleardoublepage\include{FrontBackmatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
 
 %*******************************************************
+% Table of Contents
+%*******************************************************
+\pagestyle{scrheadings}
+%\phantomsection
+\pdfbookmark[1]{\contentsname}{tableofcontents}
+\setcounter{tocdepth}{1} % <-- 2 includes up to subsections in the ToC
+\setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\textsc{\thesection}\enspace\spacedlowsmallcaps{#1}}}
+
+
+%*******************************************************
 % Abstract
 %*******************************************************
 \cleardoublepage
@@ -646,20 +662,7 @@ On behalf of all co-authors, the undersigned certifys that:
 Thanks to everyone for being awesome
 
 \endgroup
-%*******************************************************
-% Table of Contents
-%*******************************************************
-\pagestyle{scrheadings}
-%\phantomsection
-\pdfbookmark[1]{\contentsname}{tableofcontents}
-\setcounter{tocdepth}{1} % <-- 2 includes up to subsections in the ToC
-\setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
-\manualmark
-\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
-\tableofcontents
-\automark[section]{chapter}
-\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
-\renewcommand{\sectionmark}[1]{\markright{\textsc{\thesection}\enspace\spacedlowsmallcaps{#1}}}
+
 %*******************************************************
 % List of Figures and of the Tables
 %*******************************************************
