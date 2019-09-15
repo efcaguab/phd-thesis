@@ -31,3 +31,7 @@ RUN python3 -m pip install wheel \
   && curl -fLo /root/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim \
   && squashfs-root/AppRun +PlugInstall +qall
+
+
+RUN R -e "install.packages('drake', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
+
