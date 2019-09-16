@@ -20,6 +20,13 @@ ownpubs = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibli
                            file_out("biblio/ownpubs.bib"))
 )
 
+pdf_plan <- drake_plan(
+chapter_dependency =
+thesis = bookdown::render_book(file_in("index.Rmd"),
+                               config_file = file("_bookdown.yml")
+)
+)
+
 full_plan <- rbind(biblio_plan)
 
 make(full_plan)
