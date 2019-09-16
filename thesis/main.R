@@ -20,13 +20,17 @@ ownpubs = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibli
                            file_out("biblio/ownpubs.bib"))
 )
 
-pdf_plan <- drake_plan(
-chapter_dependency =
-thesis = bookdown::render_book(file_in("index.Rmd"),
-                               config_file = file("_bookdown.yml")
-)
-)
+pdf_plan <-
+  drake_plan(chapters = c(knitr_in("introduction.Rmd"),
+                          knitr_in("driver-species.Rmd"),
+                          knitr_in("conclusion.Rmd")),
+             biblio = c(pollen_competition, network_control, interactions_sdm, ownpubs),
+             thesis = bookdown::render_book(knitr_in("index.Rmd"),
+                                            config_file = file_in("_bookdown.yml")))
 
-full_plan <- rbind(biblio_plan)
+
+full_plan <- rbind(biblio_plan,
+                   pdf_plan)
+
 
 make(full_plan)
