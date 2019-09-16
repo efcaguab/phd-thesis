@@ -2,18 +2,22 @@ library(magrittr)
 library(drake)
 pkgconfig::set_config("drake::strings_in_dots" = "literals")
 
-f <- lapply(list.files("code", full.names = T, pattern = ".R$"), source)
+f <- lapply(list.files("code",
+                       full.names = T,
+                       pattern = ".R$",
+                       recursive = TRUE), source)
 
-
+# Create bibliography folder if it doesn't exist
+dir.create("biblio", showWarnings = FALSE)
 biblio_plan <- drake_plan (
 pollen_competition = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibliography/master/pollen-competition.bib",
-                                      file_out("phd-bibliography/pollen-competition.bib")),
+                                      file_out("biblio/pollen-competition.bib")),
 network_control = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibliography/master/network-control.bib",
-                                   file_out("phd-bibliography/network-control.bib")),
+                                   file_out("biblio/network-control.bib")),
 interactions_sdm = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibliography/master/interactions%2Bsdm.bib",
-                                    file_out("phd-bibliography/interactions_sdm.bib")),
+                                    file_out("biblio/interactions_sdm.bib")),
 ownpubs = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibliography/master/ownpubs.bib",
-                           file_out("phd-bibliography/ownpubs.bib"))
+                           file_out("biblio/ownpubs.bib"))
 )
 
 full_plan <- rbind(biblio_plan)
