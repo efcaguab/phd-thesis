@@ -46,8 +46,13 @@ knitr::opts_chunk$set(out.width = '\\textwidth',
                       warning = FALSE, 
                       cache = FALSE)
 options(knitr.kable.NA = '')
-other_chapters <- drake::loadd(chapters)
-all_biblio <- drake::loadd(biblio)
 ```
+
+```{r load-dummy-dependences, include = FALSE}
+other_chapters <- loadd(chapters)
+all_biblio <- loadd(biblio)
+template <- loadd(template)
+```
+
 
 
