@@ -1,1 +1,13 @@
 # Introduction
+
+Structure of ecological networks determine the function and services.
+Therefore I study structure and their interactions
+
+Knowing how networks are assembled and disassembled is important. 
+How many species. degree distribution. etc. 
+
+Environment might determine that so I look at how it affects # interacing species. 
+
+Number of inetracting species affects competition
+
+Numbver of inetracting species affects keystoness ...
