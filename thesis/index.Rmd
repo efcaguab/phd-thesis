@@ -16,7 +16,7 @@ output:
     toc_appendix: yes
     pandoc_args:  --top-level-division=chapter
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
-bibliography: [phd-bibliography/network-control.bib]
+bibliography: [biblio/network-control.bib]
 # biblio-style: apalike
 link-citations: yes
 colorlinks: no  
