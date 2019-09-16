@@ -21,12 +21,7 @@ ownpubs = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibli
 )
 
 pdf_plan <-
-  drake_plan(chapters = c(knitr_in("introduction.Rmd"),
-                          knitr_in("driver-species.Rmd"),
-                          knitr_in("conclusion.Rmd")),
-             biblio = c(pollen_competition, network_control, interactions_sdm, ownpubs),
-             template = file_in("tex/template_thesis_classic.tex"),
-             thesis = bookdown::render_book(knitr_in("index.Rmd"),
+  drake_plan(thesis = bookdown::render_book(knitr_in("index.Rmd"),
                                             config_file = file_in("_bookdown.yml")))
 
 

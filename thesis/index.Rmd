@@ -48,10 +48,19 @@ knitr::opts_chunk$set(out.width = '\\textwidth',
 options(knitr.kable.NA = '')
 ```
 
-```{r load-dummy-dependences, include = FALSE}
-other_chapters <- loadd(chapters)
-all_biblio <- loadd(biblio)
-template <- loadd(template)
+```{r load-dependences, include = FALSE}
+# latex template
+file_in("tex/template_thesis_classic.tex")
+# other chapters
+knitr_in("introduction.Rmd")
+knitr_in("driver-species.Rmd")
+knitr_in("conclusion.Rmd")
+# bibliography
+file_in("biblio/pollen-competition.bib")
+file_in("biblio/network-control.bib")
+file_in("biblio/interactions_sdm.bib")
+file_in("biblio/ownpubs.bib")
+file_in("biblio/package-references.bib")
 ```
 
 
