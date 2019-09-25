@@ -1,12 +1,10 @@
 # Introduction
 
 \begin{flushright}{\slshape 
-    Los animales todos, en suma, no pueden pasarse sin alimento.
-    El animal cazador no puede tampoco escapar de ser, a su vez, cazado.
-    Todo animal debil devora al que es mas debil que el. Todo animal fuerte, no puede librarse de ser devorado por otro animal mas fuerte que el. Y en esto son exactamente igual los hombres, unos respecto de otros, aunque no lieguen a los mismos extremos. Dios, en suma, ha puesto a unos seres como causa de la vida de otros, y reciprocamente a estos como causa de la muerte de aquellos.  } \\ \medskip
-    --- Jahiz
+    When one starts to trace out the dependence of one animal upon another, one soon realises that it is necessary to study the whole community living in one habitat, since the interrelations of animals ramify so far.
+    } \\ \medskip
+    --- Charles Elton, Animal Ecology (1927)
 \end{flushright}
-
 
 From food and freshwater production to recereationa and carbon sequestration, ecosystems provide a wide range of services of considerable value to humans. 
 Unfortunately, the ability of ecosystems to provide these services is currently threatened by global change. 
