@@ -27,7 +27,13 @@ The degree distribution of all species in a community is a fundamental way to de
 Broadly speaking, species with a large degree, and hence a large numer of partners, are considered generalists while species with a small degree are considered specialist. 
 Broadly speaking, species with a large degree, and hence a large numer of partners, are considered generalists while species with a small degree are considered specialist. 
 
-Pollination networks are relatively generali
+Pollination networks are deemed to be relatively generalised when compared with other types of ecological networks. 
+This is, pollinators tend to interact with a large number of plants and visceversa, which biases the degree distribution.
+Previous theoretical work has suggested that this tendency of species to have a large degree, and incidentally share a large number of partners, is responsible for the impressive biodiversity of pollination communities. 
+This is so because, theoretically, this partner sharing increasse the possible positive feedback loops between plants and pollinators which offset the antagonistic interactions that may exist among each guild. 
+These findings imply that coexisitence of species is  maximised when pollinator sharing is the highest. 
+However, there is ample empirical evidence that shows that 
+
 In the first chapter of my thesis I focus on how the trade-offs the role that Previous theoretical work has suggested that the mutalistic relationships between plants and pollinators are responsible for the impressive biodiversity of pollination communities. 
 The mutualsitic relationships which create positive feedback loops between plants and pollinators allow for the coexistence of a large number of species.
 However, this work is unable to explain the structure of empirical ecological networks, as, theoretically, the positive feedback loops 
