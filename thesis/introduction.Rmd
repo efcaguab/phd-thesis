@@ -1,6 +1,27 @@
 # Introduction
 
-Structure of ecological networks determine the function and services.
+\begin{flushright}{\slshape 
+    Los animales todos, en suma, no pueden pasarse sin alimento.
+    El animal cazador no puede tampoco escapar de ser, a su vez, cazado.
+    Todo animal debil devora al que es mas debil que el. Todo animal fuerte, no puede librarse de ser devorado por otro animal mas fuerte que el. Y en esto son exactamente igual los hombres, unos respecto de otros, aunque no lieguen a los mismos extremos. Dios, en suma, ha puesto a unos seres como causa de la vida de otros, y reciprocamente a estos como causa de la muerte de aquellos.  } \\ \medskip
+    --- Jahiz
+\end{flushright}
+
+
+From food and freshwater production to recereationa and carbon sequestration, ecosystems provide a wide range of services of considerable value to humans. 
+Unfortunately, the ability of ecosystems to provide these services is currently threatened by global change. 
+Climate change and invasive alien species in particular are one of the largest causes of ecosystem degradation. 
+A necessary step to anticipate, prevent, and reverse ecosystem degradation is to understand the factors that determine their response to disturbancees. 
+
+A substantial amount of recent research indicates that the way ecosystems respond to disturbances is largely determined by the network of interactions formed by the species that inhabit it. 
+This is so, because this network, which connects all organisms in an ecological community, underpins ecosystem functioning and structure, and, therefore, can modulate the resilience of ecosystem services to disturbances. 
+However, 
+
+
+, this is that ecosystem structure is 
+se ecosystems are being currently threatened :
+
+Ecological nStructure of ecological networks determine the function and services.
 Therefore I study structure and their interactions
 
 Knowing how networks are assembled and disassembled is important. 
