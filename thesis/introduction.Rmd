@@ -13,12 +13,32 @@ A necessary step to anticipate, prevent, and reverse ecosystem degradation is to
 
 A substantial amount of recent research indicates that the way ecosystems respond to disturbances is largely determined by the network of interactions formed by the species that inhabit it. 
 This is so, because this network, which connects all organisms in an ecological community, underpins ecosystem functioning and structure, and, therefore, can modulate the resilience of ecosystem services to disturbances. 
-However, 
+However, we still do not understand enough about the processes that shape interaction networks in ecological communities in order to harness them for better ecological management. 
+The central aim of my doctoral research is to shed light into outstanding questions about the factors that determine the structure of ecological networks and how can it be effectively leveraged for improved management of ecosystem services.
+
+In this thesis, I focus on the network of mutualistic interactions between plants and pollinators. 
+These networks, which form the base of pollination systems, play a globally important role in the maintenance of biodiversity and crop production [@bascompte_plant-animal_2007; @klein_importance_2007].
+Pollination systems are locally important too; for instance two thirds of New Zealand plants are pollinated by birds or insects \autocite{Cox2000}, and this includes iconic native plants (like kōwhai and pōhutukawa), and economically important crops (like kiwifruit, apples and grapes). 
+Regretably, just like other species interactions, the relationship between plants and pollinators are currently being disrupted by multiple drivers of human-driven global change at a global scale \autocite{Cox2000}.
+
+A central concept of my thesis is that of species degree. 
+Species degree is essentially the number of interactions a species engages into in an ecological community. 
+The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure. 
+Broadly speaking, species with a large degree, and hence a large numer of partners, are considered generalists while species with a small degree are considered specialist. 
+Broadly speaking, species with a large degree, and hence a large numer of partners, are considered generalists while species with a small degree are considered specialist. 
+
+Pollination networks are relatively generali
+In the first chapter of my thesis I focus on how the trade-offs the role that Previous theoretical work has suggested that the mutalistic relationships between plants and pollinators are responsible for the impressive biodiversity of pollination communities. 
+The mutualsitic relationships which create positive feedback loops between plants and pollinators allow for the coexistence of a large number of species.
+However, this work is unable to explain the structure of empirical ecological networks, as, theoretically, the positive feedback loops 
+
+This theoretical conclusion is based on the assumption that pollination interactions are exclusively mutualistic. 
+However, there is ample empirical evidence that shows that organisms in a plant-pollinator community also compete to optimise the  
 
 
-, this is that ecosystem structure is 
-se ecosystems are being currently threatened :
-
+a positive impact on the growth rate of interacting species
+Indeed, previous theoretical work has largely assumed that the positive feedbacks of mutualistic interactions increase the growth rate of the focal speces, while antagonistic or interactions decrease it. 
+In the first chapter
 Ecological nStructure of ecological networks determine the function and services.
 Therefore I study structure and their interactions
 
