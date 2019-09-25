@@ -44,13 +44,14 @@ knitr::opts_chunk$set(out.width = '\\textwidth',
                       echo = FALSE,
                       message = FALSE, 
                       warning = FALSE, 
-                      cache = FALSE)
+                      cache = TRUE)
 options(knitr.kable.NA = '')
 ```
 
 ```{r load-dependences, include = FALSE}
 # latex template
 file_in("tex/template_thesis_classic.tex")
+file_in("style/classicthesis.sty")
 # other chapters
 knitr_in("introduction.Rmd")
 knitr_in("driver-species.Rmd")
