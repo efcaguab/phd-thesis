@@ -25,20 +25,17 @@ A central concept of my thesis is that of species degree.
 Species degree is essentially the number of interactions a species engages into in an ecological community. 
 The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure. 
 Broadly speaking, species with a large degree, and hence a large numer of partners, are considered generalists while species with a small degree are considered specialist. 
-Broadly speaking, species with a large degree, and hence a large numer of partners, are considered generalists while species with a small degree are considered specialist. 
 
 Pollination networks are deemed to be relatively generalised when compared with other types of ecological networks. 
 This is, pollinators tend to interact with a large number of plants and visceversa, which biases the degree distribution.
 Previous theoretical work has suggested that this tendency of species to have a large degree, and incidentally share a large number of partners, is responsible for the impressive biodiversity of pollination communities. 
 This is so because, theoretically, this partner sharing increasse the possible positive feedback loops between plants and pollinators which offset the antagonistic interactions that may exist among each guild. 
-These findings imply that coexisitence of species is  maximised when pollinator sharing is the highest. 
-However, there is ample empirical evidence that shows that 
+These findings imply that coexisitence of species is maximised when pollinator sharing is the highest. 
+This implication is based on the assumption that pollination interactions are primarly mutualistic. 
+However, there is ample empirical evidence going back to the end of the 19th century emphasising the competitive aspects of pollination.
 
-In the first chapter of my thesis I focus on how the trade-offs the role that Previous theoretical work has suggested that the mutalistic relationships between plants and pollinators are responsible for the impressive biodiversity of pollination communities. 
-The mutualsitic relationships which create positive feedback loops between plants and pollinators allow for the coexistence of a large number of species.
-However, this work is unable to explain the structure of empirical ecological networks, as, theoretically, the positive feedback loops 
-
-This theoretical conclusion is based on the assumption that pollination interactions are exclusively mutualistic. 
+In my first chapter I return to the longstanding view of pollination as a balance between facilitation and explore how the sharing of partners, which necessarily happens in competition and discuss its implications for network structure. 
+A shortcomming of previous empirical evidence was that it focused 
 However, there is ample empirical evidence that shows that organisms in a plant-pollinator community also compete to optimise the  
 
 
