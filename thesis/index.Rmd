@@ -44,18 +44,18 @@ knitr::opts_chunk$set(out.width = '\\textwidth',
                       echo = FALSE,
                       message = FALSE, 
                       warning = FALSE, 
-                      cache = TRUE)
+                      cache = FALSE)
 options(knitr.kable.NA = '')
 ```
 
-```{r load-dependences, include = FALSE}
+```{r load-dependences, include = FALSE, cache = FALSE}
 # latex template
 file_in("tex/template_thesis_classic.tex")
 file_in("style/classicthesis.sty")
 # other chapters
-knitr_in("introduction.Rmd")
-knitr_in("driver-species.Rmd")
-knitr_in("conclusion.Rmd")
+knitr_in("chapters/introduction.Rmd")
+knitr_in("chapters/driver-species.Rmd")
+knitr_in("chapters/conclusion.Rmd")
 # bibliography
 file_in("biblio/pollen-competition.bib")
 file_in("biblio/network-control.bib")

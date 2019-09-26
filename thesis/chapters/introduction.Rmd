@@ -18,8 +18,8 @@ The central aim of my doctoral research is to shed light into outstanding questi
 
 In this thesis, I focus on the network of mutualistic interactions between plants and pollinators. 
 These networks, which form the base of pollination systems, play a globally important role in the maintenance of biodiversity and crop production [@bascompte_plant-animal_2007; @klein_importance_2007].
-Pollination systems are locally important too; for instance two thirds of New Zealand plants are pollinated by birds or insects \autocite{Cox2000}, and this includes iconic native plants (like kōwhai and pōhutukawa), and economically important crops (like kiwifruit, apples and grapes). 
-Regretably, just like other species interactions, the relationship between plants and pollinators are currently being disrupted by multiple drivers of human-driven global change at a global scale \autocite{Cox2000}.
+Pollination systems are locally important too; for instance two thirds of New Zealand plants are pollinated by birds or insects [@cox_pollinator_2000], and this includes iconic native plants (like kōwhai and pōhutukawa), and economically important crops (like kiwifruit, apples and grapes). 
+Regretably, just like other species interactions, the relationship between plants and pollinators are currently being disrupted by multiple drivers of human-driven global change at a global scale [@cox_pollinator_2000].
 
 A central concept of my thesis is that of species degree. 
 Species degree is essentially the number of interactions a species engages into in an ecological community. 
@@ -32,17 +32,18 @@ Previous theoretical work has suggested that this tendency of species to have a 
 This is so because, theoretically, this partner sharing increasse the possible positive feedback loops between plants and pollinators which offset the antagonistic interactions that may exist among each guild. 
 These findings imply that coexisitence of species is maximised when pollinator sharing is the highest. 
 This implication is based on the assumption that pollination interactions are primarly mutualistic. 
-However, there is ample empirical evidence going back to the end of the 19th century emphasising the competitive aspects of pollination.
+However, there is ample empirical evidence going back to the end of the 19th century emphasising the competitive aspects of pollination and showing that plant reporoducton depends strongly on the quality of the mutualistic service [@mitchell_new_2009].
 
-In my first chapter I return to the longstanding view of pollination as a balance between facilitation and explore how the sharing of partners, which necessarily happens in competition and discuss its implications for network structure. 
-A shortcomming of previous empirical evidence was that it focused 
-However, there is ample empirical evidence that shows that organisms in a plant-pollinator community also compete to optimise the  
+In my first chapter I return to the longstanding view of pollination as a balance between facilitation and competition. 
+Specifically, I explore how the sharing of partners, a common feature of generalised pollination networks, affects the quality of pollination and discuss its possible implications for network structure. 
+A shortcomming of previous empirical evidence was that it focused primarly on pairs of species, or, at most, small subsets of ecological communities. 
+However, ecological communities are highly diverse and multiple confounding factors can also affect the quality of pollination. 
+I therefore expand the analysis of competition for pollination to ecological communities using a comprehensive dataset collected by Hugo Marrero and collaborators in the Argentinean Pampas [@marrero_agricultural_2016; @marrero_effect_2014; @marrero_exotic_2017]. 
+I asd
+asdasd
+asd
+sd
 
-
-a positive impact on the growth rate of interacting species
-Indeed, previous theoretical work has largely assumed that the positive feedbacks of mutualistic interactions increase the growth rate of the focal speces, while antagonistic or interactions decrease it. 
-In the first chapter
-Ecological nStructure of ecological networks determine the function and services.
 Therefore I study structure and their interactions
 
 Knowing how networks are assembled and disassembled is important. 
