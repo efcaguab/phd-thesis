@@ -3,10 +3,11 @@ get_bibliography <- function(filename_in, filename_out){
 
   biblio_items <- readLines(filename_in)
 
-  url_lines <- stringr::str_detect(biblio_items, "url = ") |
-    stringr::str_detect(biblio_items, "urldate = ")
+  lines_to_remove <- stringr::str_detect(biblio_items, "url = ") |
+    stringr::str_detect(biblio_items, "urldate = ") |
+    stringr::str_detect(biblio_items, "abstract = ")
 
-  writeLines(biblio_items[!url_lines],
+  writeLines(biblio_items[!lines_to_remove],
              filename_out)
 
   biblio_items[!url_lines] %>%
