@@ -39,16 +39,19 @@ Specifically, I explore how the sharing of partners, a common feature of general
 A shortcomming of previous empirical evidence was that it focused primarly on pairs of species, or, at most, small subsets of ecological communities. 
 However, ecological communities are highly diverse and multiple confounding factors can also affect the quality of pollination. 
 I therefore expand the analysis of competition for pollination to ecological communities using a comprehensive dataset collected by Hugo Marrero and collaborators in the Argentinean Pampas [@marrero_agricultural_2016; @marrero_effect_2014; @marrero_exotic_2017]. 
-I asd
-asdasd
-asd
-sd
 
-Therefore I study structure and their interactions
+In the first chapter I look at the possible implications that degree and pollinator sharing may have on network structure. 
+However, the degree of a species is not constant across the different ecological communities it inhabits. 
+It has been shown that the environment is able to affect the structure of ecological networks, but how exactly it does it, particularly in plant-pollinator communities, is not well understood. 
+In the second chapter of the thesis I investigate how the environment may influence species degree, the number of partners each species has, in an ecological community. 
+To do that, I use a global dataset of pollination networks and complement it with information about global climate and the ocurrence of species. 
+Importantly, I take into account how the environment may affect species degree through the presence or absense of possible partners or through the stresses it imposes on interacting species. 
 
-Knowing how networks are assembled and disassembled is important. 
-How many species. degree distribution. etc. 
-
+For my third chapter I move from how biotic and abiotic factors may determine the structure of ecological networks into how the structure may be used to inform ecological management. 
+For this purpose I build upon recent work from theoretical physics and engineering concerned with the control of complex networks. 
+By controling a network I mean being able to modify the state of an ecological community to an arbitrary stable state (where the state of a community is defined by the abundance of the constituten species). 
+Traditionally, it has been assumed that species central to the network of interactions, often species with a large degree, are important to control the ecological network. 
+These species are However, all these observations are not build upon any theory 
 Environment might determine that so I look at how it affects # interacing species. 
 
 Number of inetracting species affects competition
