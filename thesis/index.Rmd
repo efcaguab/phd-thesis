@@ -6,7 +6,6 @@ output:
   bookdown::pdf_book:
     template: tex/template_thesis_classic.tex
     keep_tex: yes
-    # citation_package: biblatex
     citation_package: biblatex
     # biblio-style: alphabetic
     # biblatexoptions: [backend=biber, maxbibnames=999]
@@ -36,7 +35,6 @@ citecolor: BrickRed
 library(magrittr)
 library(ggplot2)
 # Load functions
-f <- lapply(list.files("code", full.names = T, recursive = T, pattern = ".+\\.R"), source)
 knitr::opts_chunk$set(out.width = '\\textwidth', 
                       fig.width = fig_sizes()$two_column_width,
                       fig.align = 'center',
