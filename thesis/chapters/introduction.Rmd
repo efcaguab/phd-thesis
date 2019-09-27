@@ -9,11 +9,11 @@
 
 From food and freshwater production to recreational and carbon sequestration, ecosystems provide a wide range of services of considerable value to humans. 
 Unfortunately, the ability of ecosystems to provide these services is currently threatened by global change. 
-Climate change and invasive alien species, in particular, are one of the most significant causes of ecosystem degradation. 
+Climate change and invasive alien species, in particular, are some of the most significant causes of ecosystem degradation. 
 A necessary step to anticipate, prevent, and reverse ecosystem degradation is to understand the factors that determine their response to disturbances. 
 
-A substantial amount of recent research indicates that the way ecosystems respond to disturbances is primarily determined by the network of interactions formed by the species that inhabit it. 
-This is so, because this network, which connects all organisms in an ecological community, underpins ecosystem functioning and structure, and, therefore, can modulate the resilience of ecosystem services to disturbances. 
+A substantial amount of recent research indicates that the way ecosystems respond to disturbances is strongly determined by the network of interactions formed by the species that inhabit it [@tylianakis_global_2008; @bascompte_asymmetric_2006]. 
+This is so, because this network, which connects all organisms in an ecological community, underpins ecosystem functioning and structure, and, therefore, can modulate the resilience of ecosystem services to disturbances [@reiss_emerging_2009; @dobson_habitat_2006]. 
 However, we still do not understand enough about the processes that shape interaction networks in ecological communities to harness them for better ecological management. 
 The central aim of my doctoral research is to shed light into outstanding questions about the factors that determine the structure of ecological networks and how can it be effectively leveraged for improved management of ecosystem services.
 
@@ -22,15 +22,14 @@ These networks, which form the base of pollination systems, play a globally sign
 Pollination systems are locally critical too; for instance, two-thirds of New Zealand plants are pollinated by birds or insects [@cox_pollinator_2000], and this includes iconic native plants (like kōwhai and pōhutukawa), and economically important crops (like kiwifruit, apples and grapes). 
 Regrettably, just like other species interactions, the relationship between plants and pollinators, are currently being disrupted by multiple drivers of human-driven global change at a worldwide scale [@cox_pollinator_2000].
 
-A central concept of my thesis is that of species degree. 
-Species degree is essentially the number of interactions a species engages in an ecological community. 
-The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure. 
+A central concept of my thesis is that of species degree, essentially the number of interactions a species engages in an ecological community. 
+The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure [@stouffer_scaling_2010]. 
 Broadly speaking, species with a large degree, and hence a large number of partners, are considered generalists while species with a small degree are considered a specialist. 
 
 Pollination networks are deemed to be relatively generalised when compared with other types of ecological networks. 
 This is, pollinators tend to interact with a large number of plants and vice-versa, which biases the degree distribution.
-Previous theoretical work has suggested that this tendency of species to have a large degree and incidentally share a large number of partners, is responsible for the impressive biodiversity of pollination communities. 
-This is so because, theoretically, this partner sharing increases the possible positive feedback loops between plants and pollinators, which offset the antagonistic interactions that may exist among each guild. 
+Previous theoretical work has suggested that this tendency of species to have a large degree and incidentally share a large number of partners, is responsible for the impressive biodiversity of pollination communities [@bastolla_architecture_2009]. 
+This is so because, theoretically, this partner sharing increases the possible positive feedback loops between plants and pollinators, which offset the antagonistic interactions that may exist among each guild [@moeller_facilitative_2004]. 
 These findings imply that coexistence of species is maximised when pollinator sharing is the highest. 
 This implication is based on the assumption that pollination interactions are primarily mutualistic. 
 However, there is ample empirical evidence going back to the end of the 19th century emphasising the competitive aspects of pollination and showing that plant reproduction depends strongly on the quality of the mutualistic service [@mitchell_new_2009].
@@ -38,21 +37,21 @@ However, there is ample empirical evidence going back to the end of the 19th cen
 In \autoref{the-pollination-trade-off} I return to the longstanding view of pollination as a balance between facilitation and competition. 
 Specifically, I explore how the sharing of partners, a common feature of generalised pollination networks, affects the quality of pollination and discuss its possible implications for network structure. 
 A shortcoming of previous empirical evidence was that it focused primarily on pairs of species, or, at most, small subsets of ecological communities. 
-However, ecological communities are highly diverse, and multiple confounding factors can also affect the quality of pollination. 
+However, ecological communities are highly diverse, and multiple confounding factors can also affect the quality of pollination [@flanagan_effects_2011]. 
 I, therefore, expand the analysis of competition for pollination to ecological communities using a comprehensive dataset collected by Hugo Marrero and collaborators in the Argentinean Pampas [@marrero_agricultural_2016; @marrero_effect_2014; @marrero_exotic_2017]. 
 
 In \autoref{the-pollination-trade-off}, I look at the possible implications that degree and pollinator sharing may have on network structure. 
-However, the degree of a species is not constant across the different ecological communities it inhabits. 
-It has been shown that the environment can affect the structure of ecological networks, but how exactly it does it, particularly in plant-pollinator communities, is not well understood. 
+However, neither the identity of the partners a species has nor the species degree is constant across the different ecological communities it inhabits [@gravel_bringing_2018]. 
+It has been shown that the environment can affect the structure of ecological networks, but how exactly it does it, particularly in plant-pollinator communities, is not well understood [@tylianakis_ecological_2017]. 
 In \autoref{sdm-networks} I investigate how the environment may influence species degree, the number of partners each species has, in an ecological community. 
 To do that, I use a global dataset of pollination networks and complement it with information about the global climate and the occurrence of species. 
 Importantly, I take into account how the environment may affect species degree through the presence or absence of possible partners or through the stresses it imposes on interacting species. 
 
-For \autoref{structural-controllability} I move from how biotic and abiotic factors may determine the structure of ecological networks into how the structure may be used to inform ecological management. 
-For this purpose, I build upon recent work from theoretical physics and engineering concerned with the control of complex networks. 
+In \autoref{structural-controllability} I move from how biotic and abiotic factors may determine the structure of ecological networks into how the structure may be used to inform ecological management. 
+For this purpose, I build upon recent work from theoretical physics and engineering concerned with the control of complex networks [@liu_control_2016]. 
 By controlling a network, I mean being able to modify the state of an ecological community to an arbitrary stable state (where the state of a community is defined by the abundance of the constituent species). 
-Traditionally, it has been assumed that species central to the network of interactions, often species with a large degree, are essential to control the ecological network. 
-These species are often termed keystone species because they play a crucial role in ecosystem functioning as they can have profound impacts on the abundances of other species in the community. 
+Traditionally, it has been assumed that species central to the network of interactions, often species with a large degree, are essential to control the ecological network [@jordan_keystone_2009]. 
+These species are often termed keystone species because they play a crucial role in ecosystem functioning as they can have profound impacts on the abundances of other species in the community [@mills_keystone-species_1993]. 
 However, whether central species can modify the abundance of others is not based on a mechanistic understanding of how species affect each other in a network context, but merely on the assumption that species that are better connected are more influential. 
 I use recent developments on structural controllability of complex networks to investigate whether this is the case or not. 
 
