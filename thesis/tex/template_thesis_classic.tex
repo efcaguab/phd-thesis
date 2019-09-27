@@ -51,7 +51,7 @@
 %----------------------------------------------------------------------------------------
 
 % Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
-\PassOptionsToPackage{eulerchapternumbers, listings,drafting, pdfspacing, subfig,beramono,eulermath,parts,floatperchapter}{style/classicthesis}
+\PassOptionsToPackage{eulerchapternumbers, listings,drafting, pdfspacing, subfig,beramono,eulermath,parts,floatperchapter,style=style/classicthesis-arsclassica}{style/classicthesis}
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 % Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
 
@@ -297,6 +297,7 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %----------------------------------------------------------------------------------------
 
 \usepackage{style/classicthesis}
+\usepackage{style/classicthesis-arsclassica}
 
 %----------------------------------------------------------------------------------------
 %	CHANGING TEXT AREA
@@ -541,7 +542,7 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \cleardoublepage
 \pagestyle{scrheadings}
 \setcounter{tocdepth}{1} % <-- 2 includes up to subsections in the ToC
-\setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
+\setcounter{secnumdepth}{0} % <-- 3 numbers up to subsubsections
 \manualmark
 \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
 \phantomsection
