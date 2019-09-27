@@ -52,7 +52,9 @@ file_in("tex/template_thesis_classic.tex")
 file_in("style/classicthesis.sty")
 # other chapters
 knitr_in("chapters/introduction.Rmd")
+knitr_in("chapters/sdm-networks.Rmd")
 knitr_in("chapters/driver-species.Rmd")
+knitr_in("chapters/trade-off.Rmd")
 knitr_in("chapters/conclusion.Rmd")
 # bibliography
 file_in("biblio/phd-literature.bib")
