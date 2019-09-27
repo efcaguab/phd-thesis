@@ -15,7 +15,7 @@ output:
     toc_appendix: yes
     pandoc_args:  --top-level-division=chapter
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
-bibliography: [biblio/network-control.bib]
+bibliography: [biblio/phd-literature.bib]
 # biblio-style: apalike
 link-citations: yes
 colorlinks: no  
@@ -55,10 +55,7 @@ knitr_in("chapters/introduction.Rmd")
 knitr_in("chapters/driver-species.Rmd")
 knitr_in("chapters/conclusion.Rmd")
 # bibliography
-file_in("biblio/pollen-competition.bib")
-file_in("biblio/network-control.bib")
-file_in("biblio/interactions_sdm.bib")
-file_in("biblio/ownpubs.bib")
+file_in("biblio/phd-literature.bib")
 file_in("biblio/package-references.bib")
 ```
 
