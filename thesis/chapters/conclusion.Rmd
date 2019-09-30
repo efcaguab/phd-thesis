@@ -7,6 +7,11 @@
     --- Hans Rosling, Factfulness (1995)
 \end{flushright}
 
+In this thesis I explore some of the causes and consequences of the network of interactions between flowering plants and their pollinators in an ecological community.
+First, I explore how network structure can be influenced by the trade-offs that manifest when plants compete for the pollination service. 
+Second, I explore how the structure can be influenced by the stresses that the environment exert on plant or pollinator species. 
+Third, I explore how the structure can be harnessed to design effective management interventions. 
+
 ## Summary of the results
 
 In Chapter 1 we found that 
