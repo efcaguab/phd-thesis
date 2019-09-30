@@ -26,6 +26,8 @@ A central concept of my thesis is that of species degree, essentially the number
 The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure [@stouffer_scaling_2010]. 
 Broadly speaking, species with a large degree, and hence a large number of partners, are considered generalists while species with a small degree are considered a specialist. 
 
+## Research questions
+
 Pollination networks are deemed to be relatively generalised when compared with other types of ecological networks. 
 This is, pollinators tend to interact with a large number of plants and vice-versa, which biases the degree distribution.
 Previous theoretical work has suggested that this tendency of species to have a large degree and incidentally share a large number of partners, is responsible for the impressive biodiversity of pollination communities [@bastolla_architecture_2009]. 
