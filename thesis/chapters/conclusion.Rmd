@@ -12,11 +12,18 @@ First, I explore how network structure can be influenced by the trade-offs that 
 Second, I explore how the structure can be influenced by the stresses that the environment exert on plant or pollinator species. 
 Third, I explore how the structure can be harnessed to design effective management interventions. 
 
-## Summary of the results
+## Summary of results
 
-In Chapter 1 we found that 
+In \autoref{the-pollination-trade-off} we found that the number of shared pollinators, which is correlated to the species degree, had a surprisingly low influence in the quality of pollination. 
+Other factors like visit potential, functional originality, and abundance had a larger impact on the both the quantity and purity of the pollination service. 
+Specifically high visitation and pollen production appears to have a positive effect on the quantity of pollination (the amount of conspecific pollen received), but a negative effect on the purity (the amount of conspecific pollen relative to heterospecific pollen). 
+The relative abundance of a species had the opposite trends with a negative effect on pollination quantity and a positive effect on purity. 
+Functional originality had a positive albeit smaller effect on both pollination quantity and purity. 
+And finally, the number of shared pollinators had a negative effect on both quantity and purity. 
 
 ## General implications
+
+COmmunity level processes
 
 ## Next steps
 
