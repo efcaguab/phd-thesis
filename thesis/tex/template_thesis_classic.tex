@@ -43,7 +43,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\usepackage[a4,frame,axes,cam,center]{crop}
+% \usepackage[a4,frame,axes,cam,center]{crop}
 %----------------------------------------------------------------------------------------
 %	DOCUMENT VARIABLES
 %	Fill in the lines below to enter your information into the thesis template
@@ -366,6 +366,8 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \providecommand{\tightlist}{ % for tight list
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+\usepackage{tikz}
+
 \begin{document}
 %\begin{CJK*}{GBK}{song}
 
@@ -448,6 +450,20 @@ pdfproducer={LaTeX with hyperref and classicthesis}
     \endgroup
 \end{center}
 \end{addmargin}
+
+%*******************************************************
+% Image
+%*******************************************************
+
+\cleardoublepage
+%\includegraphics[width=1.3\linewidth]{images/pollination-01-A4.pdf}
+\thispagestyle{empty}
+\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center){\includegraphics[width=1.025\paperwidth,height=1.025\paperheight]{images/pollination-01-A4.pdf}};
+\begin{center}
+\vspace*{\fill}
+Photo: Bartosz Cuber
+\end{center}
+\clearpage
 
 %*******************************************************
 % Titlepage
