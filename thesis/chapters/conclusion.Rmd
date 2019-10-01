@@ -28,9 +28,22 @@ Those that are benefitial for both in the short term, like being specialized or 
 Another remarkable result was that the way species position themselves in this trade-off is not actually inherent to the species itself, but is strongly determined by the community context. 
 In other words, plants were flexible on the strategy they use to balance the the factors affecting the trade-offs inherent to the pollination service. 
 
-In 
+In \autoref{sdm-networks}, we found that species differ on how they approach 
 
 ## General implications
+
+In \autoref{the-pollination-trade-off} we learnt that the number of pollinators a plant species shares has a negative, but small effect in the pollination service. 
+This is the benefits of having a relatively large number of partners in the long term might outweight the disadvantages for the pollination service in the long term. 
+However the detriment to pollination service is proportional to the species degree and hence there is a point at which the trade-off becomes too large. 
+This point is likely to be species dependent.
+This might explain, at least in part why pollination networks are relatively generalised but also why they are not perfectly connected. 
+
+From an evolutionary perspective, species can limit the number of interaction partners by developing traits that allow them to interact more effectively with certain species while rendering the interaction with certain others less likely. 
+This traits, which together define the "Eltonian" component of the species, can be shaped by the environment, as we learnt from \autoref{sdm-networks}. 
+Taken together, the results suggest tha the point at which the net result of intereacting with a large number of species becomes negative can be influenced by the stresses the environment induces in a species. 
+This is, the differences between the strategy with wich a species approaches the pollination trade off in a community and another could be an indirect result of the environmental factors it faces. 
+
+Naturally, as we learnt from \autoref{sdm-networks}, 
 
 COmmunity level processes
 
