@@ -21,6 +21,15 @@ The relative abundance of a species had the opposite trends with a negative effe
 Functional originality had a positive albeit smaller effect on both pollination quantity and purity. 
 And finally, the number of shared pollinators had a negative effect on both quantity and purity. 
 
+These results indicate that there is no free lunch when species compete for better pollination service. 
+Some factors that may be benefitial for the quantity of pollen received may be detrimental for the quality. 
+Those that are benefitial for both in the short term, like being specialized or having original traits, have been shown to be a risky strategy when biotic or abiotic conditions change. 
+
+Another remarkable result was that the way species position themselves in this trade-off is not actually inherent to the species itself, but is strongly determined by the community context. 
+In other words, plants were flexible on the strategy they use to balance the the factors affecting the trade-offs inherent to the pollination service. 
+
+In 
+
 ## General implications
 
 COmmunity level processes
