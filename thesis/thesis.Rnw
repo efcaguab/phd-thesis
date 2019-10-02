@@ -1,0 +1,62 @@
+%------------------------------------------------------------------------------
+%	DOCUMENT KOMA CLASS
+%------------------------------------------------------------------------------
+
+% Remove useless warnings
+\RequirePackage{silence} % :-\
+    \WarningFilter{scrreprt}{Usage of package `titlesec'}
+    \WarningFilter{scrreprt}{Activating an ugly workaround}
+    \WarningFilter{titlesec}{Non standard sectioning command detected}
+
+\documentclass[
+  % double side thesis
+  twoside,openright,
+  % primary font size
+  fontsize=11pt,
+  paper=b5,
+  % new page after the title
+  titlepage,
+  % no point after section number
+  numbers=noenddot,
+  % header and footer at foot of the page
+  headinclude=true,
+  footinclude=true,
+  % 5 mm bookbinding
+  BCOR5mm,
+  % empty pages without header at foot of the page
+  cleardoublepage=empty,
+  abstract=on,
+  parskip=half,
+  DIV=calc,
+  % Languages
+  american
+]{scrreprt}
+
+%------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%------------------------------------------------------------------------------
+
+% so that thesis is printed in an A4 paper and has marks to cut down the paper
+% \usepackage[a4,axes,cam,center]{crop}
+
+\input{classicthesis-config}
+
+%------------------------------------------------------------------------------
+% BIBLIOGRAPHY
+%------------------------------------------------------------------------------
+
+\addbibresource{biblio/phd-literature.bib}
+
+%------------------------------------------------------------------------------
+% MAIN DOCUMENT
+%------------------------------------------------------------------------------
+
+\begin{document}
+
+\input{front-back-matter/title-page}
+\input{front-back-matter/title-back}
+\cleardoublepage\include{front-back-matter/dedication}
+\cleardoublepage\include{front-back-matter/contents}
+\cleardoublepage\include{front-back-matter/display-listings}
+
+\end{document}
