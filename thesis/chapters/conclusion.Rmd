@@ -28,7 +28,11 @@ Those that are benefitial for both in the short term, like being specialized or 
 Another remarkable result was that the way species position themselves in this trade-off is not actually inherent to the species itself, but is strongly determined by the community context. 
 In other words, plants were flexible on the strategy they use to balance the the factors affecting the trade-offs inherent to the pollination service. 
 
-In \autoref{sdm-networks}, we found that species differ on how they approach 
+In \autoref{sdm-networks}, we found that the environment can also play a role in determining the number of partners a species may have in an ecological community. 
+On the one hand it can limit the number of partners a species can interact with in a particular community.
+On the other it is, at least related, to wether a species is better off with a larger or a smaller number of partners when evironmental stress increases. 
+Specifically, species that have some species were better 
+
 
 ## General implications
 
@@ -43,10 +47,31 @@ This traits, which together define the "Eltonian" component of the species, can 
 Taken together, the results suggest tha the point at which the net result of intereacting with a large number of species becomes negative can be influenced by the stresses the environment induces in a species. 
 This is, the differences between the strategy with wich a species approaches the pollination trade off in a community and another could be an indirect result of the environmental factors it faces. 
 
-Naturally, as we learnt from \autoref{sdm-networks}, 
+Interestingly wether this point was moved backwards depending on the environmental stress, is likely to be related to the traits of the species. 
+As noted earlier, species with a small number of interacting partners under optimal enviornmental conditions, and as such possess traits that limit the number of interacting partners, are more likely to interact with more species as environmental conditions degrade. 
+Presumably this means they are trading the short term benefits that trait originality confers to the pollination service for the longer term benefits provided by a larger number of interaction partners. 
+Contrastingly, species with a large number of partners would be presumably more likely to do the opposite and "select for" partners that provide a better pollination service in the short term. 
+Finally, specialist that are unable to gain interaction partners under degraded environmental conditions are more likely to go extinct. 
 
-COmmunity level processes
+These conclusions relating the trade-offs in the pollination service and the environment have interesting ramifications for our current understanding of network structure.
+Lets imagine a hypothetical community with a nested structure typical of natural pollination communities.
+Now lets imagine that we move this community to a different environment in which most species are under higer enironmental stress, similar to what we would expect in a high altitude alpine community or under abrupt climate change. 
+Provided enough time for species to adapt their niches to the new conditons, it is plausible to expect some changes on network structure based on the conclusions from \autoref{the-pollination-trade-off} and \autoref{sdm-networks}. 
+Specifically, it is plausible to expect an increasse in the level of pollinator sharing among consituent species possibly accompained by an increase in connectance and a reduction of the network nestedness.
 
+The possible increase in connectance is consistent with the prevailing understanding thatmutualistic networks tend to be better connected than networks composed by antagonistic/competitive interactions. 
+A reasonable way to maintain species coexistence under increased environmental stress would be to increase the level of intraspecies facilitation compared to competition. 
+As found by Bastolla, higher levels of pollinator sharing favour species coexistence *if faciliation predominates*. 
+Indeed Lopezaraiza found that facilitation is more predominant than competition in the harsh environment prevalent in high altitude pollination communities.
+
+The possible decrease in nestedness has worrying implications as nestedness has been shown to promote stability and species persistence in pollination communities.
+In particicular, Souffer found that strong contributors to nestedness are more vulnerable to extinction. 
+This very same species, were the ones that our structural controllability analysis indicated as the ones that are more useful to manage an ecological community. 
 ## Next steps
 
+Confirm that this the trade-offs and environment are related to certain network structure
+
+A controllability analysis that takes into account the traits of species? 
+
 ## Conclusion
+
