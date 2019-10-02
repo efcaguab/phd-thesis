@@ -1,8 +1,8 @@
 # Conclusion 
 
 \begin{flushright}{\slshape 
-    It's not the numbers that are interesting. \
-    It's what they tell us about the lives behind the numbers
+    It's not the numbers that are interesting. \\
+    It's what they tell us about the lives behind the numbers.
     } \\ \medskip
     --- Hans Rosling, Factfulness (1995)
 \end{flushright}
