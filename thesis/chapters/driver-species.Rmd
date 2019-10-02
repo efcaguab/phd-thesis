@@ -397,3 +397,9 @@ In an ideal scenario, we would completely incorporate the species' dynamics into
 In contrast, structural controllability only requires a quantitative approximation of the network's interactions to gain valuable insight from the community.
 Furthermore, while the relationship between centrality and keystoneness is based on an intuitive understanding of what a keystone species is, the assumptions of structural controllability are explicit and the estimation of a species' importance arises from a mechanistic understanding of the population dynamics between species. 
 By accounting for network dynamics (even if in a simple way), structural stability incorporates more ecological realism, especially in the extreme scenario in which the structure of interactions within the community only marginally affects the community's state.
+
+
+\appendix
+%\renewcommand{\thechapter}{\alph{chapter}}
+\cleardoublepage
+\part{Appendix}
