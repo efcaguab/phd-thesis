@@ -46,6 +46,7 @@
 %------------------------------------------------------------------------------
 
 \addbibresource{biblio/phd-literature.bib}
+% \addbibresource{biblio/package-references.bib}
 
 %------------------------------------------------------------------------------
 % MAIN DOCUMENT
@@ -55,8 +56,18 @@
 
 \input{front-back-matter/title-page}
 \input{front-back-matter/title-back}
+
 \cleardoublepage\include{front-back-matter/dedication}
 \cleardoublepage\include{front-back-matter/contents}
+\cleardoublepage\include{front-back-matter/summary}
+% \cleardoublepage\include{front-back-matter/resumen}
+\cleardoublepage\include{front-back-matter/publications}
+\cleardoublepage\include{front-back-matter/declaration}
+\cleardoublepage\include{front-back-matter/acknowledgments}
+
+
+
+\cleardoublepage\include{front-back-matter/bibliography}
 \cleardoublepage\include{front-back-matter/display-listings}
 
 \end{document}
