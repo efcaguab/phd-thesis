@@ -3,8 +3,9 @@
 %------------------------------------------------------------------------------
 
 \pagestyle{scrheadings}
-%\phantomsection
+\phantomsection
 \pdfbookmark[1]{\contentsname}{tableofcontents}
+% \addcontentsline{toc}{chapter}{TOC}
 \setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
 \setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
 \manualmark
@@ -13,3 +14,4 @@
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
 \renewcommand{\sectionmark}[1]{\markright{\textsc{\thesection}\enspace\spacedlowsmallcaps{#1}}}
+

@@ -4,18 +4,18 @@ author: "Fernando Cagua"
 date: ""
 output:
   bookdown::pdf_book:
-    template: tex/template_thesis_classic.tex
+    template: tex/latex-template.tex
     keep_tex: yes
     citation_package: biblatex
     # biblio-style: alphabetic
     # biblatexoptions: [backend=biber, maxbibnames=999]
-    latex_engine: pdflatex
-    toc_depth: 3
+    # latex_engine: xelatex
+    toc_depth: 2
     toc_unnumbered: no
     toc_appendix: yes
     pandoc_args:  --top-level-division=chapter
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
-bibliography: [biblio/phd-literature.bib]
+# bibliography: [biblio/phd-literature.bib]
 # biblio-style: apalike
 link-citations: yes
 colorlinks: no  
@@ -48,8 +48,8 @@ options(knitr.kable.NA = '')
 
 ```{r load-dependences, include = FALSE, cache = FALSE}
 # latex template
-file_in("tex/template_thesis_classic.tex")
-file_in("style/classicthesis.sty")
+file_in("tex/latex-template.tex")
+file_in("style/classicthesis.sty") 
 # other chapters
 knitr_in("chapters/introduction.Rmd")
 knitr_in("chapters/sdm-networks.Rmd")

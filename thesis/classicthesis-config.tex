@@ -70,17 +70,17 @@
 \newcommand{\eg}{e.\,g.}
 \newcommand{\Eg}{E.\,g.}
 
-
 %------------------------------------------------------------------------------
 % 3. Loading some handy packages
 %------------------------------------------------------------------------------
+
 
 % Packages with options that might require adjustments
 %------------------------------------------------------------------------------
 
 % change this to your language(s), main language last
 % Spanish languages need extra options in order to work with this template
-\PassOptionsToPackage{spanish,es-lcroman,british}{babel}
+\PassOptionsToPackage{czech,spanish,es-lcroman,main=british}{babel}
 \usepackage{babel}
 
 \usepackage{csquotes}
@@ -89,7 +89,7 @@
   %backend=bibtex8,bibencoding=ascii,%
   language=auto,%
   % style=numeric-comp,%
-  style=authoryear-comp, % Author 1999, 2010
+  style=authoryear, % Author 1999, 2010
   %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
   sorting=nyt, % name, year, title
   maxbibnames=99, % default: 3, et al.
@@ -106,8 +106,10 @@
 % General useful packages
 %------------------------------------------------------------------------------
 
-\usepackage{graphicx} %
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx}
 \usepackage{scrhack} % fix warnings when using KOMA with listings package
+\usepackage{fixltx2e} % Fixes some LaTeX stuff
 \usepackage{xspace} % to get the spacing after macros right
 \PassOptionsToPackage{printonlyused,smaller}{acronym}
   \usepackage{acronym} % nice macros for handling all acronyms in the thesis
@@ -120,11 +122,13 @@
 %\usepackage{pgfplots} % External TikZ/PGF support (thanks to Andreas Nautsch)
 %\usetikzlibrary{external}
 %\tikzexternalize[mode=list and make, prefix=ext-tikz/]
+
 % ornaments
 \usepackage{adforn}
 
 
-%------------------------------------------------------------------------------% 4. Setup floats: tables, (sub)figures, and captions
+%------------------------------------------------------------------------------
+% 4. Setup floats: tables, (sub)figures, and captions
 %------------------------------------------------------------------------------
 
 % better tables
@@ -134,7 +138,29 @@
 \newcommand{\tableheadline}[1]{\multicolumn{1}{l}{\spacedlowsmallcaps{#1}}}
 % to be used with each float for alignment
 \newcommand{\myfloatalign}{\centering}
+\usepackage{caption}
+\captionsetup{format=hang,font=small}
 \usepackage{subfig}
+
+% Packages for kable extra
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+% \usepackage{xcolor} - Dont call xcolor because it's already called by classicthesis
+
+% Using czech in babel breaks booktabs
+\usepackage{etoolbox}
+\preto\tabular{\shorthandoff{-}}
 
 
 %------------------------------------------------------------------------------

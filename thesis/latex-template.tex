@@ -1,0 +1,99 @@
+%------------------------------------------------------------------------------
+%	DOCUMENT KOMA CLASS
+%------------------------------------------------------------------------------
+
+% Remove useless warnings
+\RequirePackage{silence} % :-\
+    \WarningFilter{scrreprt}{Usage of package `titlesec'}
+    \WarningFilter{scrreprt}{Activating an ugly workaround}
+    \WarningFilter{titlesec}{Non standard sectioning command detected}
+
+\documentclass[
+  % double side thesis
+  twoside,openright,
+  % primary font size
+  fontsize=11pt,
+  paper=b5,
+  % new page after the title
+  titlepage,
+  % no point after section number
+  numbers=noenddot,
+  % header and footer at foot of the page
+  headinclude=true,
+  footinclude=true,
+  % 5 mm bookbinding
+  BCOR5mm,
+  % empty pages without header at foot of the page
+  cleardoublepage=empty,
+  abstract=on,
+  parskip=half,
+  DIV=calc,
+  % Languages
+  american
+]{scrreprt}
+
+%------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%------------------------------------------------------------------------------
+
+% so that thesis is printed in an A4 paper and has marks to cut down the paper
+% \usepackage[a4,axes,cam,center]{crop}
+
+\input{classicthesis-config}
+
+%------------------------------------------------------------------------------
+% BIBLIOGRAPHY
+%------------------------------------------------------------------------------
+
+\addbibresource{biblio/phd-literature.bib}
+\addbibresource{$bibliography$}
+% \addbibresource{biblio/package-references.bib}
+
+
+\usepackage{ifthen} % Allows the user of the \ifthenelse command
+\newboolean{enable-backrefs} % Variable to enable backrefs in the bibliography
+\setboolean{enable-backrefs}{false} % Variable value: true or false
+
+\newcommand{\backrefnotcitedstring}{\relax} % (Not cited.)
+\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
+\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+\ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
+{
+\PassOptionsToPackage{hyperpageref}{backref}
+\usepackage{backref} % to be loaded after hyperref package
+\renewcommand{\backreftwosep}{ and~} % separate 2 pages
+\renewcommand{\backreflastsep}{, and~} % separate last of longer list
+\renewcommand*{\backref}[1]{}  % disable standard
+\renewcommand*{\backrefalt}[4]{% detailed backref
+\ifcase #1
+\backrefnotcitedstring
+\or
+\backrefcitedsinglestring{#2}
+\else
+\backrefcitedmultistring{#2}
+\fi}
+}{\relax}
+
+%------------------------------------------------------------------------------
+% MAIN DOCUMENT
+%------------------------------------------------------------------------------
+
+\begin{document}
+
+\input{front-back-matter/title-page}
+\input{front-back-matter/title-back}
+
+\cleardoublepage\include{front-back-matter/dedication}
+\cleardoublepage\include{front-back-matter/contents}
+\cleardoublepage\include{front-back-matter/summary}
+% \cleardoublepage\include{front-back-matter/resumen}
+\cleardoublepage\include{front-back-matter/publications}
+\cleardoublepage\include{front-back-matter/declaration}
+\cleardoublepage\include{front-back-matter/acknowledgments}
+
+$body$
+
+% \cleardoublepage\include{front-back-matter/bibliography}
+\cleardoublepage\include{front-back-matter/display-listings}
+
+\end{document}

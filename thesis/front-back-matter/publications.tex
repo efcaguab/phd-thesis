@@ -1,0 +1,24 @@
+%------------------------------------------------------------------------------
+% PUBLICATIONS
+%------------------------------------------------------------------------------
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Publications}
+% \setcounter{secnumdepth}{-1}
+\chapter*{Publications}
+% \setcounter{secnumdepth}{3}
+
+% Hack to get the header right. No idea why it doesn't work properly
+\manualmark
+\markboth{\spacedlowsmallcaps{Publications}}{\spacedlowsmallcaps{mama}}
+
+\noindent The following peer-reviewed publications have been published by the candidate during the PhD term.
+%
+\begin{refsection}
+    % \small
+    \nocite{*} % is local to to the enclosing refsection
+    \printbibliography[heading=none,keyword=own]
+\end{refsection}
+
+
+\vfill
