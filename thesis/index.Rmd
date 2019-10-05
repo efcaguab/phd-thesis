@@ -4,7 +4,7 @@ author: "Fernando Cagua"
 date: ""
 output:
   bookdown::pdf_book:
-    template: tex/latex-template.tex
+    template: latex-template.tex
     keep_tex: yes
     citation_package: biblatex
     # biblio-style: alphabetic
