@@ -91,9 +91,12 @@
 \cleardoublepage\include{front-back-matter/declaration}
 \cleardoublepage\include{front-back-matter/acknowledgments}
 
+% Place front matter stuff slightly above the rest of the document content in the table of contents
+\addtocontents{toc}{\protect\vspace{1em}}
+
 $body$
 
 \cleardoublepage\include{front-back-matter/bibliography}
-% \cleardoublepage\include{front-back-matter/display-listings}
+\cleardoublepage\include{front-back-matter/display-listings}
 
 \end{document}
