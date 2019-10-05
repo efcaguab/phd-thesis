@@ -8,11 +8,12 @@
   \phantomsection
   \manualmark
   \markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}%
+  % Place the bibliography slightly below the rest of the document content in the table of contents
   \addtocontents{toc}{\protect\vspace{\beforebibskip}}%
   \addcontentsline{toc}{chapter}{\tocEntry{#1}}%
   \chapter*{#1}%
 }
-% \printbibliography[heading=bibintoc]
+\printbibliography[heading=bibintoc]
 
 
 % % Bibliography

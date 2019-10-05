@@ -50,6 +50,13 @@ options(knitr.kable.NA = '')
 # latex template
 file_in("tex/latex-template.tex")
 file_in("style/classicthesis.sty") 
+tex_files <- list.files("front-back-matter/", pattern = "tex")
+all_dependencies <- c(tex_files)
+
+for(file in all_dependencies){
+  drake::file_in(file)
+}
+
 # other chapters
 knitr_in("chapters/introduction.Rmd")
 knitr_in("chapters/sdm-networks.Rmd")
