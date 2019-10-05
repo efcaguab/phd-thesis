@@ -50,12 +50,20 @@ options(knitr.kable.NA = '')
 # latex template
 file_in("tex/latex-template.tex")
 file_in("style/classicthesis.sty") 
-tex_files <- list.files("front-back-matter/", pattern = "tex")
-all_dependencies <- c(tex_files)
 
-for(file in all_dependencies){
-  drake::file_in(file)
-}
+# Template components
+file_in("front-back-matter/acknowledgments.tex")
+file_in("front-back-matter/bibliography.tex")
+file_in("front-back-matter/contents.tex")
+file_in("front-back-matter/declaration.tex")
+file_in("front-back-matter/dedication.tex")
+file_in("front-back-matter/display-listings.tex")
+file_in("front-back-matter/publications.tex")
+# file_in("front-back-matter/resumen.tex")
+file_in("front-back-matter/summary.tex")
+file_in("front-back-matter/table-of-contents.tex")
+file_in("front-back-matter/title-back.tex")
+file_in("front-back-matter/title-page.tex")
 
 # other chapters
 knitr_in("chapters/introduction.Rmd")
