@@ -48,7 +48,7 @@ options(knitr.kable.NA = '')
 
 ```{r load-dependences, include = FALSE, cache = FALSE}
 # latex template
-file_in("tex/latex-template.tex")
+file_in("latex-template.tex")
 file_in("style/classicthesis.sty") 
 
 # Template components
