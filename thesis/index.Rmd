@@ -71,6 +71,7 @@ knitr_in("chapters/sdm-networks.Rmd")
 knitr_in("chapters/driver-species.Rmd")
 knitr_in("chapters/trade-off.Rmd")
 knitr_in("chapters/conclusion.Rmd")
+knitr_in("chapters/coevolution.Rmd")
 # bibliography
 file_in("biblio/phd-literature.bib")
 file_in("biblio/package-references.bib")
