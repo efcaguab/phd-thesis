@@ -3,30 +3,30 @@
 %*******************************************************
 % work-around to have small caps also here in the headline
 % https://tex.stackexchange.com/questions/188126/wrong-header-in-bibliography-classicthesis
-% Thanks to Enrico Gregorio
-\defbibheading{bibintoc}[\bibname]{%
-  \phantomsection
-  \manualmark
-  \markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}%
-  % Place the bibliography slightly below the rest of the document content in the table of contents
-  \addtocontents{toc}{\protect\vspace{\beforebibskip}}%
-  \addcontentsline{toc}{chapter}{\tocEntry{#1}}%
-  \chapter*{#1}%
-}
-\printbibliography[heading=bibintoc]
+% % Thanks to Enrico Gregorio
+% \defbibheading{bibintoc}[\bibname]{%
+%   \phantomsection
+%   \manualmark
+%   \markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}%
+%   % Place the bibliography slightly below the rest of the document content in the table of contents
+%   \addtocontents{toc}{\protect\vspace{\beforebibskip}}%
+%   \addcontentsline{toc}{chapter}{\tocEntry{#1}}%
+%   \chapter*{#1}%
+% }
+% \printbibliography[heading=bibintoc]
 
 
-% % Bibliography
-% %
-% \addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
-% \addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
-% \printbibliography[
-% heading=bibintoc
-% ]
+% Bibliography
 %
+\addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
+% \addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
+\printbibliography[
+heading=bibintoc
+]
+
 % \label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
-% %
-% \manualmark
-% \markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
+%
+\manualmark
+\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
 % \refstepcounter{dummy}
-% %
+%
