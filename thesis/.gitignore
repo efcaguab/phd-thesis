@@ -1,1 +1,9 @@
 .drake/
+front-back-matter/*.aux
+thesis-concordance.tex
+*.bbl
+*.bcf
+*.lof
+*.lot
+*.run.xml
+*.toc
