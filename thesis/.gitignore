@@ -7,3 +7,4 @@ thesis-concordance.tex
 *.lot
 *.run.xml
 *.toc
+*.glsdefs
