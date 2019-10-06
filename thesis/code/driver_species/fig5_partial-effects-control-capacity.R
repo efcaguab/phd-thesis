@@ -61,7 +61,7 @@ partial_plot <- function(df, x, y, smooth_method = "lm"){
                       name = "",
                       labels = c("plants", "pollinators")) +
     base_ggplot_theme() +
-    theme(legend.position = c(0.01, 1.125),
+    theme(legend.position = c(0.01, 1.185),
           legend.justification = c(0,1),
           legend.background = element_rect(fill = "NA"),
           legend.key.size = unit(0.15, "in"),
