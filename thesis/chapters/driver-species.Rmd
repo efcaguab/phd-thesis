@@ -1,5 +1,11 @@
 # Structural controllability
 
+\begin{flushright}{\slshape
+    However, not everything that can be counted counts, \\
+    and not everything that counts can be counted.} \\ \medskip
+    --- William Bruce Cameron, Informal Sociology (1963)
+\end{flushright}
+
 ## Summary {-}
 
 An important dimension of a species' role is its ability to alter the state and maintain the diversity of its community. 

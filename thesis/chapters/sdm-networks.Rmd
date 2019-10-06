@@ -1,1 +1,7 @@
 # Effect of environment on networks {#sdm-networks}
+
+\begin{flushright}{\slshape
+    Stare at the world, \\
+    not at your model.} \\ \medskip
+    --- Arnold Kling (2017)
+\end{flushright}
