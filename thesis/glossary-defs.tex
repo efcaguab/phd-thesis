@@ -1,0 +1,35 @@
+% Glossary and acronyms
+\usepackage[style=index,nolist,toc]{glossaries}
+\makenoidxglossaries
+
+\newglossaryentry{network control}{
+  name={network control},
+  description={a network is said to be controllable if it is possible to steer it from an initial to an arbitrary final state within finite time}}
+
+\newglossaryentry{controllability}{
+  name={controllability},
+  description={the intrinsic difficulty of controlling an ecological community. It is measured by the relative size of the minimum driver-node set, $n_D$. It also indicates the extent to which network structure can be harnessed for network control}}
+
+\newglossaryentry{minimum driver node set}{
+  name={minimum driver-node set},
+  description={one of the sets of species whose abundances need to be directly managed in order to achieve full control of the community. The minimum driver-node sets can be obtained by finding all maximum matchings in a network}}
+
+\newglossaryentry{maximum matching}{
+  name={maximum matching},
+  description={a matching is a set of links that do not share any common start or end nodes; the largest possible matching is called a maximum matching}}
+
+\newglossaryentry{control configuration}{
+  name={control configuration},
+  description={one of the species combinations with which is possible to achieve network control. Optimal control configurations are given by the minimum driver-node sets}}
+
+\newglossaryentry{control capacity}{
+  name={control capacity},
+  description={the relative frequency ($\phi$) which with a species is part of the optimal control configurations of a network}}
+
+\newglossaryentry{critical species}{
+  name={critical species},
+  description={a species with a maximal control capacity ($\phi=1$)}}
+
+\newglossaryentry{superior node}{
+  name={superior node},
+  description={a species is a superior node if it can internally affect the abundance of other species in the network. Superior nodes make up the chains that propagate the control signals through the network}}

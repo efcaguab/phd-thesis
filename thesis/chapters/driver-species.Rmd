@@ -65,43 +65,20 @@ This implies that an examination of the distinct sets provides a means to connec
 
 Here, we apply methods from structural controllability to a particular ecological problem and show how it can be used to generate insight into the role of species in an ecological network. 
 Specifically, we outline the approach using a set of ten pairs of uninvaded and invaded plant-pollinator communities. 
-We use invaded communities because there is strong empirical evidence showing that invasive species play an important role shaping the abundances of other species, something which is particularly true in these ten networks [@lopezaraizamikel_impact_2007; @bartomeus_contrasting_2008]. 
+We use invaded communities because there is strong empirical evidence showing that invasive species play an important role shaping the abundances of other species, something which is particularly true in these ten networks [@lopezaraiza-mikel_impact_2007; @bartomeus_contrasting_2008]. 
 This choice thus offers us an opportunity to explicitly contrast our theoretical observations with empirical evidence.
 Moreover, empirical observations indicate that steering the state of some communities—for example during ecosystem restoration or invasive species removal—can be a very difficult task [@woodford_confronting_2016]. 
 Therefore, we first ask whether there are differences between the controllability of invaded and uninvaded networks. 
-We then expand existing methods from control theory to effectively link the *controllability* (Table \@ref(tab:tab-glossary)) of a network with the role of its constituent species.
+We then expand existing methods from control theory to effectively link the \gls{controllability} (see Glossary) of a network with the role of its constituent species.
 We ask—from a control-theoretic perspective—whether there are key differences between species in the role they play at driving the state of the community and explore the ecological factors related to these differences. 
 This allows us to identify species that might be critical for network control and show that they have a larger than expected impact on the stable coexistence of the community.
 Finally, we compare the proposed approach to current methods based on species' centrality and show how these methods are indeed valuable but ultimately paint a limited picture in regard to the "keystoneness" of a species.
-
-```{r tab-glossary, cache = TRUE}
-defs <- list(
-  "Network control" = "A network is said to be controllable if it is possible to steer it from an initial to an arbitrary final state within finite time.",
-  "Controllability" = "The intrinsic difficulty of controlling an ecological community. It is measured by the relative size of the minimum driver-node set, $n_D$. It also indicates the extent to which network structure can be harnessed for network control.", 
-  "Minimum driver-node set" = "One of the sets of species whose abundances need to be directly managed in order to achieve full control of the community. The minimum driver-node sets can be obtained by finding all maximum matchings in a network.",
-  "Maximum matching" = "A matching is a set of links that do not share any common start or end nodes; the largest possible matching is called a maximum matching.",
-  "Control configuration" = "One of the species combinations with which is possible to achieve network control. Optimal control configurations are given by the minimum driver-node sets.", 
-  "Control capacity" = "The relative frequency \\(\\phi\\) which with a species is part of the optimal control configurations of a network.", 
-  "Critical species" = "A species with a maximal control capacity \\(\\phi=1\\).",
-  "Superior node" = "A species is a superior node if it can internally affect the abundance of other species in the network. Superior nodes make up the chains that propagate the control signals through the network.")
-dplyr::data_frame(rows = c(rbind(names(defs), unlist(defs))), dummy2 = "") %>%
-  dplyr::mutate(rows = kableExtra::cell_spec(rows, "latex", bold = T:F, escape = F)) %>%
-  knitr::kable("latex", 
-               booktabs = T, 
-               col.names = NULL,
-               caption = "Controllability glossary", 
-               escape = F, 
-               linesep = c('', '\\addlinespace')) %>% 
-  kableExtra::kable_styling(font_size = 10, latex_options = "hold_position") %>%
-  kableExtra::add_indent(seq(2, length(defs)*2, by = 2)) %>%
-  kableExtra::column_spec(1, width = paste0(fig_sizes()$two_column_width * 0.9, "in"))
-```
 
 ## Methods
 
 We used ten paired pollination communities to apply the control-theoretic approach.
 Each community pair was composed of a community invaded by a plant and a community free of the invasive species. 
-Four pairs correspond to natural or semi-natural vegetation communities in the city of Bristol, UK [@lopezaraizamikel_impact_2007]. 
+Four pairs correspond to natural or semi-natural vegetation communities in the city of Bristol, UK [@lopezaraiza-mikel_impact_2007]. 
 These communities comprised 19--87 species (mean 55), and non-invaded plots were obtained by experimentally removing all the flowers of the invasive species *Impatiens grandulifera*.
 The other six pairs were obtained from lower diversity Mediterranean shrublands in Cap de Creus National Park, Spain [@bartomeus_contrasting_2008].
 These communities comprised 30--57 species (mean 38); in contrast to the above, uninvaded communities were obtained from plots that had not yet been colonised by either of the invasive species *Carpobrotus affine acinaciformis* or *Opuntia stricta*. The structure of all these communities was defined by the pollinator visitation frequency, which has been shown to be an appropriate surrogate for interspecific effects in pollination networks [@vazquez_interaction_2005; @bascompte_asymmetric_2006]. 
@@ -189,14 +166,14 @@ While calculating the size of the minimum drive-node set can measure the control
 
 To answer this question, we harness the fact there may be multiple maximum matchings for a given network, and each of these maximum matchings indicates a unique combination of species with which it is possible to control the network. 
 Moreover, some species belong to these combinations more often than do others. 
-We call this property a species' "control capacity", $\phi$. 
+We call this property a species' \gls{control capacity}, $\phi$. 
 The higher a species' control capacity, the greater the likelihood that it would need to be directly managed to change (or maintain) the ecological state of their community. 
 Therefore, a species' control capacity provides an estimation of its relative importance at driving the state of the community [@jia_control_2013]. 
 
 To calculate a species' control capacity $\phi$, we must first enumerate all possible maximum matchings. 
 Unfortunately, enumerating all maximum matchings is extremely expensive from a computational perspective, a network with a couple dozen species has several hundred million unique maximum matchings. 
 To solve this problem, we employ a recently-developed algorithm that reveals the control correlations between the nodes in the graph while requiring considerably less computational resources [@zhang_input_2016]. 
-Using this algorithm, we are able to identify species that are possible control inputs—those that belong to the minimum driver-node set in at least one of the possible control configurations. 
+Using this algorithm, we are able to identify species that are possible control inputs—those that belong to the minimum driver-node set in at least one of the possible \glspl{control configuration}. 
 Here, we extend this algorithm such that it is possible to calculate a highly accurate approximation of the control capacity $\phi$ of every species in the network. 
 In the networks that contained reciprocal links (because there was no asymmetry in the dependences of a species pair), we averaged a species' control capacity $\phi$ across every possible "non-reciprocal" version of the network. 
 
@@ -224,7 +201,7 @@ Our analysis revealed that some species have a control capacity $\phi = 1$.
 These species are critical to controlling their community because they are part of the minimum driver-node set in *every* control scenario. 
 In other words, it is theoretically impossible to drive the state of the community to a desired state without directly managing the abundance of these species. 
 We thus anticipate that these species have a disproportionally large impact on the community dynamics. 
-To test this hypothesis, we identified these critical species in each of the networks and investigated whether they have a larger than average impact on the stable coexistence of species in the community. 
+To test this hypothesis, we identified these \gls{critical species} in each of the networks and investigated whether they have a larger than average impact on the stable coexistence of species in the community. 
 Within mutualistic networks, one useful measure of stable coexistence is called structural stability [@rohr_structural_2014]. 
 Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances [@saavedra_nested_2016]. 
 The contribution of any given species $i$ to stable coexistence can be estimated by calculating the structural stability of the community when the focal species $i$ is removed. 

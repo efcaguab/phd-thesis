@@ -45,11 +45,13 @@ knitr::opts_chunk$set(out.width = '\\textwidth',
                       cache = FALSE)
 options(knitr.kable.NA = '')
 ```
-
+ 
 ```{r load-dependences, include = FALSE, cache = FALSE}
 # latex template
 file_in("latex-template.tex")
 file_in("style/classicthesis.sty") 
+file_in("classicthesis-config.tex")
+file_in("glossary-defs.tex")
 
 # Template components
 file_in("front-back-matter/acknowledgments.tex")
