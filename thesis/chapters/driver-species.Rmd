@@ -125,10 +125,9 @@ As recently shown [@liu_controllability_2011], the minimum driver-node set---tho
 make_fig_controllability_conditions(example_ntw_structural())
 ```
 
-```{r fig-control-configuration, fig.width=fig_sizes()$two_column_width, fig_height=fig_sizes()$two_column_width/1.105691, fig.cap = "Maximum matchings and control configurations. In directed networks, a maximum matching is the largest possible set of links that do not share start or end nodes (dark purple). Maximum matchings are not necessarily unique; instead, each of them is related to a possible minimum driver-node set in the network (the nodes to which an external control input, in orange, should be applied in order to ensure controllability). The size of the minimum driver-node set *D* corresponds exactly to the number of unmatched nodes (the number of nodes in the network *N* minus the matching size). To account for network size, we use the size of the minimum driver-node set relative to the total number of nodes *n~D~ = D/N* as a measure of the extent to which the network structure can be harnessed to control the system.", fig.scap="Maximum matchings and control configurations", out.extra='', cache = TRUE}
+```{r fig-control-configuration, fig.width=fig_sizes()$two_column_width, fig_height=fig_sizes()$two_column_width/1.105691, fig.cap = "Maximum matchings and control configurations. In directed networks, a maximum matching is the largest possible set of links that do not share start or end nodes (dark purple). Maximum matchings are not necessarily unique; instead, each of them is related to a possible minimum driver-node set in the network (the nodes to which an external control input, in orange, should be applied in order to ensure controllability). The size of the minimum driver-node set *D* corresponds exactly to the number of unmatched nodes (the number of nodes in the network *N* minus the matching size). To account for network size, we use the size of the minimum driver-node set relative to the total number of nodes *n~D~ = D/N* as a measure of the extent to which the network structure can be harnessed to control the system.", fig.scap="Maximum matchings", out.extra='', cache = TRUE}
 make_fig_control_configurations( example_ntw_matchings_chain(), example_ntw_matchings_star(), example_ntw_directions())
 ```
-
 
 ### Differences between invaded and uninvaded networks
 
@@ -293,19 +292,23 @@ fig_control_capacity %>%
     cowplot::plot_grid(plotlist = ., align = "hv", ncol = 1)
 ```
 
-```{r fig-species-partial, fig.height = fig_sizes()$two_column_width/2*4*0.85, fig.cap= "Partial-residual plots for the independent variables: (a) contribution to nestedness, (b) visitation strength, (c) asymmetry of dependences, and (d) degree. Partial-residual plots show the relationship between control capacity and each of the independent variables while acccounting for all other remaining variables. Ploted values correpond to the predictions of the models weighted average.", fig.scap="Partial-residual plots of independent variables", out.extra='', cache = TRUE}
+```{r fig-species-partial, fig.height = fig_sizes()$two_column_width/2*4*0.725, fig.cap= "Partial-residual plots for the independent variables: (a) contribution to nestedness, (b) visitation strength, (c) asymmetry of dependences, and (d) degree. Partial-residual plots show the relationship between control capacity and each of the independent variables while acccounting for all other remaining variables. Ploted values correpond to the predictions of the models weighted average.", fig.scap="Partial-residuals", out.extra='', cache = TRUE}
 fig_species_partial_data <- readRDS("data/driver_species/fig_partial_effects_control_capacity.rds")
 fig_species_partial <- make_fig_species_partial(fig_species_partial_data)
-  fig_species_partial %>%
+  
+fig_species_partial %>%
     cowplot::plot_grid(plotlist = ., 
                        align = "hv", ncol = 1)
+
+# ggsave("plot.pdf", width = fig_sizes()$two_column_width, height = fig_sizes()$two_column_width/2*4*0.725)
+
 
 ```
 
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
 Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
 
-```{r fig-structural-stability, fig.height = fig_sizes()$two_column_width/2*0.75, fig.cap="Probability density of the structural stability of the communities after a single focal species is removed. Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances. The structural stability of communities in which critical species have been removed (darker line) is considerably smaller than that of communities in which non-critical species have been removed. This indicates that critical species contribute more to the stable coexistence of their communities. To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one. Here, we assume values of the mutualistic trade-off and mean interspecific competition of $\\delta = 0$ and $\\rho = 0.01$ respectively. However, the choice of these parameters does not affect the results.", fig.scap="Probability density of structural stability", out.extra='', cache = TRUE}
+```{r fig-structural-stability, fig.height = fig_sizes()$two_column_width/2*0.75, fig.cap="Probability density of the structural stability of the communities after a single focal species is removed. Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances. The structural stability of communities in which critical species have been removed (darker line) is considerably smaller than that of communities in which non-critical species have been removed. This indicates that critical species contribute more to the stable coexistence of their communities. To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one. Here, we assume values of the mutualistic trade-off and mean interspecific competition of $\\delta = 0$ and $\\rho = 0.01$ respectively. However, the choice of these parameters does not affect the results.", fig.scap="Structural stability of species", out.extra='', cache = TRUE}
 fig_structural_stability_data <- readRDS("data/driver_species/fig_structural_stability.rds")
 fig_structural_stability <- make_fig_structural_stability(fig_structural_stability_data)
 fig_structural_stability[[1]]
