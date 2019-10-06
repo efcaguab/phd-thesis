@@ -1,4 +1,4 @@
-make_fig_structural_control <- function(en_direction, en_structural, pdf_out = NULL){
+make_fig_structural_control <- function(en_direction, pdf_out = NULL){
 
   # graph attributes
   formatted_en_direction <- en_direction  %>%
@@ -8,11 +8,6 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
     igraph::set_edge_attr("width", value = igraph::E(.)$weight)
   formatted_en_direction[[2]] %<>%
     igraph::set_edge_attr("width", value = 1)
-
-  # format networks for plotting
-  formatted_en_structural <- en_structural %>%
-    purrr::map(ntw_format_theme) %>%
-    purrr::map(ntw_control_network_theme)
 
   # adjust_darker_bg <- . %>%
   #   add_property("vertex", "color", "control_type", "type == 'b' ~ get_color('bg_dark')", "TRUE ~ get_color('bg')") %>%
@@ -25,18 +20,13 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
   box_col_2 <- get_color("bg_dark")
 
   heading_height <- 0.20
-  heading_thin_height <- 0.15
-  div_height <- 0.05
-  inner_margin_height <- 0.05
+  # heading_thin_height <- 0.15
+  # div_height <- 0.05
+  # inner_margin_height <- 0.05
   plot_1_height <- 0.75
-  plot_2_height <- 0.7
-  legend_height <- 0.25
-  heights <- c(heading_height, plot_1_height,
-               div_height,
-               heading_thin_height,
-               plot_2_height,
-               div_height, plot_2_height,
-               legend_height)
+  # plot_2_height <- 0.7
+  # legend_height <- 0.25
+  heights <- c(heading_height, plot_1_height)
   heights <- heights * fig_sizes()$two_column_width/fig_sizes()$one_column_width
   d <- 30
   x <- fig_sizes()$two_column_width/1.096774
@@ -47,13 +37,7 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
   # if(is.null(pdf_out)) dev.control("enable")
 
   c(  01,10,10,10,12,11,11,91,
-      90,13,13,13,12,14,14,91,
-      80,80,80,80,80,80,80,80,
-      22,20,20,20,28,21,21,93,
-      22,24,24,24,28,25,25,94,
-      94,81,81,81,81,81,81,81,
-      23,26,26,26,28,27,27,93,
-      30,30,30,30,30,30,30,30) %>%
+      90,13,13,13,12,14,14,91) %>%
     dplyr::dense_rank() %>%
     matrix(ncol = 8, byrow = T) %>%
     layout(heights = heights,
@@ -97,7 +81,7 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
   ## FIGURE A
   # 10
   standalone_text("visitation network", y = 0.25, adj = c(0.5,0), font = 2)
-  text(0, 1, "(a)", adj = c(0.15,1.5), font = 1)
+  # text(0, 1, "(a)", adj = c(0.15,1.5), font = 1)
 
   # 11
   standalone_text("direction of control", y = 0.25, adj = c(0.5,0), font = 2)
@@ -110,10 +94,51 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
     l <- rescale_layout(direction_layout(), xlim = c(-1, 1) * 1.6, ylim = c(-0.55, 0.7))
     plot_example_ntw(formatted_en_direction[[i]], layout = l)
   }
+  plot.new()
+}
+
+
+make_fig_controllability_conditions <- function(en_structural){
+
+  # format networks for plotting
+  formatted_en_structural <- en_structural %>%
+    purrr::map(ntw_format_theme) %>%
+    purrr::map(ntw_control_network_theme)
+
+  heading_thin_height <- 0.15
+  div_height <- 0.05
+  plot_2_height <- 0.7
+  legend_height <- 0.25
+  heights <- c(heading_thin_height,
+               plot_2_height,
+               div_height, plot_2_height,
+               legend_height)
+  heights <- heights * fig_sizes()$two_column_width/fig_sizes()$one_column_width
+  d <- 30
+  x <- fig_sizes()$two_column_width/1.096774
+  margin_h <- (fig_sizes()$two_column_width-x)
+  widths <- c(margin_h, x/3-x/2/d, x/d, x/2-x/3-x/d, x/d, x/2-x/3-x/d/2, x/3,0.001)
+
+  c(#  01,10,10,10,12,11,11,91,
+     # 90,13,13,13,12,14,14,91,
+      #80,80,80,80,80,80,80,80,
+      19,20,20,20,28,21,21,93,
+      22,24,24,24,28,25,25,94,
+      94,81,81,81,81,81,81,81,
+      23,26,26,26,28,27,27,93,
+      30,30,30,30,30,30,30,30) %>%
+    dplyr::dense_rank() %>%
+    matrix(ncol = 8, byrow = T) %>%
+    layout(heights = heights,
+           widths = widths)
+  par(mar = rep(0,4), bg = "white", xpd = NA)
+
+  plot.new()
+
   ## FIGURE B
   # 20
   standalone_text("dilation", y = 0.5, adj = c(0.5,1), font = 1)
-  text(0, 1, "(b)", adj = c(0.15,1.5), font = 1)
+  # text(0, 1, "(b)", adj = c(0.15,1.5), font = 1)
   # 21
   standalone_text("inaccessible node", y = 0.5, adj = c(0.5,1), font = 1)
   # 22
@@ -147,16 +172,6 @@ make_fig_structural_control <- function(en_direction, en_structural, pdf_out = N
          col = get_color("control"),
          lwd = 1.5, cex = 1, xjust=0.5, yjust=0.5, bty = "n")
   plot.new()
-  # standalone_hline(lty = 1)
-  # p <- recordPlot()
-
-  # dev.off()
-
-  # return(list(
-  #   plot = p,
-  #   width = sum(widths),
-  #   height = sum(heights)
-  # ))
 }
 
 add_vertex_edge <- function(x, vertex_name, vertex_type, edges_from, edges_to, edges_type){
