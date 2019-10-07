@@ -46,7 +46,7 @@ As a result, community ecology could arguably benefit from an alternative, perha
 Species' abundances---and consequently the state of the community as a whole---are influenced both by the structure of their interactions and the dynamics of these interactions, including the mechanisms of self-regulation [@lever_sudden_2014]. 
 However, community and population dynamics can be modelled in innumerable ways, and empirical support for one versus another is often still ambiguous [@holland_population_2002]. 
 The alternative approach should, therefore, ideally acknowledge ecosystem dynamics, but without being overly dependent on the particular choices of how they are characterised.
-Among the various possibilities *structural controllability*, a branch of control theory, appears to be a strong candidate [@isbell_human_2013]. 
+Among the various possibilities *structural controllability*, a branch of \gls{network control} theory, appears to be a strong candidate [@isbell_human_2013]. 
 Control theory is a widely-studied branch of engineering used to determine and supervise the behaviour of dynamical systems [@motter_networkcontrology_2015]. 
 It is inherently designed to deal with system feedbacks and its application has recently been expanded to complex networks [@lin_structural_1974;  @liu_control_2016]. 
 Consistent with long-standing ecological questions, advances in structural controllability have established a clear link between the structure of the network and the way nodes affect each other. 
