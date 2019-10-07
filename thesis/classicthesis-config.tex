@@ -126,7 +126,6 @@
 % ornaments
 \usepackage{adforn}
 
-
 %------------------------------------------------------------------------------
 % 4. Setup floats: tables, (sub)figures, and captions
 %------------------------------------------------------------------------------
@@ -141,6 +140,12 @@
 \usepackage{caption}
 \captionsetup{format=hang,font=small}
 \usepackage{subfig}
+
+% SO that floats that are larger than this number get their own page
+\renewcommand{\floatpagefraction}{.4}
+
+% so can include float barriers if necessary /FloatBarrier
+\usepackage{placeins}
 
 % Packages for kable extra
 \usepackage{booktabs}
