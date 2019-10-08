@@ -29,9 +29,15 @@ Another remarkable result was that the way species position themselves in this t
 In other words, plants were flexible on the strategy they use to balance the the factors affecting the trade-offs inherent to the pollination service. 
 
 In \autoref{sdm-networks}, we found that the environment can also play a role in determining the number of partners a species may have in an ecological community. 
-On the one hand it can limit the number of partners a species can interact with in a particular community.
-On the other it is, at least related, to wether a species is better off with a larger or a smaller number of partners when evironmental stress increases. 
-Specifically, species that have some species were better 
+On the one hand it can limit the number of partners a species can interact with in a particular community if the environment in the community lies outside their partners fundamental "Grinellian" niche.  
+On the other it can directly influence the size of the species realised "Eltonian niche" so that a species might not necesarly interact with a potential partner, even if the partner is present in the community. 
+Specifically, we found that species with a relatively small number of interacting partners under optimal enviornmental conditions are more likely to interact with more species as environmental conditions degrade. 
+This is, they interact with a larger proportion of available species; presumably promoting traits related to a larger realised Eltonian niche. 
+Contrastingly, species with a relatively large number of inetracting partners were more likely to interact with less species as environmental stress increases. 
+The fact that these second group of species favours interactions with a subset of possible species suggest that they might be focusing in fewer but better partners. 
+These trends were true both for plants and pollinators, which suggest
+
+Finally, in \autoref{structural-controllability}
 
 
 ## General implications
