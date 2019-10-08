@@ -48,6 +48,26 @@ Findings such as these---coupled with the facts that the association of angiospe
 On the other hand, perfect congruence of speciation patterns cannot be expected across such rich and diverse groups after more than 100mya of association. 
 Nevertheless, even a weak cophylogenetic signal between angiosperms and their pollinators (i.e., at taxonomic scales above the species level) would provide important evidence that coupled evolution between taxa is an important correlate of their tendency to interact. 
 
+```{r}
+a_phylo <- ggplot() +
+  cowplot::draw_image("images/coevolution/a-cophylogeny.png") +
+  base_ggplot_theme() +
+  labs(title = "plant-pollinator interactions globally", 
+       y = "cophylogenetic\nassemblage") +
+  theme(panel.border = element_blank())
+
+a_nophylo <- ggplot() +
+  cowplot::draw_image("images/coevolution/a-no_cophylogeny.png") +
+  base_ggplot_theme() +
+  labs(y = "non-cophylogenetic\nassemblage") +
+  theme(panel.border = element_blank())
+
+cowplot::plot_grid(a_phylo, a_nophylo, 
+                   ncol = 1, 
+                   align = "v")
+```
+
+
 The most relevant scale at which cophylogenetic signal could characterize ecological interactions is that of the community. 
 It is already well established that elements of community composition, such as evenness, functional trait diversity and interaction structure have an element of phylogenetic determinism [@webb_phylogenies_2002; @eklof_phylogenetic_2016; @harmon-threatt_filtering_2013; @emerson_phylogenetic_2008; @vamosi_emerging_2009]. 
 Hence, even when recognizing the various caveats of a phylogenetic approach to community ecology [@mayfield_opposing_2010; @losos_seeing_2011], there are clear implications should cophylogenetic signal be detectable in ecological communities. 
