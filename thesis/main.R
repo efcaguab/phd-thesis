@@ -11,7 +11,7 @@ f <- lapply(list.files("code",
 dir.create("biblio", showWarnings = FALSE)
 biblio_plan <- drake_plan (
 target(command = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibliography/master/phd-literature.bib",
-                                  file_out("biblio/phd-literature.bib"))))
+                                  file_out("bibliography/phd-literature.bib"))))
 
 pdf_plan <-
   drake_plan(thesis = bookdown::render_book(knitr_in("index.Rmd"),
@@ -21,5 +21,7 @@ pdf_plan <-
 full_plan <- rbind(biblio_plan,
                    pdf_plan)
 
+# plan_config <- drake_config(full_plan)
+# vis_drake_graph(plan_config)
 
 make(full_plan)

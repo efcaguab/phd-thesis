@@ -1,2 +1,9 @@
 book_filename: thesis
-rmd_files: ["index.Rmd", "chapters/introduction.Rmd", "chapters/trade-off.Rmd", "chapters/sdm-networks.Rmd", "chapters/driver-species.Rmd", "chapters/conclusion.Rmd", "chapters/coevolution.Rmd"]
+rmd_files:
+  - "index.Rmd"
+  - "chapters/introduction.Rmd"
+  - "chapters/trade-off.Rmd"
+  - "chapters/sdm-networks.Rmd"
+  - "chapters/driver-species.Rmd"
+  - "chapters/conclusion.Rmd"
+  - "chapters/coevolution.Rmd"

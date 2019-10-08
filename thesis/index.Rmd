@@ -1,33 +1,14 @@
 --- 
 title: "The resilience of ecological networks"
 author: "Fernando Cagua"
-date: ""
 output:
   bookdown::pdf_book:
-    template: latex-template.tex
+    template: latex-components/latex-template.tex
     keep_tex: yes
     citation_package: biblatex
-    # biblio-style: alphabetic
-    # biblatexoptions: [backend=biber, maxbibnames=999]
-    # latex_engine: xelatex
-    toc_depth: 2
-    toc_unnumbered: no
-    toc_appendix: yes
-    pandoc_args:  --top-level-division=chapter
-    quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
-# bibliography: [biblio/phd-literature.bib]
-# biblio-style: apalike
+    pandoc_args: --top-level-division=chapter
 link-citations: yes
-colorlinks: no  
-# toc: no
-lot: no
-lof: no
 site: bookdown::bookdown_site
-logo: images/uc-logo.jpg
-maincolor: BrickRed
-urlcolor: BrickRed
-linkcolor: BrickRed
-citecolor: BrickRed
 ---
 
 ```{r, include=FALSE}
@@ -47,25 +28,28 @@ options(knitr.kable.NA = '')
 ```
  
 ```{r load-dependences, include = FALSE, cache = FALSE}
+
 # latex template
-file_in("latex-template.tex")
-file_in("style/classicthesis.sty") 
-file_in("classicthesis-config.tex")
-file_in("glossary-defs.tex")
+file_in("latex-components/latex-template.tex")
+file_in("latex-components/config.tex")
+
+# latex style
+file_in("latex-components/style/classicthesis.sty")
+file_in("latex-components/style/classicthesis-arsclassica.sty")
 
 # Template components
-file_in("front-back-matter/acknowledgments.tex")
-file_in("front-back-matter/bibliography.tex")
-file_in("front-back-matter/contents.tex")
-file_in("front-back-matter/declaration.tex")
-file_in("front-back-matter/dedication.tex")
-file_in("front-back-matter/display-listings.tex")
-file_in("front-back-matter/publications.tex")
-# file_in("front-back-matter/resumen.tex")
-file_in("front-back-matter/summary.tex")
-file_in("front-back-matter/table-of-contents.tex")
-file_in("front-back-matter/title-back.tex")
-file_in("front-back-matter/title-page.tex")
+file_in("latex-components/front-back-matter/acknowledgments.tex")
+file_in("latex-components/front-back-matter/bibliography.tex")
+file_in("latex-components/front-back-matter/contents.tex")
+file_in("latex-components/front-back-matter/declaration.tex")
+file_in("latex-components/front-back-matter/dedication.tex")
+file_in("latex-components/front-back-matter/display-listings.tex")
+file_in("latex-components/front-back-matter/publications.tex")
+# file_in("latex-components/front-back-matter/resumen.tex")
+file_in("latex-components/front-back-matter/summary.tex")
+file_in("latex-components/front-back-matter/table-of-contents.tex")
+file_in("latex-components/front-back-matter/title-back.tex")
+file_in("latex-components/front-back-matter/title-page.tex")
 
 # other chapters
 knitr_in("chapters/introduction.Rmd")
@@ -74,9 +58,10 @@ knitr_in("chapters/driver-species.Rmd")
 knitr_in("chapters/trade-off.Rmd")
 knitr_in("chapters/conclusion.Rmd")
 knitr_in("chapters/coevolution.Rmd")
+
 # bibliography
-file_in("biblio/phd-literature.bib")
-file_in("biblio/package-references.bib")
+file_in("bibliography/phd-literature.bib")
+file_in("bibliography/package-references.bib")
 ```
 
 

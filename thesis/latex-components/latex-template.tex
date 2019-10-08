@@ -39,14 +39,14 @@
 % so that thesis is printed in an A4 paper and has marks to cut down the paper
 % \usepackage[a4,axes,cam,center]{crop}
 
-\input{classicthesis-config}
+\input{latex-components/config}
+\input{latex-components/front-back-matter/glossary-defs}
 
 %------------------------------------------------------------------------------
 % BIBLIOGRAPHY
 %------------------------------------------------------------------------------
 
-\addbibresource{biblio/phd-literature.bib}
-% \addbibresource{biblio/package-references.bib}
+\addbibresource{bibliography/phd-literature.bib}
 
 %------------------------------------------------------------------------------
 % MAIN DOCUMENT
@@ -54,20 +54,30 @@
 
 \begin{document}
 
-\input{front-back-matter/title-page}
-\input{front-back-matter/title-back}
+\pagenumbering{roman}
 
-\cleardoublepage\include{front-back-matter/dedication}
-\cleardoublepage\include{front-back-matter/contents}
-\cleardoublepage\include{front-back-matter/summary}
-% \cleardoublepage\include{front-back-matter/resumen}
-\cleardoublepage\include{front-back-matter/publications}
-\cleardoublepage\include{front-back-matter/declaration}
-\cleardoublepage\include{front-back-matter/acknowledgments}
+\include{latex-components/front-back-matter/title-page}
+\include{latex-components/front-back-matter/title-back}
+
+\cleardoublepage\include{latex-components/front-back-matter/dedication}
+\cleardoublepage\include{latex-components/front-back-matter/contents}
+\cleardoublepage\include{latex-components/front-back-matter/summary}
+% \cleardoublepage\include{latex-components/front-back-matter/resumen}
+\cleardoublepage\include{latex-components/front-back-matter/publications}
+\cleardoublepage\include{latex-components/front-back-matter/declaration}
+\cleardoublepage\include{latex-components/front-back-matter/acknowledgments}
+
+\newpage
+\cleardoublepage
+\pagenumbering{arabic}
+
+% Place front matter stuff slightly above the rest of the document content in the table of contents
+\addtocontents{toc}{\protect\vspace{1em}}
 
 $body$
 
-\cleardoublepage\include{front-back-matter/bibliography}
-\cleardoublepage\include{front-back-matter/display-listings}
+\cleardoublepage\include{latex-components/front-back-matter/bibliography}
+\cleardoublepage\include{latex-components/front-back-matter/display-listings}
+\cleardoublepage\include{latex-components/front-back-matter/glossary}
 
 \end{document}

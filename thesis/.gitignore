@@ -1,5 +1,5 @@
 .drake/
-front-back-matter/*.aux
+*.aux
 thesis-concordance.tex
 *.bbl
 *.bcf
