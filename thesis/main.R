@@ -8,7 +8,7 @@ f <- lapply(list.files("code",
                        recursive = TRUE), source)
 
 # Create bibliography folder if it doesn't exist
-dir.create("biblio", showWarnings = FALSE)
+dir.create("bibliography", showWarnings = FALSE)
 biblio_plan <- drake_plan (
 target(command = get_bibliography("https://raw.githubusercontent.com/efcaguab/phd-bibliography/master/phd-literature.bib",
                                   file_out("bibliography/phd-literature.bib"))))
