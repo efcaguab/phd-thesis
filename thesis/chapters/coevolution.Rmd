@@ -360,3 +360,59 @@ At the scale of individual modules, we see similar results. The proportion of a 
 Last, we saw that exotic species do not appear to have a marked effect on the cophylogenetic signal that we see in pollination communities or in their modular structure.
 The only exception is that the presence of exotic species does appear to dampen cophylogenetic signal at the scale of individual modules. 
 However, these analyses should likely be treated as exploratory since exotic species were only found in a small subset of the networks that we studied here.
+
+## Discussion
+
+The primary goal of this study was to examine the potential role of cophylogeny as an evolutionary determinant of ecological interactions. 
+Specifically, we have set out to quantify the degree to which a cophylogenetic signal is manifest between flowering plants and their pollinators across a broad dataset and at a range of ecological scales. 
+We found that cophylogenetic signal in pollination interactions appears quite commonplace, from the global level of interactions between flowering plants and pollinators to the scale of ecological communities and their internal structure. 
+In particular, we find that local communities tend to exhibit a greater degree of cophylogenetic signal than both randomly assembled communities of plants and pollinators with the same network structure and observed pollination communities with a shuffled network structure. 
+As such, it appears that the role that evolutionary history plays in determining pollination interactions is not just on one side of the interaction or the other, but can instead be the product of both taxa and the coupled evolutionary history they share. 
+
+In its most basic sense, a cophylogenetic pattern is a macro-evolutionary signature of coupled evolutionary divergence between interacting taxa. 
+In some cases---for instance between toucans and chewing lice [@weckstein_biogeography_2004] or amphibians and *Polystoma* [@bentz_historical_2006]---the congruence in phylogenies of interacting clades has been attributed to shared biogeographical pressure such as vicariance [@weckstein_biogeography_2004] or habitat acquisition [@bentz_historical_2006]. 
+Given the purported role of biogeographical forces in producing phylogenetic signal [@cavender-bares_merging_2009], the significant cophylogenetic signal that we see at the global scale may be explained by the co-occurence of taxa that have diversified in the same regions and interact due to proximity. 
+On the other hand, if clumping of lineages by biogeographical filtering is a strong determinant of the signal that we see, we might expect to see a greater proportion of local communities showing significant signal when compared to random assemablages of species. 
+Our results instead suggest that the proportion of local communities showing significant cophylogenetic signal is greater when the null expectation is a randomization of the observed community's interactions rather than when it is a random assemblage of species.
+
+It has also been hypothesized that cophylogenetic signal is most parsimoniously explained by a coevolutionary process [@thompson_geographic_2005; @smith_distinguishing_2008; @godsoe_divergence_2009; @aizen_phylogenetic_2016], even when reciprocal selection need not always result in cospeciation [@thompson_geographic_2005]. 
+Indeed, @page_tangled_2003 suggests that ``it is difficult to imagine that cospeciation can occur without at least some degree of coevolution''. 
+Clearly, the process or processes that underpin cophylogenetic signal remain an open question.
+As such, we focus here on the various implications of cophylogenetic signal across a gradient of ecological scales rather than speculate about the underlying mechanism. 
+	
+Pollination is a comparatively less intimate and a more variable interaction type [@bascompte_mutualistic_2014] than other systems in which cophylogeny has been studied [@hafner_phylogenetic_1988; @weckstein_biogeography_2004; @desdevises_cophylogeny_2007; @hughes_multiple_2007]. 
+Accordingly, the strength of cophylogenetic signal observed here is not as extreme as levels seen in other systems [@hafner_phylogenetic_1988]. 
+Nonetheless, empirical associations of plants and pollinators still tend to show a significant cophylogenetic signal. 
+Indeed, even when exotic species---who presumably have little coupled evolutionary history with native species---are present, a cophylogenetic signal can still be observed either due to potential evolutionary matching of deep phylogenetic branches between exotic and native taxa [@aizen_phylogenetic_2016], or due to the qualitative nature of our assessment of cophylogenetic signal (i.e., significant vs. non-significant).
+Interestingly however, the dampening of cophylogenetic signal by non-native species was more obvious at the scale of individual modules of plants and pollinators. 
+
+Across ecological scales, we observe cophylogenetic signal between plants and pollinators. 
+At all scales of pollination association, this implies that while interactions may be predicted by co-occurrence [@gotelli_species_2002] or functional traits [@dehling_functional_2014], it is also important to consider the evolutionary coupling of two taxa as a determinant of their likelihood to interact. 
+Perhaps most importantly, when a community does show cophylogenetic signal it also implies that there is phylogenetic congruence on both sides of its pollination interactions rather than only one. 
+Our results therefore extend previous conclusions that closely related species in ecological networks tend to interact in similar ways [@rezende_non-random_2007; @gomez_ecological_2010; @fontaine_comparing_2015] and that phylogenetic relatedness influences community assembly [@emerson_phylogenetic_2008] by suggesting that the role of past evolution in determining species interactions is not limited to one side of the interaction but can instead traverse the interaction.
+
+The scale at which we see a less clear-cut cophylogenetic signal is at the level of modules. 
+Undoubtedly, modules have fundamental roles in ecological networks as they describe groups of tightly-bound interaction partners [@olesen_modularity_2007]. 
+However, a network's modular structure appears to poorly reflect a cophylogenetic signal.
+Perhaps this is unsurprising. 
+We know that modules in ecological networks can be the product of a suite of processes ranging from ecological to evolutionary and back again [@olesen_modularity_2007; @rezende_compartments_2009; @krasnov_phylogenetic_2012; @rohr_structural_2014; @schleuning_ecological_2014]. 
+Therefore, the weak cophylogenetic signal that we observe in the modular structure of pollination networks may be due to the fact that the modules of a community can be the result of a melting pot of ecological and evolutionary processes [@olesen_modularity_2007; @krasnov_phylogenetic_2012; @traveset_invaders_2013; @schleuning_ecological_2014]. 
+Having said that, recent work that highlights the differences in the determinants and characterization of modules within a network [@olesen_modularity_2007; @rezende_compartments_2009] suggests the need to focus less on modular structure and more on individual modules themselves.
+In particular, if individual modules can be thought of as distinct entities then examining cophylogenetic signal across the modules of an entire community may unnecessarily blur the patterns of cophylogenetic signal present in the modules themselves and the community as a whole. 
+
+Accordingly, we find substantial variation in cophylogenetic signal across individual modules.
+While a significant proportion of observed modules are cophylogenetic, they may be closer to the exception than the rule. 
+These cophylogenetic modules---that typically show low phylogenetic diversity on both sides of the interaction---appear to be tightly interacting and closely-related groups of flowering plants and pollinators that exhibit both historical *and* contemporary associations. 
+The constituent species in these modules appear to be more phylogenetically constrained for the case of pollinators than for plants as most pollinators that participate in cophylogenetic modules belong to the orders diptera and hymenoptera. 
+
+Given that the pollinators in pollination syndromes are thought to be more phylogenetically delimited than plants [@fenster_pollination_2004], that hymenoptera and diptera account for 4 out of 11 pollination syndromes recognized by @ollerton_phenotype_2000, and that these syndromes are thought to be represented by modules [@olesen_modularity_2007], we conclude that future work should aim to understand whether or not the cophylogenetic modules we observe are in fact the manifestation of distinct pollination syndromes. 
+Such work could also incorporate the traits of these species alongside their evolutionary history and ecological associations. A clear pattern of cophylogenetic signal and trait-matching within modules may provide the clearest evidence to date in support of @olesen_modularity_2007 hypothesis that modules represent a fundamental unit of coevolution in pollination networks.
+
+Our results contribute a new consideration to the prediction of ecological interactions.
+In the face of accelerating global change, the ability to understand why species interact in the way they do has become particularly imperative to ecologists [@tylianakis_global_2008]. 
+The breakdown of ecological networks that occurs when species become locally extinct or upon the addition of species through introduction poses a similar challenge to ecologists: how will the community respond? 
+In an attempt to address these questions, much work has focused on predicting species interactions and network rewiring [@lopezaraiza-mikel_impact_2007; @memmott_global_2007; @tylianakis_global_2008; @kaiser-bunbury_robustness_2010; @aizen_phylogenetic_2016]. 
+The cophylogenetic signal that we have seen in pollination interactions suggests that the coupled evolutionary history of taxa may play an important role in determining whether or not they can and will interact as the community around them changes. 
+Given that pollination interactions represent a key ecosystem service, it is particularly important to improve our understanding of why and how particular species interact in the way that they do. 
+We expect that our observation of cophylogenetic signal between plants and pollinators provides another valuable step in this process.
+	
