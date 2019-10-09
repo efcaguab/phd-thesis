@@ -8,3 +8,5 @@ thesis-concordance.tex
 *.run.xml
 *.toc
 *.glsdefs
+*.blg
+*.out
