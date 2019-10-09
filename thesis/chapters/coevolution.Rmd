@@ -313,3 +313,50 @@ Specifically, we found references to particular exotic species in the original p
 For these networks, we removed the exotic species identified by the original authors and re-analyzed the data at all scales. 
 We assessed cophylogenetic signal at the community scale, at the scale of the modular structure of the community, and within individual modules. 
 These results do not show meaningful differences from the case where exotic species are included.
+
+## Results
+
+We first present cophylogenetic analysis of pollination interactions at the global scale where local interaction networks were aggregated into a single conglomerate network.
+While our dataset is extensive, it does not fully encompass all flowering plant and pollinator species. 
+In terms of representativeness, our global-scale plant phylogeny contains 38 out of 68 recognized orders, 133 out of 489 recognized families, and 761 genera. 
+The global-scale pollinator tree contains 24 orders, 263 families, and 1595 genera. 
+Despite leaving some taxa unrepresented, there is nonetheless, a significant cophylogenetic signal between plants and pollinators at the global scale (Monte Carlo test, $p < 0.001$). 
+Moreover, we split this global dataset into continent specific trees and networks to examine regional patterns in cophylogenetic signal. 
+In each region, we see that interactions between pollinators and plants show the same pattern of significant cophylogenetic signal that is seen at the global scale (Monte Carlo tests; all $p < 0.001$).
+
+At the community level, our results show that most pollination communities exhibit a significant cophylogenetic signal. 
+The observed interaction patterns of a majority of empirical pollination networks show significant cophylogenetic signal compared to an ensemble of random network structures (38 out of 54 networks; Monte Carlo test, $p<0.05$; Fig.\ \ref{fig:p-values}). 
+Similarly, a large proportion of empirical networks show significantly stronger cophylogenetic signal than assemblages of plants and pollinators randomly sampled from the full phylogenies (24 out of 54 pollination networks, Monte Carlo test, $p<0.05$; Fig.\ \ref{fig:p-values}). 
+
+The frequent observation of significant cophylogenetic signal at a network scale, such as this, suggests that cophylogenetic signal should also be manifest in the modules of these networks and perhaps more so, given that modules are groups of closely interacting species. 
+If module participation is a direct result of cophylogenetic association, we first expected that modules based on who interacts with whom are consistent with the evolutionary histories of both flowering plants and pollinators. 
+Here, we instead see that the modular structure of a network is consistent with the pollinator and plant phylogenies in only $43\%$ and $17\%$ of networks, respectively (Monte Carlo test, $p<0.05$; Fig. \ref{fig:p-values}). 
+Our second consideration to assess the cophylogenetic signal of a network's modular structure was the degree to which within-module interactions are more congruent with a cophylogenetic hypothesis than those interactions between modules. 
+Here, we find that the modular structure of a network shows a significant cophylogenetic signal in only $9\%$ of the empirical networks (Monte Carlo test, $p<0.05$; Fig. \ref{fig:p-values}). 
+
+Across our dataset, networks tend to vary in the degree to which their modular structure shows cophylogenetic signal (Fig.\ \ref{fig:p-values}). 
+Phylogenetic signal of modules for both pollinators and flowering plants is observed at a greater frequency than would be expected at random ($\chi^2$ test, $p < 0.001$ in both cases); however, just two networks appear to satisfy all three constraints for cophylogenetic signal at the scale of a network's modular structure (Fig.\ \ref{fig:p-values}). 
+As such, a significant result for one aspect of cophylogenetic signal at this scale does not make it more likely for other aspects to also support a hypothesis of cophylogenetic signal ($\chi^2$ tests of both phylogenies conserved, $p<0.001$; plant phylogeny conserved and cophylogenetic grouping of interactions, $p=0.662$; pollinator phylogeny conserved and cophylogenetic grouping of interactions, $p=0.417$; all three constraints, $p=0.662$; Fig. \ref{fig:p-values}). 
+When put together, our results provide rather limited evidence that the entire modular structure of a pollination network is the product of a cophylogenetic association.
+
+A lack of signal at the scale of a network's modular structure does not imply that individual modules within those networks are also poorly characterized by a cophylogenetic signal. 
+Indeed, most networks show significant cophylogenetic congruence in at least one module (Fig. \ref{fig:individ_modules}). 
+Similarly, significantly more modules (88 out of 349; $\chi^2$ test, $p<0.05$) show a detectable cophylogenetic signal, when aggregating across networks, than would be expected at random (Fig. \ref{fig:individ_modules}). 
+Our exploration of the characteristics of cophylogenetic modules with a logistic regression shows that module size and the proportion of participant species' interactions that are within the module are not related to module cophylogenetic signal ($z=0.136$, $p=0.892$ and $z=-0.920$, $p=0.358$, respectively). 
+However, the phylogenetic diversities of both flowering plants and pollinators do significantly influence module cophylogenetic signal with increased diversity making cophylogenetic signal less likely ($z=2.225$, $p=0.026$ and $z=4.426$, $p<0.001$, respectively). 
+Furthermore, we see that the probability of species appearing in cophylogenetic modules is not equivalent for plants and pollinators. 
+For the pollinators there is a significant correlation between cophylogenetic module participation and phylogeny (Mantel test; $p<0.001$) indicating that cophylogenetic module participation is clustered  on the phylogeny. 
+Indeed, although the 1151 pollinator species that participate in cophylogenetic modules come from 8 orders, 946 of those species are either hymenopterans or dipterans. 
+For the flowering plants, the opposite is true: participation in cophylogenetic modules is not influenced by phylogeny and hence is well distributed across the phylogeny (Mantel test; $p=0.650$).
+
+We also explored the degree to which modules show cophylogenetic signal when those modules are identified from quantitative rather than bipartite interaction networks. 
+In all cases, we see qualitatively the same results between binary and quantitative networks. 
+In terms of a network's modular structure, the partitioning of species into modules is at least slightly different between the two approaches. 
+However, for cophylogenetic signal at the scale of a network's modular structure, the results are nearly identical. 
+Cophylogenetic signal at the scale of a network's modular structure was assessed with three separate analyses for each network (Methods). 
+In the 45 analyses across these 15 networks, there are only five qualitative changes in the result of an analysis between binary and quantitative versions of a network (i.e., from significant to non-significant or vice versa). 
+At the scale of individual modules, we see similar results. The proportion of a network's modules that show significant cophylogenetic signal is often different between binary and quantitative networks but there does not appear to be much consistency to this difference (e.g. four networks show more cophylogenetic modules in the binary version than the quantitative, seven show the opposite pattern, and four are identical).	
+
+Last, we saw that exotic species do not appear to have a marked effect on the cophylogenetic signal that we see in pollination communities or in their modular structure.
+The only exception is that the presence of exotic species does appear to dampen cophylogenetic signal at the scale of individual modules. 
+However, these analyses should likely be treated as exploratory since exotic species were only found in a small subset of the networks that we studied here.
