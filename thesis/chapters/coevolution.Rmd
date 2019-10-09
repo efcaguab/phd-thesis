@@ -14,17 +14,6 @@ editor_options:
 \end{flushright}
 
 \begin{flushright}{\slshape
-    It is an unusial data set indeed that yields its secrets more readily when it is left untransformed} \\ \medskip
-    --- Howard Wainer, 2005
-\end{flushright}
-
-\begin{flushright}{\slshape
-    Hypotheses are nets: only he who casts will catch} \\ \medskip
-    --- Novalis, 1802
-\end{flushright}
-
-
-\begin{flushright}{\slshape
     Después reflexioné que todas las cosas le suceden a uno precisamente, precisamente ahora. Siglos de siglos y sólo en el presente ocurren los hechos; innumerables hombres en el aire, en la tierra y el mar, y todo lo que realmente pasa me pasa a mí... } \\ \medskip
     --- Borges, El jardín de senderos que se bifurcan (1941)
 \end{flushright}

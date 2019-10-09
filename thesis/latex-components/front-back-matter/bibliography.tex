@@ -18,10 +18,19 @@
 
 % Bibliography
 %
+\phantomsection
 \addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
 % \addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
+\addcontentsline{toc}{chapter}{Bibliography}
+\chapter*{Bibliography}
+
+\begin{flushright}{\slshape
+    Hypotheses are nets: only he who casts will catch} \\ \medskip
+    --- Novalis, 1802
+\end{flushright}
+
 \printbibliography[
-heading=bibintoc
+heading=none
 ]
 
 % \label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
