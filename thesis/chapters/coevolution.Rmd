@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 \appendix
 \addtocontents{toc}{\protect\vspace{1em}}
 
@@ -44,47 +49,123 @@ To date, the vast majority of studies of cophylogeny have centered on host-paras
 If cophylogenetic signal can also be considered a relevant predictor of ecological interactions, it should be detectable in other types of ecological associations. 
 In particular, there is an increasing focus on the mutualistic assemblages of flowering plants and their pollinators as another system in which one might expect to detect a cophylogenetic pattern. 
 Several recent studies have demonstrated the presence of cophylogeny at the scales of fig-wasp [@marussich_host-specificity_2007; @jousselin_one_2008; @cruaud_extreme_2012] and yucca-moth [@althoff_geographic_2012] pollination interactions [and see @aizen_phylogenetic_2016]. 
-Findings such as these---coupled with the facts that the association of angiosperms and pollinators dates back to the Cretaceous period [@crane_origin_1995; @grimaldi_co-radiations_1999] and that there is reasonable evidence to expect that at least some angiosperms and pollinators co-diverged [@grimaldi_co-radiations_1999]---suggest a cophylogenetic signal may be widely identifiable between these groups (Fig.\ \ref{fig:concept}a).
+Findings such as these---coupled with the facts that the association of angiosperms and pollinators dates back to the Cretaceous period [@crane_origin_1995; @grimaldi_co-radiations_1999] and that there is reasonable evidence to expect that at least some angiosperms and pollinators co-diverged [@grimaldi_co-radiations_1999]---suggest a cophylogenetic signal may be widely identifiable between these groups (Figure \@ref(fig:fig-conceptual-a)).
 On the other hand, perfect congruence of speciation patterns cannot be expected across such rich and diverse groups after more than 100mya of association. 
 Nevertheless, even a weak cophylogenetic signal between angiosperms and their pollinators (i.e., at taxonomic scales above the species level) would provide important evidence that coupled evolution between taxa is an important correlate of their tendency to interact. 
 
-```{r}
-a_phylo <- ggplot() +
+```{r fig-conceptual-a, fig.height = fig_sizes()$two_column_width / 1.25, fig.cap = "The first scale of investigation is plant and pollinator interactions globally. We aggregate 54 local pollination communities into a single network to provide a global view of pollination interactions. Here and in the following conceptual figures, we provide a representative example of pollination-interaction structures that are cophylogenetic and non-cophylogenetic. Across all four scales (shown here and in Figure \\ref{fig:fig-conceptual-b}, \\ref{fig:fig-conceptual-c}, and \\ref{fig:fig-conceptual-d}) the key to cophylogenetic signal is that the observed interactions tend to occur between species that show coupled evolutionary history (i.e., their speciation patterns match). Though the general idea is similar across them, our hypothesis tests at each scale address a slightly different question regarding the presence of cophylogenetic signal in pollination interactions.", fig.scap="Plant-pollinator interactions globally", out.extra=''}
+
+conceptual_title <- ggplot() +
+  base_ggplot_theme() +
+  theme(panel.border = element_blank(), 
+        plot.margin = margin(t = 2, b = 0), 
+        plot.subtitle = element_text(margin = margin(b = 0)))
+
+conceptual_panel <-  ggplot() +
+  base_ggplot_theme() +
+  theme(panel.border = element_blank(), 
+        plot.margin = margin())
+
+a_title <- conceptual_title +
+  labs(title = "ecological scale: plant-pollinator interactions globally", 
+       subtitle = "conceptual overview")
+
+a_phylo <- conceptual_panel +
   cowplot::draw_image("images/coevolution/a-cophylogeny.png") +
-  base_ggplot_theme() +
-  labs(title = "plant-pollinator interactions globally", 
-       y = "cophylogenetic\nassemblage") +
-  theme(panel.border = element_blank())
-
-a_nophylo <- ggplot() +
+  labs(y = "cophylogenetic\nassemblage") 
+  
+a_nophylo <- conceptual_panel +
   cowplot::draw_image("images/coevolution/a-no_cophylogeny.png") +
-  base_ggplot_theme() +
-  labs(y = "non-cophylogenetic\nassemblage") +
-  theme(panel.border = element_blank())
+  labs(y = "non-cophylogenetic\nassemblage") 
 
-cowplot::plot_grid(a_phylo, a_nophylo, 
+cowplot::plot_grid(a_title, a_phylo, a_nophylo, 
+                   rel_heights = c(0.25, 1, 1),
                    ncol = 1, 
                    align = "v")
 ```
 
-
 The most relevant scale at which cophylogenetic signal could characterize ecological interactions is that of the community. 
 It is already well established that elements of community composition, such as evenness, functional trait diversity and interaction structure have an element of phylogenetic determinism [@webb_phylogenies_2002; @eklof_phylogenetic_2016; @harmon-threatt_filtering_2013; @emerson_phylogenetic_2008; @vamosi_emerging_2009]. 
 Hence, even when recognizing the various caveats of a phylogenetic approach to community ecology [@mayfield_opposing_2010; @losos_seeing_2011], there are clear implications should cophylogenetic signal be detectable in ecological communities. 
-For instance, many studies have focused on how the evolutionary history of a single group (e.g. forest trees, pollinators) influences community structure [@cavender-bares_phylogenetic_2006; @kembel_phylogenetic_2006; @danieli-silva_pollination_2012]; in contrast, detectable cophylogenetic signal would suggest that observed interactions tend to occur between taxa that show coupled evolutionary history and therefore that the structure of pollination networks is, at least partially, the by-product of this evolutionary coupling of taxa (Fig.\ \ref{fig:concept}b).
+For instance, many studies have focused on how the evolutionary history of a single group (e.g. forest trees, pollinators) influences community structure [@cavender-bares_phylogenetic_2006; @kembel_phylogenetic_2006; @danieli-silva_pollination_2012]; in contrast, detectable cophylogenetic signal would suggest that observed interactions tend to occur between taxa that show coupled evolutionary history and therefore that the structure of pollination networks is, at least partially, the by-product of this evolutionary coupling of taxa (Figure \@ref(fig:fig-conceptual-b)).
 Although recent findings for a set of related networks indicate that cophylogenetic signal may be detectable in pollination networks [@aizen_phylogenetic_2016], it is currently unclear whether or not this is generally the case. 
+
+```{r fig-conceptual-b, fig.height = fig_sizes()$two_column_width / 1.25, fig.cap = "The second scale of investigation are local communities of interacting plants and pollinators that co-occur in a given location. Each community is a subset of the network in \\ref{fig:fig-conceptual-a}. At this level, we are asking if those interactions that are realized in local communities tend to occur between plants and pollinators with the most congruent evolutionary histories.", fig.scap="Plant-pollinator communities", out.extra=''}
+
+b_title <- conceptual_title +
+  labs(title = "ecological scale: plant-pollinator communities", 
+       subtitle = "conceptual overview")
+
+b_phylo <- conceptual_panel +
+  cowplot::draw_image("images/coevolution/b-cophylogeny.png") +
+  labs(y = "cophylogenetic\nassemblage") 
+  
+b_nophylo <- conceptual_panel +
+  cowplot::draw_image("images/coevolution/b-no_cophylogeny.png") +
+  labs(y = "non-cophylogenetic\nassemblage") 
+
+cowplot::plot_grid(b_title, b_phylo, b_nophylo, 
+                   rel_heights = c(0.25, 1, 1),
+                   ncol = 1, 
+                   align = "v")
+```
 
 At the same time, ecological communities can also be stochastic assemblages of species and interactions [@hubbell_unified_2001; @cottenie_integrating_2005] and the value of examining smaller groups of closely interacting species has been shown time and again [@paine_food_1966; @estes_sea_1974; @olesen_modularity_2007; @rezende_compartments_2009]. 
 Therefore, it is entirely possible that a cophylogenetic signal also permeates to finer scales within a community. 
 Indeed, ecological networks are known to have identifiable structural features including being characterized by modules of closely interacting subsets of the community [@barber_modularity_2007; @thebault_stability_2010]. 
 Modules---a pervasive feature in pollination networks [@olesen_modularity_2007]---are thought to play crucial roles in ecological community resilience [@thebault_stability_2010] and may represent a fundamental unit of coevolution [@olesen_modularity_2007; @bascompte_mutualistic_2014].
 As such, these tight sets of interacting species may provide a more ecologically relevant scale at which cophylogenetic signal could act. 
-On the one hand, a network's modular structure may show the clearest cophylogenetic signal (Fig.\ \ref{fig:concept}c). 
-On the other hand, many different processes have been causally attributed to ecological module formation [@olesen_modularity_2007; @rezende_compartments_2009; @krasnov_phylogenetic_2012; @rohr_structural_2014; @schleuning_ecological_2014], implying that some individual modules within networks may be better characterized by cophylogenetic signal than others (Fig.\ \ref{fig:concept}d).
-		
-For a network's modular structure to show a cophylogenetic pattern, two constraints must be satisfied (Fig.\ \ref{fig:concept}c). First, the modular structure should embody the phylogenetic congruence of the network such that modules represent groupings of closely related species on each side of the network. However, this mapping of each side of the modules to phylogenies does not take into account the degree to which those interactions within modules occur between evolutionarily-coupled plants and pollinators. Thus second, a network's modules should also be comprised of the interactions that contribute most to the cophylogenetic signal of the network while interactions that contribute less should tend to fall between modules. At the even finer scale of individual modules, a module could be considered to show cophylogenetic signal when just its interactions show greater cophylogenetic signal than expected by chance (Fig. \ref{fig:concept}d).
+On the one hand, a network's modular structure may show the clearest cophylogenetic signal (Figure \@ref(fig:fig-conceptual-c)). 
+On the other hand, many different processes have been causally attributed to ecological module formation [@olesen_modularity_2007; @rezende_compartments_2009; @krasnov_phylogenetic_2012; @rohr_structural_2014; @schleuning_ecological_2014], implying that some individual modules within networks may be better characterized by cophylogenetic signal than others (Figure \@ref(fig:fig-conceptual-d)).
 
-Here, we explore cophylogenetic signal between plants and their pollinators in 54 pollination networks from around the world that together provide a taxonomically and geographically diverse dataset. In particular, we leverage these data to quantify the evidence of cophylogenetic signal at the four distinct scales mentioned previously (Fig.\ \ref{fig:concept}): \emph{(i)} cophylogenetic signal between angiosperms and pollinators globally, \emph{(ii)} community cophylogenetic signal---where evolutionary congruence between species should be embodied by the interactions of the entire network, \emph{(iii)} cophylogenetic signal of a network's modular structure---where the modular structure of a network should tend to contain more closely related plant species, more closely related pollinator species, and the most evolutionarily congruent interactions between them, and \emph{(iv)} individual module cophylogenetic signal---where interactions within a module should be more cophylogenetic than expected by chance. Detectable cophylogenetic signal across these four scales suggests that, at least in plant-pollinator associations, the evolutionary determinants of extant interactions are a product of both interacting species rather than arising from only the phylogenetic relatedness on one side of the interaction.
+```{r fig-conceptual-c, fig.height = fig_sizes()$two_column_width / 1.25, fig.cap = "The third scale of investigation is with the same local communities as in Figure \\ref{fig:fig-conceptual-b} but examined at the perspective of their modules, where modules group together species based on how likely they are observed to interact. At this scale, we examine how the modular structure of those communities captures cophylogenetic signal. Our hypothesis here derives from the suggestion that the module is the fundamental unit of coevolution and asks whether interactions within modules tend to occur between those species with congruent evolutionary history and vice versa for interactions that fall between modules.", fig.scap="Modular structure of interactions", out.extra=''}
+
+c_title <- conceptual_title +
+  labs(title = "ecological scale: modular structure of plant-pollinator networks", 
+       subtitle = "conceptual overview")
+
+c_phylo <- conceptual_panel +
+  cowplot::draw_image("images/coevolution/c-cophylogeny.png") +
+  labs(y = "cophylogenetic\nassemblage") 
+  
+c_nophylo <- conceptual_panel +
+  cowplot::draw_image("images/coevolution/c-no_cophylogeny.png") +
+  labs(y = "non-cophylogenetic\nassemblage") 
+
+cowplot::plot_grid(c_title, c_phylo, c_nophylo, 
+                   rel_heights = c(0.25, 1, 1),
+                   ncol = 1, 
+                   align = "v")
+```
+
+```{r fig-conceptual-d, fig.height = fig_sizes()$two_column_width / 1.25, fig.cap = "The fourth and final scale of investigation is at individual modules (groups of frequently interacting plants and pollinators) extracted from Figure \\ref{fig:fig-conceptual-c}. They are also subsets of the local communities in Figure \\ref{fig:fig-conceptual-b}. Many factors are thought to contribute to module formation and cophylogenetic signal may therefore not be observable across all modules in a community. As a result, we assess cophylogenetic signal in individual modules where the interactions of a module should occur between species with congruent evolutionary history more than would be expected by chance.", fig.scap="Individual modules in networks", out.extra=''}
+
+d_title <- conceptual_title +
+  labs(title = "ecological scale: individual modules within plant-pollinator networks", 
+       subtitle = "conceptual overview")
+
+d_phylo <- conceptual_panel +
+  cowplot::draw_image("images/coevolution/d-cophylogeny.png") +
+  labs(y = "cophylogenetic\nassemblage") 
+  
+d_nophylo <- conceptual_panel +
+  cowplot::draw_image("images/coevolution/d-no_cophylogeny.png") +
+  labs(y = "non-cophylogenetic\nassemblage") 
+
+cowplot::plot_grid(d_title, d_phylo, d_nophylo, 
+                   rel_heights = c(0.25, 1, 1),
+                   ncol = 1, 
+                   align = "v")
+```
+
+For a network's modular structure to show a cophylogenetic pattern, two constraints must be satisfied (Figure \@ref(fig:fig-conceptual-c)). 
+First, the modular structure should embody the phylogenetic congruence of the network such that modules represent groupings of closely related species on each side of the network. 
+However, this mapping of each side of the modules to phylogenies does not take into account the degree to which those interactions within modules occur between evolutionarily-coupled plants and pollinators. 
+Thus second, a network's modules should also be comprised of the interactions that contribute most to the cophylogenetic signal of the network while interactions that contribute less should tend to fall between modules. 
+At the even finer scale of individual modules, a module could be considered to show cophylogenetic signal when just its interactions show greater cophylogenetic signal than expected by chance (Figure \@ref(fig:fig-conceptual-d)).
+
+Here, we explore cophylogenetic signal between plants and their pollinators in 54 pollination networks from around the world that together provide a taxonomically and geographically diverse dataset. 
+In particular, we leverage these data to quantify the evidence of cophylogenetic signal at the four distinct scales mentioned previously (Figure \@ref(fig:fig-conceptual-a), \@ref(fig:fig-conceptual-b), \@ref(fig:fig-conceptual-c), and \@ref(fig:fig-conceptual-d)): \emph{(i)} cophylogenetic signal between angiosperms and pollinators globally, \emph{(ii)} community cophylogenetic signal---where evolutionary congruence between species should be embodied by the interactions of the entire network, \emph{(iii)} cophylogenetic signal of a network's modular structure---where the modular structure of a network should tend to contain more closely related plant species, more closely related pollinator species, and the most evolutionarily congruent interactions between them, and \emph{(iv)} individual module cophylogenetic signal---where interactions within a module should be more cophylogenetic than expected by chance. Detectable cophylogenetic signal across these four scales suggests that, at least in plant-pollinator associations, the evolutionary determinants of extant interactions are a product of both interacting species rather than arising from only the phylogenetic relatedness on one side of the interaction.
 
 ## Methods
 
@@ -97,7 +178,7 @@ Studying cophylogenetic signal between two sets of interacting species, such as 
 We followed several steps to generate sufficiently well-resolved phylogenies of flowering plants and their pollinators. 
 First, to ensure all species identifications were up-to-date, we verified all species' names in the original interaction matrices. 
 Plant names were checked and corrected with the NCBI database (http://www.ncbi.nlm.nih.gov/) whereas we corrected animal names with the `resolve` function in the R package `taxize`, which accessed a range of taxonomic databases [@chamberlain_taxize_2014]. 
-We combined these species lists with published mega-phylogenies of plants [@zanne_three_2014] and insects [@misof_phylogenomics_2014 to generate dated phylogenetic trees of our data. 
+We combined these species lists with published mega-phylogenies of plants [@zanne_three_2014] and insects [@misof_phylogenomics_2014] to generate dated phylogenetic trees of our data. 
 The two published trees provide a backbone for the construction of our phylogenies in that divergence patterns and dates of major lineages can be used as the basis of the phylogenies specific to our data. 
 For the plants, major nodes are fully resolved down to the family level (with some dating below the family level). 
 For the insect pollinators, the backbone tree provides  resolution to the order level. 
