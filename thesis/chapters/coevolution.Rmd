@@ -343,6 +343,11 @@ For the pollinators there is a significant correlation between cophylogenetic mo
 Indeed, although the 1151 pollinator species that participate in cophylogenetic modules come from 8 orders, 946 of those species are either hymenopterans or dipterans. 
 For the flowering plants, the opposite is true: participation in cophylogenetic modules is not influenced by phylogeny and hence is well distributed across the phylogeny (Mantel test; $p=0.650$).
 
+```{r fig-module-cophylogeny, fig.height = fig_sizes()$two_column_width * 0.9, fig.cap = "There is substantial variation in the extent to which individual modules within networks show cophylogenetic signal. For each of the 54 networks (x-axis), we show the number of modules with significant cophylogenetic signal (darker red) and the number that are non-significant (lighter red). The majority of modules in almost all networks do not show a cophylogenetic signal (261 of 349). However, in 44 of 54 networks at least one module shows a stronger cophylogenetic signal than expected by chance.", fig.scap="Cophylogenetic signal of individual modules", out.extra=''}
+modules_p_value <- "data/coevolution/modules_pvalue.dat"
+make_fig_module_cophylogeny(modules_p_value)
+```
+
 We also explored the degree to which modules show cophylogenetic signal when those modules are identified from quantitative rather than bipartite interaction networks. 
 In all cases, we see qualitatively the same results between binary and quantitative networks. 
 In terms of a network's modular structure, the partitioning of species into modules is at least slightly different between the two approaches. 
