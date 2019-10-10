@@ -114,7 +114,7 @@ pre_process_coev_data <- function(barber, random, paco, phylo_signal, aic_obs, a
 
 make_fig_empirical_cophylogeny <- function(data_coevolution_res){
 
-  pal <- c(thesis_palette_dark[1],
+  pal <- c(#thesis_palette_dark[1],
     thesis_palette[1],
     thesis_palette_light[1],
     "grey90")
@@ -130,11 +130,11 @@ make_fig_empirical_cophylogeny <- function(data_coevolution_res){
       scale = dplyr::case_when(property == "Community CS (shuffled assemblage)" ~ "community",
                                property == "Community CS (shuffled network)" ~ "community",
                                TRUE ~ "module"),
-      p_value = cut(p_value, breaks = c(0, 0.001, 0.05, 1), include.lowest = T)) %>%
+      p_value = cut(p_value, breaks = c(0, 0.05, 1), include.lowest = T)) %>%
     ggplot() +
     geom_tile(aes(x = network, y = property, fill = p_value, width = 0.8, height = 0.8)) +
     scale_fill_manual(values = pal,
-                      labels = c("p < 0.01  ", "p < 0.05  ", "p < 1  "),
+                      labels = c("p < 0.05  ", "p > 0.05  "),
                       name = "") +
     scale_x_discrete(position = "top") +
     scale_y_discrete(labels = rev(c("community (assemblage)",
@@ -155,7 +155,7 @@ make_fig_empirical_cophylogeny <- function(data_coevolution_res){
           plot.margin = margin(),
           panel.border = element_blank()) +
     labs(x = "pollination networks",
-         title = "significancy of cophylogenetic signal",
+         title = "significancy of (co)phylogenetic signal",
          subtitle = "across 54 pollination networks")
 
   # ggsave("plot1.pdf", width = fig_sizes()$two_column_width,
