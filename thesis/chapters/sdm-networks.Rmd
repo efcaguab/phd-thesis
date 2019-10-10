@@ -3,5 +3,5 @@
 \begin{flushright}{\slshape
     Stare at the world, \\
     not at your model.} \\ \medskip
-    --- Arnold Kling (2017)
+    --- \cite{kling_practitioners_2007}
 \end{flushright}

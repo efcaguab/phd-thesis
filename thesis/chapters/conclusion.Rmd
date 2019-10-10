@@ -4,7 +4,7 @@
     It's not the numbers that are interesting. \\
     It's what they tell us about the lives behind the numbers.
     } \\ \medskip
-    --- Hans Rosling, Factfulness (1995)
+    --- \cite{rosling_factfulness_2018}
 \end{flushright}
 
 In this thesis I explore some of the causes and consequences of the network of interactions between flowering plants and their pollinators in an ecological community.
