@@ -275,7 +275,7 @@ cc_table %>%
                digits = 2, 
                escape = F) %>%
   kableExtra::add_header_above(c("Model terms" = 10, " " = 2), escape = F) %>%
-  kableExtra::kable_styling(font_size = 10) %>%
+  kableExtra::kable_styling(font_size = 9) %>%
   kableExtra::footnote(general = "Terms: intercept (int), degree ($k$), trophic level ($l$), asymmetry ($a$), contribution to nestedness ($n$), visitation strength ($s$). Model weight indicated with (W.)", 
                        general_title = "Note. ", 
                        footnote_as_chunk = TRUE, 
