@@ -4,7 +4,7 @@
 \begin{flushright}{\slshape 
     When one starts to trace out the dependence of one animal upon another, one soon realises that it is necessary to study the whole community living in one habitat, since the interrelations of animals ramify so far.
     } \\ \medskip
-    --- Charles Elton, Animal Ecology (1927)
+    --- \cite{elton_animal_2001}
 \end{flushright}
 
 From food and freshwater production to recreational and carbon sequestration, ecosystems provide a wide range of services of considerable value to humans. 
