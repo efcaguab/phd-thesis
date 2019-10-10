@@ -376,17 +376,17 @@ In contrast, structural controllability only requires a quantitative approximati
 Furthermore, while the relationship between centrality and keystoneness is based on an intuitive understanding of what a keystone species is, the assumptions of structural controllability are explicit and the estimation of a species' importance arises from a mechanistic understanding of the population dynamics between species. 
 By accounting for network dynamics (even if in a simple way), structural stability incorporates more ecological realism, especially in the extreme scenario in which the structure of interactions within the community only marginally affects the community's state.
 
-## Acknowledgements
+## Acknowledgements {-}
 
 The authors thank Jane Memmott and co‐authors, and everyone that has made their data available to us, Takeuki Uno for the insight provided to find the set of all maximum matching algorithms, and Jason Tylianakis, Bernat Bramon Mora, Guadalupe Peralta, Rogini Runghen, Michelle Marraffini, Mark Herse, Warwick Allen, Matthew Hutchinson, and Marilia Gaiarsa for feedback and valuable discussions. 
 E.F.C. acknowledges the support from the University of Canterbury Doctoral Scholarship, the University of Canterbury Meadow Mushrooms Postgraduate Scholarship, a New Zealand International Doctoral Research Scholarship, and a travel grant from the European Space Agency. 
 D.B.S. acknowledges the support of a Marsden Fast‐Start grant and a Rutherford Discovery Fellowship, administered by the Royal Society Te of New Zealande Aparangi.
 
-## Supporting information
+## Supporting information {-}
 
 Additional supporting information may be found online in the Supporting Information section at the end of the article (https://doi.org/10.1111/1365-2745.13147).
 
-## Data accessibility
+## Data accessibility {-}
 
 All data used in this manuscript have already been published by @lopezaraiza-mikel_impact_2007, @bartomeus_contrasting_2008, and @ballantyne_constructing_2015. 
 The reader should refer to the original sources to access the data.
