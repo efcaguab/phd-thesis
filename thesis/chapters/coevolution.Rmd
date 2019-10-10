@@ -415,3 +415,21 @@ The cophylogenetic signal that we have seen in pollination interactions suggests
 Given that pollination interactions represent a key ecosystem service, it is particularly important to improve our understanding of why and how particular species interact in the way that they do. 
 We expect that our observation of cophylogenetic signal between plants and pollinators provides another valuable step in this process.
 	
+## Ackwnoledgements
+
+All authors contributed substantially to the study. 
+M. C. Hutchinson and D. B. Stouffer conceived the study; M. C. Hutchinson and E. F. Cagua undertook analyses; M. C. Hutchinson, E. F. Cagua, and D. B. Stouffer drafted and edited the manuscript. 
+The authors thank all those without whose data this work would be impossible. 
+We also thank T. Poisot, J. M. Olesen, S. L. Nuismer, B. Bramon Mora, M. P. Gaiarsa, S. Saavedra, and four anonymous reviewers for invaluable comments on an early version of the manuscript. 
+The authors acknowledge T. Poisot for his role in developing the software integral to this study. 
+M. C. Hutchinson acknowledges the support of the University of Canterbury Summer Scholarship program.
+E. F. Cagua acknowledges the support of both a University of Canterbury Doctoral Scholarship and a University of Canterbury Meadow Mushrooms Postgraduate Scholarship. 
+D. B. Stouffer acknowledges the support of a Rutherford Discovery Fellowship, administered by the Royal Society of New Zealand.
+
+## Supporting information
+
+Additional supporting information may be found in the online version of this article at http://onlinelibrary.wiley.com/doi/ 10.1002/ecy.1955/suppinfo
+
+## Data accessibility
+
+Data available from the Dryad Digital Repository: https://doi.org/10.5061/dryad.8n3q3
