@@ -229,7 +229,7 @@ We considered the cophylogenetic signal of an empirical species assemblage to be
 ### Modules in pollination networks
 
 To test whether the modular structure of each network and individual modules themselves show a cophylogenetic signal, we first needed to identify modules in each of the interaction networks. 
-To do so, we followed the approach proposed by @barber_modularity_2007 and implemented in MODULAR [@marquitti_modular_2014], where nodes in binary bipartite networks are partitioned across modules via a stochastic-optimization procedure---simulated annealing--- to maximize the modularity measure, $Q_B$ [@marquitti_modular_2014. 
+To do so, we followed the approach proposed by @barber_modularity_2007 and implemented in MODULAR [@marquitti_modular_2014], where nodes in binary bipartite networks are partitioned across modules via a stochastic-optimization procedure---simulated annealing--- to maximize the modularity measure, $Q_B$ [@marquitti_modular_2014]. 
 While there are several such methods to assess modularity, the method employed here has been shown to perform as well or better than other contemporary  module detection algorithms in binary bipartite networks [@thebault_identifying_2013].
 Although by and large we use binary interaction networks in our analysis, quantitative networks can provide additional information with which to identify modules [@dormann_method_2014]. 
 To assess the influence of a quantitative interaction network approach, we also studied the quantitative versions available for 15 of the networks in our dataset. For each of these, we followed the same approach to cophylogenetic signal at the modular scale as for binary networks. 
