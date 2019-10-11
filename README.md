@@ -20,6 +20,7 @@ Code, data, and models described in this thesis can be found in it's respective 
 * *Chapter 1* - **Introduction**
 * *Chapter 2* - **Structural controllability**: A rigorous application of structural controllability to ecological networks (source code: [stoufferlab/driver-species](https://github.com/stoufferlab/driver-species); published in the Journal of Ecology: https://doi.org/10.1111/1365-2745.13147)
 * *Chapter 3* - **Conclusion**
+* *Apendix A* - **Cophylogeny of pollination networks**: An exploration of cophylogeny at multiple scales of pollination networks (published in Ecology: https://doi.org/10.1002/ecy.1955)
 
 ## Repo Description
 
@@ -30,7 +31,7 @@ It includes:
 * A (successful) [funding proposal](https://github.com/efcaguab/phd-thesis/releases/download/v0.1-nzirds_proposal/NZIDRS-application-proposal.pdf) to New Zealand Education.
 * The [research proposal](https://github.com/efcaguab/phd-thesis/releases/download/v0.2-uc_proposal/proposal.pdf).
 * The PhD Confirmation [report](https://github.com/efcaguab/phd-thesis/releases/download/v0.3-confirmation/doctoral-confirmation-report.pdf) and [presentation](https://github.com/efcaguab/phd-thesis/releases/download/v0.3-confirmation/doctoral-confirmation-presentation.pptx).
-* The [latest version of my thesis](https://github.com/efcaguab/phd-thesis/releases/download/v1.0.1-thesis/thesis.pdf).
+* The [latest version of my thesis](https://github.com/efcaguab/phd-thesis/releases/download/v1.0.2-thesis/thesis.pdf).
 
 ## Reproducibility
 
