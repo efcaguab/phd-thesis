@@ -3,7 +3,7 @@
 \begin{flushright}{\slshape
     However, not everything that can be counted counts, \\
     and not everything that counts can be counted.} \\ \medskip
-    --- \cite{cameron_informal_1963}
+    --- \textcite{cameron_informal_1963}
 \end{flushright}
 
 ## Summary {-}

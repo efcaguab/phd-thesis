@@ -10,7 +10,7 @@ editor_options:
 
 \begin{flushright}{\slshape
     Después reflexioné que todas las cosas le suceden a uno precisamente, precisamente ahora. Siglos de siglos y sólo en el presente ocurren los hechos; innumerables hombres en el aire, en la tierra y el mar, y todo lo que realmente pasa me pasa a mí... } \\ \medskip
-    --- \cite{borges_jardin_1941}
+    --- \textcite{borges_jardin_1941}
 \end{flushright}
 
 ## Summary {-}
