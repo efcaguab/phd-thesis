@@ -40,10 +40,14 @@ file_in("latex-components/style/classicthesis-arsclassica.sty")
 # Template components
 file_in("latex-components/front-back-matter/acknowledgments.tex")
 file_in("latex-components/front-back-matter/bibliography.tex")
+file_in("latex-components/front-back-matter/colophon.tex")
 file_in("latex-components/front-back-matter/contents.tex")
 file_in("latex-components/front-back-matter/declaration.tex")
 file_in("latex-components/front-back-matter/dedication.tex")
 file_in("latex-components/front-back-matter/display-listings.tex")
+file_in("latex-components/front-back-matter/glossary-defs.tex")
+file_in("latex-components/front-back-matter/glossary.tex")
+file_in("latex-components/front-back-matter/little-dirty-title-page.tex")
 file_in("latex-components/front-back-matter/publications.tex")
 # file_in("latex-components/front-back-matter/resumen.tex")
 file_in("latex-components/front-back-matter/summary.tex")
@@ -61,7 +65,6 @@ knitr_in("chapters/coevolution.Rmd")
 
 # bibliography
 file_in("bibliography/phd-literature.bib")
-file_in("bibliography/package-references.bib")
 ```
 
 
