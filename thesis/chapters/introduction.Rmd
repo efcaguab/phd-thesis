@@ -22,13 +22,15 @@ These networks, which form the base of pollination systems, play a globally sign
 Pollination systems are locally critical too; for instance, two-thirds of New Zealand plants are pollinated by birds or insects [@cox_pollinator_2000], and this includes iconic native plants (like kōwhai and pōhutukawa), and economically important crops (like kiwifruit, apples and grapes). 
 Regrettably, just like other species interactions, the relationship between plants and pollinators, are currently being disrupted by multiple drivers of human-driven global change at a worldwide scale [@cox_pollinator_2000].
 
-## Key concepts
+<!-- ## Key concepts -->
 
-A central concept of my thesis is that of species degree, essentially the number of interactions a species engages in an ecological community. 
-The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure [@stouffer_scaling_2010]. 
-Broadly speaking, species with a large degree, and hence a large number of partners, are considered generalists while species with a small degree are considered a specialist. 
+<!-- Before diving into the specific research questions addressed in this thesis, I briefly define some key concepts that are transversal to these questions.  -->
+<!-- The first concept is that of species degree and its distribution.  -->
+<!-- A central concept of my thesis is that of species degree, essentially the number of interactions a species engages in an ecological community.  -->
+<!-- The degree distribution of all species in a community is a fundamental way to describe ecological networks and underpins multiple metrics of network structure [@stouffer_scaling_2010].  -->
+<!-- Broadly speaking, species with a large degree, and hence a large number of partners, are considered generalists while species with a small degree are considered a specialist.  -->
 
-## Research questions
+<!-- ## Research questions -->
 
 Pollination networks are deemed to be relatively generalised when compared with other types of ecological networks. 
 That is, pollinators tend to interact with a large number of plants and vice-versa, which biases the degree distribution.
@@ -58,5 +60,3 @@ Traditionally, it has been assumed that species central to the network of intera
 These species are often termed keystone species because they play a crucial role in ecosystem functioning as they can have profound impacts on the abundances of other species in the community [@mills_keystone-species_1993]. 
 However, whether central species can modify the abundance of others is not based on a mechanistic understanding of how species affect each other in a network context, but merely on the assumption that species that are better connected are more influential. 
 I use recent developments on structural controllability of complex networks to investigate whether this is the case or not. 
-
-
