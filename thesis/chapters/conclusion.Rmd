@@ -7,10 +7,10 @@
     --- \textcite{rosling_factfulness_2018}
 \end{flushright}
 
-In this thesis I explore some of the causes and consequences of the network of interactions between flowering plants and their pollinators in an ecological community.
-First, I explore how network structure can be influenced by the trade-offs that manifest when plants compete for the pollination service. 
-Second, I explore how the structure can be influenced by the stresses that the environment exert on plant or pollinator species. 
-Third, I explore how the structure can be harnessed to design effective management interventions. 
+In this thesis I explored some of the causes and consequences of the network of interactions between flowering plants and their pollinators in an ecological community.
+First, I explored how network structure can be influenced by the trade-offs that manifest when plants compete for the pollination service. 
+Second, I explored how the structure can be influenced by the stresses that the environment exert on plant or pollinator species. 
+Third, I explored how the structure can be harnessed to design effective management interventions. 
 
 ## Summary of results
 
