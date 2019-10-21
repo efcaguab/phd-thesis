@@ -14,7 +14,7 @@ Third, I explored how the structure can be harnessed to design effective managem
 
 ## Summary of results
 
-In \autoref{the-pollination-trade-off} we found that the number of shared pollinators, which is correlated to the species degree, had a surprisingly low influence in the quality of pollination. 
+In \autoref{the-pollination-trade-off} I found that the number of shared pollinators, which is correlated to the species degree, had a surprisingly low influence in the quality of pollination. 
 Other factors like visit potential, functional originality, and abundance had a larger impact on the both the quantity and purity of the pollination service. 
 Specifically high visitation and pollen production appears to have a positive effect on the quantity of pollination (the amount of conspecific pollen received), but a negative effect on the purity (the amount of conspecific pollen relative to heterospecific pollen). 
 The relative abundance of a species had the opposite trends with a negative effect on pollination quantity and a positive effect on purity. 
@@ -28,10 +28,10 @@ Those that are benefitial for both in the short term, like being specialized or 
 Another remarkable result was that the way species position themselves in this trade-off is not actually inherent to the species itself, but is strongly determined by the community context. 
 In other words, plants were flexible on the strategy they use to balance the the factors affecting the trade-offs inherent to the pollination service. 
 
-In \autoref{sdm-networks}, we found that the environment can also play a role in determining the number of partners a species may have in an ecological community. 
+In \autoref{sdm-networks}, I found that the environment can also play a role in determining the number of partners a species may have in an ecological community. 
 On the one hand it can limit the number of partners a species can interact with in a particular community if the environment in the community lies outside their partners fundamental "Grinellian" niche.  
 On the other it can directly influence the size of the species realised "Eltonian niche" so that a species might not necesarly interact with a potential partner, even if the partner is present in the community. 
-Specifically, we found that species with a relatively small number of interacting partners under optimal enviornmental conditions are more likely to interact with more species as environmental conditions degrade. 
+Specifically, I found that species with a relatively small number of interacting partners under optimal enviornmental conditions are more likely to interact with more species as environmental conditions degrade. 
 This is, they interact with a larger proportion of available species; presumably promoting traits related to a larger realised Eltonian niche. 
 Contrastingly, species with a relatively large number of inetracting partners were more likely to interact with less species as environmental stress increases. 
 The fact that these second group of species favours interactions with a subset of possible species suggest that they might be focusing in fewer but better partners. 
@@ -75,6 +75,7 @@ Indeed Lopezaraiza found that facilitation is more predominant than competition 
 The possible decrease in nestedness has worrying implications as nestedness has been shown to promote stability and species persistence in pollination communities.
 In particicular, Souffer found that strong contributors to nestedness are more vulnerable to extinction. 
 This very same species, were the ones that our structural controllability analysis indicated as the ones that are more useful to manage an ecological community. 
+
 ## Next steps
 
 Confirm that this the trade-offs and environment are related to certain network structure
