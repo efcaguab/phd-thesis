@@ -35,10 +35,12 @@ Specifically, we found that species with a relatively small number of interactin
 This is, they interact with a larger proportion of available species; presumably promoting traits related to a larger realised Eltonian niche. 
 Contrastingly, species with a relatively large number of inetracting partners were more likely to interact with less species as environmental stress increases. 
 The fact that these second group of species favours interactions with a subset of possible species suggest that they might be focusing in fewer but better partners. 
-These trends were true both for plants and pollinators, which suggest
 
-Finally, in \autoref{structural-controllability}
-
+Finally, in \autoref{structural-controllability}, I found that species with a large number of interaction partners are also likely to have a high control capacity and be critical to control the ecological community.
+Interestingly, however, we found that being a generalist is not the determining factor for having high control capacity. 
+Indeed some species that interact with only a small number of species were also determined to be critical for network control. 
+Although controlling an ecological community is still not feasible with the current theoretical and practical limitations, identifying these species with high control capacity provides some lessons on the stability of the communities. 
+Indeed, we found that critical species, which have the highest possible control capacity, were more likely to disproportionally contribute to the stable coexistence of species in their community.
 
 ## General implications
 
