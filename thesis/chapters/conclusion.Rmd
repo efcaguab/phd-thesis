@@ -39,6 +39,7 @@ The fact that these second group of species favours interactions with a subset o
 Finally, in \autoref{structural-controllability}, I found that species with a large number of interaction partners are also likely to have a high control capacity and be critical to control the ecological community.
 Interestingly, however, we found that being a generalist is not the determining factor for having high control capacity. 
 Indeed some species that interact with only a small number of species were also determined to be critical for network control. 
+Our analysis indicated that the strongest predictor of control capacity was a species contribution to nestedness. 
 Although controlling an ecological community is still not feasible with the current theoretical and practical limitations, identifying these species with high control capacity provides some lessons on the stability of the communities. 
 Indeed, we found that critical species, which have the highest possible control capacity, were more likely to disproportionally contribute to the stable coexistence of species in their community.
 
@@ -74,13 +75,16 @@ Indeed Lopezaraiza found that facilitation is more predominant than competition 
 
 The possible decrease in nestedness has worrying implications as nestedness has been shown to promote stability and species persistence in pollination communities.
 In particicular, Souffer found that strong contributors to nestedness are more vulnerable to extinction. 
-This very same species, were the ones that our structural controllability analysis indicated as the ones that are more useful to manage an ecological community. 
+This very same species, were the ones that our structural controllability analysis indicated as the ones that are more useful to manage an ecological community.
+This is stronger contributors to nestedness tend to have a large control capacity and hence be more likely to influence the abundance of other species. 
 
 ## Next steps
 
+There are multiple questions that arise from the conclusions of this thesis. 
+First, it would be interesting to 
 Confirm that this the trade-offs and environment are related to certain network structure
 
 A controllability analysis that takes into account the traits of species? 
 
-## Conclusion
+## Final words
 
