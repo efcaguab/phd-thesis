@@ -35,4 +35,8 @@ RUN python3 -m pip install wheel \
 
 RUN R -e "install.packages('drake', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
 RUN R -e "install.packages('ggridges', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
+RUN apt-get update \
+  && apt-get -y --no-install-recommends install libudunits2-dev libv8-dev libgdal-dev libproj-dev libgeos-dev
+RUN R -e "install.packages(c('ggforce', 'concaveman'), repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
+
 
