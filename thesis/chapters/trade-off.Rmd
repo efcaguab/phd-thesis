@@ -144,6 +144,27 @@ This structure was best for both the models of conspecific and heterospecific po
 
 Of the four factors we considered, we found that a plant's mean visit potential and relative floral abundance were the most important at predicting pollen deposition in plant stigmas (Fig. \@ref(fig:fig-var-impotance-trade-offs)). 
 Surprisingly, the number of shared pollinators was comparatively unimportant, particularly for models of heterospecific pollen deposition, as it was only ever included in models with relatively large AICc values. 
+
+```{r fig-var-impotance-trade-offs, fig.height = 1.2, out.extra='', fig.scap = "Importance of ecological factors", fig.cap = "Relative importance of ecological factors on pollen deposition. The plant's visit potential and relative floral abundance are the most important factors determining the deposition of conspecific and heterospecific pollen. Meanwhile, the number of shared pollinators was generally less important. The graph shows the relative importance calculated as the sum of the Akaike weights of the candidate models that included the selected factor."}
+
+variable_importance <- readRDS("data/trade_off/variable_importance.rds")
+
+fig_var_importance <- plot_variable_importance(variable_importance)
+
+# pdf(file = "imp.pdf", width = fig_sizes()$two_column_width , height = 1.2)
+
+cowplot::plot_grid(
+  fig_var_importance[[1]],
+  fig_var_importance[[3]],
+  fig_var_importance[[2]],
+  ncol = 3,
+  rel_widths = c(1,0.5,1),
+  align = "h"
+)
+
+# dev.off()
+```
+
 We found that the relationship between each of the ecological factors and pollen deposition was similar for both conspecific and heterospecific pollen. 
 That is, strategies that were associated with an increase in conspecific pollen deposition were also associated with an increase in heterospecific pollen deposition. 
 Specifically, the plants' mean visit potential had a positive effect on pollen deposition (Fig. \@ref(fig:fig-average-qual-quant)a). 
