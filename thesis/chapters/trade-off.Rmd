@@ -132,3 +132,30 @@ We scaled factors across the whole study to ensure that the PCA space does not c
 We define a species' strategy in a community as its coordinates in PCA space. 
 For each species that was present in two or more communities, we then calculated (*i*) the median distance between the points that correspond to the strategy a species uses in different communities and (*ii*) the area of the convex hull defined by these points in the first two principal components (only for species present in three or more communities). 
 We then compared the magnitude of these two metrics to those obtained with 99 Monte Carlo randomizations in which we replaced the strategy of the focal plant species by that of another randomly selected species in the dataset. 
+
+## Results
+
+### Factors affecting quantity and purity of pollination service
+
+We first examined the potential roles played in pollen deposition by four ecological factors (number of shared pollinators, abundance, mean visit potential, and functional originality). 
+We found that our models of pollen deposition had high explanatory power (the coefficient of determination R^2^ ranged between 0.76 and 0.93) although a large portion of the explanatory power came from the random effects.
+As determined by AICc, the random structure best supported by the data was the one that fit a separate intercept for each species in each community (as opposed to a common intercept for each species irrespective of the community to which they belong). 
+This structure was best for both the models of conspecific and heterospecific pollen.  
+
+Of the four factors we considered, we found that a plant's mean visit potential and relative floral abundance were the most important at predicting pollen deposition in plant stigmas (Fig. \@ref(fig:fig-var-impotance-trade-offs)). 
+Surprisingly, the number of shared pollinators was comparatively unimportant, particularly for models of heterospecific pollen deposition, as it was only ever included in models with relatively large AICc values. 
+We found that the relationship between each of the ecological factors and pollen deposition was similar for both conspecific and heterospecific pollen. 
+That is, strategies that were associated with an increase in conspecific pollen deposition were also associated with an increase in heterospecific pollen deposition. 
+Specifically, the plants' mean visit potential had a positive effect on pollen deposition (Fig. \@ref(fig:fig-average-qual-quant)a). 
+However, the effect size was slightly larger for heterospecific than for conspecific pollen. 
+This larger effect indicates that, although there is a positive association between visit potential and the quantity of pollen deposition, there is a negative relationship with its purity (Fig. \@ref(fig:fig-average-qual-quant)b). 
+In contrast, a plants' relative floral abundance negatively affected its deposition quantity, but the mean difference between the coefficients in the models indicates a positive association with purity (Fig. \@ref(fig:fig-average-qual-quant)b). 
+The third most important factor, functional originality, had a positive, although comparatively smaller, association with both the quantity and purity. 
+Finally, the number of shared pollinators had negative and neutral associations with conspecific and heterospecific pollen, respectively, but these impacts were small when compared to the other factors. 
+Although the ecological factors were positively correlated, the collinearity between predictors did not qualitatively affect our findings.
+## Flexibility of plant strategies
+
+We used a PCA of the ecological factors--species matrix to investigate whether plants' strategies towards pollen deposition is similar across communities or whether they are flexible and therefore a reflection of the community context. 
+The first two PCA components explained 75% of the total variance (Fig. \@ref(fig:fig-pca)a). 
+The first component was dominated by visit potential and relative abundance while the second component was dominated by the number of shared pollinators and the plant's functional originality. 
+When we locate the species that were sampled in more than one community in the first two PCA components (Fig. \@ref(fig:fig-pca)b), we observe that the positions of any given species do not tend to be close to each other. 
