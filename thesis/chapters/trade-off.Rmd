@@ -146,7 +146,7 @@ This structure was best for both the models of conspecific and heterospecific po
 Of the four factors we considered, we found that a plant's mean visit potential and relative floral abundance were the most important at predicting pollen deposition in plant stigmas (Fig. \@ref(fig:fig-var-impotance-trade-offs)). 
 Surprisingly, the number of shared pollinators was comparatively unimportant, particularly for models of heterospecific pollen deposition, as it was only ever included in models with relatively large AICc values. 
 
-```{r fig-var-impotance-trade-offs, fig.height = 1.2, out.extra='', fig.scap = "Importance of ecological factors", fig.cap = "Relative importance of ecological factors on pollen deposition. The plant's visit potential and relative floral abundance are the most important factors determining the deposition of conspecific and heterospecific pollen. Meanwhile, the number of shared pollinators was generally less important. The graph shows the relative importance calculated as the sum of the Akaike weights of the candidate models that included the selected factor."}
+```{r fig-var-impotance-trade-offs, fig.height = 1.2, out.extra='', fig.scap = "Importance of ecological factors", fig.cap = "Relative importance of ecological factors on pollen deposition. The plant's visit potential and relative floral abundance are the most important factors determining the deposition of conspecific and heterospecific pollen. Meanwhile, the number of shared pollinators was generally less important. The graph shows the relative importance calculated as the sum of the Akaike weights of the candidate models that included the selected factor.", cache = TRUE}
 
 variable_importance <- readRDS("data/trade_off/variable_importance.rds")
 
@@ -176,7 +176,7 @@ The third most important factor, functional originality, had a positive, althoug
 Finally, the number of shared pollinators had negative and neutral associations with conspecific and heterospecific pollen, respectively, but these impacts were small when compared to the other factors. 
 Although the ecological factors were positively correlated, the collinearity between predictors did not qualitatively affect our findings.
 
-```{r fig-average-qual-quant, fig.height = 1.4*2+1.2, out.extra="", fig.scap="Ecological factors and the pollination service", fig.cap="Effect of ecological factors on the pollination service. (a) The association between ecological factors and heterospecific pollen (lighter line) tended to align with their association with conspecific pollen (darker line). Visit potential and functional originality had a positive association with pollen deposition, while floral abundance and the number of shared pollinators had a negative association. The plot shows the distribution of the effects (across 99 bootstrap replicates) of the four ecological factors for conspecific and heterospecific pollen. (b) The end result of these associations is that only the plants' functional originality has a positive impact on both the quantity and purity of conspecific pollen deposition (relative to heterospecific pollen). The plot shows the model averaged mean effect ($\\pm$ SE of 99 bootstrap replicates)."}
+```{r fig-average-qual-quant, fig.height = 1.4*2+1.2, out.extra="", fig.scap="Ecological factors and the pollination service", fig.cap="Effect of ecological factors on the pollination service. (a) The association between ecological factors and heterospecific pollen (lighter line) tended to align with their association with conspecific pollen (darker line). Visit potential and functional originality had a positive association with pollen deposition, while floral abundance and the number of shared pollinators had a negative association. The plot shows the distribution of the effects (across 99 bootstrap replicates) of the four ecological factors for conspecific and heterospecific pollen. (b) The end result of these associations is that only the plants' functional originality has a positive impact on both the quantity and purity of conspecific pollen deposition (relative to heterospecific pollen). The plot shows the model averaged mean effect ($\\pm$ SE of 99 bootstrap replicates).", cache = TRUE}
 height1 <- 2.5
 height2 <- 1.5
 # pdf(width = fig_sizes()$two_column_width , height = height1 + height2)
@@ -212,7 +212,7 @@ The first component was dominated by visit potential and relative abundance whil
 When we locate the species that were sampled in more than one community in the first two PCA components (Fig. \@ref(fig:fig-pca)b), we observe that the positions of any given species do not tend to be close to each other. 
 Indeed, when we measured the median distance between the plants' coordinates, we found that it was only significantly smaller than that of randomisations for only two of the twelve species analysed (Fig. \@ref(fig:fig-pca-flexibility)). 
 
-```{r fig-pca, fig.height=1.8+3, out.extra='', fig.scap="PCA of environmental factors.", fig.cap="PCA of environmental factors. (a) The two first components explain a large proportion of the total variance. (b) When plants that were sampled in more than one community are plotted in terms of these two components, we observe that their points---which represent the strategy (the particular combination of ecological factors) of that species in its community---do not seem to be grouped by plant species."}
+```{r fig-pca, fig.height=1.8+3, out.extra='', fig.scap="PCA of environmental factors.", fig.cap="PCA of environmental factors. (a) The two first components explain a large proportion of the total variance. (b) When plants that were sampled in more than one community are plotted in terms of these two components, we observe that their points---which represent the strategy (the particular combination of ecological factors) of that species in its community---do not seem to be grouped by plant species.", cache = TRUE}
 
 height0 <- 1.8
 height1 <- 3
@@ -236,7 +236,7 @@ cowplot::plot_grid(
 # dev.off()
 ```
 
-```{r fig-pca-flexibility, fig.height=3, out.extra="", fig.scap = "The flexibility of plant strategies", fig.cap="The flexibility of plant strategies. The flexibility was confirmed using Monte Carlo randomizations of the median distance between strategies of a plant species. Only two of the examined species had strategies that were less flexible than would be expected at random."}
+```{r fig-pca-flexibility, fig.height=3, out.extra="", fig.scap = "The flexibility of plant strategies", fig.cap="The flexibility of plant strategies. The flexibility was confirmed using Monte Carlo randomizations of the median distance between strategies of a plant species. Only two of the examined species had strategies that were less flexible than would be expected at random.", cache = TRUE}
 
 height2 <- 3
 
