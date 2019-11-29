@@ -59,3 +59,76 @@ Specifically, we hypothesise that there are trade-offs on how these factors affe
 While quantity and purity should decrease for plants that share many pollination partners, other factors like the plant's functional originality, its relative floral abundance, and its visitation patterns should have the potential to compensate for this decrease
 Second, we examine how these four factors that might affect pollen deposition can change across communities where species are present. 
 Because these factors may affect the pollination service in contrasting ways, and a species role is relative to other species in the community, we predict that species present in multiple communities should be flexible enough to compete for pollinators under different community contexts. 
+
+## Methods
+
+We collected data from eleven co-flowering plant communities and their pollinators in three locations in the Argentinian Pampas. 
+In each location, we sampled two restored and two agricultural fragments, except in one located in the Flooding Pampas, where we were only able to sample one restored fragment due to the lack of available sites.
+
+## Factors affecting quantity and purity of pollination service 
+
+Our first objective was to investigate the relative contribution that different ecological factors have on pollen deposition. 
+Generally speaking, we expect that any factor that increases the amount of conspecific pollen deposited in stigmas, both in quantity and purity relative to heterospecific pollen, also has a positive effect on the pollination service.
+Specifically, we investigated the effect of (*i*) a plant's number of shared pollinator species, (*ii*) a plant's abundance relative to the rest of the community, (*iii*) the mean visit potential---a metric that combines the amount and type of pollen carried by floral visitors and the number of visits it receives from them, and (*iv*) the plant's functional originality [@laliberte_distance-based_2010]. 
+See *Data Analysis* section below for more details on these four factors. 
+
+### Data collection
+
+In each of the studied communities, we quantified pollen deposition in a subset of plant species between December 2010 and February 2011. 
+This subset comprised between three and nine common insect-pollinated (entomophilous) plant species that were flowering during the sampling period. 
+Based on data from previous years [@marrero_effect_2014], we chose plant species such that they cover a wide range on a specialization-generalization gradient as well as a wide range of abundances. 
+In each of the selected plants, we removed all flowers leaving only buds that were expected to go into florescence on the next day. 
+Two days after flowering, we collected all remaining flowers and counted the number of conspecific and heterospecific pollen grains in their pistils. 
+More details can be found in @marrero_agricultural_2016. 
+
+To obtain the number of shared pollinators for each species, we collected data to construct qualitative and quantitative pollination networks. 
+Qualitative networks were constructed based on ten-hour observations of floral visits in each fragment. 
+Quantitative networks were constructed using two 50 m randomly located transects in each fragment. 
+We counted and collected all floral visitors found in a 2 m wide strip while walking at a pace of 10 m per minute [@marrero_effect_2014; @memmott_structure_1999]. 
+We visited the transects each month between November 2010 and March 2011. 
+To obtain floral abundance, we counted all units of floral attraction found during an independent sampling of the same transects used to construct the quantitative visitation networks. 
+To estimate visit potential, we need to construct pollen transfer networks in addition to the visitation networks. 
+To do this, we examined the pollen loads present on the floral visitors collected [@marrero_exotic_2017]. 
+When the pollen count on an individual animal was estimated to be less than 2,000 grains, we identified every grain to the species level when possible and to pollen complexes when it was not. 
+When the pollen count was above 2,000 grains, we classified approximately 50% of pollen and total pollen counts were extrapolated [@bosch_plant-pollinator_2009]. 
+Finally, we also recorded morphological traits that relate to plant type (herb, shrub, climber), life cycle (annual, perennial), flower colouration, phenology, and whether the species is native in the study region. 
+More details can be found in Marrero *et al.* (2014 and 2017).
+
+### Data analysis
+
+To investigate the impact of ecological factors on pollination services, we used two sets of linear mixed models (LMM) with bootstrap resampling.
+The response variables for these model sets were the number of conspecific and heterospecific pollen grains deposited per stigma in flowers open to animal-mediated pollination. 
+We used LMMs in which pollen loads were log-transformed because these models offered a better fit than equivalent GLMMs with Poisson (or quasi-Poisson) error structure. 
+Models were fitted using the R package `nlme 3.1-131` [@pinheiro_nlme_2018]. 
+
+Because the amount of deposited pollen can vary widely across species, and potentially also across communities, we evaluated two possible structures for the random effects: one that includes a random intercept for plant species, and one that treats measures from species across different communities independently. 
+We selected the best random structure by comparing the median Akaike Information Criterion for small samples (AICc). 
+
+As fixed predictors in the models, we included the four ecological factors described above. 
+Specifically, we calculated the number of shared pollinator species for each plant species by pooling data from the qualitative and quantitative pollination networks. 
+To calculate the plants' relative floral abundance in their community, we aggregated floral counts for each species. 
+We then calculated the mean visit potential of pollinator species *i* to plant species *j* as \[o_{ij} = \frac{v_{ij}}{v_i} \frac{p_{ji}}{p_j},\] where *v~ij~* is the observed number of visits by *i* to *j*, *p~ji~* is the number of pollen grains from *j* attached to *i*, *v~i~* is the total number of visits performed by *i*, and *p~j~* is the total number of grains carried by *j*.
+We log-transformed the number of shared pollinators, floral abundance, and visit potential before including them in the model. 
+
+Finally, functional originality is defined as the distance of a species from the community trait average--the centroid of functional space of the community [@laliberte_distance-based_2010; @coux_linking_2016]. 
+To include phenological variation, we treated floral abundance in each of the survey months (November to March) as a "trait" in this analysis. 
+To account for the non-independence of floral counts and weight all traits equally, we assigned a weight of 1/5 to these abundances (one for each month). 
+We scaled all traits before calculating the centroid of the functional space and calculated the species-specific functional coordinates using the R package `FD 1.0-12` [@laliberte_fd_2014]. 
+Finally, we scaled all four factors to have a zero mean and unit variance.
+ 
+To estimate the coefficients, perform model selection, and quantify the associated uncertainty, we used a combination of multi-model inference and bootstrap resampling with 99 replicates. 
+Using bootstrap replicates allow us to better understand the uncertainties associated with our estimations. 
+First, we performed model selection using AICc and determined the likelihood of each candidate model (a particular combination of predictors) by calculating the median \(\Delta\)AICc (relative to the most likely model) for each bootstrap sample. 
+As we wanted model coefficients from more likely candidate models to carry more weight in our results, we sampled the coefficients for our factors proportionally to the likelihood of their candidate model. 
+Finally, we used these distributions of the model coefficients to estimate their mean impact on the pollination service (in terms of quantity and purity of conspecific pollen deposition). 
+
+## Flexibility of plant strategies
+
+Our second objective was to tease apart whether and how these factors that might affect pollen deposition might change across communities species are present.
+If community context plays a relatively small role, or species are inflexible in regards to these factors, we would expect plants of the same species to use similar "strategies" across different communities. 
+Alternatively, if the community plays a significant role and plant species are flexible, we should be able to observe differences in the strategy a plant species uses across communities. 
+To test this, we first used a principal component analysis (PCA) of the four ecological factors (number of shared pollinators, floral abundance, visit potential, and trait originality). 
+We scaled factors across the whole study to ensure that the PCA space does not change according to the species present in each community. 
+We define a species' strategy in a community as its coordinates in PCA space. 
+For each species that was present in two or more communities, we then calculated (*i*) the median distance between the points that correspond to the strategy a species uses in different communities and (*ii*) the area of the convex hull defined by these points in the first two principal components (only for species present in three or more communities). 
+We then compared the magnitude of these two metrics to those obtained with 99 Monte Carlo randomizations in which we replaced the strategy of the focal plant species by that of another randomly selected species in the dataset. 
