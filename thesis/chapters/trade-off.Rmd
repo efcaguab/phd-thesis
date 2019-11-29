@@ -207,12 +207,13 @@ cowplot::plot_grid(
 # dev.off()
 ```
 
-## Flexibility of plant strategies
+### Flexibility of plant strategies
 
 We used a PCA of the ecological factors--species matrix to investigate whether plants' strategies towards pollen deposition is similar across communities or whether they are flexible and therefore a reflection of the community context. 
 The first two PCA components explained 75% of the total variance (Fig. \@ref(fig:fig-pca)a). 
 The first component was dominated by visit potential and relative abundance while the second component was dominated by the number of shared pollinators and the plant's functional originality. 
 When we locate the species that were sampled in more than one community in the first two PCA components (Fig. \@ref(fig:fig-pca)b), we observe that the positions of any given species do not tend to be close to each other. 
+Indeed, when we measured the median distance between the plants' coordinates, we found that it was only significantly smaller than that of randomisations for only two of the twelve species analysed (Fig. \@ref(fig:fig-pca-flexibility)). 
 
 ```{r fig-pca, fig.height=1.8+3, out.extra='', fig.scap="PCA of environmental factors.", fig.cap="PCA of environmental factors. (a) The two first components explain a large proportion of the total variance. (b) When plants that were sampled in more than one community are plotted in terms of these two components, we observe that their points---which represent the strategy (the particular combination of ecological factors) of that species in its community---do not seem to be grouped by plant species."}
 
