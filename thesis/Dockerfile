@@ -34,4 +34,5 @@ RUN python3 -m pip install wheel \
 
 
 RUN R -e "install.packages('drake', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
+RUN R -e "install.packages('ggridges', repos = c(CRAN = 'https://mran.revolutionanalytics.com/snapshot/2019-03-10'))"
 
