@@ -182,11 +182,8 @@ height2 <- 1.5
 # pdf(width = fig_sizes()$two_column_width , height = height1 + height2)
 
 coefficient_averages <- readRDS("data/trade_off/coefficient_averages.rds")
-
-
 fig_coefficient_averages <- make_fig_coefficient_avarages(coefficient_averages, variable_importance)
 fig_coef_avg <- plot_coefficient_averages(coefficient_averages, variable_importance)
-
 
 bottom <- cowplot::plot_grid(
   fig_coef_avg[[1]],
