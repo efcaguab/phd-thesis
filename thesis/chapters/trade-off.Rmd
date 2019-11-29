@@ -1,4 +1,5 @@
 # The pollination trade off
+# Trade-offs of the pollination service {#pollen-competition}
 
 \begin{flushright}{\slshape 
     Los animales todos, en suma, no pueden pasarse sin alimento.
