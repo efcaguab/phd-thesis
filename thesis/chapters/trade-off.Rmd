@@ -238,9 +238,7 @@ cowplot::plot_grid(
 # dev.off()
 ```
 
-
-
-```{r fig-pca-flexibility, fig.height=3, out.extra="", fig.cap="The flexibility of plant strategies. The flexibility was confirmed using Monte Carlo randomizations of the median distance between strategies of a plant species. Only two of the examined species had strategies that were less flexible than would be expected at random."}
+```{r fig-pca-flexibility, fig.height=3, out.extra="", fig.scap = "The flexibility of plant strategies", fig.cap="The flexibility of plant strategies. The flexibility was confirmed using Monte Carlo randomizations of the median distance between strategies of a plant species. Only two of the examined species had strategies that were less flexible than would be expected at random."}
 
 height2 <- 3
 
