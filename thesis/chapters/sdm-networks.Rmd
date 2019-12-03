@@ -171,23 +171,32 @@ All models were fitted under a Bayesian framework using the R package `brms` 2.8
 For each model, we used four Markov chains of 4,000 iterations each; we used half of the iterations for warmup.
 We used weakly informative priors for all model parameters. 
 Specifically we used normal priors of mean zero and standard deviation ten for the population-level effects and the intercepts, a half-Cauchy prior with a location of zero and a scale of two for the standard deviations, and, when applicable, an LKJ-correlation prior with parameter \(\zeta = 1\) for the correlation matrix between group-level parameters.
+
+## Results
+
+After performing our sensitivity analysis, we found that, for a species, we need roughly 18 independent occurrences for each community for which we aim to estimate the environmental stress. 
+This is the number of occurrences necessary to maintain the mean absolute error of bioclimatic suitability below 0.1 (Figure \@ref(fig:fig-sensitivity-analysis)). 
+We therefore removed from further analyses NOTE FILL XXX species for which we did not have enough occurrences to obtain robust estimates.
+
 ```{r fig-sensitivity-analysis, fig.height = 2.2, fig.cap = "Sensitivity analysis of environmental stress error. The number of independent occurrences retrieved from GBIF is inversely related to the error of bioclimatic suitability for our plant-pollinator networks. The sensitivity analysis was performed by subsampling occurrences of emph{Archilochus colubris}, the species in our dataset with the largest number of occurrences in GBIF, which was recorded in two of our communities.", out.extra='', fig.scap="Sensitivity analysis of environmental stress error."}
 
-
 fig_sensitivity_analysis_data <- readRDS("data/sdm_networks/fig_sensitivity_analysis_data.rds")
-
 plot_sensitivity_analysis(fig_sensitivity_analysis_data)
 ```
 
+Our models performed relatively well.
+The Bayesian R^2^ for our baseline model was 0.89, which indicates our models were able to capture a large proportion of the variability on the data. 
+Overall, we found that environmental stress does not have a consistent effect across species. 
+Indeed, when looking at the fixed effects, stress has virtually no relationship with the normalised degree—our metric of specialisation (Figure \@ref(fig:fig-conditional-effects)a). 
+However, environmental stress was still an important predictor in our model. 
+The difference in WAIC between our baseline model and the model that did not include environmental stress was 489 NOTE FILL PLUS MINUS 94 (Table \@ref(tab:tab-model-comparison)).
+This apparent discrepancy can be explained by the variability of the specialisation-stress relationship across species.
 
 ```{r fig-conditional-effects, fig.height = 2.2*1.75, fig.cap = "Conditional effects of predictors in our baseline model. The shown values are based on predictions for a hypothetical community with 76 and 33 pollinators. These values correspond to the median number of species in each guild across communities. In each panel, we condition on the mean value of the other predictor in the model. We indicate mean values for each predictor with a vertical dashed line. For model fitting, we scaled all predictors to have a mean of zero and unit variance; however, here we show the unscaled predictors to facilitate interpretation. To illustrate the uncertainty around the fitted estimates, we plot the fits of 100 independent draws from the posterior distribution. The thick lines indicate the mean values of the response distribution. As there was no interaction between the guild and the number of possible interactions, we only show the conditional effect of pollinators."}
 
 fig_conditional_effects_data <- readRDS("data/sdm_networks/fig_conditional_effects_data.rds")
-
 plot_all_conditional_effect(fig_conditional_effects_data)
 ```
-
-*asd*
 
 ```{r tab-model-comparison}
 model_ranking <- readRDS("data/sdm_networks/model_ranking.rds")
@@ -210,3 +219,25 @@ model_ranking$waic %>%
                caption = "Comparison in out of sample predictive power of the baseline model (bold) and their alternatives. We rank models by their expected log predictive density based on their Wanatabe-Akaike information criterion (WAIC).") %>%
   kableExtra::kable_styling(font_size = 10) #%>%
 ```
+
+For some species, there is a strong negative relationship between stress and specialisation, while for others, there is a strong positive relationship (Figure \@ref(fig:fig-random-effects)a). 
+Interestingly, the slope of this relationship correlates with the species' intercept in the model (Figure \@ref(fig:fig-random-effects)b and c).
+Recall that the model estimates the intercept at the mean value for stress across communities (0.68).
+The mean correlation coefficient was 0.52 [0.33, 0.67].
+Therefore, the slope of the stress-specialisation relationship was more likely to be positive for species with a large number of partners under average stress conditions (and negative for species with a smaller number of partners).
+Extrapolating to no-stress conditions: species that would interact with a small number of partners under no stress are more likely to interact with more partners as stress increases, whereas those that would interact with a large number of partners are more likely to interact with less.
+
+<!-- # ```{r fig-random-effects, fig.height = 2.2*2, fig.cap = "Species-level effects of environmental stress (a) Conditional effect of stress for individual species. Each line corresponds to the median relationship for each species. Although we included in the analysis of all species that are present in two or core communities, to facilitate visualisation here, we show only species for which there is suitability information in at least six communities (19 plants and 33 pollinators). As in the previous figure, fitted values assume a hypothetical community of median size. In each panel, we highlight two species for which the relationship between environmental suitability and the normalised degree was particularly strong. (b and c) The correlation between the species' intercept and the species' slope of suitability was negative. The species' intercept can be interpreted as the relative difference between the number of partners a species has under mean levels of environmental stress and the mean number of partners across all species. Positive values of species' slope indicate a positive relationship between stress and the number of partners and vice-versa.",  out.extra=""} -->
+<!-- #  -->
+<!-- # # fig_random_effects_data <- readRDS("../data/sdm_networks/") -->
+<!-- #  -->
+<!-- # # readd(fig_random_effects) -->
+<!-- # ``` -->
+
+As expected, we found a strong and positive relationship between the number of possible interactions and the number of realised interactions in the community. 
+There was also a large difference of WAIC between the model that included this predictor and that that excluded it. 
+This result indicates that the availability of potential partners—this is, community composition—accounts for a large proportion of the variability in species degree. 
+Importantly, our findings relating to the variability of the stress-specialisation relationship were qualitatively unchanged, whether we included this variable or not. 
+
+The standard deviation (in the parameters scale) of the community intercepts was 1.02 [0.85, 1.23] which indicates the importance of the local context when determining specialisation. 
+The standard deviation of the species intercept was 0.54 [0.48, 0.61], and that of the species' stress slope was 0.38 [0.32, 0.44] (95% credible intervals shown within square brakets). 
