@@ -326,7 +326,7 @@ Despite removing rare interactions and species, the relative size of the minimum
 ## Discussion
 
 Our main goal was to understand the role that species play in both modifying the abundance of the species they interact with and the state of the community as a whole. 
-To achieve that goal we applied *structural controllability*, a field at the intersection between control and complex theory that allowed us to obtain two key pieces of information: the *controllability* of a network and a species' *control capacity* (Table \@ref(tab:tab-glossary)). 
+To achieve that goal we applied *structural controllability*, a field at the intersection between control and complex theory that allowed us to obtain two key pieces of information: the *controllability* of a network and a species' *control capacity*. 
 We found that the controllability of a network does not depend on its invasion status and that the species that are critical to altering the state of the community are also the ones that most sustain the stable coexistence of species in their communities.
   
 Our results indicate that fully controlling ecological networks might currently be out of reach for all but the smallest communities [@motter_networkcontrology_2015]. 
