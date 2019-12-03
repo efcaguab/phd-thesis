@@ -10,3 +10,4 @@ TO DO
 * Check status of marilia's paper
 * Decide what to do with the glossary. Inclined to remove it
 * References for first paragraph introduction SDN
+* Fix figure references to SDM 
