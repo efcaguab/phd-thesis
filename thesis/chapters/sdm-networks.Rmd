@@ -27,6 +27,43 @@ Instead, species' level of specialisation should be considered on a relative sca
 
 ## Introduction
 
+Species interactions are known to vary widely across space and time. 
+There are multiple examples of species that interact with a large number of partners in a particular community or season, but with fewer in another. 
+Some of this variation can be attributed to environmental drivers. 
+However, how exactly the environment, specifically the stress it imposes on species, affects whether two species interact or not, and ultimately the species' specialisation. 
+Understanding how the environment drives the number of partners is crucial because it underpins the species' role in its community and shapes the structure of the network of interactions. 
+This structure, in turn, determines ecosystem function and stability. 
+
+Species interactions are determined in part by niche processes (the matching of traits) and partly by neutral processes (more abundant species are more likely to encounter each other and, thus, interact). 
+The environment can influence both of these processes. 
+It is, therefore, not surprising that, despite limitations on the spatial extent or the number of environmental gradients considered, multiple studies have been able to show how changes to interactions can be related to environmental change [@tylianakis_ecological_2017].
+For instance, some studies suggest that the strength of some trophic interactions, like predation [@mckinnon_lower_2010; @vucic-pestic_warming_2011] and herbivory [@baskett_latitudinal_2018], can increase with temperature but might decrease with precipitation [@pires_predicted_2016]. 
+Some other studies, however, have shown either no effect (on average) or non-linear effects of temperature or precipitation on plant-pollinator interactions [@devoto_patterns_2005; @gravel_bringing_2018].
+Overall, while it looks clear that pairwise interactions respond to environmental drivers, there is high variability in the response [@tylianakis_global_2008].
+
+One possible explanation for the seemingly contradictory evidence is that different bioclimatic factors (like temperature or precipitation) can have contrasting effects on species and their partners. 
+Here we attempt to simplify this situation by reducing multiple factors into a single measure of environmental stress. 
+Previous research suggests that environmental stress may affect the number of partners in different ways depending on its role in the community (for example its trophic guild) or even the species itself. 
+Specifically, we propose two alternative hypotheses of how environmental stress may affect specialisation [@tylianakis_ecological_2017]. 
+On the one hand, it is possible that when species are under environmental stress, they might be "pressured" to focus on partners with which they are best adapted to interact. 
+For instance, @hoiss_altitude_2012 found increased phylogenetic clustering between plants and pollinators at higher altitudes; while @peralta_phylogenetic_2015 found that parasitoids in plantation forest, where environmental stress was higher than in native forests, were constrained to interact with hosts, they were best adapted to attack.
+Similarly, @lavandero_genotype_2013 showed that environmental stress due to higher temperature reduced the trophic niche breadth of parasitoids suggesting higher specialisation. 
+
+On the other hand, it is also possible that when species are under environmental stress, they are forced to be more flexible in their interactions.
+Higher environmental stress is likely to be reflected in greater energetic or reproductive costs. 
+Therefore they might not be able to sustain encounter rates with their preferred partners at sufficient levels. 
+In line with this hypothesis, @hoiss_interactive_2015 found that the specialisation of plant-pollinator networks decreased both with elevation and after extreme drought events.
+Likewise, @pellissier_spatial_2010 found a positive relationship between niche breadth and environmental stress: disk- or bowl-shaped blossoms (which allow a large number of potential pollinator species to access pollen and nectar rewards) dominated at high altitude flower communities. 
+
+Here, we investigate whether and how environmental stress can systematically affect specialisation. 
+Our main aim is to test the two hypotheses mentioned above that relate environmental stress and species' number of partners and investigate whether this changes across species or between trophic guilds. 
+We propose that specialist species can become "facultative" generalists to reduce their vulnerability to the absence of preferred partners [for example, when variations in climate decouple phenologies; @benadi_specialization_2014]. 
+In other words, we expect that, as environmental stress increases, specialists should be more likely to engage with more partners. 
+Species with a large number of partners, on the other hand, should have a larger pool of available partners and might, therefore, be more likely to specialise under environmental stress and focus on the most beneficial partners. 
+Importantly, when testing these hypotheses, we control for the potential effects of the environment in community composition [which has been previously shown to be a determinant factor; @gravel_bringing_2018]. 
+We test these hypotheses using data on plant-pollinator interactions. 
+These interactions provide a particularly interesting system to test these hypotheses because, due to the multiple trade-offs involved in the pollination service, there are multiple intuitive ways in which we could imagine species respond to environmental stress given the available partners.
+We estimate the stress species might experience in their community by calculating the bioclimatic suitability of their communities given the species' patterns of global occurrence. 
 ```{r fig-distribution-species-mult-locations, fig.height = 2.2, fig.cap = "Frequency distribution of the number of locations in which a species is present. The most common pollinator species was emph{Apis melifera}, which was sampled on 42 locations, while the most common plant species was emph{Trifolium repens}, which was sampled on 11 locations", fig.scap="Location dstribution of species.", out.extra=''}
 
 dist_species_multiple_locations_data <- readRDS("data/sdm_networks/species_location_distribution.rds")
