@@ -241,3 +241,62 @@ Importantly, our findings relating to the variability of the stress-specialisati
 
 The standard deviation (in the parameters scale) of the community intercepts was 1.02 [0.85, 1.23] which indicates the importance of the local context when determining specialisation. 
 The standard deviation of the species intercept was 0.54 [0.48, 0.61], and that of the species' stress slope was 0.38 [0.32, 0.44] (95% credible intervals shown within square brakets). 
+
+## Discussion
+
+We set out to explore whether and how environmental stress can systematically affect specialisation. 
+After accounting for the pool of potential partners, we found that environmental conditions contribute to determining whether a species is a generalist or a specialist *in their community*. 
+We also found that the particular effect of the environment is strongly dependent on the species.
+Based on existing literature, we proposed two alternative hypotheses of how environmental stress may affect species' specialisation, and we found evidence for both of them.
+Species with a large number of partners in low-stress communities were more likely to have a negative relationship and hence reduce the number of partners as stress increases. 
+Contrastingly, species in our datasets with a small number of partners in low-stress communities were more likely to have a larger number of partners in more stressful communities.
+In summary, environmental stress pushes species that are flexible enough to change their interaction partners towards intermediate levels of specialisation, a so-called "regression towards the mean".
+
+Our results suggest that changes in community composition are indeed the primary channel through which the environment determines changes interaction probability. 
+However, they also show that, for a large number of species, the environment may also play a substantial role in determining their level of specialisation. 
+Previous research has recognised that environmental factors may help explain the changes in network structure along environmental gradients that cannot be explained by community composition [@tylianakis_habitat_2007].
+However, how these two factors were linked had been elusive so far [@gravel_bringing_2018]. 
+We believe that part of this difficulty could have arisen because species, and ultimately network structure, can respond in multiple, and contrasting, ways depending on the particular bioclimatic variable examined (e.g. temperature or precipitation).
+Using stress to summarise the effect on species of multiple environmental gradients allowed us to detect a clear signal of the environment in species' interaction patterns.
+
+Although both niche and neutral processes are relevant in determining species interactions, our model suggests that niche processes may be the predominant mechanism through which the environment *systematically* affects specialisation. 
+First, it is unlikely that environmental stress correlates to local species abundances [@pearce_practical_2001; @sagarin_moving_2006]. 
+Second, even if there is a relationship between stress and abundances, a particular environmental gradient could have a positive effect on the abundance of some species and a negative effect on others. 
+Indeed, we find that within a community there is a wide range of stress values, even for the relatively limited number of species we were able to include in our analysis.
+
+Recent research suggests that species are continuously changing their interaction partners wherever environmental conditions change in space or time [@raimundo_adaptive_2018].
+So far it appears that this rewiring is primarily driven by generalist species [@ponisio_opportunistic_2017; @burkle_plant-pollinator_2013], presumably because generalist species are less sensitive to trait matching of their interaction partners [@caradonna_interaction_2017].
+Our results add two important nuances to these findings. 
+First, because "generalists" seem to focus on a smaller number of partners as environmental conditions deteriorate, we show that trait matching might still play a role in determining the interactions of generalist species. 
+Second, and most importantly, our results suggest that only a small proportion of species are "true generalists" or "true specialists" this is, species that interact with a large or small number of partners regardless of the environmental stress, respectively. 
+This pattern implies that rewiring is not exclusive of species with a large number of partners. 
+Instead, at least a fraction of the species that appear to be specialist *in their communities* might be as flexible, if not more, than those with a large number of partners, effectively behaving as facultative generalists in the face of environmental change. 
+These flexible "specialists" might therefore have a more significant role in network persistence than previously expected.
+
+In our model, we can roughly divide species between true specialists, true generalists, and flexible species. 
+However, there is a fourth group that remained invisible to our model but has important implications for network persistence and stability.
+Species that can vary their interaction partners flexibly and their role in the network are more likely to persist in their community as environmental conditions vary [@gaiarsa_interaction_2019].
+We propose this fourth group is composed of true specialists that are constrained to interact with partners of high trait-matching and therefore were not likely to be found in more than one community. 
+If species that are not flexible are unlikely to persist over temporal or spatial environmental gradients, we can expect specialised communities that are highly constrained by trait-matching [like some plant-hummingbird networks; @vizentin-bugoni_processes_2014; @maruyama_morphological_2014] to be far more vulnerable to increased climate change-induced environmental stress and habitat degradation than communities where role and interaction flexibility are more prevalent.
+
+Similarly, if the patterns we see in our models have also played a role during the evolutionary history of pollination communities, our results also help explain why only a small fraction of plant-pollinator interactions show a strong signature of deep co-evolutionary history [@hutchinson_cophylogenetic_2017].
+The increases in the stress that species are predicted to experience due to rapid environmental change might further erode the co-evolutionary history of specialist species.
+Communities as a whole might be in a trajectory of even more diffuse co-evolution.
+For specialists, at least, the longer-term benefits of being able to interact with multiple partners might be more important than the shorter-term benefits of interacting with partners of high trait matching. 
+
+The structural implications of the "regression towards the mean" that environmental stress promotes are less clear. 
+However, it is plausible to expect that nestedness, and therefore network stability, might be reduced in the face of rapid environmental change.
+Determining exactly how the changes in degree caused by environmental stress reflect on systematic changes in network structure would be an interesting avenue of research. 
+Answering this question would require expanding our suitability analysis to all species in the community and compare the degree distribution of networks along a gradient of stress for the community as a whole. 
+
+In conclusion, we show that the environment can affect the specialisation level of plants and pollinators in systematic ways beyond community composition. 
+Species that are inflexible with their interaction partners are unlikely to persist under more stressful environmental conditions. 
+However, we show that many species are flexible in regards to their specialisation levels and therefore are not inherently generalists or specialists. 
+Instead, the species' level of specialisation/generalisation should be considered on a relative scale depending on where they are found and the environmental conditions at that location. 
+
+## Acknowledgements {-}
+
+We thank Warwick Allen, Marilia Gaiarsa, and Guadalupe Peralta for feedback and valuable discussions. 
+EFC acknowledges the support from the University of Canterbury Doctoral Scholarship and a New Zealand International Doctoral Research Scholarship administered by New Zealand Education. 
+DBS and JMT acknowledge the support of Rutherford Discovery Fellowships (RDF-13-UOC-003 and RDF-UOC-1002) and the Marsden Fund Council (UOC-1705), administered by the Royal Society of New Zealand Te Apārangi.
+
