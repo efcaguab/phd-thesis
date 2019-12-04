@@ -220,19 +220,25 @@ model_ranking$waic %>%
   kableExtra::kable_styling(font_size = 10) #%>%
 ```
 
-For some species, there is a strong negative relationship between stress and specialisation, while for others, there is a strong positive relationship (Figure \@ref(fig:fig-random-effects)a). 
-Interestingly, the slope of this relationship correlates with the species' intercept in the model (Figure \@ref(fig:fig-random-effects)b and c).
+For some species, there is a strong negative relationship between stress and specialisation, while for others, there is a strong positive relationship (Figure \@ref(fig:fig-random-effects-spp)). 
+Interestingly, the slope of this relationship correlates with the species' intercept in the model (Figure \@ref(fig:fig-random-effects-cor)a and b).
 Recall that the model estimates the intercept at the mean value for stress across communities (0.68).
 The mean correlation coefficient was 0.52 [0.33, 0.67].
 Therefore, the slope of the stress-specialisation relationship was more likely to be positive for species with a large number of partners under average stress conditions (and negative for species with a smaller number of partners).
 Extrapolating to no-stress conditions: species that would interact with a small number of partners under no stress are more likely to interact with more partners as stress increases, whereas those that would interact with a large number of partners are more likely to interact with less.
 
-<!-- # ```{r fig-random-effects, fig.height = 2.2*2, fig.cap = "Species-level effects of environmental stress (a) Conditional effect of stress for individual species. Each line corresponds to the median relationship for each species. Although we included in the analysis of all species that are present in two or core communities, to facilitate visualisation here, we show only species for which there is suitability information in at least six communities (19 plants and 33 pollinators). As in the previous figure, fitted values assume a hypothetical community of median size. In each panel, we highlight two species for which the relationship between environmental suitability and the normalised degree was particularly strong. (b and c) The correlation between the species' intercept and the species' slope of suitability was negative. The species' intercept can be interpreted as the relative difference between the number of partners a species has under mean levels of environmental stress and the mean number of partners across all species. Positive values of species' slope indicate a positive relationship between stress and the number of partners and vice-versa.",  out.extra=""} -->
-<!-- #  -->
-<!-- # # fig_random_effects_data <- readRDS("../data/sdm_networks/") -->
-<!-- #  -->
-<!-- # # readd(fig_random_effects) -->
-<!-- # ``` -->
+```{r fig-random-effects-spp, fig.height = 2.2*2, fig.cap = "Species-level effects of environmental stress (a) Conditional effect of stress for individual species. Each line corresponds to the median relationship for each species. Although we included in the analysis of all species that are present in two or core communities, to facilitate visualisation here, we show only species for which there is suitability information in at least six communities (19 plants and 33 pollinators). As in the previous figure, fitted values assume a hypothetical community of median size. In each panel, we highlight two species for which the relationship between environmental suitability and the normalised degree was particularly strong",  out.extra="", fig.scap = "Species-level effects of environmental stress "}
+
+fig_random_effects_data <- readRDS("data/sdm_networks/fig_random_effects_data.rds")
+plot_ranf_species(fig_random_effects_data)
+
+```
+
+```{r fig-random-effects-cor, fig.height = 2.2*2, fig.cap = "The correlation between the species' intercept and the species' slope of suitability was negative. The species' intercept can be interpreted as the relative difference between the number of partners a species has under mean levels of environmental stress and the mean number of partners across all species. Positive values of species' slope indicate a positive relationship between stress and the number of partners and vice-versa.",  out.extra="", fig.scap="Correlation slope and intercept"}
+
+plot_ranf_correlation(fig_random_effects_data)
+
+```
 
 As expected, we found a strong and positive relationship between the number of possible interactions and the number of realised interactions in the community. 
 There was also a large difference of WAIC between the model that included this predictor and that that excluded it. 
