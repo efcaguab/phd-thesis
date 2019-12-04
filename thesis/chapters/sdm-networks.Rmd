@@ -176,7 +176,7 @@ Specifically we used normal priors of mean zero and standard deviation ten for t
 
 After performing our sensitivity analysis, we found that, for a species, we need roughly 18 independent occurrences for each community for which we aim to estimate the environmental stress. 
 This is the number of occurrences necessary to maintain the mean absolute error of bioclimatic suitability below 0.1 (Figure \@ref(fig:fig-sensitivity-analysis)). 
-We therefore removed from further analyses NOTE FILL XXX species for which we did not have enough occurrences to obtain robust estimates.
+We therefore removed from further analyses 283 species for which we did not have enough occurrences to obtain robust estimates.
 
 ```{r fig-sensitivity-analysis, fig.height = 2.2, fig.cap = "Sensitivity analysis of environmental stress error. The number of independent occurrences retrieved from GBIF is inversely related to the error of bioclimatic suitability for our plant-pollinator networks. The sensitivity analysis was performed by subsampling occurrences of emph{Archilochus colubris}, the species in our dataset with the largest number of occurrences in GBIF, which was recorded in two of our communities.", out.extra='', fig.scap="Sensitivity analysis of environmental stress error."}
 
@@ -189,7 +189,7 @@ The Bayesian R^2^ for our baseline model was 0.89, which indicates our models we
 Overall, we found that environmental stress does not have a consistent effect across species. 
 Indeed, when looking at the fixed effects, stress has virtually no relationship with the normalised degree—our metric of specialisation (Figure \@ref(fig:fig-conditional-effects)a). 
 However, environmental stress was still an important predictor in our model. 
-The difference in WAIC between our baseline model and the model that did not include environmental stress was 489 NOTE FILL PLUS MINUS 94 (Table \@ref(tab:tab-model-comparison)).
+The difference in WAIC between our baseline model and the model that did not include environmental stress was 489 $\pm$ 94 (Table \@ref(tab:tab-model-comparison)).
 This apparent discrepancy can be explained by the variability of the specialisation-stress relationship across species.
 
 ```{r fig-conditional-effects, fig.height = 2.2*1.75, fig.cap = "Conditional effects of predictors in our baseline model. The shown values are based on predictions for a hypothetical community with 76 and 33 pollinators. These values correspond to the median number of species in each guild across communities. In each panel, we condition on the mean value of the other predictor in the model. We indicate mean values for each predictor with a vertical dashed line. For model fitting, we scaled all predictors to have a mean of zero and unit variance; however, here we show the unscaled predictors to facilitate interpretation. To illustrate the uncertainty around the fitted estimates, we plot the fits of 100 independent draws from the posterior distribution. The thick lines indicate the mean values of the response distribution. As there was no interaction between the guild and the number of possible interactions, we only show the conditional effect of pollinators."}
