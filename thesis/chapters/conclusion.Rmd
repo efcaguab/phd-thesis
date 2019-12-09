@@ -1,12 +1,16 @@
 \addtocontents{toc}{\protect\vspace{1em}}
 \addchap{Conclusion}
 
+\bigskip
+
 \begin{flushright}{\slshape 
     It's not the numbers that are interesting. \\
     It's what they tell us about the lives behind the numbers.
     } \\ \medskip
     --- \textcite{rosling_factfulness_2018}
 \end{flushright}
+
+\bigskip
 
 In this thesis I explored some of the causes and consequences of the network of interactions between flowering plants and their pollinators in an ecological community.
 First, I explored how network structure can be influenced by the trade-offs that manifest when plants compete for the pollination service. 

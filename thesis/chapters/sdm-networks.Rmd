@@ -5,11 +5,15 @@ editor_options:
 ---
 # Effect of environment on networks {#sdm-networks}
 
+\bigskip
+
 \begin{flushright}{\slshape
     Stare at the world, \\
     not at your model.} \\ \medskip
     --- \textcite{kling_practitioners_2007}
 \end{flushright}
+
+\bigskip
 
 This Chapter has been published as a pre-print by \fullcite{cagua_environment_2019}.
 

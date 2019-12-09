@@ -1,10 +1,14 @@
 \addchap{Introduction}
 
+\bigskip
+
 \begin{flushright}{\slshape 
     When one starts to trace out the dependence of one animal upon another, one soon realises that it is necessary to study the whole community living in one habitat, since the interrelations of animals ramify so far.
     } \\ \medskip
     --- \textcite{elton_animal_1927}
 \end{flushright}
+
+\bigskip
 
 From food and freshwater production to recreational and carbon sequestration, ecosystems provide a wide range of services of considerable value to humans [@costanza_value_1997]. 
 Unfortunately, global change is currently threatening the ability of ecosystems to provide these services [@schroter_ecosystem_2005]. 
