@@ -91,14 +91,14 @@ translate_model_formula <- function(x, type = "short"){
     )
   } else if(type == "long-abv"){
     dplyr::case_when(
-      x == "formula_base" ~ "Suitability x Guild + Pot. # partners",
+      x == "formula_base" ~ "stress x guild + # possible partners",
       # x == "formula_no_grinell_niche_size" ~ "Suit. + Gen. + Pot.",
       # x == "formula_no_generalism" ~ "Suit. + Pot. + Env.",
-      x == "formula_no_suitability" ~ "Guild + Pot. # partners",
+      x == "formula_no_suitability" ~ "guild + # possible partners",
       # x == "formula_no_possible_partners_generalism" ~ "Suit. + Env.",
-      x == "formula_no_possible_partners" ~ "Suitability x Guild",
+      x == "formula_no_possible_partners" ~ "stress x guild",
       x == "formula_full" ~ "FULL",
-      x == "formula_no_guild" ~ "Suitability + Pot. # partners",
+      x == "formula_no_guild" ~ "stress + # possible partners",
       TRUE ~ "unknown"
     )
   }
