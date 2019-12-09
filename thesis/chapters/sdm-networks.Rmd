@@ -33,12 +33,12 @@ Instead, species' level of specialisation should be considered on a relative sca
 
 ## Introduction
 
-Species interactions are known to vary widely across space and time. 
-There are multiple examples of species that interact with a large number of partners in a particular community or season, but with fewer in another. 
+Species interactions are known to vary widely across space and time [@baiser_geographic_2012; @poisot_beyond_2015]. 
+There are multiple examples of species that interact with a large number of partners in a particular community or season, but with fewer in another [@benadi_specialization_2014]. 
 Some of this variation can be attributed to environmental drivers. 
 However, how exactly the environment, specifically the stress it imposes on species, affects whether two species interact or not, and ultimately the species' specialisation. 
-Understanding how the environment drives the number of partners is crucial because it underpins the species' role in its community and shapes the structure of the network of interactions. 
-This structure, in turn, determines ecosystem function and stability. 
+Understanding how the environment drives the number of partners is crucial because it underpins the species' role in its community and shapes the structure of the network of interactions [@cirtwill_review_2018]. 
+This structure, in turn, determines ecosystem function and stability [@thebault_stability_2010].
 
 Species interactions are determined in part by niche processes (the matching of traits) and partly by neutral processes (more abundant species are more likely to encounter each other and, thus, interact). 
 The environment can influence both of these processes. 
