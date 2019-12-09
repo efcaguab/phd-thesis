@@ -1,4 +1,5 @@
-# Conclusion 
+\addtocontents{toc}{\protect\vspace{1em}}
+\addchap{Conclusion}
 
 \begin{flushright}{\slshape 
     It's not the numbers that are interesting. \\

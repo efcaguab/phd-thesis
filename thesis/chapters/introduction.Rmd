@@ -1,5 +1,4 @@
-# Introduction
-\addcontentsline{toc}{section}{\nameref{introduction}}
+\addchap{Introduction}
 
 \begin{flushright}{\slshape 
     When one starts to trace out the dependence of one animal upon another, one soon realises that it is necessary to study the whole community living in one habitat, since the interrelations of animals ramify so far.
