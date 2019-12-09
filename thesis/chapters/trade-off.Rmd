@@ -16,7 +16,7 @@ This Chapter has been published as a pre-print by \fullcite{cagua_trade-offs_201
 ## Summary {-}
 
 A fundamental feature of pollination systems is the indirect facilitation and competition that arises when plants species share pollinators. 
-When plants share pollinators, the pollination service can be influenced. 
+When plants share pollinators, the pollination service can be dramatically different to what it would be without sharing. 
 This depends not only on how many partners plant species share, but also by multiple intertwined factors like the plant species' abundance, visitation, or traits. 
 These factors inherently operate at the community level. 
 However, most of our understanding of how these factors may affect the pollination service is based on systems of up to a handful of species. 
