@@ -7,6 +7,8 @@
     --- al-Jāḥiẓ, \\ translated by \textcite{palacios_libro_1930}
 \end{flushright}
 
+This Chapter has been published as a pre-print by \fullcite{cagua_trade-offs_2019}.
+
 ## Summary {-}
 
 A fundamental feature of pollination systems is the indirect facilitation and competition that arises when plants species share pollinators. 

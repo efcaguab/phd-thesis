@@ -11,6 +11,8 @@ editor_options:
     --- \textcite{kling_practitioners_2007}
 \end{flushright}
 
+This Chapter has been published as a pre-print by \fullcite{cagua_environment_2019}.
+
 ## Summary {-}
 
 What determines whether or not a species is a generalist or a specialist? 
