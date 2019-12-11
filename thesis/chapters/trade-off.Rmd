@@ -1,4 +1,4 @@
-# Trade-offs of the pollination service {#pollen-competition}
+# Trade-offs of sharing pollinators {#pollen-competition}
 
 \bigskip
 
