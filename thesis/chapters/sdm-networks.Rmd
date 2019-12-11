@@ -77,8 +77,8 @@ We retrieved plant-pollinator networks from the Web of Life database [@fortuna_w
 This database contains datasets originating from 57 studies published in the primary literature between 1923 and 2016. 
 Calculating the environmental stress of species in their community and their potential partners required us to reduce both the taxonomic and distributional/locational uncertainty.
 A critical step towards reducing this uncertainty is to ensure that the names used to identify species are valid and unambiguous, which in turn allow us to obtain further information from biological databases and accurately match species across studies. 
-Therefore, our first step was to ensure consistent spelling and standardisation of species names synonyms (see Supplementary Methods).
-The cleaning process resulted on a total of 2,555 plants and 8,406 pollinator species distributed across 73 locations arround the globe (Figure \@ref(fig:fig-distribution-species-mult-locations)).
+Therefore, our first step was to ensure consistent spelling and standardisation of species names synonyms (see \hyperlink{sup-env}{Supplementary Methods}).
+The cleaning process resulted on a total of 2,555 plants and 8,406 pollinator species distributed across 73 locations arround the globe (Figure \@ref(fig:fig-distribution-species-mult-locations) and \hyperlink{sup-env}{S1}).
 
 ```{r fig-distribution-species-mult-locations, fig.height = 2.2, fig.cap = "Frequency distribution of the number of locations in which a species is present. The most common pollinator species was emph{Apis melifera}, which was sampled on 42 locations, while the most common plant species was emph{Trifolium repens}, which was sampled on 11 locations", fig.scap="Location dstribution of species.", out.extra=''}
 
@@ -109,7 +109,7 @@ First, it requires information about the occurrences of the species of interest.
 Second, the method requires information about the environmental conditions for all the locations in which the species occurs.
 We retrieved 38.1 million occurrences from the Global Biodiversity Information Facility (GBIF; https://www.gbif.org). 
 Issues with data quality are a central issue hampering the use of publicly available species occurrence GBIF data in ecology and biogeography [@jetz_essential_2019]. 
-We, therefore, followed a series of filters and geographic heuristics to correct or remove erroneous and imprecise referencing records [see supplementary methods; @zizka_coordinatecleaner_2019] which allowed us to identify and remove 7.5 million potentially problematic occurrences from further analysis.
+We, therefore, followed a series of filters and geographic heuristics to correct or remove erroneous and imprecise referencing records [see \hyperlink{sup-env}{supplementary methods}; @zizka_coordinatecleaner_2019] which allowed us to identify and remove 7.5 million potentially problematic occurrences from further analysis.
 We integrated the occurrences from our plant-pollinator communities to the cleaned occurrences retrieved from GBIF.
 
 We retrieved environmental data from WorldClim V2.0, which includes 19 bioclimatic variables commonly used in species distribution modelling [@fick_worldclim_2017]. 
@@ -312,3 +312,6 @@ We thank Warwick Allen, Marilia Gaiarsa, and Guadalupe Peralta for feedback and 
 EFC acknowledges the support from the University of Canterbury Doctoral Scholarship and a New Zealand International Doctoral Research Scholarship administered by New Zealand Education. 
 DBS and JMT acknowledge the support of Rutherford Discovery Fellowships (RDF-13-UOC-003 and RDF-UOC-1002) and the Marsden Fund Council (UOC-1705), administered by the Royal Society of New Zealand Te Apārangi.
 
+## Supplementary information {-}
+
+\hypertarget{sup-env}Additional supporting information may be found online in the Supplementary Material section of the published article at https://doi.org/10.1101/866772. 

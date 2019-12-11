@@ -77,7 +77,7 @@ Each community pair was composed of a community invaded by a plant and a communi
 Four pairs correspond to natural or semi-natural vegetation communities in the city of Bristol, UK [@lopezaraiza-mikel_impact_2007]. 
 These communities comprised 19--87 species (mean 55), and non-invaded plots were obtained by experimentally removing all the flowers of the invasive species *Impatiens grandulifera*.
 The other six pairs were obtained from lower diversity Mediterranean shrublands in Cap de Creus National Park, Spain [@bartomeus_contrasting_2008].
-These communities comprised 30--57 species (mean 38); in contrast to the above, uninvaded communities were obtained from plots that had not yet been colonised by either of the invasive species *Carpobrotus affine acinaciformis* or *Opuntia stricta*. The structure of all these communities was defined by the pollinator visitation frequency, which has been shown to be an appropriate surrogate for interspecific effects in pollination networks [@vazquez_interaction_2005; @bascompte_asymmetric_2006]. 
+These communities comprised 30--57 species (mean 38); in contrast to the above, uninvaded communities were obtained from plots that had not yet been colonised by either of the invasive species *Carpobrotus affine acinaciformis* or *Opuntia stricta*. The structure of all these communities was defined by the pollinator visitation frequency, which has been shown to be an appropriate surrogate for interspecific effects in pollination networks [@vazquez_interaction_2005; @bascompte_asymmetric_2006]. Full details about the empirical networks can be found in the Supporting Information \hyperlink{sup-ds}{Section S1}.
 
 The first step in applying methods of control theory is to construct a directed network that is able to provide an indication of the extent to which species affect each other's abundance. 
 In some ecological networks, establishing the directionality can be relatively straightforward, for example when links represent biomass transfer or energy flow [@isbell_human_2013]. 
@@ -117,9 +117,9 @@ For example, in a network composed of jobs and job applicants, a matching is any
 Consequently, a maximum matching is an optimal pairing, one that maximises the number of applicants with jobs and the number of positions filled. 
 Admittedly, the link between matchings and structural controllability may appear far from straightforward. 
 
-This link becomes apparent after examining the graphical interpretation of structural controllability: from a topological perspective, a network is structurally controllable if there are no inaccessible nodes—that is, nodes without incoming links—or dilations—*expansions* of the network (Figure \@ref(fig:fig-controllability-conditions)).
+This link becomes apparent after examining the graphical interpretation of structural controllability: from a topological perspective, a network is structurally controllable if there are no inaccessible nodes—that is, nodes without incoming links—or dilations—*expansions* of the network (Figure \@ref(fig:fig-controllability-conditions); Supporting Information \hyperlink{sup-ds}{Section S2}).
 The key is to note that these two fundamental conditions of structural controllability imply that there is a one-to-one relationship between *superior* and *subordinate* nodes just like the one-to-one relationship between jobs and applicants (Figure \@ref(fig:fig-controllability-conditions), left). 
-We thus use the maximum-matching algorithm to find an optimal pairing of \glspl{superior node} (those that can control another node) and subordinate nodes (those that can be controlled by another node) in a manner consistent with the controllability conditions. 
+We thus use the maximum-matching algorithm to find an optimal pairing of \glspl{superior node} (those that can control another node) and subordinate nodes (those that can be controlled by another node) in a manner consistent with the controllability conditions (Supporting Information \hyperlink{sup-ds}{Section 3.1}). 
 Given the result, we can further decompose the matching into a set of paths that reveal how a control signal can flow across the links in a network to reach every node within it. 
 As recently shown [@liu_controllability_2011], the minimum driver-node set---those to which an external control input should be applied to make the system controllable---corresponds exactly to the *unmatched* nodes in the network (Figure \@ref(fig:fig-control-configuration)).
 
@@ -169,12 +169,12 @@ We call this property a species' \gls{control capacity}, $\phi$.
 The higher a species' control capacity, the greater the likelihood that it would need to be directly managed to change (or maintain) the ecological state of their community. 
 Therefore, a species' control capacity provides an estimation of its relative importance at driving the state of the community [@jia_control_2013]. 
 
-To calculate a species' control capacity $\phi$, we must first enumerate all possible maximum matchings. 
+To calculate a species' control capacity $\phi$, we must first enumerate all possible maximum matchings (Supporting Information \hyperlink{sup-ds}{Section S3.2}). 
 Unfortunately, enumerating all maximum matchings is extremely expensive from a computational perspective, a network with a couple dozen species has several hundred million unique maximum matchings. 
 To solve this problem, we employ a recently-developed algorithm that reveals the control correlations between the nodes in the graph while requiring considerably less computational resources [@zhang_input_2016]. 
 Using this algorithm, we are able to identify species that are possible control inputs—those that belong to the minimum driver-node set in at least one of the possible \glspl{control configuration}. 
-Here, we extend this algorithm such that it is possible to calculate a highly accurate approximation of the control capacity $\phi$ of every species in the network. 
-In the networks that contained reciprocal links (because there was no asymmetry in the dependences of a species pair), we averaged a species' control capacity $\phi$ across every possible "non-reciprocal" version of the network. 
+Here, we extend this algorithm such that it is possible to calculate a highly accurate approximation of the control capacity $\phi$ of every species in the network (Supporting Information \hyperlink{sup-ds}{Section S3.3}). 
+In the networks that contained reciprocal links (because there was no asymmetry in the dependences of a species pair), we averaged a species' control capacity $\phi$ across every possible "non-reciprocal" version of the network (Supporting Information \hyperlink{sup-ds}{Section S3.4}. 
 
 We then examined how species-level properties were related to control capacity using a set of candidate generalised linear models with binomial error structure. 
 These models included five predictor variables that mirror the network-level predictors. 
@@ -206,6 +206,7 @@ Mathematically, the structural stability of a network represents the size of the
 The contribution of any given species $i$ to stable coexistence can be estimated by calculating the structural stability of the community when the focal species $i$ is removed. 
 To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one.
 Given these species-specific estimates of structural stability, we then used a t-test to compare the contribution to stable coexistence of critical and non-critical species. 
+More details about the calculation of structiral stability can be found in the Supporting Information \hyperlink{sup-ds}{Section S4}.
 
 ### Testing assumptions
  
@@ -213,10 +214,11 @@ Just like the centrality metrics, the information obtained by applying structura
 We thus tested the sensitivity of our approach to two fundamental assumptions. 
 First, we tested that visitation is an appropriate proxy to infer interspecific effects by comparing the results obtained using visitation to two alternative metrics in a separate dataset that lacked invasive species [@ballantyne_constructing_2015]. 
 Specifically, we also calculated the controllability (the size of the minimum driver node-set) and the control capacity of networks constructed using pollinator efficiency (which measures the pollen deposition of an interaction) and pollinator importance [which accounts for both pollen deposition and visitation and hence is regarded as a more accurate estimation of the pollination service received by plants; @neeman_framework_2010]. 
+See Supporting Information \hyperlink{sup-ds}{Section S5} for more details. 
 
 Second, because interspecific dependencies themselves depend on the network topology and consequently on the accurate sampling of interactions, we tested the robustness of structural controllability to the uncertainty involved with the sampling of interactions. 
 Here, we compared the results obtained when using the full network and when randomly removing interactions from the weakest links in the network. 
-This effectively removed the rare interactions from the networks. 
+This effectively removed the rare interactions from the networks (more details in the Supporting Information \hyperlink{sup-ds}{Section S6}). 
 
 ## Results
 
@@ -228,7 +230,7 @@ The size of the minimum driver-node set relative to the number of species in eac
 
 We found that the relative size of the minimum driver-node set of invaded communities was not significantly different from that of communities that have not been invaded (Figure \@ref(fig:fig-emp-controllability)a). 
 In contrast, there was a large negative relationship between $n_D$ and the network asymmetry (Figure \@ref(fig:fig-emp-controllability)b).
-Furthermore, there were also negative, albeit weaker, relationships between $n_D$ and connectance, nestedness and species richness. 
+Furthermore, there were also negative, albeit weaker, relationships between $n_D$ and connectance, nestedness and species richness (Table \hyperlink{sup-ds}{S3}). 
 The relative size of the minimum driver-node set $n_D$ of empirical networks did not differ from that of a null model that roughly preserved the degree distribution and fully preserved the network connectance ($p = 0.66$; Figure \@ref(fig:fig-emp-controllability)c). 
 However, empirical networks had a larger $n_D$ than null models that preserved the interactions but shuffled the direction of control of the empirical network ($p = 2.4 \times 10^{-7}$). 
 
@@ -252,13 +254,13 @@ Pollinators had, in average, larger control capacities than plants.
 That said, almost no pollinator was critical for network control, (where a species is critical for control if it has control capacity \(\phi_i = 1\)). 
 Plants had a multimodal distribution of control capacity with maxima at both extremes of the distribution (Figure \@ref(fig:fig-species-level)a). 
 Intriguingly, every invasive species was critical for network control in each of their communities.
-The species-level models identified a positive relationship between control capacity \(\phi\) and a species' contribution to nestedness, visitation strength, and the asymmetry of its dependences (Table \@ref(tab:tab-model-selection-table); Figure \@ref(fig:fig-species-partial)). 
-Comparatively, species' degree was only weakly associated with control capacity. 
-In fact, many species with a low degree, especially pollinators, exhibited a large control capacity in their communities.
+The species-level models identified a positive relationship between control capacity \(\phi\) and a species' contribution to nestedness, visitation strength, and the asymmetry of its dependences (Table \@ref(tab:tab-model-selection-table); Figure \@ref(fig:fig-species-partial); Table \hyperlink{sup-ds}{S4}). 
+Comparatively, species' degree was only weakly associated with control capacity (Table \hyperlink{sup-ds}{S5}). 
+In fact, many species with a low degree, especially pollinators, exhibited a large control capacity in their communities (Figure \hyperlink{sup-ds}{S10a}).
 
 Species' control capacity $\phi$ was only weakly correlated with commonly used centrality metrics. 
-The Spearman correlation between these ranged between -0.14 (with betweeness centrality) and 0.42 (with eigen centrality). 
-The correlation coefficient with degree was 0.13, however most species with high degree also tended to attain a high control capacity.
+The Spearman correlation between these ranged between -0.14 (with betweeness centrality) and 0.42 (with eigen centrality), see Figure \hyperlink{sup-ds}{S11a}. 
+The correlation coefficient with degree was 0.13, however most species with high degree also tended to attain a high control capacity (Figure \hyperlink{sup-ds}{S10a}).
 
 ```{r tab-model-selection-table, cache = TRUE}
 cc_table <- readRDS("data/driver_species/tab_model_selection.rds")
@@ -308,9 +310,9 @@ fig_species_partial %>%
 ```
 
 Finally, we found that critical species have a particularly large impact on species coexistence when compared to non-critical species.
-Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability)). 
+Indeed, the structural stability of the networks where critical species were removed was considerably lower than those where non-critical species were removed ($p = 2 \times 10^{-5}$; Figure \@ref(fig:fig-structural-stability); Supporting Information \hyperlink{sup-ds}{S4}). 
 
-```{r fig-structural-stability, fig.height = fig_sizes()$two_column_width/2*0.75, fig.cap="Probability density of the structural stability of the communities after a single focal species is removed. Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances. The structural stability of communities in which critical species have been removed (darker line) is considerably smaller than that of communities in which non-critical species have been removed. This indicates that critical species contribute more to the stable coexistence of their communities. To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one. Here, we assume values of the mutualistic trade-off and mean interspecific competition of $\\delta = 0$ and $\\rho = 0.01$ respectively. However, the choice of these parameters does not affect the results.", fig.scap="Structural stability of species", out.extra='', cache = TRUE}
+```{r fig-structural-stability, fig.height = fig_sizes()$two_column_width/2*0.75, fig.cap="Probability density of the structural stability of the communities after a single focal species is removed. Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances. The structural stability of communities in which critical species have been removed (darker line) is considerably smaller than that of communities in which non-critical species have been removed. This indicates that critical species contribute more to the stable coexistence of their communities. To allow comparison across communities, the structural stability values were scaled within each network to have a mean of zero and a standard deviation of one. Here, we assume values of the mutualistic trade-off and mean interspecific competition of $\\delta = 0$ and $\\rho = 0.01$ respectively. However, the choice of these parameters does not affect the results (Supporting Information \\hyperlink{sup-ds}{S4}).", fig.scap="Structural stability of species", out.extra='', cache = TRUE}
 fig_structural_stability_data <- readRDS("data/driver_species/fig_structural_stability.rds")
 fig_structural_stability <- make_fig_structural_stability(fig_structural_stability_data)
 fig_structural_stability[[1]]
@@ -318,9 +320,9 @@ fig_structural_stability[[1]]
 
 ### Testing assumptions
 
-We found that using visitation as a proxy for the strength of species' interactions leads to similar results than those obtained using pollinator importance [regarded as an accurate measure of the pollination service to plants; @neeman_framework_2010]. 
+We found that using visitation as a proxy for the strength of species' interactions leads to similar results than those obtained using pollinator importance [regarded as an accurate measure of the pollination service to plants; @neeman_framework_2010], see Supporting Information \hyperlink{sup-ds}{Section S5}. 
 Importantly, we also found that structural stability is robust to incomplete sampling of interactions. 
-Indeed, we found strong agreement between results obtained using the complete empirical networks and those obtained by randomly removing the weakest interactions. 
+Indeed, we found strong agreement between results obtained using the complete empirical networks and those obtained by randomly removing the weakest interactions (Supporting Information \hyperlink{sup-ds}{Section S6}). 
 Despite removing rare interactions and species, the relative size of the minimum driver-node set, the superior species, and the relative rankings of control capacity were generally maintained. Of particular note, we found that critical species in the full network were also critical in the vast majority of rarefied networks. 
 
 ## Discussion
@@ -386,7 +388,7 @@ D.B.S. acknowledges the support of a Marsden Fast‐Start grant and a Rutherford
 
 ## Supporting information {-}
 
-Additional supporting information may be found online in the Supporting Information section at the end of the article (https://doi.org/10.1111/1365-2745.13147).
+\hypertarget{sup-ds}Additional supporting information may be found online in the Supporting Information section at the end of the article (https://doi.org/10.1111/1365-2745.13147).
 
 ## Data accessibility {-}
 

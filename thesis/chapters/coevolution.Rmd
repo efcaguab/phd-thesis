@@ -157,7 +157,7 @@ In particular, we leverage these data to quantify the evidence of cophylogenetic
 
 ### Empirical data and phylogeny construction
 
-We analyzed a dataset comprised of 54 binary, plant-pollinator mutualistic networks from a wide range of locations around the globe and with diverse species assemblages. 
+We analyzed a dataset comprised of 54 binary, plant-pollinator mutualistic networks from a wide range of locations around the globe and with diverse species assemblages (Supporting Information \hyperlink{sup-co}{Sections S4 and S5}). 
 In each of the networks, the presence or absence of interactions is based on observed visitation of flowering plants by their animal pollinators. In total, these networks include 1,318 species of flowering plants, 2,930 species of pollinators, and over 12,000 unique interactions. 
 
 Studying cophylogenetic signal between two sets of interacting species, such as the flowering plants and pollinators that we examine here, requires an understanding of the evolutionary history of both groups. 
@@ -170,6 +170,7 @@ For the plants, major nodes are fully resolved down to the family level (with so
 For the insect pollinators, the backbone tree provides  resolution to the order level. 
 It is most important for cophylogenetic analysis that these major nodes are dated accurately as it is thought that matching at these deeper phylogenetic scales drives observable cophylogenetic signal [@aizen_phylogenetic_2016]. 
 Below the family- and order-level, respectively, we largely rely on taxonomic information to infer evolutionary relationships between taxa. 
+Full details of phylogeny construction are available in the Supporting Information \hyperlink{sup-co}{Section S1}
 
 ### Measuring cophylogenetic signal
 
@@ -180,7 +181,7 @@ PACo thus returns a quantification of the global fit of the phylogenetic objects
 As in regression, the smaller the residual distance, the better the fit of the two phylogenies to each other and the more support for a hypothesis of cophylogenetic signal as reflected by the extant interactions.  
 
 PACo, as implemented in R, offers several configuration options [@hutchinson_paco_2017]. 
-In this study, we have focused on the results of the symmetric method where the normalized plant graph is superimposed on the normalized pollinator graph. This means that we assessed cophylogenetic signal in terms of the plant phylogeny tracking the pollinator phylogeny since insect lineages preceded angiosperms [@misof_phylogenomics_2014] and pollinators have been shown to drive the evolution of plants [@gervasi_real-time_2017]  . It also implies that $\mathcal{R}$ is standardized with respect to the two phylogenies rather than in units relative to the pollinator phylogeny (as it would with an asymmetric superimposition). Importantly, our results do not differ qualitatively when selecting alternative configuration of PACo arguments.
+In this study, we have focused on the results of the symmetric method where the normalized plant graph is superimposed on the normalized pollinator graph. This means that we assessed cophylogenetic signal in terms of the plant phylogeny tracking the pollinator phylogeny since insect lineages preceded angiosperms [@misof_phylogenomics_2014] and pollinators have been shown to drive the evolution of plants [@gervasi_real-time_2017]  . It also implies that $\mathcal{R}$ is standardized with respect to the two phylogenies rather than in units relative to the pollinator phylogeny (as it would with an asymmetric superimposition). Importantly, our results do not differ qualitatively when selecting alternative configuration of PACo arguments (Supporting Information \hyperlink{sup-co}{Section S6}).
 
 Currently, there are a range of tools available for undertaking cophylogenetic analysis, and these methods can mainly be sorted into event-based and global-fit methods. 
 Event-based methods reconcile one phylogenetic tree with the other by directly assessing evolutionary events (i.e., cospeciation, duplication, host switches) that are explicit in the tree topology [@conow_jane_2010; @drinkwater_towards_2016]. 
@@ -192,7 +193,7 @@ Both approaches have limitations [@balbuena_paco_2013; @drinkwater_towards_2016]
 
 Consequently, the approach that we adopt to study cophylogeny necessitates the shuffling of the association matrix to estimate the null distribution [@balbuena_paco_2013; @hutchinson_paco_2017]. 
 Rather than allow the results to be driven by variation in species' specificity or generalism, we also constrain this randomization so that each species' number of interactions is maintained when the associations are shuffled [@fortuna_nestedness_2010]. 
-For all instances of shuffling the association matrix, we use 1000 permutations of the data to generate the null (and hence to infer significance of the observed pattern); we determined that this number of permutations was sufficient, here and in the related tests that follow below, by assessing convergence of the resulting p-values used for inference. 
+For all instances of shuffling the association matrix, we use 1000 permutations of the data to generate the null (and hence to infer significance of the observed pattern); we determined that this number of permutations was sufficient, here and in the related tests that follow below, by assessing convergence of the resulting p-values used for inference (Supporting Information \hyperlink{sup-co}{Section S11}). 
 
 ### Global-scale cophylogenetic signal
 
@@ -266,6 +267,7 @@ To generate null expectations for both of these analyses, we randomized the spec
 This approach preserves the modular structure of the network and just shuffles species between modules. 
 In the second approach, we created random modules for each network by allowing for a random number of species in each module and a random number of modules (*all-sizes* null model). 
 An approach such as this reconfigures the network's modular structure by potentially changing the number and size of its modules. Differences between approaches are not substantial and do not qualitatively affect our results or conclusions, therefore we present the results of the first, more conservative approach here. 
+Results for the second approach can be found in the Supporting Information \hyperlink{sup-co}{Section S6}.
 	 
 ### Cophylogenetic signal of individual modules
 
@@ -298,7 +300,7 @@ The final analyses we undertook were an exploration of the effect that exotic sp
 Specifically, we found references to particular exotic species in the original publications of these networks and used that subset of our data to answer this question. In all, nine networks out of the full set of 54 explicitly identified exotic species. 
 For these networks, we removed the exotic species identified by the original authors and re-analyzed the data at all scales. 
 We assessed cophylogenetic signal at the community scale, at the scale of the modular structure of the community, and within individual modules. 
-These results do not show meaningful differences from the case where exotic species are included.
+These results do not show meaningful differences from the case where exotic species are included, we present the corresponding results in the Supporting Information \hyperlink{sup-co}{Section S10}.
 
 ## Results
 
@@ -306,6 +308,7 @@ We first present cophylogenetic analysis of pollination interactions at the glob
 While our dataset is extensive, it does not fully encompass all flowering plant and pollinator species. 
 In terms of representativeness, our global-scale plant phylogeny contains 38 out of 68 recognized orders, 133 out of 489 recognized families, and 761 genera. 
 The global-scale pollinator tree contains 24 orders, 263 families, and 1595 genera. 
+More detail regarding taxonomic diversity can be found in the Supporting Information \hyperlink{sup-co}{Section S5}.
 Despite leaving some taxa unrepresented, there is nonetheless, a significant cophylogenetic signal between plants and pollinators at the global scale (Monte Carlo test, $p < 0.001$). 
 Moreover, we split this global dataset into continent specific trees and networks to examine regional patterns in cophylogenetic signal. 
 In each region, we see that interactions between pollinators and plants show the same pattern of significant cophylogenetic signal that is seen at the global scale (Monte Carlo tests; all $p < 0.001$).
@@ -347,14 +350,14 @@ make_fig_module_cophylogeny(modules_p_value)
 
 We also explored the degree to which modules show cophylogenetic signal when those modules are identified from quantitative rather than bipartite interaction networks. 
 In all cases, we see qualitatively the same results between binary and quantitative networks. 
-In terms of a network's modular structure, the partitioning of species into modules is at least slightly different between the two approaches. 
+In terms of a network's modular structure, the partitioning of species into modules is at least slightly different between the two approaches (Supporting Information \hyperlink{sup-co}{Section S7}). 
 However, for cophylogenetic signal at the scale of a network's modular structure, the results are nearly identical. 
 Cophylogenetic signal at the scale of a network's modular structure was assessed with three separate analyses for each network (Methods). 
-In the 45 analyses across these 15 networks, there are only five qualitative changes in the result of an analysis between binary and quantitative versions of a network (i.e., from significant to non-significant or vice versa). 
-At the scale of individual modules, we see similar results. The proportion of a network's modules that show significant cophylogenetic signal is often different between binary and quantitative networks but there does not appear to be much consistency to this difference (e.g. four networks show more cophylogenetic modules in the binary version than the quantitative, seven show the opposite pattern, and four are identical).	
+In the 45 analyses across these 15 networks, there are only five qualitative changes in the result of an analysis between binary and quantitative versions of a network (i.e., from significant to non-significant or vice versa; Supporting Information \hyperlink{sup-co}{Section S7}). 
+At the scale of individual modules, we see similar results. The proportion of a network's modules that show significant cophylogenetic signal is often different between binary and quantitative networks but there does not appear to be much consistency to this difference (e.g. four networks show more cophylogenetic modules in the binary version than the quantitative, seven show the opposite pattern, and four are identical; Supporting Information \hyperlink{sup-co}{Section S7}).	
 
-Last, we saw that exotic species do not appear to have a marked effect on the cophylogenetic signal that we see in pollination communities or in their modular structure.
-The only exception is that the presence of exotic species does appear to dampen cophylogenetic signal at the scale of individual modules. 
+Last, we saw that exotic species do not appear to have a marked effect on the cophylogenetic signal that we see in pollination communities or in their modular structure (Supporting Information \hyperlink{sup-co}{Section S10}).
+The only exception is that the presence of exotic species does appear to dampen cophylogenetic signal at the scale of individual modules (Supporting Information \hyperlink{sup-co}{Section S10}). 
 However, these analyses should likely be treated as exploratory since exotic species were only found in a small subset of the networks that we studied here.
 
 ## Discussion
@@ -425,7 +428,7 @@ D. B. Stouffer acknowledges the support of a Rutherford Discovery Fellowship, ad
 
 ## Supporting information {-}
 
-Additional supporting information may be found in the online version of this article at http://onlinelibrary.wiley.com/doi/10.1002/ecy.1955/suppinfo
+\hypertarget{sup-co}Additional supporting information may be found in the online version of this article at http://onlinelibrary.wiley.com/doi/10.1002/ecy.1955/suppinfo
 
 ## Data accessibility {-}
 

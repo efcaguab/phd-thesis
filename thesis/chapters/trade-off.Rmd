@@ -144,12 +144,12 @@ We then compared the magnitude of these two metrics to those obtained with 99 Mo
 ### Factors affecting quantity and purity of pollination service
 
 We first examined the potential roles played in pollen deposition by four ecological factors (number of shared pollinators, abundance, mean visit potential, and functional originality). 
-We found that our models of pollen deposition had high explanatory power (the coefficient of determination R^2^ ranged between 0.76 and 0.93) although a large portion of the explanatory power came from the random effects.
+We found that our models of pollen deposition had high explanatory power (the coefficient of determination R^2^ ranged between 0.76 and 0.93) although a large portion of the explanatory power came from the random effects (Table \hyperlink{sup-pc}{S3}).
 As determined by AICc, the random structure best supported by the data was the one that fit a separate intercept for each species in each community (as opposed to a common intercept for each species irrespective of the community to which they belong). 
-This structure was best for both the models of conspecific and heterospecific pollen.  
+This structure was best for both the models of conspecific and heterospecific pollen (Table \hyperlink{sup-pc}{S4}).  
 
-Of the four factors we considered, we found that a plant's mean visit potential and relative floral abundance were the most important at predicting pollen deposition in plant stigmas (Fig. \@ref(fig:fig-var-impotance-trade-offs)). 
-Surprisingly, the number of shared pollinators was comparatively unimportant, particularly for models of heterospecific pollen deposition, as it was only ever included in models with relatively large AICc values. 
+Of the four factors we considered, we found that a plant's mean visit potential and relative floral abundance were the most important at predicting pollen deposition in plant stigmas (Figure \@ref(fig:fig-var-impotance-trade-offs)). 
+Surprisingly, the number of shared pollinators was comparatively unimportant, particularly for models of heterospecific pollen deposition, as it was only ever included in models with relatively large AICc values (Table \hyperlink{sup-pc}{S5}). 
 
 ```{r fig-var-impotance-trade-offs, fig.height = 1.2, out.extra='', fig.scap = "Importance of ecological factors", fig.cap = "Relative importance of ecological factors on pollen deposition. The plant's visit potential and relative floral abundance are the most important factors determining the deposition of conspecific and heterospecific pollen. Meanwhile, the number of shared pollinators was generally less important. The graph shows the relative importance calculated as the sum of the Akaike weights of the candidate models that included the selected factor.", cache = TRUE}
 
@@ -173,13 +173,13 @@ cowplot::plot_grid(
 
 We found that the relationship between each of the ecological factors and pollen deposition was similar for both conspecific and heterospecific pollen. 
 That is, strategies that were associated with an increase in conspecific pollen deposition were also associated with an increase in heterospecific pollen deposition. 
-Specifically, the plants' mean visit potential had a positive effect on pollen deposition (Fig. \@ref(fig:fig-average-qual-quant)a). 
+Specifically, the plants' mean visit potential had a positive effect on pollen deposition (Figure \@ref(fig:fig-average-qual-quant)a). 
 However, the effect size was slightly larger for heterospecific than for conspecific pollen. 
-This larger effect indicates that, although there is a positive association between visit potential and the quantity of pollen deposition, there is a negative relationship with its purity (Fig. \@ref(fig:fig-average-qual-quant)b). 
-In contrast, a plants' relative floral abundance negatively affected its deposition quantity, but the mean difference between the coefficients in the models indicates a positive association with purity (Fig. \@ref(fig:fig-average-qual-quant)b). 
+This larger effect indicates that, although there is a positive association between visit potential and the quantity of pollen deposition, there is a negative relationship with its purity (Figure \@ref(fig:fig-average-qual-quant)b). 
+In contrast, a plants' relative floral abundance negatively affected its deposition quantity, but the mean difference between the coefficients in the models indicates a positive association with purity (Figure \@ref(fig:fig-average-qual-quant)b). 
 The third most important factor, functional originality, had a positive, although comparatively smaller, association with both the quantity and purity. 
 Finally, the number of shared pollinators had negative and neutral associations with conspecific and heterospecific pollen, respectively, but these impacts were small when compared to the other factors. 
-Although the ecological factors were positively correlated, the collinearity between predictors did not qualitatively affect our findings.
+Although the ecological factors were positively correlated (Figure \hyperlink{sup-pc}{S2}), the collinearity between predictors did not qualitatively affect our findings (Figure \hyperlink{sup-pc}{S3}).
 
 ```{r fig-average-qual-quant, fig.height = 1.4*2+1.2, out.extra="", fig.scap="Ecological factors and the pollination service", fig.cap="Effect of ecological factors on the pollination service. (a) The association between ecological factors and heterospecific pollen (lighter line) tended to align with their association with conspecific pollen (darker line). Visit potential and functional originality had a positive association with pollen deposition, while floral abundance and the number of shared pollinators had a negative association. The plot shows the distribution of the effects (across 99 bootstrap replicates) of the four ecological factors for conspecific and heterospecific pollen. (b) The end result of these associations is that only the plants' functional originality has a positive impact on both the quantity and purity of conspecific pollen deposition (relative to heterospecific pollen). The plot shows the model averaged mean effect ($\\pm$ SE of 99 bootstrap replicates).", cache = TRUE}
 height1 <- 2.5
@@ -212,10 +212,10 @@ cowplot::plot_grid(
 ### Flexibility of plant strategies
 
 We used a PCA of the ecological factors--species matrix to investigate whether plants' strategies towards pollen deposition is similar across communities or whether they are flexible and therefore a reflection of the community context. 
-The first two PCA components explained 75% of the total variance (Fig. \@ref(fig:fig-pca)a). 
+The first two PCA components explained 75% of the total variance (Figure \@ref(fig:fig-pca)a). 
 The first component was dominated by visit potential and relative abundance while the second component was dominated by the number of shared pollinators and the plant's functional originality. 
-When we locate the species that were sampled in more than one community in the first two PCA components (Fig. \@ref(fig:fig-pca)b), we observe that the positions of any given species do not tend to be close to each other. 
-Indeed, when we measured the median distance between the plants' coordinates, we found that it was only significantly smaller than that of randomisations for only two of the twelve species analysed (Fig. \@ref(fig:fig-pca-flexibility)). 
+When we locate the species that were sampled in more than one community in the first two PCA components (Figure \@ref(fig:fig-pca)b), we observe that the positions of any given species do not tend to be close to each other. 
+Indeed, when we measured the median distance between the plants' coordinates, we found that it was only significantly smaller than that of randomisations for only two of the twelve species analysed (Figure \@ref(fig:fig-pca-flexibility)). 
 
 ```{r fig-pca, fig.height=1.8+3, out.extra='', fig.scap="PCA of environmental factors.", fig.cap="PCA of environmental factors. (a) The two first components explain a large proportion of the total variance. (b) When plants that were sampled in more than one community are plotted in terms of these two components, we observe that their points---which represent the strategy (the particular combination of ecological factors) of that species in its community---do not seem to be grouped by plant species.", cache = TRUE}
 
@@ -310,3 +310,7 @@ We also thank Cátedra de Botánica General, Facultad de Agronomía, Universidad
 Fieldwork was supported by grants PICT 08–12504 and 0851. 
 EFC acknowledges the support from the University of Canterbury Doctoral Scholarship and a New Zealand International Doctoral Research Scholarship administered by Education New Zealand. 
 DBS and JMT acknowledge the support of Rutherford Discovery Fellowships (RDF-13-UOC-003 and RDF-UOC-1002) and the Marsden Fund Council (UOC-1705), administered by the Royal Society of New Zealand Te Apārangi.
+
+## Supplementary information {-}
+
+\hypertarget{sup-pc}Additional supporting information may be found online in the Supplementary Material section of the published article at https://doi.org/10.1101/865279.
