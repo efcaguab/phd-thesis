@@ -53,7 +53,7 @@ As a result, community ecology could arguably benefit from an alternative, perha
 Species' abundances---and consequently the state of the community as a whole---are influenced both by the structure of their interactions and the dynamics of these interactions, including the mechanisms of self-regulation [@lever_sudden_2014]. 
 However, community and population dynamics can be modelled in innumerable ways, and empirical support for one versus another is often still ambiguous [@holland_population_2002]. 
 The alternative approach should, therefore, ideally acknowledge ecosystem dynamics, but without being overly dependent on the particular choices of how they are characterised.
-Among the various possibilities *structural controllability*, a branch of \gls{network control} theory, appears to be a strong candidate [@isbell_human_2013]. 
+Among the various possibilities *structural controllability*, a branch of network control theory, appears to be a strong candidate [@isbell_human_2013]. 
 Control theory is a widely-studied branch of engineering used to determine and supervise the behaviour of dynamical systems [@motter_networkcontrology_2015]. 
 It is inherently designed to deal with system feedbacks and its application has recently been expanded to complex networks [@lin_structural_1974;  @liu_control_2016]. 
 Consistent with long-standing ecological questions, advances in structural controllability have established a clear link between the structure of the network and the way nodes affect each other. 
@@ -70,7 +70,7 @@ We use invaded communities because there is strong empirical evidence showing th
 This choice thus offers us an opportunity to explicitly contrast our theoretical observations with empirical evidence.
 Moreover, empirical observations indicate that steering the state of some communities—for example during ecosystem restoration or invasive species removal—can be a very difficult task [@woodford_confronting_2016]. 
 Therefore, we first ask whether there are differences between the controllability of invaded and uninvaded networks. 
-We then expand existing methods from control theory to effectively link the \gls{controllability} (see Glossary) of a network with the role of its constituent species.
+We then expand existing methods from control theory to effectively link the controllability (see Glossary) of a network with the role of its constituent species.
 We ask—from a control-theoretic perspective—whether there are key differences between species in the role they play at driving the state of the community and explore the ecological factors related to these differences. 
 This allows us to identify species that might be critical for network control and show that they have a larger than expected impact on the stable coexistence of the community.
 Finally, we compare the proposed approach to current methods based on species' centrality and show how these methods are indeed valuable but ultimately paint a limited picture in regard to the "keystoneness" of a species.
@@ -112,11 +112,11 @@ Using this structural approach, we can find out the controllability of a system 
 We are often able to estimate $A$ in ecological networks, as this matrix represents the interactions between species. 
 Part of the control problem thus resides in estimating a supportable estimation of $B$, which represents the links between external inputs and species. 
 Naively, any ecological community (and any system for that matter) could be controlled if we control the state of every species independently, but such an approach is typically impractical. 
-Here, we are interested in finding a \gls{minimum driver node set} (effectively finding $B$) with which to make the system controllable. 
+Here, we are interested in finding a minimum driver node set (effectively finding $B$) with which to make the system controllable. 
 The brute-force search for this minimum driver-node set is computationally prohibitive for most networks as it involves the evaluation of $2^N$ different controllability matrices where $N$ is the number of species in the community. 
 We therefore instead employ a recently-developed approach that shows that the control problem of finding the minimum driver-node set can be mapped into a graph-theoretic problem: maximum matching [@liu_controllability_2011; @liu_control_2016].
 
-\Gls{maximum matching} is a widely studied topic in graph theory and is commonly used in multiple applications, ranging from dating apps and wireless communications to organ transplant allocation and peer-to-peer file sharing. 
+maximum matching is a widely studied topic in graph theory and is commonly used in multiple applications, ranging from dating apps and wireless communications to organ transplant allocation and peer-to-peer file sharing. 
 A matching in an unweighted directed graph is defined as a set of links that do not share common start or end nodes; the largest possible matching is called a maximum matching. 
 For example, in a network composed of jobs and job applicants, a matching is any pairing between applicants and positions that satisfies one basic constraint: an applicant can be assigned to at most one position and vice versa.
 Consequently, a maximum matching is an optimal pairing, one that maximises the number of applicants with jobs and the number of positions filled. 
@@ -170,7 +170,7 @@ While calculating the size of the minimum drive-node set can measure the control
 
 To answer this question, we harness the fact there may be multiple maximum matchings for a given network, and each of these maximum matchings indicates a unique combination of species with which it is possible to control the network. 
 Moreover, some species belong to these combinations more often than do others. 
-We call this property a species' \gls{control capacity}, $\phi$. 
+We call this property a species' control capacity, $\phi$. 
 The higher a species' control capacity, the greater the likelihood that it would need to be directly managed to change (or maintain) the ecological state of their community. 
 Therefore, a species' control capacity provides an estimation of its relative importance at driving the state of the community [@jia_control_2013]. 
 
@@ -205,7 +205,7 @@ Our analysis revealed that some species have a control capacity $\phi = 1$.
 These species are critical to controlling their community because they are part of the minimum driver-node set in *every* control scenario. 
 In other words, it is theoretically impossible to drive the state of the community to a desired state without directly managing the abundance of these species. 
 We thus anticipate that these species have a disproportionally large impact on the community dynamics. 
-To test this hypothesis, we identified these \gls{critical species} in each of the networks and investigated whether they have a larger than average impact on the stable coexistence of species in the community. 
+To test this hypothesis, we identified these critical species in each of the networks and investigated whether they have a larger than average impact on the stable coexistence of species in the community. 
 Within mutualistic networks, one useful measure of stable coexistence is called structural stability [@rohr_structural_2014]. 
 Mathematically, the structural stability of a network represents the size of the parameter space (i.e., growth rates, carrying capacities, etc.) under which all species can sustain positive abundances [@saavedra_nested_2016]. 
 The contribution of any given species $i$ to stable coexistence can be estimated by calculating the structural stability of the community when the focal species $i$ is removed. 
