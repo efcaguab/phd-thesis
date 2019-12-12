@@ -1,8 +1,6 @@
 \addtocontents{toc}{\protect\vspace{1em}}
 \addchap{Conclusion}
 
-\bigskip
-
 \begin{flushright}{\slshape 
     It's not the numbers that are interesting. \\
     It's what they tell us about the lives behind the numbers.
@@ -12,84 +10,79 @@
 
 \bigskip
 
-In this thesis I explored some of the causes and consequences of the network of interactions between flowering plants and their pollinators in an ecological community.
-First, I explored how network structure can be influenced by the trade-offs that manifest when plants compete for the pollination service. 
-Second, I explored how the structure can be influenced by the stresses that the environment exert on plant or pollinator species. 
-Third, I explored how the structure can be harnessed to design effective management interventions. 
+In this thesis, I explored how biotic and abiotic factors may affect the network of interactions between flowering plants and their pollinators in an ecological community, and how this network may influence the dynamics their constituent species.
+First, I explored how the structure can be influenced by the stresses that the environment exerts on plant or pollinator species. 
+Second, I explored how network structure can be influenced by the trade-offs that manifest when plants share pollinators and compete for their pollination service. 
+Third, I explored how the network structure can be harnessed to design effective management interventions. 
 
-## Summary of results
+## Summary of results {-}
 
-In \autoref{the-pollination-trade-off} I found that the number of shared pollinators, which is correlated to the species degree, had a surprisingly low influence in the quality of pollination. 
-Other factors like visit potential, functional originality, and abundance had a larger impact on the both the quantity and purity of the pollination service. 
-Specifically high visitation and pollen production appears to have a positive effect on the quantity of pollination (the amount of conspecific pollen received), but a negative effect on the purity (the amount of conspecific pollen relative to heterospecific pollen). 
+In \autoref{sdm-networks}, I found that the environment can play a role in determining the number of partners a species may have in an ecological community. 
+On the one hand, it can limit the number of partners a species can interact with by determining the potential partners present in the community. 
+This contribution, via community composition, was, in fact, the most substantial effect of the environment. 
+However, a species might not necessarily interact with a potential partner, even if the partner is present in the community. 
+On the other hand, we found that the stress the environmental conditions may impose on species can explain this difference between the number of potential partners and the actual number of partners. 
+This is, the environment can directly influence the level of specialisation of a species in its community.
+Specifically, I found that species with a relatively small number of interacting partners under optimal environmental conditions are more likely to interact with more species as environmental conditions degrade. 
+This is, they act as facultative generalists that interact with a larger proportion of available species. 
+Contrastingly, species with a relatively large number of interacting partners were more likely to interact with fewer species as environmental stress increases. 
+The fact that this second group of species specialises by favouring interactions with a subset of possible species suggests that they might be focusing on fewer but better partners. 
+
+In \autoref{pollen-competition} I found that the number of shared pollinators, which is generally correlated to the number of partners a species has had a surprisingly low influence in the quality of pollination. 
+Other factors like visit potential, functional originality, and abundance had a larger impact on both the quantity and purity of the pollination service. 
+Specifically, high visitation and pollen production appear to have a positive effect on the quantity of pollination (the amount of conspecific pollen received), but a negative effect on the purity of pollination (the amount of conspecific pollen relative to heterospecific pollen). 
 The relative abundance of a species had the opposite trends with a negative effect on pollination quantity and a positive effect on purity. 
-Functional originality had a positive albeit smaller effect on both pollination quantity and purity. 
-And finally, the number of shared pollinators had a negative effect on both quantity and purity. 
+Functional originality had a positive, albeit smaller effect on both pollination quantity and purity. 
+Finally, the number of shared pollinators had a negative effect on both quantity and purity. 
 
 These results indicate that there is no free lunch when species compete for better pollination service. 
-Some factors that may be benefitial for the quantity of pollen received may be detrimental for the quality. 
-Those that are benefitial for both in the short term, like being specialized or having original traits, have been shown to be a risky strategy when biotic or abiotic conditions change. 
+Some factors that may be beneficial for the quantity of pollen received may be detrimental to its purity. 
+Those that are beneficial for both in the short term, like being specialised or having original traits, might be a risky strategy when biotic or abiotic conditions change. 
+Another remarkable result was that species do not seem to play the same "strategies" across different communities.
+In other words, plants seem to balance the factors affecting the trade-offs inherent to the pollination service in different ways. 
+For example, while a species may enjoy trait originality and therefore relatively good pollination service in a community, it might be less original in another community but might be able to compensate by other strategies. 
 
-Another remarkable result was that the way species position themselves in this trade-off is not actually inherent to the species itself, but is strongly determined by the community context. 
-In other words, plants were flexible on the strategy they use to balance the the factors affecting the trade-offs inherent to the pollination service. 
-
-In \autoref{sdm-networks}, I found that the environment can also play a role in determining the number of partners a species may have in an ecological community. 
-On the one hand it can limit the number of partners a species can interact with in a particular community if the environment in the community lies outside their partners fundamental "Grinellian" niche.  
-On the other it can directly influence the size of the species realised "Eltonian niche" so that a species might not necesarly interact with a potential partner, even if the partner is present in the community. 
-Specifically, I found that species with a relatively small number of interacting partners under optimal enviornmental conditions are more likely to interact with more species as environmental conditions degrade. 
-This is, they interact with a larger proportion of available species; presumably promoting traits related to a larger realised Eltonian niche. 
-Contrastingly, species with a relatively large number of inetracting partners were more likely to interact with less species as environmental stress increases. 
-The fact that these second group of species favours interactions with a subset of possible species suggest that they might be focusing in fewer but better partners. 
-
-Finally, in \autoref{structural-controllability}, I found that species with a large number of interaction partners are also likely to have a high control capacity and be critical to control the ecological community.
-Interestingly, however, we found that being a generalist is not the determining factor for having high control capacity. 
+Finally, in \autoref{structural-controllability}, I found that species with a large number of interaction partners are also likely to have a high control capacity and, therefore, likely to be critical for controlling the ecological community.
+Interestingly, however, we found that being a generalist is not the determining factor for having a 3high control capacity. 
 Indeed some species that interact with only a small number of species were also determined to be critical for network control. 
 Our analysis indicated that the strongest predictor of control capacity was a species contribution to nestedness. 
 Although controlling an ecological community is still not feasible with the current theoretical and practical limitations, identifying these species with high control capacity provides some lessons on the stability of the communities. 
 Indeed, we found that critical species, which have the highest possible control capacity, were more likely to disproportionally contribute to the stable coexistence of species in their community.
 
-## General implications
+## General implications {-}
 
-In \autoref{the-pollination-trade-off} we learnt that the number of pollinators a plant species shares has a negative, but small effect in the pollination service. 
-This is the benefits of having a relatively large number of partners in the long term might outweight the disadvantages for the pollination service in the long term. 
-However the detriment to pollination service is proportional to the species degree and hence there is a point at which the trade-off becomes too large. 
-This point is likely to be species dependent.
-This might explain, at least in part why pollination networks are relatively generalised but also why they are not perfectly connected. 
+Having a large number of partners might be beneficial because it provides insurance against their loss in the long term [@walker_biodiversity_1992; @yachi_biodiversity_1999]. 
+In \autoref{pollen-competition}, however, we learnt that the number of pollinators a plant species shares has a negative, albeit small, effect on the pollination service. 
+This small effect might indicate that the benefits of having a large number of partners in the long term might outweigh the disadvantages in the short term. 
+The detriment to pollination service appears to be proportional to the number of partners, and hence there might be a point at which this trade-off becomes too large. 
+This might explain, at least in part the intuition that pollination networks are relatively generalised compared to other ecological interactions, like parasitism, or even other mutualisms, like fruit-dispersal. 
+But it also explains why pollination networks are not perfectly connected, which would be the expected outcome if there were no trade-offs in the pollination mutualism [@bastolla_architecture_2009]. 
 
-From an evolutionary perspective, species can limit the number of interaction partners by developing traits that allow them to interact more effectively with certain species while rendering the interaction with certain others less likely. 
-This traits, which together define the "Eltonian" component of the species, can be shaped by the environment, as we learnt from \autoref{sdm-networks}. 
-Taken together, the results suggest tha the point at which the net result of intereacting with a large number of species becomes negative can be influenced by the stresses the environment induces in a species. 
-This is, the differences between the strategy with wich a species approaches the pollination trade off in a community and another could be an indirect result of the environmental factors it faces. 
+From an evolutionary perspective, species can limit the number of interaction partners by developing traits that allow them to interact more effectively with certain species while rendering the interaction with certain others less likely [@caruso_competition_2000]. 
+These traits, which together define the species' trophic niche, can be shaped by the environment, as we learnt from \autoref{sdm-networks}. 
+Taken together, the results from \autoref{sdm-networks} and \autoref{pollen-competition} suggest that the point at which the trade-offs of sharing pollinators become too large might not only be species-dependent but might also be influenced by the environment. 
+Specifically, the stress the environment induces in a species. 
+In other words, it is possible that the differences between the "strategy" with which a species approaches the competition for pollination across different communities (which we studied in \autoref{pollen-competition}) could be partially explained by environmental differences between communities.
 
-Interestingly wether this point was moved backwards depending on the environmental stress, is likely to be related to the traits of the species. 
-As noted earlier, species with a small number of interacting partners under optimal enviornmental conditions, and as such possess traits that limit the number of interacting partners, are more likely to interact with more species as environmental conditions degrade. 
-Presumably this means they are trading the short term benefits that trait originality confers to the pollination service for the longer term benefits provided by a larger number of interaction partners. 
-Contrastingly, species with a large number of partners would be presumably more likely to do the opposite and "select for" partners that provide a better pollination service in the short term. 
-Finally, specialist that are unable to gain interaction partners under degraded environmental conditions are more likely to go extinct. 
+These two chapters also provide some insights about the consequences of climate change for pollination communities. 
+Specifically, climate change might result in pollination communities that are less robust, less diverse, and, paradoxically, less competitive. 
+The robustness of pollination communities would be compromised because increased environmental stress would reduce the number of partners of generalists and increase the number of partners of "flexible" specialists. 
+This "regression to the mean" would likely compromise the nested structure that has been shown to confer robustness to pollination networks [@burgos_why_2007; @okuyama_network_2008]. 
+The diversity of pollination communities would be compromised because less nestedness might also mean it is harder for species to coexist [@bastolla_architecture_2009]. 
+Additionally, increased environmental stress might also increase the risk of extinction of specialists that are not able not flexible enough to adapt. 
+Pollination networks might be less competitive because less nestedness and more connectance might imply higher levels of pollinator sharing. 
+As found by @bastolla_architecture_2009, higher levels of pollinator sharing would favour species coexistence *if facilitation predominates*. 
+This is consistent with the findings of @lopezaraiza-mikel_impact_2007, who found that facilitation is more predominant than competition in the harsh environment prevalent in high altitude pollination communities.
 
-These conclusions relating the trade-offs in the pollination service and the environment have interesting ramifications for our current understanding of network structure.
-Lets imagine a hypothetical community with a nested structure typical of natural pollination communities.
-Now lets imagine that we move this community to a different environment in which most species are under higer enironmental stress, similar to what we would expect in a high altitude alpine community or under abrupt climate change. 
-Provided enough time for species to adapt their niches to the new conditons, it is plausible to expect some changes on network structure based on the conclusions from \autoref{the-pollination-trade-off} and \autoref{sdm-networks}. 
-Specifically, it is plausible to expect an increasse in the level of pollinator sharing among consituent species possibly accompained by an increase in connectance and a reduction of the network nestedness.
+Nestedness offers an additional point of connection with \autoref{structural-controllability}. 
+Recall that species with a high control capacity are critical to managing an ecological community because they are able to influence the abundance of other species [@cagua_keystoneness_2019]. 
+The control capacity of a species and the manageability of the community as a whole are strongly dependent on the structure of the network. 
+If climate change is able to modify the structure of pollination networks, we could expect dramatic changes on species control capacity and the network manageability. 
+However, we need more research to determine the exact nature of these changes accurately.
 
-The possible increase in connectance is consistent with the prevailing understanding thatmutualistic networks tend to be better connected than networks composed by antagonistic/competitive interactions. 
-A reasonable way to maintain species coexistence under increased environmental stress would be to increase the level of intraspecies facilitation compared to competition. 
-As found by Bastolla, higher levels of pollinator sharing favour species coexistence *if faciliation predominates*. 
-Indeed Lopezaraiza found that facilitation is more predominant than competition in the harsh environment prevalent in high altitude pollination communities.
+## Final words {-}
 
-The possible decrease in nestedness has worrying implications as nestedness has been shown to promote stability and species persistence in pollination communities.
-In particicular, Souffer found that strong contributors to nestedness are more vulnerable to extinction. 
-This very same species, were the ones that our structural controllability analysis indicated as the ones that are more useful to manage an ecological community.
-This is stronger contributors to nestedness tend to have a large control capacity and hence be more likely to influence the abundance of other species. 
-
-## Next steps
-
-There are multiple questions that arise from the conclusions of this thesis. 
-First, it would be interesting to 
-Confirm that this the trade-offs and environment are related to certain network structure
-
-A controllability analysis that takes into account the traits of species? 
-
-## Final words
-
+In this doctoral thesis, I harnessed the network of interactions between plant and pollinators as a tool to understand the ecological communities. 
+The first two chapters provided insight into how disturbances might affect these communities, the services they provide, and the processes that govern them.
+While ecological networks have provided so far a useful framework to embrace the complexities of ecological communities, I believe we are still at the infancy of what could be achieved using networks to gain ecological insight. 
+More data about the species interactions and their traits, and also more work like the one I presented in \autoref{structural-controllability} will hopefully solve one of the main challenges of network tools, and ecology as a whole: applying the general results of theoretical and computational ecology to the needs of conservation management on the ground. 
