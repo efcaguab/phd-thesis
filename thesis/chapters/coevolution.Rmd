@@ -6,12 +6,17 @@ editor_options:
 \appendix
 \addtocontents{toc}{\protect\vspace{1em}}
 
-# Appendix: Cophylogeny {#cophylogeny}
+# Cophylogeny of polination interactions {#cophylogeny}
+
+\bigskip
+\bigskip
 
 \begin{flushright}{\slshape
     Después reflexioné que todas las cosas le suceden a uno precisamente, precisamente ahora. Siglos de siglos y sólo en el presente ocurren los hechos; innumerables hombres en el aire, en la tierra y el mar, y todo lo que realmente pasa me pasa a mí... } \\ \medskip
     --- \textcite{borges_jardin_1941}
 \end{flushright}
+
+\bigskip
 
 This Chapter has been published by \fullcite{hutchinson_cophylogenetic_2017}.
 
