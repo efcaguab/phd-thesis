@@ -223,7 +223,8 @@ model_ranking$waic %>%
                col.names = c("predictors", "WAIC", "SE"),
                escape = FALSE,
                linesep = "",
-               caption = "Comparison in out of sample predictive power of the baseline model (bold) and their alternatives. We rank models by their expected log predictive density based on their Wanatabe-Akaike information criterion (WAIC).") %>%
+               caption = "Comparison in out of sample predictive power of the baseline model (bold) and their alternatives. We rank models by their expected log predictive density based on their Wanatabe-Akaike information criterion (WAIC).", 
+               caption.short = "Specialisation model selection table") %>%
   kableExtra::kable_styling(font_size = 10) #%>%
 ```
 
