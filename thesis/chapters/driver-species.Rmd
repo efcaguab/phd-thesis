@@ -1,10 +1,15 @@
-# Structural control {#structural-controllability}
+# Structural controllabillity of networks {#structural-controllability}
+
+\bigskip
+\bigskip
 
 \begin{flushright}{\slshape
     However, not everything that can be counted counts, \\
     and not everything that counts can be counted.} \\ \medskip
     --- \textcite{cameron_informal_1963}
 \end{flushright}
+
+\bigskip
 
 This Chapter has been published by \fullcite{cagua_keystoneness_2019}.
 
