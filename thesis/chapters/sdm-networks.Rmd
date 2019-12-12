@@ -3,7 +3,8 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-# Effect of environment on networks {#sdm-networks}
+
+# Effect of environment on specialisation {#sdm-networks}
 
 \bigskip
 
