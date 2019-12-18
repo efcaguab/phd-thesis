@@ -42,6 +42,10 @@
 \input{latex-components/config}
 \input{latex-components/front-back-matter/glossary-defs}
 
+% add declaration from an external file
+
+\usepackage{pdfpages}
+
 %------------------------------------------------------------------------------
 % BIBLIOGRAPHY
 %------------------------------------------------------------------------------
@@ -76,7 +80,8 @@
 % \cleardoublepage\include{latex-components/front-back-matter/summary}
 % \cleardoublepage\include{latex-components/front-back-matter/resumen}
 \cleardoublepage\include{latex-components/front-back-matter/publications}
-\cleardoublepage\include{latex-components/front-back-matter/declaration}
+% \cleardoublepage\include{latex-components/front-back-matter/declaration}
+\cleardoublepage\include{latex-components/front-back-matter/coauthorship-form-signed}
 \cleardoublepage\include{latex-components/front-back-matter/acknowledgments}
 \cleardoublepage\include{latex-components/front-back-matter/preface}
 \cleardoublepage\include{latex-components/front-back-matter/little-dirty-title-page}
