@@ -1,0 +1,385 @@
+Aizen, Marcelo A., Gabriela Gleiser, Malena Sabatino, Luis J. Gilarranz, Jordi Bascompte and Miguel Verdú (2016). ‘The Phylogenetic Structure of Plant-Pollinator Networks Increases with Habitat Size and Isolation’. In: Ecology Letters 19.1, pp. 29– 36. doi: 10.1111/ele.12539.
+Aizen, Marcelo A., Carolina L. Morales and Juan M Morales (2008). ‘Invasive Mutualists Erode Native Pollination Webs’. In: PLoS Biology 6.2, e31. doi: 10.1371/journal.pbio.0060031.
+Aizen, Marcelo A. and Adriana E. Rovere (2010). ‘Reproductive Interactions Mediated by Flowering Overlap in a Temperate Hummingbird-Plant Assemblage’. In: Oikos 119.4, pp. 696–706. doi: 10.1111/j.1600-0706.2009.17762.x.
+Aizen, Marcelo A., M. Sabatino and Jason M. Tylianakis (2012). ‘Specialization and Rarity Predict Nonrandom Loss of Interac- tions from Mutualist Networks’. In: Science 335.6075, pp. 1486–
+1489. doi: 10.1126/science.1215320.
+Albrecht, M., B. Padron, I. Bartomeus and Anna Traveset (2014).
+‘Consequences of Plant Invasions on Compartmentalization and Species’ Roles in Plant-Pollinator Networks’. In: Proceed- ings of the Royal Society B: Biological Sciences 281.1788, p. 20140773. doi: 10.1098/rspb.2014.0773.
+Althoff, David M., Kari A. Segraves, Christopher I. Smith, James Leebens-Mack and Olle Pellmyr (2012). ‘Geographic Isolation Trumps Coevolution as a Driver of Yucca and Yucca Moth Diversification’. In: Molecular Phylogenetics and Evolution 62.3, pp. 898–906. doi: 10.1016/j.ympev.2011.11.024.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+109
+110   a appendix: cophylogeny
+Arceo-Gómez, Gerardo and Tia-Lynn Ashman (2016). ‘Invasion Status and Phylogenetic Relatedness Predict Cost of Hetero- specific Pollen Receipt: Implications for Native Biodiversity Decline’. In: Journal of Ecology 104.4, pp. 1003–1008. doi: 10. 1111/1365-2745.12586.
+Arceo-Gómez, Gerardo, Rainee L. Kaczorowski, Cheril Patel and Tia-Lynn Ashman (2019). ‘Interactive Effects between Donor and Recipient Species Mediate Fitness Costs of Heterospecific Pollen Receipt in a Co-Flowering Community’. In: Oecologia 189.4, pp. 1041–1047. doi: 10.1007/s00442-019-04379-z.
+Ashman, Tia-Lynn and Gerardo Arceo-Gómez (2013). ‘Toward a Predictive Understanding of the Fitness Costs of Heterospecific Pollen Receipt and Its Importance in Co-Flowering Communit- ies’. In: American Journal of Botany 100.6, pp. 1061–1070. doi: 10.3732/ajb.1200496.
+Astegiano, Julia, François Massol, Mariana Morais Vidal, Pierre- Olivier Cheptou and Paulo R. Guimarães (2015). ‘The Robust- ness of Plant-Pollinator Assemblages: Linking Plant Interaction Patterns and Sensitivity to Pollinator Loss’. In: PLOS ONE 10.2, e0117243. doi: 10.1371/journal.pone.0117243.
+Balbuena, Juan Antonio, Raúl Míguez-Lozano and Isabel Blasco- Costa (2013). ‘PACo: A Novel Procrustes Application to Co- phylogenetic Analysis’. In: PLoS ONE 8.4, e61048. doi: 10. 1371/journal.pone.0061048.
+Ballantyne, G., Katherine C. R. Baldock and P. G. Willmer (2015). ‘Constructing More Informative Plant-Pollinator Networks: Vis- itation and Pollen Deposition Networks in a Heathland Plant
+Community’. In: Proceedings of the Royal Society B: Biological
+Sciences 282.1814, p. 20151130. doi: 10.1098/rspb.2015.1130. Barber, Michael J. (2007). ‘Modularity and Community Detection in Bipartite Networks’. In: Physical Review E 76.6. doi: 10.1103/
+PhysRevE.76.066102.
+Bartomeus, Ignasi, Montserrat Vilà and Luís Santamaría (2008).
+‘Contrasting Effects of Invasive Plants in Plant-Pollinator Net- works’. In: Oecologia 155.4, pp. 761–770. doi: 10.1007/s00442- 007-0946-1. pmid: 18188603.
+Bascompte, Jordi and Pedro Jordano (2007). ‘Plant-Animal Mutu- alistic Networks: The Architecture of Biodiversity’. In: Annual
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Review of Ecology, Evolution, and Systematics 38.1, pp. 567–593.
+doi: 10.1146/annurev.ecolsys.38.091206.095818.
+– (2014). Mutualistic Networks. Monographs in Population Bio- logy. Princeton: Princeton University Press. 206 pp. isbn: 978-
+0-691-13126-9.
+Bascompte, Jordi, Pedro Jordano and Jens M. Olesen (2006).
+‘Asymmetric Coevolutionary Networks Facilitate Biodiversity Maintenance’. In: Science 312.5772, pp. 431–433. doi: 10.1126/ science.1123412.
+Bascompte, Jordi and Daniel B. Stouffer (2009). ‘The Assembly and Disassembly of Ecological Networks’. In: Philosophical Transactions of the Royal Society B: Biological Sciences 364.1524, pp. 1781–1787. doi: 10.1098/rstb.2008.0226.
+Baskett, Carina A. and Douglas W. Schemske (2018). ‘Latitud- inal Patterns of Herbivore Pressure in a Temperate Herb Sup- port the Biotic Interactions Hypothesis’. In: Ecology Letters 21.4, pp. 578–587. doi: 10.1111/ele.12925.
+Bastolla, Ugo, Miguel A. Fortuna, Alberto Pascual-García, Anto- nio Ferrera, Bartolo Luque and Jordi Bascompte (2009). ‘The Architecture of Mutualistic Networks Minimizes Competition and Increases Biodiversity’. In: Nature 458.7241, pp. 1018–1020. doi: 10.1038/nature07950.
+Benadi, Gita, Thomas Hovestadt, Hans-Joachim Poethke and Nico Blüthgen (2014). ‘Specialization and Phenological Syn- chrony of Plant-Pollinator Interactions along an Altitudinal Gradient’. In: Journal of Animal Ecology 83.3, pp. 639–650. doi: 10.1111/1365-2656.12158.
+Benadi, Gita and Anton Pauw (2018). ‘Frequency Dependence of Pollinator Visitation Rates Suggests That Pollination Niches Can Allow Plant Species Coexistence’. In: Journal of Ecology 106.5, pp. 1892–1901. doi: 10.1111/1365-2745.13025.
+Bentz, Sophie, Neeta D. Sinnappah-Kang, Lee-Hong Susan Lim, Boris Lebedev, Claude Combes and Olivier Verneau (2006). ‘Historical Biogeography of Amphibian Parasites, Genus Poly-
+stoma (Monogenea: Polystomatidae)’. In: Journal of Biogeo- graphy 33.4, pp. 742–749. doi: 10.1111/j.1365-2699.2005. 01402.x.
+Blüthgen, Nico, Florian Menzel, Thomas Hovestadt, Brigitte Fiala and Nils Blüthgen (2007). ‘Specialization, Constraints, and Con-
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 111
+
+112   a appendix: cophylogeny
+flicting Interests in Mutualistic Networks’. In: Current Biology
+17.4, pp. 341–346. doi: 10.1016/j.cub.2006.12.039.
+Borges, Jorge Luis (1941). El Jardín de senderos que se bifurcan. 1st.
+Buenos Aires: Buenos Aires, Sur.
+Bosch, Jordi, Ana M. Martín González, Anselm Rodrigo and
+David Navarro (2009). ‘Plant-Pollinator Networks: Adding the Pollinator’s Perspective’. In: Ecology Letters 12.5, pp. 409–419. doi: 10.1111/j.1461-0248.2009.01296.x.
+Broennimann, Olivier, Valeria Di Cola and Antoine Guisan (2018). Ecospat: Spatial Ecology Miscellaneous Methods. R package ver- sion 3.0.
+Broennimann, Olivier, Matthew C. Fitzpatrick, Peter B. Pearman, Blaise Petitpierre, Loïc Pellissier, Nigel G. Yoccoz, Wilfried Thuiller, Marie-Josée Fortin, Christophe Randin, Niklaus E. Zi- mmermann, Catherine H. Graham and Antoine Guisan (2012).
+‘Measuring Ecological Niche Overlap from Occurrence and Spa- tial Environmental Data: Measuring Niche Overlap’. In: Global Ecology and Biogeography 21.4, pp. 481–497. doi: 10.1111/j. 1466-8238.2011.00698.x.
+Burkle, L. A., J. C. Marlin and T. M. Knight (2013). ‘Plant-Pollinator Interactions over 120 Years: Loss of Species, Co-Occurrence, and Function’. In: Science 339.6127, pp. 1611–1615. doi: 10. 1126/science.1232728.
+Bürkner, Paul-Christian (2017). ‘Brms: An R Package for Bayesian Multilevel Models Using Stan’. In: Journal of Statistical Software 80.1. doi: 10.18637/jss.v080.i01.
+– (2018). ‘Advanced Bayesian Multilevel Modeling with the R Package Brms’. In: The R Journal 10.1, p. 395. doi: 10.32614/RJ- 2018-017.
+Cadotte, Marc William and T. Jonathan Davies (2018). Phylogenies in Ecology: A Guide to Concepts and Methods. OCLC: 1032363437. isbn: 978-1-4008-8119-2.
+Cagua, Edgar Fernando, Kate L. Wootton and Daniel B. Stouffer (2019). ‘Keystoneness, Centrality, and the Structural Controllab- ility of Ecological Networks’. In: Journal of Ecology, pp. 1365– 2745.13147. doi: 10.1111/1365-2745.13147.
+Cameron, W.B. (1963). Informal Sociology: A Casual Introduction to Sociological Thinking. Studies in Sociology. Random House. 170 pp.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Campbell, Diane R. and Alexander F. Motten (1985). ‘The Mechan- ism of Competition for Pollination between Two Forest Herbs’. In: Ecology 66.2, pp. 554–563. doi: 10.2307/1940404.
+CaraDonna, Paul J., William K. Petry, Ross M. Brennan, James L. Cunningham, Judith L. Bronstein, Nickolas M. Waser and Nathan J. Sanders (2017). ‘Interaction Rewiring and the Rapid Turnover of Plant-Pollinator Networks’. In: Ecology Letters 20.3, pp. 385–394. doi: 10.1111/ele.12740.
+Cariveau, Daniel P. and Andrew P. Norton (2009). ‘Spatially Contingent Interactions between an Exotic and Native Plant Mediated through Flower Visitors’. In: Oikos 118.1, pp. 107–114. doi: 10.1111/j.1600-0706.2008.16705.x.
+Carpenter, Bob, Andrew Gelman, Matthew D. Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus Brubaker, Jiqi- ang Guo, Peter Li and Allen Riddell (2017). ‘Stan : A Probabil- istic Programming Language’. In: Journal of Statistical Software 76.1. doi: 10.18637/jss.v076.i01.
+Caruso, Christina M (2000). ‘Competition for Pollination Influ- ences Selection on Floral Traits of Ipomopsis Aggregata’. In: Evolution 54.5, pp. 1546–1557.
+Carvalheiro, Luísa Gigante, Jacobus Christiaan Biesmeijer, Gita Benadi, Jochen Fründ, Martina Stang, Ignasi Bartomeus, Chris- topher N. Kaiser-Bunbury, Mathilde Baude, Sofia I. F. Gomes, Vincent Merckx, Katherine C. R. Baldock, Andrew T. D. Ben- nett, Ruth Boada, Riccardo Bommarco, Ralph Cartar, Natacha Chacoff, Juliana Dänhardt, Lynn V. Dicks, Carsten F. Dormann, Johan Ekroos, Kate S.E. Henson, Andrea Holzschuh, Robert R. Junker, Martha Lopezaraiza-Mikel, Jane Memmott, Ana Montero-Castaño, Isabel L. Nelson, Theodora Petanidou, Eileen F. Power, Maj Rundlöf, Henrik G. Smith, Jane C. Stout, Kehinde Temitope, Teja Tscharntke, Thomas Tscheulin, Montserrat Vilà and William E. Kunin (2014). ‘The Potential for Indirect Effects between Co-Flowering Plants via Shared Pollinators Depends on Resource Abundance, Accessibility and Relatedness’. In: Ecology Letters 17.11, pp. 1389–1399. doi: 10.1111/ele.12342.
+Cavender-Bares, Jeannine, Adrienne Keen and Brianna Miles (2006). ‘Phylogenetic Structure of Floridian Plant Communities Dependes on Taxonomic and Spatial Scale’. In: Ecology 87 (sp7),
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 113
+
+114   a appendix: cophylogeny
+S109–S122. doi: 10.1890/0012-9658(2006)87[109:PSOFPC]2.
+0.CO;2.
+Cavender-Bares, Jeannine, Kenneth H. Kozak, Paul V. A. Fine and
+Steven W. Kembel (2009). ‘The Merging of Community Ecology and Phylogenetic Biology’. In: Ecology Letters 12.7, pp. 693–715. doi: 10.1111/j.1461-0248.2009.01314.x.
+Chamberlain, Scott, Eduard Szocs, Carl Boettiger, Karthik Ram, Ignasi Bartomeus and John Baumgartner (2014). Taxize: Taxo- nomic Information from around the Web. R package version 0.3.0.
+Chomicki, Guillaume, Philip S. Ward and Susanne S. Renner (2015). ‘Macroevolutionary Assembly of Ant/Plant Symbioses: Pseudomyrmex Ants and Their Ant-Housing Plants in the Neo- tropics’. In: Proceedings of the Royal Society B: Biological Sciences 282.1819, p. 20152200. doi: 10.1098/rspb.2015.2200.
+Conow, Chris, Daniel Fielder, Yaniv Ovadia and Ran Libeskind- Hadas (2010). ‘Jane: A New Tool for the Cophylogeny Re- construction Problem’. In: Algorithms for Molecular Biology 5.1, p. 16. doi: 10.1186/1748-7188-5-16.
+Cornelius, Sean P, William L Kath and Adilson E Motter (2013). ‘Realistic Control of Network Dynamics’. In: Nature Communic-
+ations 4, p. 1942. doi: 10.1038/ncomms2939. pmid: 23803966. Cottenie, Karl (2005). ‘Integrating Environmental and Spatial Processes in Ecological Community Dynamics: Meta-Analysis
+of Metacommunities’. In: Ecology Letters 8.11, pp. 1175–1182.
+doi: 10.1111/j.1461-0248.2005.00820.x.
+Coux, Camille, Romina Rader, Ignasi Bartomeus and Jason M.
+Tylianakis (2016). ‘Linking Species Functional Roles to Their Network Roles’. In: Ecology Letters 19.7, pp. 762–770. doi: 10. 1111/ele.12612.
+Cox, Paul Alan and Thomas Elmqvist (2000). ‘Pollinator Ex- tinction in the Pacific Islands’. In: Conservation Biology 14.5, pp. 1237–1239. doi: 10.1046/j.1523-1739.2000.00017.x.
+Crane, Peter R., Else Marie Friis and Kaj Raunsgaard Pedersen (1995). ‘The Origin and Early Diversification of Angiosperms’. In: Nature 374.6517, pp. 27–33. doi: 10.1038/374027a0.
+Cruaud, Astrid, Nina Rønsted, Bhanumas Chantarasuwan, Lien Siang Chou, Wendy L. Clement, Arnaud Couloux, Benjamin Cousins, Gwenaëlle Genson, Rhett D. Harrison, Paul E. Han- son, Martine Hossaert-Mckey, Roula Jabbour-Zahab, Emmanuelle
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Jousselin, Carole Kerdelhué, Finn Kjellberg, Carlos Lopez- Vaamonde, John Peebles, Yan-Qiong Peng, Rodrigo Augusto Santinelo Pereira, Tselil Schramm, Rosichon Ubaidillah, Si- mon van Noort, George D. Weiblen, Da-Rong Yang, Anak Yodpinyanee, Ran Libeskind-Hadas, James M. Cook, Jean- Yves Rasplus and Vincent Savolainen (2012). ‘An Extreme Case of Plant–Insect Codiversification: Figs and Fig-Pollinating Wasps’. In: Systematic Biology 61.6, pp. 1029–1047. doi: 10 . 1093/sysbio/sys068.
+Dafni, A and D Firmage (2000). ‘Pollen Viability and Longevity: Practical, Ecological and Evolutionary Implications’. In: Plant Systematics and Evolution 222.1, pp. 113–132.
+Danieli-Silva, Aline, Jana Magaly Tesserolli de Souza, Ana Ju- lia Donatti, Ricardo Pamplona Campos, José Vicente-Silva, Leandro Freitas and Isabela Galarda Varassin (2012). ‘Do Pol- lination Syndromes Cause Modularity and Predict Interactions in a Pollination Network in Tropical High-Altitude Grasslands?’ In: Oikos 121.1, pp. 35–43. doi: 10.1111/j.1600-0706.2011. 19089.x.
+De Jong, Tom J., Nickolas M. Waser, Mary V. Price and Richard M. Ring (1992). ‘Plant Size, Geitonogamy and Seed Set in Ipomopsis Aggregata’. In: Oecologia 89.3, pp. 310–315. doi: 10.1007/BF00317407.
+De Vienne, D. M., G. Refrégier, M. López-Villavicencio, A. Tellier, M. E. Hood and T. Giraud (2013). ‘Cospeciation vs Host-Shift Speciation: Methods for Testing, Evidence from Natural Asso- ciations and Relation to Coevolution’. In: New Phytologist 198.2, pp. 347–385. doi: 10.1111/nph.12150.
+Dehling, D. Matthias, Till Töpfer, H. Martin Schaefer, Pedro Jordano, Katrin Böhning-Gaese and Matthias Schleuning (2014). ‘Functional Relationships beyond Species Richness Patterns:
+Trait Matching in Plant-Bird Mutualisms across Scales: Trait Matching in Plant-Bird Mutualisms across Scales’. In: Global Ecology and Biogeography 23.10, pp. 1085–1093. doi: 10.1111/ geb.12193.
+Desdevises, Yves (2007). ‘Cophylogeny: Insights from Fish-Parasite Systems’. In: Parasitologia 49.3, p. 125.
+Devoto, Mariano, Sallie Bailey, Paul Craze and Jane Memmott (2012). ‘Understanding and Planning Ecological Restoration of
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 115
+
+116   a appendix: cophylogeny
+Plant-Pollinator Networks: Understanding Network Restora- tion’. In: Ecology Letters 15.4, pp. 319–328. doi: 10.1111/j.1461- 0248.2012.01740.x.
+Devoto, Mariano, Diego Medan and Norberto H. Montaldo (2005). ‘Patterns of Interaction between Plants and Pollinators along an Environmental Gradient’. In: Oikos 109.3, pp. 461–472. doi:
+10.1111/j.0030-1299.2005.13712.x.
+Dobson, Andrew, David Lodge, Jackie Alder, Graeme S. Cum-
+ming, Juan Keymer, Jacquie McGlade, Hal Mooney, James A. Rusak, Osvaldo Sala, Volkmar Wolters, Diana Wall, Rachel Winfree and Marguerite A. Xenopoulos (2006). ‘Habitat Loss, Trophic Collapse, and the Decline of Ecosystem Services’. In: Ecology 87.8, pp. 1915–1924. doi: 10.1890/0012-9658(2006) 87[1915:HLTCAT]2.0.CO;2.
+Dormann, Carsten F. and Rouven Strauss (2014). ‘A Method for Detecting Modules in Quantitative Bipartite Networks’. In: Methods in Ecology and Evolution 5.1, pp. 90–98. doi: 10.1111/ 2041-210X.12139.
+Dray, Stéphane and Anne-Béatrice Dufour (2007). ‘The Ade4 Package: Implementing the Duality Diagram for Ecologists’. In: Journal of Statistical Software 22.4. doi: 10.18637/jss.v022.i04.
+Drinkwater, Benjamin and Michael A. Charleston (2016). ‘To- wards Sub-Quadratic Time and Space Complexity Solutions for the Dated Tree Reconciliation Problem’. In: Algorithms for Molecular Biology 11.1. doi: 10.1186/s13015-016-0077-5.
+Dunne, Jennifer A., Richard J. Williams and Neo D. Martinez (2002). ‘Network Structure and Biodiversity Loss in Food Webs: Robustness Increases with Connectance’. In: Ecology Letters 5.4, pp. 558–567. doi: 10.1046/j.1461-0248.2002.00354.x.
+Eklöf, Anna and Daniel B. Stouffer (2016). ‘The Phylogenetic Com- ponent of Food Web Structure and Intervality’. In: Theoretical Ecology 9.1, pp. 107–115. doi: 10.1007/s12080-015-0273-9.
+Elton, Charles S. (1927). Animal Ecology. 1st. Text-Books of Animal Biology. New York, NY: The MacMillan Company. 207 pp. Emer, Carine, Jane Memmott, Ian P. Vaughan, Daniel Montoya
+and Jason M. Tylianakis (2016). ‘Species Roles in Plant-Pollinator Communities Are Conserved across Native and Alien Ranges’. In: Diversity and Distributions 22.8, pp. 841–852. doi: 10.1111/ ddi.12458.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Emerson, Brent C. and Rosemary G. Gillespie (2008). ‘Phylo- genetic Analysis of Community Assembly and Structure over Space and Time’. In: Trends in Ecology & Evolution 23.11, pp. 619– 630. doi: 10.1016/j.tree.2008.07.005.
+Estes, J. A. and J. F. Palmisano (1974). ‘Sea Otters: Their Role in Structuring Nearshore Communities’. In: Science 185.4156, pp. 1058–1060. doi: 10.1126/science.185.4156.1058.
+Faith, Daniel P. (1992). ‘Conservation Evaluation and Phylogen- etic Diversity’. In: Biological Conservation 61.1, pp. 1–10. doi: 10.1016/0006-3207(92)91201-3.
+Fang, Qiang and Shuang-Quan Huang (2016). ‘A Paradoxical Mismatch between Interspecific Pollinator Moves and Hetero- specific Pollen Receipt in a Natural Community’. In: Ecology 97.8, pp. 1970–1978. doi: 10.1002/ecy.1433.
+Feinsinger, Peter (1987). ‘Effects of Plant Species on Each Others Pollination: Is Community Structure Influenced?’ In: Trends in Ecology & Evolution 2.5, pp. 123–126.
+Feldman, Tracy S., William F. Morris and William G. Wilson (2004). ‘When Can Two Plant Species Facilitate Each Other’s Pollination?’ In: Oikos 105.1, pp. 197–207. doi: 10.1111/j.0030- 1299.2004.12845.x.
+Fenster, Charles B., W. Scott Armbruster, Paul Wilson, Michele R. Dudash and James D. Thomson (2004). ‘Pollination Syndromes and Floral Specialization’. In: Annual Review of Ecology, Evolu- tion, and Systematics 35.1, pp. 375–403. doi: 10.1146/annurev. ecolsys.34.011802.132347.
+Fick, Stephen E. and Robert J. Hijmans (2017). ‘WorldClim 2: New 1-Km Spatial Resolution Climate Surfaces for Global Land Areas: New Climate Surfaces for Global Land Areas’. In: International Journal of Climatology 37.12, pp. 4302–4315. doi: 10.1002/joc.5086.
+Flanagan, Rebecca J., Randall J. Mitchell and Jeffrey D. Kar- ron (2011). ‘Effects of Multiple Competitors for Pollination on Bumblebee Foraging Patterns and Mimulus Ringens Reproduct- ive Success’. In: Oikos 120.2, pp. 200–207. doi: 10.1111/j.1600- 0706.2010.18777.x.
+Fontaine, Colin and Elisa Thébault (2015). ‘Comparing the Con- servatism of Ecological Interactions in Plant–Pollinator and
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 117
+
+118   a appendix: cophylogeny
+Plant–Herbivore Networks’. In: Population Ecology 57.1, pp. 29–
+36. doi: 10.1007/s10144-014-0473-y.
+Fortuna, Miguel A., Raul Ortega and Jordi Bascompte (2014).
+‘The Web of Life’. In: arXiv: 1403.2575 [q-bio].
+Fortuna, Miguel A., Daniel B. Stouffer, Jens M. Olesen, Pedro Jordano, David Mouillot, Boris R. Krasnov, Robert Poulin and
+Jordi Bascompte (2010). ‘Nestedness versus Modularity in Eco- logical Networks: Two Sides of the Same Coin?’ In: Journal of Animal Ecology. doi: 10.1111/j.1365-2656.2010.01688.x.
+Friedkin, Noah E. (1991). ‘Theoretical Foundations for Centrality Measures’. In: American Journal of Sociology 96.6, pp. 1478–1504. JSTOR: 2781908.
+Gaiarsa, Marilia P., Claire Kremen and Lauren C. Ponisio (2019). ‘Interaction Flexibility Predicts Pollinator Population Dynam-
+ics’. In: Manuscript submitted for publication, p. 15.
+Gervasi, Daniel D. L. and Florian P Schiestl (2017). ‘Real-Time Divergent Evolution in Plants Driven by Pollinators’. In: Nature
+Communications 8.1. doi: 10.1038/ncomms14691.
+Gibson, Michelle R., David M. Richardson and Anton Pauw (2012). ‘Can Floral Traits Predict an Invasive Plant’s Impact on Native Plant-Pollinator Communities?’ In: Journal of Ecology
+100.5, pp. 1216–1223. doi: 10.1111/j.1365-2745.2012.02004.
+x.
+Godsoe, William, Eva Strand, Christopher Irwin Smith, Jeremy B.
+Yoder, Todd C. Esque and Olle Pellmyr (2009). ‘Divergence in an Obligate Mutualism Is Not Explained by Divergent Climatic Factors’. In: New Phytologist 183.3, pp. 589–599. doi: 10.1111/ j.1469-8137.2009.02942.x.
+Gómez, José M., Miguel Verdú and Francisco Perfectti (2010). ‘Ecological Interactions Are Evolutionarily Conserved across the Entire Tree of Life’. In: Nature 465.7300, pp. 918–921. doi:
+10.1038/nature09113.
+Gotelli, Nicholas J. and Declan J. McCabe (2002). ‘Species Co-
+Occurrence a Meta-Analysis of J.M, Diamond’s Assembly Rules Model’. In: Ecology 83.8, pp. 2091–2096. doi: 10.1890/0012- 9658(2002)083[2091:SCOAMA]2.0.CO;2.
+Gravel, Dominique, Benjamin Baiser, Jennifer A Dunne, Jens- Peter Kopelke, Neo D Martinez, Tommi Nyman, Timothee Poisot, Daniel B. Stouffer, Jason M. Tylianakis, Spencer A Wood
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+and Tomas Roslin (2018). ‘Bringing Elton and Grinnell Together: A Quantitative Framework to Represent the Biogeography of Ecological Interaction Networks’. In: Ecography 41, pp. 1–15. doi: 10.1111/ecog.04006.
+Grimaldi, David (1999). ‘The Co-Radiations of Pollinating Insects and Angiosperms in the Cretaceous’. In: Annals of the Missouri Botanical Garden 86.2, p. 373. doi: 10.2307/2666181.
+Guimerà, Roger and Luís A Nunes Amaral (2005). ‘Cartography of Complex Networks: Modules and Universal Roles’. In: Journal of Statistical Mechanics: Theory and Experiment 2005.02, P02001. doi: 10.1088/1742-5468/2005/02/P02001.
+Hafner, Mark S. and Steven A. Nadler (1988). ‘Phylogenetic Trees Support the Coevolution of Parasites and Their Hosts’. In: Nature 332.6161, pp. 258–259. doi: 10.1038/332258a0.
+Harmon-Threatt, Alexandra N. and David D. Ackerly (2013). ‘Filtering across Spatial Scales: Phylogeny, Biogeography and Community Structure in Bumble Bees’. In: PLoS ONE 8.3,
+e60446. doi: 10.1371/journal.pone.0060446.
+Harvey, Eric, Isabelle Gounand, Colette L. Ward and Florian
+Altermatt (2017). ‘Bridging Ecology and Conservation: From Ecological Networks to Ecosystem Function’. In: Journal of Applied Ecology 54.2, pp. 371–379. doi: 10.1111/1365-2664. 12769.
+Henriksson, Anna, David A. Wardle, Johan Trygg, Sebastian Diehl and Göran Englund (2016). ‘Strong Invaders Are Strong Defenders - Implications for the Resistance of Invaded Com- munities’. In: Ecology Letters 19.4, pp. 487–494. doi: 10.1111/ ele.12586.
+Hijmans, Robert J. (2019). Raster: Geographic Data Analysis and Modeling. R package version 2.8-19.
+Hirzel, A H, J Hausser, D Chessel and N Perrin (2002). ‘Ecological- Niche Factor Analysis: How to Compute Habitat-Suitability Maps without Absence Data?’ In: 83.7, p. 10.
+Hoiss, Bernhard, Jochen Krauss, Simon G. Potts, Stuart Roberts and Ingolf Steffan-Dewenter (2012). ‘Altitude Acts as an En- vironmental Filter on Phylogenetic Composition, Traits and Diversity in Bee Communities’. In: Proceedings of the Royal Soci- ety B: Biological Sciences 279.1746, pp. 4447–4456. doi: 10.1098/ rspb.2012.1581.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 119
+
+120   a appendix: cophylogeny
+Hoiss, Bernhard, Jochen Krauss and Ingolf Steffan-Dewenter (2015). ‘Interactive Effects of Elevation, Species Richness and Extreme Climatic Events on Plant-Pollinator Networks’. In: Global Change Biology 21.11, pp. 4086–4097. doi: 10.1111/gcb. 12968.
+Holland, J. Nathaniel, Donald L. DeAngelis and Judith L. Bron- stein (2002). ‘Population Dynamics and Mutualism: Functional Responses of Benefits and Costs’. In: The American Naturalist 159.3, pp. 231–244. doi: 10.1086/338510.
+Hubbell, Stephen P. (2001). The Unified Neutral Theory of Biod- iversity and Biogeography. Monographs in Population Biology 32. Princeton: Princeton University Press. 375 pp. isbn: 978-0- 691-02129-4 978-0-691-02128-7.
+Hughes, Joseph, Martyn Kennedy, Kevin P. Johnson, Ricardo L. Palma and Roderic D. M. Page (2007). ‘Multiple Cophylogen- etic Analyses Reveal Frequent Cospeciation between Pelecani- form Birds and Pectinopygus Lice’. In: Systematic Biology 56.2, pp. 232–251. doi: 10.1080/10635150701311370.
+Hutchinson, Matthew C., Edgar Fernando Cagua, Juan Antonio Balbuena, Daniel B. Stouffer and Timothée Poisot (2017). ‘Paco: Implementing Procrustean Approach to Cophylogeny in R’. In: Methods in Ecology and Evolution 8.8, pp. 932–940. doi: 10. 1111/2041-210X.12736.
+Hutchinson, Matthew C., Edgar Fernando Cagua and Daniel B. Stouffer (2017). ‘Cophylogenetic Signal Is Detectable in Pollin- ation Interactions across Ecological Scales’. In: Ecology 98.10, pp. 2640–2652. doi: 10.1002/ecy.1955.
+Isbell, Forest and Michel Loreau (2013). ‘Human Impacts on Min- imum Subsets of Species Critical for Maintaining Ecosystem Structure’. In: Basic and Applied Ecology 14.8, pp. 623–629. doi: 10.1016/j.baae.2013.09.001.
+Jetz, Walter, Melodie A. McGeoch, Robert Guralnick, Simon Fer- rier, Jan Beck, Mark J. Costello, Miguel Fernandez, Gary N. Geller, Petr Keil, Cory Merow, Carsten Meyer, Frank E. Muller- Karger, Henrique M. Pereira, Eugenie C. Regan, Dirk S. Schmel- ler and Eren Turak (2019). ‘Essential Biodiversity Variables for Mapping and Monitoring Species Populations’. In: Nature Eco- logy & Evolution 3.4, pp. 539–551. doi: 10.1038/s41559-019- 0826-1.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Jia, Tao and Albert-László Barabási (2013). ‘Control Capacity and A Random Sampling Method in Exploring Controllability of Complex Networks’. In: Scientific Reports 3.1, p. 2354. doi: 10.1038/srep02354.
+Johnson, Christopher A. and Judith L. Bronstein (2019). ‘Coex- istence and Competitive Exclusion in Mutualism’. In: Ecology 100.6, e02708. doi: 10.1002/ecy.2708.
+Jordan, F. (2009). ‘Keystone Species and Food Webs’. In: Philo- sophical Transactions of the Royal Society B: Biological Sciences 364.1524, pp. 1733–1741. doi: 10.1098/rstb.2008.0335.
+Jordán, Ferenc, Zsófia Benedek and János Podani (2007). ‘Quanti- fying Positional Importance in Food Webs: A Comparison of Centrality Indices’. In: Ecological Modelling 205.1-2, pp. 270–275. doi: 10.1016/j.ecolmodel.2007.02.032.
+Jordano, Pedro, Jordi Bascompte and Jens M. Olesen (2006). ‘The Ecological Consequences of Complex Topology and Nested Structure in Pollination Webs’. In: Plant-Pollinator Interactions: From Specialization to Generalization. University of Chicago Press, pp. 173–199. isbn: 0-226-87400-1.
+Jousselin, Emmanuelle, Simon van Noort, Vincent Berry, Jean- Yves Rasplus, Nina Rnsted, J. Christoff Erasmus and Jaco M. Greeff (2008). ‘One Fig to Bind Them All: Host Conservatism in a Fig Wasp Community Unraveled by Cospeciation Analyses among Pollinating and Nonpollinating Fig Wasps’. In: Evol- ution 62.7, pp. 1777–1797. doi: 10.1111/j.1558-5646.2008. 00406.x.
+Kaiser-Bunbury, Christopher N., James Mougal, Andrew E. Whit- tington, Terence Valentin, Ronny Gabriel, Jens M. Olesen and Nico Blüthgen (2017). ‘Ecosystem Restoration Strengthens Pol- lination Network Resilience and Function’. In: Nature 542.7640, pp. 223–227. doi: 10.1038/nature21071.
+Kaiser-Bunbury, Christopher N., Stefanie Muff, Jane Memmott, Christine B. Müller and Amedeo Caflisch (2010). ‘The Ro- bustness of Pollination Networks to the Loss of Species and Interactions: A Quantitative Approach Incorporating Pollinator Behaviour’. In: Ecology Letters 13.4, pp. 442–452. doi: 10.1111/ j.1461-0248.2009.01437.x.
+Kalman, R. E. (1963). ‘Mathematical Description of Linear Dy- namical Systems’. In: Journal of the Society for Industrial and
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 121
+
+122   a appendix: cophylogeny
+Applied Mathematics Series A Control 1.2, pp. 152–192. doi: 10.
+1137/0301010.
+Kembel, Steven W. and Stephen P. Hubbell (2006). ‘The Phylogen-
+etic Structure of a Neotropical Forest Tree Community’. In: Eco- logy 87 (sp7), S86–S99. doi: 10.1890/0012-9658(2006)87[86: TPSOAN]2.0.CO;2.
+Klein, A.-M., B. E Vaissiere, J. H Cane, I. Steffan-Dewenter, S. A Cunningham, C. Kremen and T. Tscharntke (2007). ‘Importance of Pollinators in Changing Landscapes for World Crops’. In: Proceedings of the Royal Society B: Biological Sciences 274.1608, pp. 303–313. doi: 10.1098/rspb.2006.3721.
+Kling, Arnold (2007). The Practitioner’s Challenge.
+Krasnov, Boris R., Miguel A. Fortuna, David Mouillot, Irina S. Khokhlova, Georgy I. Shenbrot and Robert Poulin (2012).
+‘Phylogenetic Signal in Module Composition and Species Con- nectivity in Compartmentalized Host-Parasite Networks’. In: The American Naturalist 179.4, pp. 501–511. doi: 10 . 1086 / 664612.
+Laliberté, Etienne and Pierre Legendre (2010). ‘A Distance-Based Framework for Measuring Functional Diversity from Multiple Traits’. In: Ecology 91.1, pp. 299–305. doi: 10.1890/08-2244.1.
+Laliberté, Etienne, Pierre Legendre and Bill Shipley (2014). FD: Measuring Functional Diversity from Multiple Traits, and Other Tools for Functional Ecology. R package version 1.0-12.
+Lavandero, Blas and Jason M. Tylianakis (2013). ‘Genotype Match- ing in a Parasitoid-Host Genotypic Food Web: An Approach for Measuring Effects of Environmental Change’. In: Molecular Ecology 22.1, pp. 229–238. doi: 10.1111/mec.12100.
+Legendre, Pierre, Yves Desdevises and Eric Bazin (2002). ‘A Stat- istical Test for Host–Parasite Coevolution’. In: Systematic Bio- logy 51.2, pp. 217–234. doi: 10.1080/10635150252899734.
+Lever, J. Jelle, Egbert H. van Nes, Marten Scheffer and Jordi Bascompte (2014). ‘The Sudden Collapse of Pollinator Com- munities’. In: Ecology Letters 17.3, pp. 350–359. doi: 10.1111/ ele.12236.
+Lin, Ching Tal (1974). ‘Structural Controllability’. In: IEEE Trans- actions on Automatic Control 19.3, pp. 201–208. doi: 10.1109/ TAC.1974.1100557.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Liu, Yang-Yu and Albert-László Barabási (2016). ‘Control Prin- ciples of Complex Systems’. In: Reviews of Modern Physics 88.3. doi: 10.1103/RevModPhys.88.035006.
+Liu, Yang-Yu, Jean-Jacques Slotine and Albert-László Barabási (2011). ‘Controllability of Complex Networks.’ In: Nature 473.7346, pp. 167–173. doi: 10.1038/nature10011. pmid: 21562557.
+Lopezaraiza-Mikel, Martha E., Richard B. Hayes, Martin R. Whal- ley and Jane Memmott (2007). ‘The Impact of an Alien Plant on a Native Plant-Pollinator Network: An Experimental Ap- proach’. In: Ecology Letters 10.7, pp. 539–550. doi: 10.1111/j. 1461-0248.2007.01055.x.
+Losos, Jonathan B. (2011). ‘Seeing the Forest for the Trees: The Limitations of Phylogenies in Comparative Biology’. In: The American Naturalist 177.6, pp. 709–727. doi: 10.1086/660020.
+Marquitti, Flavia Maria Darcie, Paulo Roberto Guimarães, Math- ias Mistretta Pires and Luiz Fernando Bittencourt (2014). ‘MOD- ULAR: Software for the Autonomous Computation of Modu- larity in Large Network Sets’. In: Ecography 37.3, pp. 221–224. doi: 10.1111/j.1600-0587.2013.00506.x.
+Marrero, Hugo J., Diego Medan, G.E. Zarlavsky and Juan P. Torretta (2016). ‘Agricultural Land Management Negatively Affects Pollination Service in Pampean Agro-Ecosystems’. In: Agriculture, Ecosystems & Environment 218, pp. 28–32. doi: 10. 1016/j.agee.2015.10.024.
+Marrero, Hugo J., Juan P. Torretta and Diego Medan (2014). ‘Effect of Land Use Intensification on Specialization in Plant-Floral Visitor Interaction Networks in the Pampas of Argentina’. In: Agriculture, Ecosystems & Environment 188, pp. 63–71. doi: 10. 1016/j.agee.2014.02.017.
+Marrero, Hugo J., Juan P. Torretta, Diego P. Vázquez, Karina Hodara and Diego Medan (2017). ‘Exotic Plants Promote Pol- lination Niche Overlap in an Agroecosystem’. In: Agriculture, Ecosystems & Environment 239, pp. 304–309. doi: 10.1016/j. agee.2017.01.027.
+Martín González, Ana M., Bo Dalsgaard and Jens M. Olesen (2010). ‘Centrality Measures and the Importance of Generalist Species in Pollination Networks’. In: Ecological Complexity 7.1, pp. 36–43. doi: 10.1016/j.ecocom.2009.03.008.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 123
+
+124   a appendix: cophylogeny
+Marussich, Wendy A. and Carlos A. Machado (2007). ‘Host- Specificity and Coevolution among Pollinating and Nonpollin- ating New World Fig Wasps: Cophylogenetic Analyses among Fig Wasps’. In: Molecular Ecology 16.9, pp. 1925–1946. doi: 10. 1111/j.1365-294X.2007.03278.x.
+Maruyama, Pietro Kiyoshi, Jeferson Vizentin-Bugoni, Genilda M. Oliveira, Paulo E. Oliveira and Bo Dalsgaard (2014). ‘Mor- phological and Spatio-Temporal Mismatches Shape a Neotrop- ical Savanna Plant-Hummingbird Network’. In: Biotropica 46.6, pp. 740–747. doi: 10.1111/btp.12170.
+Mayfield, Margaret M. and Jonathan M. Levine (2010). ‘Opposing Effects of Competitive Exclusion on the Phylogenetic Struc- ture of Communities: Phylogeny and Coexistence’. In: Ecology Letters 13.9, pp. 1085–1093. doi: 10.1111/j.1461-0248.2010. 01509.x.
+McDonald-Madden, E., R. Sabbadin, E. T. Game, P. W. J. Baxter, I. Chadès and H. P. Possingham (2016). ‘Using Food-Web Theory to Conserve Ecosystems’. In: Nature Communications 7, p. 10245. doi: 10.1038/ncomms10245.
+McKinnon, L., P. A. Smith, E. Nol, J. L. Martin, F. I. Doyle, K. F. Abraham, H. G. Gilchrist, R. I. G. Morrison and J. Bêty (2010). ‘Lower Predation Risk for Migratory Birds at High Latitudes’.
+In: Science 327.5963, pp. 326–327. JSTOR: 40508534.
+Melián, Carlos J and Jordi Bascompte (2002). ‘Complex Networks: Two Ways to Be Robust?: Complex Networks: Two Ways to Be
+Robust?’ In: Ecology Letters 5.6, pp. 705–708. doi: 10.1046/j.
+1461-0248.2002.00386.x.
+Memmott, Jane (1999). ‘The Structure of a Plant-Pollinator Food
+Web’. In: Ecology Letters 2.5, pp. 276–280. doi: 10.1046/j.1461-
+0248.1999.00087.x.
+Memmott, Jane, Paul G. Craze, Nickolas M. Waser and Mary V.
+Price (2007). ‘Global Warming and the Disruption of Plant- Pollinator Interactions’. In: Ecology Letters 10.8, pp. 710–717. doi: 10.1111/j.1461-0248.2007.01061.x.
+Memmott, Jane, Nickolas M. Waser and M. V. Price (2004). ‘Tol- erance of Pollination Networks to Species Extinctions’. In: Proceedings of the Royal Society B: Biological Sciences 271.1557, pp. 2605–2611. doi: 10.1098/rspb.2004.2909.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Menge, Bruce A. (1995). ‘Indirect Effects in Marine Rocky Inter- tidal Interaction Webs: Patterns and Importance’. In: Ecological Monographs 65.1, pp. 21–74. doi: 10.2307/2937158.
+Merkle, Daniel, Martin Middendorf and Nicolas Wieseke (2010). ‘A Parameter-Adaptive Dynamic Programming Approach for Inferring Cophylogenies’. In: BMC Bioinformatics 11.S1. doi:
+10.1186/1471-2105-11-S1-S60.
+Mills, L. Scott and Daniel F. Doak (1993). ‘The Keystone-Species
+Concept in Ecology and Conservation’. In: BioScience 43.4,
+pp. 219–224. doi: 10.2307/1312122.
+Misof, B. et al. (2014). ‘Phylogenomics Resolves the Timing and
+Pattern of Insect Evolution’. In: Science 346.6210, pp. 763–767.
+doi: 10.1126/science.1257570.
+Mitchell, Randall J., Rebecca J. Flanagan, Beverly J. Brown, Nick-
+olas M. Waser and Jeffrey D. Karron (2009). ‘New Frontiers in Competition for Pollination’. In: Annals of Botany 103.9, pp. 1403–1413. doi: 10.1093/aob/mcp062.
+Moeller, David A. (2004). ‘Facilitative Interactions among Plants via Shared Pollinators’. In: Ecology 85.12, pp. 3289–3301. doi: 10.1890/03-0810.
+Morales, Carolina L. and Anna Traveset (2008). ‘Interspecific Pollen Transfer: Magnitude, Prevalence and Consequences for Plant Fitness’. In: Critical Reviews in Plant Sciences 27.4, pp. 221– 238. doi: 10.1080/07352680802205631.
+Motter, Adilson E (2015). ‘Networkcontrology’. In: Chaos 25, p. 097621. doi: 10.1063/1.4931570.
+Mouillot, David, Nicholas A.J. Graham, Sébastien Villéger, Nor- man W.H. Mason and David R. Bellwood (2013). ‘A Func- tional Approach Reveals Community Responses to Disturb- ances’. In: Trends in Ecology & Evolution 28.3, pp. 167–177. doi: 10.1016/j.tree.2012.10.004.
+Muchhala, Nathan, Zachary Brown, W. Scott Armbruster and Matthew D. Potts (2010). ‘Competition Drives Specialization in Pollination Systems through Costs to Male Fitness’. In: The American Naturalist 176.6, pp. 732–743. doi: 10.1086/657049.
+Muchhala, Nathan and James D. Thomson (2012). ‘Interspecific Competition in Pollination Systems: Costs to Male Fitness via Pollen Misplacement: Pollen Misplacement’. In: Functional
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 125
+
+126   a appendix: cophylogeny
+Ecology 26.2, pp. 476–482. doi: 10.1111/j.1365-2435.2011.
+01950.x.
+Muñoz, Alejandro A. and Lohengrin A. Cavieres (2008). ‘The
+Presence of a Showy Invasive Plant Disrupts Pollinator Service and Reproductive Output in Native Alpine Species Only at High Densities: Invasive Impacts on Native Species Pollination’. In: Journal of Ecology 96.3, pp. 459–467. doi: 10.1111/j.1365- 2745.2008.01361.x.
+Ne’eman, Gidi, Andreas Jürgens, Linda Newstrom-Lloyd, Simon G. Potts and Amots Dafni (2010). ‘A Framework for Compar- ing Pollinator Performance: Effectiveness and Efficiency’. In: Biological Reviews, no–no. doi: 10.1111/j.1469-185X.2009. 00108.x.
+Novalis (1837). Novalis Schriften: Th. Hymnen an Die Nacht. Geist- liche Heder. Vermischte Gedichte. Die Lehrlinge Zu Sais. Philo- sophie Und Physik. Aesthetik Und Literatur. Moralische Ansichten. Anhang. In collab. with F. von Schlegel. Novalis Schriften. G. Reimer.
+Olesen, Jens M., J. Bascompte, Y. L. Dupont and P. Jordano (2007). ‘The Modularity of Pollination Networks’. In: Proceedings of the National Academy of Sciences 104.50, pp. 19891–19896. doi:
+10.1073/pnas.0706375104.
+Ollerton, Jeff and Stella Watts (2000). ‘Phenotype Space and Floral
+Typology: Towards an Objective Assessment of Pollination Syndromes’. In: Det Norske Videnskaps-Akademi. I. Matematisk- Naturvidenskapelige Klasse, Skrifter, Ny Serie 39, pp. 149–159.
+Ollerton, Jeff, Rachael Winfree and Sam Tarrant (2011). ‘How Many Flowering Plants Are Pollinated by Animals?’ In: Oikos 120.3, pp. 321–326. doi: 10.1111/j.1600-0706.2010.18644.x.
+Pagel, Mark (1999). ‘Inferring the Historical Patterns of Biological Evolution’. In: Nature 401.6756, pp. 877–884. doi: 10.1038/ 44766.
+Paine, Robert T. (1966). ‘Food Web Complexity and Species Di- versity’. In: The American Naturalist 100.910, pp. 65–75. doi: 10.1086/282400.
+Palacio, Rubén Darío, Carlos Valderrama-Ardila and Gustavo H Kattan (2016). ‘Generalist Species Have a Central Role In a Highly Diverse Plant-Frugivore Network’. In: Biotropica 48.3, pp. 349–355. doi: 10.1111/btp.12290.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Palacios, Miguel Asin (1930). ‘El "Libro de Los Animales" de Jâh. iz. ’. In: Isis 14.1, pp. 20–54. JSTOR: 224379.
+Paradis, E., J. Claude and K. Strimmer (2004). ‘APE: Analyses of Phylogenetics and Evolution in R Language’. In: Bioinformatics 20.2, pp. 289–290. doi: 10.1093/bioinformatics/btg412.
+Pearce, Jennie and Simon Ferrier (2001). ‘The Practical Value of Modelling Relative Abundance of Species for Regional Conser- vation Planning: A Case Study’. In: Biological Conservation 98.1, pp. 33–43. doi: 10.1016/S0006-3207(00)00139-7.
+Pellissier, Loïc, Julien Pottier, Pascal Vittoz, Anne Dubuis and Antoine Guisan (2010). ‘Spatial Pattern of Floral Morphology: Possible Insight into the Effects of Pollinators on Plant Distri- butions’. In: Oikos 119.11, pp. 1805–1813. doi: 10.1111/j.1600- 0706.2010.18560.x.
+Peralta, Guadalupe, Carol M. Frost, Raphael K. Didham, Arvind Varsani and Jason M. Tylianakis (2015). ‘Phylogenetic Diversity and Co-Evolutionary Signals among Trophic Levels Change across a Habitat Edge’. In: Journal of Animal Ecology 84.2, pp. 364– 372. doi: 10.1111/1365-2656.12296.
+Pinheiro, Jose, Douglas Bates, Saikat DebRoy, Deepayan Sarkar and R Core Team (2018). Nlme: Linear and Nonlinear Mixed Ef- fects Models. R package version 3.1-137.
+Pires, Aliny P. F., Nicholas A. C. Marino, Diane S. Srivastava and Vinicius F. Farjalla (2016). ‘Predicted Rainfall Changes Disrupt Trophic Interactions in a Tropical Aquatic Ecosystem’. In: Ecology 97.10, pp. 2750–2759. doi: 10.1002/ecy.1501.
+Pires, Mathias Mistretta, Flavia Maria Darcie Marquitti and Paulo R. Guimarães (2017). ‘The Friendship Paradox in Species-Rich Ecological Networks: Implications for Conservation and Mon- itoring’. In: Biological Conservation 209, pp. 245–252. doi: 10. 1016/j.biocon.2017.02.026.
+Poisot, Timothée, Elsa Canard, Nicolas Mouquet and Michael E. Hochberg (2012). ‘A Comparative Study of Ecological Special- ization Estimators: Species-Level Specialization’. In: Methods in Ecology and Evolution 3.3, pp. 537–544. doi: 10.1111/j.2041- 210X.2011.00174.x.
+Ponisio, Lauren C., Marilia P. Gaiarsa and Claire Kremen (2017). ‘Opportunistic Attachment Assembles Plant-Pollinator Net-
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 127
+
+128   a appendix: cophylogeny
+works’. In: Ecology Letters 20.10, pp. 1261–1272. doi: 10.1111/
+ele.12821.
+Rafferty, Nicole E. and Anthony R. Ives (2013). ‘Phylogenetic
+Trait-Based Analyses of Ecological Networks’. In: Ecology 94.10,
+pp. 2321–2333. doi: 10.1890/12-1948.1.
+Raimundo, Rafael L.G., Paulo R. Guimarães and Darren M. Evans
+(2018). ‘Adaptive Networks for Restoration Ecology’. In: Trends in Ecology & Evolution 33.9, pp. 664–675. doi: 10.1016/j.tree. 2018.06.002.
+Ramsey, Mike and Glenda Vaughton (2000). ‘Pollen Quality Lim- its Seed Set in Burchardia Umbellata (Colchicaceae)’. In: Amer- ican Journal of Botany 87.6, pp. 845–852. doi: 10.2307/2656892.
+Reiss, Julia, Jon R. Bridle, José M. Montoya and Guy Woodward (2009). ‘Emerging Horizons in Biodiversity and Ecosystem Functioning Research’. In: Trends in Ecology & Evolution 24.9, pp. 505–514. doi: 10.1016/j.tree.2009.03.018.
+Reverté, Sara, Javier Retana, José M. Gómez and Jordi Bosch (2016). ‘Pollinators Show Flower Colour Preferences but Flowers with Similar Colours Do Not Attract Similar Pollinators’. In: Annals of Botany 118.2, pp. 249–257. doi: 10.1093/aob/mcw103.
+Rezende, Enrico L., Eva M. Albert, Miguel A. Fortuna and Jordi Bascompte (2009). ‘Compartments in a Marine Food Web As- sociated with Phylogeny, Body Mass, and Habitat Structure’. In: Ecology Letters 12.8, pp. 779–788. doi: 10.1111/j.1461- 0248.2009.01327.x.
+Rezende, Enrico L., Jessica E. Lavabre, Paulo R. Guimarães, Pedro Jordano and Jordi Bascompte (2007). ‘Non-Random Coextinc- tions in Phylogenetically Structured Mutualistic Networks’. In: Nature 448.7156, pp. 925–928. doi: 10.1038/nature05956.
+Ricketts, Taylor H. (2004). ‘Tropical Forest Fragments Enhance Pollinator Activity in Nearby Coffee Crops’. In: Conservation Biology 18.5, pp. 1262–1271. doi: 10.1111/j.1523-1739.2004. 00227.x.
+Rohr, Rudolf P, Serguei Saavedra and Jordi Bascompte (2014). ‘On the Structural Stability of Mutualistic Systems’. In: Science
+345.6195, p. 1253497. doi: 10.1126/science.1253497.
+Rosling, Hans, Ola Rosling and Anna Rosling Rönnlund (2018). Factfulness: Ten Reasons We’re Wrong about the World and Why
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Things Are Better than You Think. OCLC: 1032000805. London:
+Sceptre. 342 pp. isbn: 978-1-4736-3746-7 978-1-4736-3748-1. Saavedra, Serguei, Rudolf P Rohr, Jens M. Olesen and Jordi Bascompte (2016). ‘Nested Species Interactions Promote Feas-
+ibility over Stability during the Assembly of a Pollinator Com- munity’. In: Ecology and Evolution 6.4, pp. 997–1007. doi: 10. 1002/ece3.1930.
+Saavedra, Serguei, Daniel B. Stouffer, Brian Uzzi and Jordi Bascompte (2011). ‘Strong Contributors to Network Persistence Are the Most Vulnerable to Extinction’. In: Nature 478.7368, pp. 233– 235. doi: 10.1038/nature10433.
+Sagarin, Raphael D., Steven D. Gaines and Brian Gaylord (2006). ‘Moving beyond Assumptions to Understand Abundance Dis- tributions across the Ranges of Species’. In: Trends in Ecology
+& Evolution 21.9, pp. 524–530. doi: 10.1016/j.tree.2006.06.
+008.
+Sargent, Risa D. and Sarah P. Otto (2006). ‘The Role of Local
+Species Abundance in the Evolution of Pollinator Attraction in Flowering Plants’. In: The American Naturalist 167.1, pp. 67–80. doi: 10.1086/498433.
+Schleuning, Matthias, Lili Ingmann, Rouven Strauß, Susanne A. Fritz, Bo Dalsgaard, D. Matthias Dehling, Michaela Plein, Fran- cisco Saavedra, Brody Sandel, Jens-Christian Svenning, Katrin Böhning-Gaese and Carsten F. Dormann (2014). ‘Ecological, Historical and Evolutionary Determinants of Modularity in Weighted Seed-Dispersal Networks’. In: Ecology Letters 17.4, pp. 454–463. doi: 10.1111/ele.12245.
+Seifan, Merav, Eva-Maria Hoch, Sven Hanoteaux and Katja Tiel- börger (2014). ‘The Outcome of Shared Pollination Services Is Affected by the Density and Spatial Pattern of an Attract- ive Neighbour’. In: Journal of Ecology 102.4, pp. 953–962. doi: 10.1111/1365-2745.12256.
+Smith, Christopher Irwin, William K. W. Godsoe, Shantel Tank, Jeremy B. Yoder and Olle Pellmyr (2008). ‘Distinguishing Coe- volution from Covicariance in an Obligate Pollination Mutual- ism: Asynchronous Divergence in Joshua Tree and Its Pollinat- ors’. In: Evolution 62.10, pp. 2676–2687. doi: 10.1111/j.1558- 5646.2008.00500.x.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 129
+
+130   a appendix: cophylogeny
+Stavert, Jamie R., Ignasi Bartomeus, Jacqueline R. Beggs, Anne C. Gaskett and David E. Pattemore (2019). ‘Plant Species Domin- ance Increases Pollination Complementarity and Plant Repro- ductive Function’. In: Ecology 100.9. doi: 10.1002/ecy.2749.
+Stouffer, Daniel B., Alyssa R. Cirtwill and Jordi Bascompte (2014). ‘How Exotic Plants Integrate into Pollination Networks’. In: Journal of Ecology 102.6, pp. 1442–1450. doi: 10.1111/1365-
+2745.12310.
+Stouffer, Daniel B., M. Sales-Pardo, M. I. Sirer and Jordi Bascompte
+(2012). ‘Evolutionary Conservation of Species’ Roles in Food Webs’. In: Science 335.6075, pp. 1489–1492. doi: 10 . 1126 / science.1216556.
+Tangled Trees (2003). Tangled Trees: Phylogeny, Cospeciation, and Co- evolution. Chicago: University of Chicago Press. 350 pp. isbn: 978-0-226-64466-0 978-0-226-64467-7.
+Thebault, E. and Colin Fontaine (2010). ‘Stability of Ecological Communities and the Architecture of Mutualistic and Trophic Networks’. In: Science 329.5993, pp. 853–856. doi: 10.1126/ science.1188321.
+Thébault, Elisa (2013). ‘Identifying Compartments in Presence- Absence Matrices and Bipartite Networks: Insights into Mod- ularity Measures’. In: Journal of Biogeography 40.4, pp. 759–768. doi: 10.1111/jbi.12015.
+Thébault, Elisa and Colin Fontaine (2008). ‘Does Asymmetric Specialization Differ between Mutualistic and Trophic Net- works?’ In: Oikos 117.4, pp. 555–563. doi: 10.1111/j.0030- 1299.2008.16485.x.
+Thompson, John N. (2005). The Geographic Mosaic of Coevolution. Interspecific Interactions. Chicago: University of Chicago Press. 443 pp. isbn: 978-0-226-79761-8 978-0-226-79762-5.
+Thompson, Ross M., Ulrich Brose, Jennifer A. Dunne, Robert O. Hall, Sally Hladyz, Roger L. Kitching, Neo D. Martinez, Heidi Rantala, Tamara N. Romanuk, Daniel B. Stouffer and Jason M. Tylianakis (2012). ‘Food Webs: Reconciling the Structure and Function of Biodiversity’. In: Trends in Ecology & Evolution 27.12, pp. 689–697. doi: 10.1016/j.tree.2012.08.005.
+Thomson, James D., Hannah F Fung and Jane E Ogilvie (2019). ‘Effects of Spatial Patterning of Co-Flowering Plant Species on
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Pollination Quantity and Purity’. In: Annals of Botany 123.2,
+pp. 303–310. doi: 10.1093/aob/mcy120.
+Title, Pascal O. and Jordan B. Bemmels (2017). ENVIREM: EN-
+VIronmental Rasters for Ecological Modeling Version 1.0. doi: 10.
+7302/Z2BR8Q40.
+– (2018). ‘ENVIREM: An Expanded Set of Bioclimatic and To-
+pographic Variables Increases Flexibility and Improves Per- formance of Ecological Niche Modeling’. In: Ecography 41.2, pp. 291–307. doi: 10.1111/ecog.02880.
+Traveset, Anna, R. Heleno, S. Chamorro, P. Vargas, C. K. McMul- len, R. Castro-Urgal, M. Nogales, H. W. Herrera and Jens M. Olesen (2013). ‘Invaders of Pollination Networks in the Galapa- gos Islands: Emergence of Novel Communities’. In: Proceedings of the Royal Society B: Biological Sciences 280.1758, p. 20123040. doi: 10.1098/rspb.2012.3040.
+Tukey, John Wilder (1977). Exploratory Data Analysis. Addison- Wesley Series in Behavioral Science. Reading, Mass: Addison- Wesley Pub. Co. 688 pp. isbn: 978-0-201-07616-5.
+Tur, C., A. Sáez, Anna Traveset and Marcelo A. Aizen (2016). ‘Eval- uating the Effects of Pollinator-Mediated Interactions Using Pollen Transfer Networks: Evidence of Widespread Facilitation in South Andean Plant Communities’. In: Ecology Letters 19.5, pp. 576–586. doi: 10.1111/ele.12594.
+Tylianakis, Jason M., Raphael K. Didham, Jordi Bascompte and David A. Wardle (2008). ‘Global Change and Species Inter- actions in Terrestrial Ecosystems’. In: Ecology Letters 11.12, pp. 1351–1363. doi: 10.1111/j.1461-0248.2008.01250.x.
+Tylianakis, Jason M., Etienne Laliberté, Anders Nielsen and Jordi Bascompte (2010). ‘Conservation of Species Interaction Net- works’. In: Biological Conservation 143.10, pp. 2270–2279. doi: 10.1016/j.biocon.2009.12.004.
+Tylianakis, Jason M. and Rebecca J. Morris (2017). ‘Ecological Networks Across Environmental Gradients’. In: Annual Review of Ecology, Evolution, and Systematics 48.1, pp. 25–48. doi: 10. 1146/annurev-ecolsys-110316-022821.
+Tylianakis, Jason M., Teja Tscharntke and Owen T. Lewis (2007). ‘Habitat Modification Alters the Structure of Tropical Host–Parasitoid
+Food Webs’. In: Nature 445.7124, pp. 202–205. doi: 10.1038/ nature05429.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 131
+
+132   a appendix: cophylogeny
+Vamosi, S. M., S. B. Heard, J. C. Vamosi and C. O. Webb (2009). ‘Emerging Patterns in the Comparative Analysis of Phylogen- etic Community Structure’. In: Molecular Ecology 18.4, pp. 572–
+592. doi: 10.1111/j.1365-294X.2008.04001.x.
+Vázquez, Diego P., Carlos J Melián, Neal M Williams, Nico Blüth- gen, Boris R Krasnov and Robert Poulin (2007). ‘Species Abund- ance and Asymmetric Interaction Strength in Ecological Net-
+works’. In: Oikos 116.7, pp. 1120–1127. doi: 10.1111/j.2007.
+0030-1299.15828.x.
+Vázquez, Diego P., William F. Morris and Pedro Jordano (2005).
+‘Interaction Frequency as a Surrogate for the Total Effect of Animal Mutualists on Plants: Total Effect of Animal Mutualists on Plants’. In: Ecology Letters 8.10, pp. 1088–1094. doi: 10.1111/ j.1461-0248.2005.00810.x.
+Vila, M., I. Bartomeus, A. C. Dietzsch, T. Petanidou, I. Steffan- Dewenter, J. C. Stout and T. Tscheulin (2009). ‘Invasive Plant In- tegration into Native Plant-Pollinator Networks across Europe’. In: Proceedings of the Royal Society B: Biological Sciences 276.1674, pp. 3887–3893. doi: 10.1098/rspb.2009.1076.
+Vizentin-Bugoni, Jeferson, Pietro Kiyoshi Maruyama and Marlies Sazima (2014). ‘Processes Entangling Interactions in Communit- ies: Forbidden Links Are More Important than Abundance in a Hummingbird–Plant Network’. In: Proceedings of the Royal So- ciety B: Biological Sciences 281.1780, p. 20132397. doi: 10.1098/ rspb.2013.2397.
+Vucic-Pestic, Olivera, Roswitha B. Ehnes, Björn C. Rall and Ul- rich Brose (2011). ‘Warming up the System: Higher Predator Feeding Rates but Lower Energetic Efficiencies: Warming and Functional Responses’. In: Global Change Biology 17.3, pp. 1301– 1310. doi: 10.1111/j.1365-2486.2010.02329.x.
+Waser, Nickolas M. (1978). ‘Interspecific Pollen Transfer and Com- petition between Co-Occurring Plant Species’. In: Oecologia 36.2, pp. 223–236. doi: 10.1007/BF00349811.
+Webb, Campbell O., David D. Ackerly, Mark A. McPeek and Michael J. Donoghue (2002). ‘Phylogenies and Community Eco- logy’. In: Annual Review of Ecology and Systematics 33.1, pp. 475– 505. doi: 10.1146/annurev.ecolsys.33.010802.150448.
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+
+Weckstein, Jason D. (2004). ‘Biogeography Explains Cophylogen- etic Patterns in Toucan Chewing Lice’. In: Systematic Biology 53.1, pp. 154–164. doi: 10.1080/10635150490265085.
+Woodford, Darragh J., David M. Richardson, Hugh J. MacIsaac, Nicholas E. Mandrak, Brian W. van Wilgen, John R. U. Wilson and Olaf L. F. Weyl (2016). ‘Confronting the Wicked Problem of Managing Biological Invasions’. In: NeoBiota 31, pp. 63–86. doi: 10.3897/neobiota.31.10038.
+Xie, Yihui (2018). Bookdown: Authoring Books and Technical Docu- ments with R Markdown. R package version 0.9.
+Yang, Suann, Matthew J. Ferrari and Katriona Shea (2011). ‘Pol- linator Behavior Mediates Negative Interactions between Two Congeneric Invasive Plant Species’. In: The American Naturalist 177.1, pp. 110–118. doi: 10.1086/657433.
+Ye, Zhong-Ming, Wen-Kui Dai, Xiao-Fang Jin, Rober W. Gituru, Qing-Feng Wang and Chun-Feng Yang (2014). ‘Competition and Facilitation among Plants for Pollination: Can Pollinator Abundance Shift the Plant-Plant Interactions?’ In: Plant Ecology 215.1, pp. 3–13. doi: 10.1007/s11258-013-0274-y.
+Zanne, Amy E., David C. Tank, William K. Cornwell, Jonathan M. Eastman, Stephen A. Smith, Richard G. FitzJohn, Daniel J. McGlinn, Brian C. O’Meara, Angela T. Moles, Peter B. Reich, Dana L. Royer, Douglas E. Soltis, Peter F. Stevens, Mark West- oby, Ian J. Wright, Lonnie Aarssen, Robert I. Bertin, Andre Calaminus, Rafaël Govaerts, Frank Hemmings, Michelle R. Leishman, Jacek Oleksyn, Pamela S. Soltis, Nathan G. Swenson, Laura Warman and Jeremy M. Beaulieu (2014). ‘Three Keys to the Radiation of Angiosperms into Freezing Environments’. In: Nature 506.7486, pp. 89–92. doi: 10.1038/nature12872.
+Zhang, Xizhe, Tianyang Lv and Yuanyuan Pu (2016). ‘Input Graph: The Hidden Geometry in Controlling Complex Net- works’. In: Scientific Reports 6.1. doi: 10.1038/srep38209.
+Zizka, Alexander, Daniele Silvestro, Tobias Andermann, Josué Azevedo, Camila Duarte Ritter, Daniel Edler, Harith Farooq, Andrei Herdean, María Ariza, Ruud Scharn, Sten Svantesson, Niklas Wengström, Vera Zizka and Alexandre Antonelli (2019).
+‘CoordinateCleaner: Standardized Cleaning of Occurrence Re- cords from Biological Collection Databases’. In: Methods in
+[ 6th December 2019 at 6:46 – Version 1.0.2 ]
+a.4 discussion 133
+
+134 bibliography
+Ecology and Evolution 10.5, pp. 744–751. doi: 10.1111/2041-
+210X.13152.
