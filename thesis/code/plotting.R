@@ -30,6 +30,21 @@ base_ggplot_theme <- function(){
           legend.key = element_rect(fill = NA))
 }
 
+defense_theme <- function(){
+  require(ggplot2)
+  base_ggplot_theme() +
+    theme(text = element_text(family = "iwona"),
+          axis.title = element_text(family = "iwonalight", size = 20),
+          plot.title = element_text(size = 25, hjust = 0.5),
+          plot.subtitle = element_text(size = 20, hjust = 0.5),
+          plot.caption = element_text(size = 14, family = "iwonalight"),
+          panel.border = element_blank(),
+          axis.text = element_blank(),
+          axis.ticks = element_blank(),
+          legend.position = "none",
+          plot.margin = unit(rep(0.5, 4), "cm"))
+}
+
 add_internal_margins <- function(x, i = 1){
   require(ggplot2)
   x[[i]] <- x[[i]]  +
