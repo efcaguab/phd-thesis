@@ -2,6 +2,11 @@ library(magrittr)
 library(drake)
 pkgconfig::set_config("drake::strings_in_dots" = "literals")
 
+# setup fonts
+sysfonts::font_paths("fonts/iwona/")
+sysfonts::font_add("iwona", "fonts/iwona/Iwona-Regular.ttf")
+sysfonts::font_add("iwonalight", "fonts/iwona/IwonaLight-Regular.ttf")
+
 f <- lapply(list.files("code",
                        full.names = T,
                        pattern = ".R$",
@@ -27,8 +32,29 @@ pdf_plan <- drake_plan(
                                    config_file = file_in("_bookdown.yml")))
 
 
+defense_figures_plan <- drake_plan(
+  fig_random_effects_data = readRDS(file_in("data/sdm_networks/fig_random_effects_data.rds")),
+  two_sp_random = target(plot_ranf_species_presentation(fig_random_effects_data,
+                                                        file_out("defense/figures/two_sp_random1.pdf"),
+                                                        file_out("defense/figures/two_sp_random2.pdf"),
+                                                        file_out("defense/figures/two_sp_random3.pdf"))),
+  correlation_plot_presentation = plot_ranf_correlation_presentation(
+    fig_random_effects_data,
+    file_out("defense/figures/all_sp_random_scatter.pdf"),
+    file_out("defense/figures/all_sp_random_correlation.pdf")),
+  coefficient_averages = readRDS(file_in("data/trade_off/coefficient_averages.rds")),
+  variable_importance = readRDS(file_in("data/trade_off/variable_importance.rds")),
+  trade_off_summary_plot = target(
+    plot_coefficient_averages_presentation(
+      coefficient_averages,
+      variable_importance,
+      file_out("defense/figures/trade_off_summary.pdf")))
+)
+
+
 full_plan <- rbind(biblio_plan,
-                   pdf_plan)
+                   pdf_plan,
+                   defense_figures_plan)
 
 # plan_config <- drake_config(full_plan)
 # vis_drake_graph(plan_config)
