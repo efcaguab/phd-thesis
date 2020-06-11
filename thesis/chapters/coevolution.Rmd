@@ -52,7 +52,7 @@ conceptual_title <- ggplot() +
         plot.margin = margin(t = 2, b = 0), 
         plot.subtitle = element_text(margin = margin(b = 0)))
 
-conceptual_panel <-  ggplot() +
+conceptual_panel <- ggplot() +
   base_ggplot_theme() +
   theme(panel.border = element_blank(), 
         plot.margin = margin())
@@ -351,6 +351,7 @@ For the flowering plants, the opposite is true: participation in cophylogenetic 
 ```{r fig-module-cophylogeny, fig.height = fig_sizes()$two_column_width * 0.9, fig.cap = "There is substantial variation in the extent to which individual modules within networks show cophylogenetic signal. For each of the 54 networks (x-axis), we show the number of modules with significant cophylogenetic signal (darker red) and the number that are non-significant (lighter red). The majority of modules in almost all networks do not show a cophylogenetic signal (261 of 349). However, in 44 of 54 networks at least one module shows a stronger cophylogenetic signal than expected by chance.", fig.scap="Cophylogenetic signal of modules", out.extra=''}
 modules_p_value <- "data/coevolution/modules_pvalue.dat"
 make_fig_module_cophylogeny(modules_p_value)
+showtext_auto(FALSE)
 ```
 
 We also explored the degree to which modules show cophylogenetic signal when those modules are identified from quantitative rather than bipartite interaction networks. 

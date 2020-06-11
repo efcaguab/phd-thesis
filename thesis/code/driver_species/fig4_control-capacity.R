@@ -18,7 +18,7 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
     base_ggplot_theme() +
     labs(title = "(a) control capacity of plants",
          subtitle = "probability density",
-         x = latex2exp::TeX("Control capacity ($\\phi$)"),
+         x = latex2exp::TeX("control capacity ($\\phi$)"),
          y = "Probability density") +
     scale_y_continuous(limits = c(0,9)) +
     theme(legend.position = c(1, 0),
@@ -42,7 +42,7 @@ make_fig_control_capacity <- function(sl_characteristics, metadata){
     base_ggplot_theme() +
     labs(title = "(b) control capacity of pollinators",
          subtitle = "probability density",
-         x = latex2exp::TeX("Control capacity ($\\phi$)"),
+         x = latex2exp::TeX("control capacity ($\\phi$)"),
          y = "Probability density") +
     scale_y_continuous(limits = c(0,9)) +
     theme(legend.position = c(1, 0),

@@ -82,7 +82,7 @@ make_fig_control_configurations <- function(en_chain, en_star, en_direction, pdf
   par(mar = rep(0,4), bg = "white", xpd = NA)
 
   # 31
-  standalone_text("directed network", y = 0.5, adj = c(0.5,0), font = 2)
+  standalone_text("directed network", y = 0.5, adj = c(0.5,0), family = "iwonaheavy")
   rect(grconvertX(0, "inches", "user"),
        grconvertY(sum(heights) - heading_height - plot_1_height - desc_height, "inches", "user"),
        grconvertX(3.5, "inches", "user"),
@@ -130,7 +130,7 @@ make_fig_control_configurations <- function(en_chain, en_star, en_direction, pdf
        border = NA)
 
   # 32
-  standalone_text("maximum matchings / control configurations", y = 0.5, adj = c(0.5,0), font = 2)
+  standalone_text("maximum matchings / control configurations", y = 0.5, adj = c(0.5,0), family = "iwonaheavy")
   # 33
   # standalone_vline(lty = 2)
   # plot.new()
@@ -197,6 +197,7 @@ make_fig_control_configurations <- function(en_chain, en_star, en_direction, pdf
                c(2/3+0.025, 0.6)) %>% as.data.frame()
   x_just <- 0.5
   y_just <- 1.1
+  op <- par(family = "iwona")
   legend(x_y[1, ],legend = c("matched link"), horiz = TRUE,
          lty = 1,
          col = get_color("matched"),
@@ -222,7 +223,7 @@ make_fig_control_configurations <- function(en_chain, en_star, en_direction, pdf
          col =  c(get_color("unmatched")),
          pt.cex = 1.5,
          cex = 1, xjust=x_just, yjust=y_just, bty = "n")
-
+par(op)
   # plot.new()
   ## DIV LINES
   # 80

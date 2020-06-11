@@ -38,6 +38,7 @@ plot_ranf_species <- function(fig_random_effects_data){
     scale_fill_manual(values = pal, aesthetics = c("fill", "colour"),
                       labels = c(" env. space based on all spp. occurrences",
                                  " env. space based on each spp. occurrences")) +
+    scale_x_continuous(labels = scales::number_format(drop0trailing = TRUE, accuracy = 0.01)) +
     base_ggplot_theme() +
     coord_cartesian(expand = F) +
     theme(legend.position = "none") +

@@ -15,6 +15,7 @@ site: bookdown::bookdown_site
 # Load required packages
 library(magrittr)
 library(ggplot2)
+library(showtext)
 # Load functions
 knitr::opts_chunk$set(out.width = '\\textwidth', 
                       fig.width = fig_sizes()$two_column_width,
@@ -23,10 +24,11 @@ knitr::opts_chunk$set(out.width = '\\textwidth',
                       echo = FALSE,
                       message = FALSE, 
                       warning = FALSE, 
-                      cache = FALSE)
+                      cache = FALSE, 
+                      fig.showtext = TRUE)
 options(knitr.kable.NA = '')
 ```
- 
+
 ```{r load-dependences, include = FALSE, cache = FALSE}
 
 # latex template

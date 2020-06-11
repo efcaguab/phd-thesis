@@ -8,6 +8,11 @@
 
 \bigskip
 
+```{r}
+showtext_auto()
+```
+
+
 From food and freshwater production to recreation and carbon sequestration, ecosystems provide a wide range of services of considerable value to humans [@costanza_value_1997]. 
 Unfortunately, global change is currently threatening the ability of ecosystems to provide these services [@schroter_ecosystem_2005]. 
 Climate change and invasive alien species, in particular, are some of the most significant causes of ecosystem degradation. 

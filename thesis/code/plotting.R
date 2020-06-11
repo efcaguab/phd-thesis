@@ -10,9 +10,10 @@ fig_sizes <- function(){
 base_ggplot_theme <- function(){
   require(ggplot2)
   theme_bw() +
-    theme(text = element_text(size = 10, family = "Helvetica"),
+    theme(text = element_text(size = 10, family = "iwona"),
           axis.title = element_text(size = 9),
-          plot.title = element_text(size = 9, face = "bold", margin = margin(b = 0)),
+          plot.title = element_text(size = 9, family = "iwonaheavy", margin = margin(b = 0)),
+          axis.text = element_text(family = "iwonalight"),
           plot.subtitle = element_text(size = 9, hjust = 0),
           plot.tag = element_text(size = 9),
           strip.background = element_blank(),

@@ -80,11 +80,11 @@ make_fig_structural_control <- function(en_direction, pdf_out = NULL){
   # plot.new()
   ## FIGURE A
   # 10
-  standalone_text("visitation network", y = 0.25, adj = c(0.5,0), font = 2)
-  # text(0, 1, "(a)", adj = c(0.15,1.5), font = 1)
+  standalone_text("visitation network", y = 0.25, adj = c(0.5,0), family = "iwonaheavy")
+  # text(0, 1, "(a)", adj = c(0.15,1.5), family = "iwona")
 
   # 11
-  standalone_text("direction of control", y = 0.25, adj = c(0.5,0), font = 2)
+  standalone_text("direction of control", y = 0.25, adj = c(0.5,0), family = "iwonaheavy")
 
   # 12
   # standalone_vline(lty = 2)
@@ -137,17 +137,17 @@ make_fig_controllability_conditions <- function(en_structural){
 
   ## FIGURE B
   # 20
-  standalone_text("dilation", y = 0.5, adj = c(0.5,1), font = 1)
-  # text(0, 1, "(b)", adj = c(0.15,1.5), font = 1)
+  standalone_text("dilation", y = 0.5, adj = c(0.5,1), family = "iwona")
+  # text(0, 1, "(b)", adj = c(0.15,1.5), family = "iwona")
   # 21
-  standalone_text("inaccessible node", y = 0.5, adj = c(0.5,1), font = 1)
+  standalone_text("inaccessible node", y = 0.5, adj = c(0.5,1), family = "iwona")
   # 22
-  standalone_text("not\ncontrollable", srt = 90, font = 2)
+  standalone_text("not\ncontrollable", srt = 90, family = "iwonaheavy")
   # 23
-  standalone_text("controllable", srt = 90, font = 2)
+  standalone_text("controllable", srt = 90, family = "iwonaheavy")
   # 24-27
   for (i in c(4,2,5,3)){
-    # if(i == 3)   text(-2.26, 1, "(b)", adj = c(0,1.3), font = 1)
+    # if(i == 3)   text(-2.26, 1, "(b)", adj = c(0,1.3), family = "iwona")
 
     types <- igraph::V(formatted_en_structural[[i]])$control_type == dplyr::first(igraph::V(formatted_en_structural[[i]])$control_type)
     l <- igraph::layout_as_bipartite(formatted_en_structural[[i]], types) %>%
@@ -167,11 +167,13 @@ make_fig_controllability_conditions <- function(en_structural){
   # 83
   # standalone_hline(lty = 2)
   plot.new()
+  op <- par(family = "iwona")
   legend(0.5, 0.5,legend = c("control input"), horiz = TRUE,
          lty = 1,
          col = get_color("control"),
          lwd = 1.5, cex = 1, xjust=0.5, yjust=0.5, bty = "n")
   plot.new()
+  par(op)
 }
 
 add_vertex_edge <- function(x, vertex_name, vertex_type, edges_from, edges_to, edges_type){
@@ -382,9 +384,9 @@ ntw_control_network_theme <- . %>%
   add_property(element = "vertex", attr_name = "color", attr_base = "control_type", "type == 'b' ~ get_color('bg')", "TRUE ~ get_color('base')") %>%
   add_property(element = "vertex", attr_name = "size",attr_base = "control_type",  "type == 'a' ~ 55", "TRUE ~ 45")
 
-standalone_text <- function(text, x = 0.5, y = 0.5, adj = c(0.5,0.5), font = 1, cex = 1, srt = 0){
+standalone_text <- function(text, x = 0.5, y = 0.5, adj = c(0.5,0.5), font = 1, cex = 1, srt = 0, family = "iwona"){
   plot.new()
-  text(x, y, text, adj = adj, font = font, cex = cex, srt = srt)
+  text(x, y, text, adj = adj, font = font, cex = cex, srt = srt, family = family)
 }
 
 
@@ -452,7 +454,7 @@ plot_examples <- function(x, ...){
                       vertex.color = igraph::V(x)$color,
                       vertex.frame.color = igraph::V(x)$frame.color,
                       vertex.shape = igraph::V(x)$shape,
-                      # vertex.label.family = fam,
+                      vertex.label.family = "iwona",
                       # vertex.label.color = l_c,
                       edge.width = igraph::E(x)$width,
                       edge.lty = igraph::E(x)$lty,
