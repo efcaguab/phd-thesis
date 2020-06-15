@@ -21,35 +21,35 @@ A necessary step to anticipate, prevent, and reverse ecosystem degradation is to
 A substantial amount of research indicates that the way ecosystems respond to disturbances is strongly determined by the network of interactions formed by the species that inhabit them [@tylianakis_global_2008; @bascompte_asymmetric_2006]. 
 This is so, because this network, which connects all organisms in an ecological community, underpins ecosystem functioning and structure, and, therefore, can modulate the resilience of ecosystem services to disturbances [@reiss_emerging_2009; @dobson_habitat_2006]. 
 However, we still do not understand enough about the processes that shape interaction networks in ecological communities to harness them for better ecological management. 
-The central aim of my doctoral research is to shed light into outstanding questions about the factors that determine the structure of ecological networks and how this structure can be effectively leveraged for improved management of ecosystem services.
+The central aim of my doctoral research aims to better understand these processes and explores whether a mathematically rigurous network thinking can be effectively leveraged for improved management of ecosystem services.
 
 In this thesis, I focus on the network of mutualistic interactions between plants and pollinators. 
 These networks, which form the base of pollination systems, play a globally significant role in the maintenance of biodiversity and crop production [@bascompte_plant-animal_2007; @klein_importance_2007].
 Pollination systems are locally critical too; for instance, birds or insects pollinate two-thirds of New Zealand plants [@cox_pollinator_2000], and this includes iconic native plants (like kōwhai and pōhutukawa), and economically important crops (like kiwifruit, apples and grapes). 
-Regrettably, just like other species interactions, the relationship between plants and pollinators, are currently being disrupted by multiple drivers of human-driven global change at a worldwide scale [@cox_pollinator_2000].
+Regrettably, just like other species interactions, the relationship between plants and pollinators,is currently being disrupted by global change at a worldwide scale [@cox_pollinator_2000].
 
-The number of partners species hve is a defining feature of the roles they play in its community [@cirtwill_review_2018]. 
+The number of partners species have is a defining feature of the roles they play in its community [@cirtwill_review_2018]. 
 At the species level it determines wether a species is a specialist or a generalist.
 At the community level, the distribution of the number of partners species have in the community is the main ingredient defining network structure. 
 However, the number of partners a species has is not constant across the different ecological communities the species may inhabit [@gravel_bringing_2018]. 
-It has been shown that the environment can influence how species interact and therefore, it can also be responsible for some of the differences observed across communities [@tylianakis_ecological_2017]. 
+It has been shown that the environment can influence how species interact and therefore, the environment can also be responsible for some of the differences observed across communities [@tylianakis_ecological_2017]. 
 However, how exactly the environment may influence the number of partners a species has, particularly in plant-pollinator communities, is not well understood. 
 In \autoref{sdm-networks}, I investigate precisely this and explore how the environment may affect the specialisation of species in its community. 
-Because multiple abiotic factors (e.g. temperature, precipitation, etc.) can have contrasting effects on species, I explore how the *stresses* the environment imposes on interacting species may affect network structure, irrespective of the particular variable responsible for the stress. 
+Because multiple abiotic factors (e.g. temperature, precipitation, etc.) can have contrasting effects on species, I explore how the *stresses* the environment imposes on interacting species affect network structure, irrespective of the particular variable responsible for the stress. 
 To do that, I use a global dataset of pollination networks and complement it with information about the global climate and the occurrence of species. 
-Importantly, because the environment can also drive changes in community composition [@anderson_navigating_2011], I look at the effect of environmental stress on the number of partners after accounting for the number of possible partners in the community.
+Importantly, because the environment can also drive changes which species might be present there in the first place [@anderson_navigating_2011], I look at the effect of environmental stress on the number of partners after accounting for the number of possible partners in the community.
 
-After exploring how abiotic factors may influence the specialisation, in \autoref{pollen-competition} I investigate the possible implications for the pollination service. 
+After exploring how abiotic factors may influence the specialisation, in \autoref{pollen-competition} I investigate the possible implications for pollination. 
 Pollination networks are deemed to be relatively generalised when compared with other types of ecological networks. 
-That is, pollinators tend to interact with a large number of plants and vice-versa, which biases the degree distribution.
+That is, pollinators tend to interact with a large number of plants and vice-versa, which influences the distribution of the number of partners species have in the community—the degree distribution.
 Previous theoretical work has suggested that this tendency of species to have a large degree and incidentally share a large number of partners, is responsible for the impressive biodiversity of pollination communities [@bastolla_architecture_2009]. 
 Theoretically, this partner sharing increases the possible positive feedback loops between plants and pollinators, which offset the antagonistic interactions that may exist among each guild [@moeller_facilitative_2004]. 
 These findings imply that coexistence of species is maximised when pollinator sharing is the highest. 
 This implication is, in turn, based on the assumption that pollination interactions are primarily mutualistic. 
 However, there is ample empirical evidence going back to the end of the 19th century emphasising the competitive aspects of pollination and showing that plant reproduction depends strongly on the quality of the mutualistic service [@mitchell_new_2009].
 
-In \autoref{pollen-competition} I return to the longstanding view of pollination as a balance between facilitation and competition. 
-Specifically, I explore how the sharing of partners, a common feature of generalised pollination networks, involves trade-offs in the quality of pollination that may cascade into changes to network structure. 
+In \autoref{pollen-competition} I return to the longstanding view of pollination as a balance between facilitation and competition among plants. 
+Specifically, I explore how the sharing of partners, a common feature of generalised pollination networks, involves trade-offs between the quantity and purity of pollination. 
 A shortcoming of previous empirical evidence was that it focused primarily on pairs of species, or, at most, small subsets of ecological communities. 
 However, ecological communities are highly diverse, and multiple biotic, confounding factors—beyond the number of shared pollinators—can also affect the quality of the pollination service [@flanagan_effects_2011]. 
 Here, I expand the analysis of competition for pollination to ecological communities using a comprehensive dataset collected by Hugo Marrero and collaborators in the Argentinean Pampas [@marrero_agricultural_2016; @marrero_effect_2014; @marrero_exotic_2017]. 
@@ -60,6 +60,6 @@ By controlling a network, I mean being able to modify the state of an ecological
 Traditionally, it has been assumed that species central to the network of interactions, often species with a large degree, are essential to control the ecological network [@jordan_keystone_2009]. 
 These species are often termed keystone species because they play a crucial role in ecosystem functioning as they can have profound impacts on the abundances of other species in the community [@mills_keystone-species_1993]. 
 However, whether central species can modify the abundance of others is not based on a mechanistic understanding of how species affect each other in a network context, but merely on the assumption that species that are better connected are more influential. 
-I use recent developments on structural controllability of complex networks to investigate whether this is the case or not. 
+I use recent developments on structural controllability of complex networks to investigate whether central species are more influential or not. 
 
 \addtocontents{toc}{\protect\vspace{1em}}
