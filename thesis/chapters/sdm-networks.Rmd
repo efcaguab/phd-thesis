@@ -162,7 +162,7 @@ Often, the potential and the actual number of partners is the same or very close
 
 We allowed the intercept and slope of the stress-specialisation relationship to vary among species. 
 This approach allowed us to investigate two questions. 
-First, it allows us to inspect the extent to which environmental stress affects species similarly. 
+First, it allows us to inspect the extent to which environmental stress affects species in a similar way. 
 Second, by investigating the correlation between the intercept and the slope as a model parameter, it allowed us to inspect the extent by which species with a small or large number of partner species respond to increasing levels of environmental stress. 
 To account for unmeasured differences between communities, like sampling effort, sampling method, or diversity, we also allowed the model intercept to be different for each community in our study.
 To facilitate model interpretation and convergence, we scaled all continuous variables to have a mean of zero and a unit variance. 
