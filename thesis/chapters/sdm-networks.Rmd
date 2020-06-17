@@ -288,11 +288,6 @@ The increases in the stress that species are predicted to experience due to rapi
 Communities as a whole might be in a trajectory of even more diffuse co-evolution.
 For specialists, at least, the longer-term benefits of being able to interact with multiple partners might be more important than the shorter-term benefits of interacting with partners of high trait matching. 
 
-The structural implications of the "regression towards the mean" that environmental stress promotes are less clear. 
-However, it is plausible to expect that nestedness, and therefore network stability, might be reduced in the face of rapid environmental change.
-Determining exactly how the changes in degree caused by environmental stress are reflected by systematic changes in network structure would be an interesting avenue of research. 
-Answering this question would require expanding our suitability analysis to all species in the community and comparing the degree distribution of networks along a gradient of stress for the community as a whole. 
-
 In conclusion, we show that the environment can affect the specialisation level of plants and pollinators in systematic ways beyond community composition. 
 Species that are inflexible with their interaction partners are unlikely to persist under more stressful environmental conditions. 
 However, we show that many species are flexible with regards to their specialisation levels and therefore are not inherently generalists or specialists. 
