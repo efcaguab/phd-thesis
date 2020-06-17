@@ -278,6 +278,9 @@ These "flexible specialists" might therefore have a more significant role in net
 However, there is a fourth group that remained invisible to our model but has important implications for network persistence and stability.
 Species that can vary their interaction partners flexibly and their role in the network are more likely to persist in their community as environmental conditions vary [@gaiarsa_interaction_2019].
 We propose this fourth group is composed of true specialists that are constrained to interact with partners of high trait-matching and therefore were not likely to be found in more than one community. 
+Unfortunately it is not straigtforward to explicitly account for this fourth group.
+Accounting for these species would require information that allow us to determine the communities in which the species is not present due to the lack of interaction partners even if climatic conditions are otherwise favourable. 
+How to distinguish these two processes (often termed Eltonian and Grinellian, niches respectively) is stil an open area of res [@gravel_bringing_2018]
 If species that are not flexible are unlikely to persist over temporal or spatial environmental gradients, we can expect specialised communities that are highly constrained by trait-matching [like some plant-hummingbird networks; @vizentin-bugoni_processes_2014; @maruyama_morphological_2014] to be far more vulnerable to increased climate change-induced environmental stress and habitat degradation than communities where role and interaction flexibility are more prevalent.
 
 Similarly, if the patterns we see in our models have also played a role during the evolutionary history of pollination communities, our results also help to explain why only a small fraction of plant-pollinator interactions shows a strong signature of deep co-evolutionary history [@hutchinson_cophylogenetic_2017].
