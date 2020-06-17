@@ -77,7 +77,7 @@ A critical step towards reducing this uncertainty is to ensure that the names us
 Therefore, our first step was to ensure consistent spelling and standardisation of species names synonyms (see \hyperlink{sup-env}{Supplementary Methods}).
 The cleaning process resulted on a total of 2,555 plants and 8,406 pollinator species distributed across 73 locations arround the globe (Figure \@ref(fig:fig-distribution-species-mult-locations) and \hyperlink{sup-env}{S1}).
 
-```{r fig-distribution-species-mult-locations, fig.height = 2.2, fig.cap = "Frequency distribution of the number of locations in which a species is present. The most common pollinator species was emph{Apis melifera}, which was sampled on 42 locations, while the most common plant species was emph{Trifolium repens}, which was sampled on 11 locations", fig.scap="Location dstribution of species", out.extra='', fig.showtext = TRUE}
+```{r fig-distribution-species-mult-locations, fig.height = 2.2, fig.cap = "Frequency distribution of the number of locations in which a species is present. The most common pollinator species was \\emph{Apis melifera}, which was sampled on 42 locations, while the most common plant species was \\emph{Trifolium repens}, which was sampled on 11 locations", fig.scap="Location dstribution of species", out.extra='', fig.showtext = TRUE}
 dist_species_multiple_locations_data <- readRDS("data/sdm_networks/species_location_distribution.rds")
 
 # pdf(width = fig_sizes()$two_column_width, height = 2.4)
@@ -180,7 +180,7 @@ After performing our sensitivity analysis, we found that, for a species, we need
 This is the number of occurrences necessary to maintain the mean absolute error of bioclimatic suitability below 0.1 (Figure \@ref(fig:fig-sensitivity-analysis)). 
 We therefore removed from further analyses 283 species for which we did not have enough occurrences to obtain robust estimates.
 
-```{r fig-sensitivity-analysis, fig.height = 2.2, fig.cap = "Sensitivity analysis of environmental stress error. The number of independent occurrences retrieved from GBIF is inversely related to the error of bioclimatic suitability for our plant-pollinator networks. The sensitivity analysis was performed by subsampling occurrences of emph{Archilochus colubris}, the species in our dataset with the largest number of occurrences in GBIF, which was recorded in two of our communities.", out.extra='', fig.scap="Sensitivity of environmental stress error", fig.showtext = TRUE}
+```{r fig-sensitivity-analysis, fig.height = 2.2, fig.cap = "Sensitivity analysis of environmental stress error. The number of independent occurrences retrieved from GBIF is inversely related to the error of bioclimatic suitability for our plant-pollinator networks. The sensitivity analysis was performed by subsampling occurrences of \\emph{Archilochus colubris}, the species in our dataset with the largest number of occurrences in GBIF, which was recorded in two of our communities.", out.extra='', fig.scap="Sensitivity of environmental stress error", fig.showtext = TRUE}
 
 fig_sensitivity_analysis_data <- readRDS("data/sdm_networks/fig_sensitivity_analysis_data.rds")
 plot_sensitivity_analysis(fig_sensitivity_analysis_data) 
