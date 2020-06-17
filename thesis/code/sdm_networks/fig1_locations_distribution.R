@@ -22,6 +22,7 @@ plot_species_location_distribution <- function(dist_species_multiple_locations_d
                      label.minwidth = unit(10, "mm"),
                      label.margin = margin(0.5, 0.5, 0.5, 0.5, "mm"),
                      label.fontface = "italic",
+                     label.family = "iwonaitalic",
                      con.size = 0.25,
                      con.cap = unit(1, "mm"),
                      con.type = "straight") +
@@ -38,6 +39,7 @@ plot_species_location_distribution <- function(dist_species_multiple_locations_d
          title = "number of species at multiple locations",
          subtitle = "frequency distribution")
 
+  # ggsave("plot.pdf")
   # ggsave("plot.pdf", p,  width = unit(width("single"), "in"), height = unit(2.2, "in"))
   p
 }

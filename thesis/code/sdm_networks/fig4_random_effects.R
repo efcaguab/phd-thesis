@@ -29,6 +29,7 @@ plot_ranf_species <- function(fig_random_effects_data){
                      label.minwidth = unit(10, "mm"),
                      label.margin = margin(0.5, 0.5, 0.5, 0.5, "mm"),
                      label.fontface = "italic",
+                     label.family = "iwonaitalic",
                      con.size = 0.25,
                      con.cap = unit(0.1, "mm"),
                      con.type = "straight") +

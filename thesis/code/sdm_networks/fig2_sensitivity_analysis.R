@@ -35,9 +35,10 @@ plot_sensitivity_analysis <- function(fig_sensitivity_analysis_data){
               aes(label = paste("~",  value, "occurrences\nper community"),
                   x = value*n_nets),
               y = max(e$error), angle = 90, hjust = 1, vjust = 1.2,
-              size = 2.3, lineheight = 0.8) +
+              size = 2.3, lineheight = 0.8,
+              family = "iwona") +
     annotate("text", label = "10% error", x = max(e$n_occ), y = 0.1, hjust = 1,
-             vjust = -1, size = 2.3) +
+             vjust = -1, size = 2.3, family = "iwona") +
     # scale_x_continuous(limits = c(2,35)) +
     scale_x_log10() +
     # scale_fill_manual(values = pal, aesthetics = c("fill", "colour"),

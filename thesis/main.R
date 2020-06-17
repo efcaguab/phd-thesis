@@ -7,6 +7,7 @@ pkgconfig::set_config("drake::strings_in_dots" = "literals")
 # setup fonts
 sysfonts::font_paths("fonts/iwona/")
 sysfonts::font_add("iwona", "fonts/iwona/Iwona-Regular.ttf")
+sysfonts::font_add("iwonaitalic", "fonts/iwona/Iwona-Italic.ttf")
 sysfonts::font_add("iwonalight", "fonts/iwona/IwonaLight-Regular.ttf")
 sysfonts::font_add("iwonamedium", "fonts/iwona/IwonaMedium-Regular.ttf")
 sysfonts::font_add("iwonaheavy", "fonts/iwona/IwonaHeavy-Regular.ttf")
