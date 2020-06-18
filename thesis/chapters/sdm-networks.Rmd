@@ -157,11 +157,12 @@ Importantly, results are qualitatively similar when we model species degree dire
 
 We evaluated four models to assess the relative importance of suitability. 
 A first model, our baseline model, included five variables. 
-The predictors in the baseline model were the environmental stress, its number of known possible partners in the community, and both the species guild (plant or a pollinator) and its interaction with environmental stress.
-We included the number of known possible partners as a predictor in our models as it allows us to control for the effects of the environment on community composition, effectively accounting for species co-occurrence. 
-We calculated this metric by determining the number of partners with which the species is known to interact in any other community.
-Controlling for the number of potential partners makes our model a particularly stringent test of our environmental-stress hypotheses because this variable could explain a large proportion of variance. 
-Often, the potential and the actual number of partners is the same or very close to each other, especially for rare species present only in a few communities.
+The predictors in the baseline model were the environmental stress of the community for each focal species, the species' number of known possible partners in the community, and both the species guild (plant or a pollinator) and its interaction with environmental stress.
+We included the number of known possible partners as a predictor in our models. 
+We included this predictor as we would expect an increase in the number of actual partners merely due to an increase in the number of available partners.
+From a community ecology perspective, this is justified because our response variable can be interpreted as the "realised" portion of the niche, and the number of potential partners is a rough approximation to the "fundamental" niche. 
+From a biogeographic perspective, including the number of potential partners is an attempt to control for the effects of the environment on community composition and species co-occurrence. 
+We determined the number of possible partners in a particular community by counting the number of species in the opposite guild with which the species interacted in any other community in our interaction dataset. 
 
 We allowed the intercept and slope of the stress-specialisation relationship to vary among species. 
 This approach allowed us to investigate two questions. 
