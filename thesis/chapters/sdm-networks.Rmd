@@ -147,7 +147,10 @@ For that we used the species with most occurrences available, *Archilochus colub
 
 We then used a set of Bayesian multilevel models to evaluate the impact of environmental stress on species specialisation. 
 Specifically, we use the normalised degree of species as our response variable; that is, the number of species it interacts with given the number of species in the opposite guild [@martin_gonzalez_centrality_2010]. 
-The normalised degree was modelled using a logit link function, and a binomial distribution in which the number of partner species a focal interacts with is the number of successes, and the number of species in the opposite guild is the number of trials. 
+We use degree mainly because it is a simple approximation of specialisation from the "eltonian niche" perspective. 
+Importantly quantifying specialisation using degree does not require quantitative information about the interactions. 
+This crucial feature allowed us to include many more communities and, ultimately, minimise the possible over-representation of common and cosmopolitan species in our model.
+In our model, the normalised degree was modelled using a logit link function and a binomial distribution in which the number of partner species a focal species interacts with is the number of successes, and the number of species in the opposite guild is the number of trials. 
 We are aware that whether species interact or not is not a Bernoulli process as species interactions are not strictly independent from each other. 
 However, the use of a binomial distribution allows us to account for the differences in species richness across communities indirectly. 
 Importantly, results are qualitatively similar when we model species degree directly using a Poisson distribution and a logarithmic link function.
