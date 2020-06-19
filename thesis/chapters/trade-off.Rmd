@@ -16,22 +16,22 @@ This Chapter has been published as a pre-print by \fullcite{cagua_trade-offs_201
 ## Summary {-}
 
 A fundamental feature of pollination systems is the indirect facilitation and competition that arises when plants species share pollinators. 
-When plants share pollinators, the pollination service can be dramatically different to what it would be without sharing. 
+When plants share pollinators, pollination can be dramatically different to what it would be without sharing. 
 This depends not only on how many partners plant species share, but also by multiple intertwined factors like the plant species' abundance, visitation, or traits. 
 These factors inherently operate at the community level. 
-However, most of our understanding of how these factors may affect the pollination service is based on systems of up to a handful of species. 
-By examining comprehensive empirical data in eleven natural communities, we show here that the pollination service is—surprisingly—only partially influenced by the number of shared pollinators. 
-Instead, the factors that most influence the pollination service (abundance and visit effectiveness) also introduce a trade-off between the absolute amount of conspecific pollen received and the amount relative to heterospecific pollen. 
+However, most of our understanding of how these factors may affect pollination is based on systems of up to a handful of species. 
+By examining comprehensive empirical data in eleven natural communities, we show here that pollination is—surprisingly—only partially influenced by the number of shared pollinators. 
+Instead, the factors that most influence pollination (abundance and visit effectiveness) also introduce a trade-off between the absolute amount of conspecific pollen received and the amount relative to heterospecific pollen. 
 Importantly, the ways plants appear to balance these trade-offs depend strongly on the community context, as most species showed flexibility in the strategy they used to cope with competition for pollination. 
 
 ## Introduction
 
 Animal pollination plays a disproportionally important role in food production and maintenance of global biodiversity [@bascompte_plant-animal_2007; @klein_importance_2007; @ollerton_how_2011]. 
-At a pairwise level, the mutually beneficial relationship between plants and pollinators underpins the pollination service. 
+At a pairwise level, the mutually beneficial relationship between plants and pollinators underpins pollination. 
 At a community level, sometimes involving hundreds of species, both plant and pollinator species are connected in a myriad of indirect connections when pollination partners are shared. 
-These indirect connections can dramatically alter the quality of the pollination service that plants receive because they determine how conspecific and heterospecific pollen is transferred across the community [@morales_interspecific_2008]. 
+These indirect connections can dramatically alter the quality of the pollination 'service' that plants receive because they determine how conspecific and heterospecific pollen is transferred across the community [@morales_interspecific_2008]. 
 Generally speaking, there is a trade-off between the benefits gained from a species maximising its number of partners and the costs of sharing them with other plant species [@waser_interspecific_1978].
-However, due to the large number of factors that operate at the community level, we generally do not know how sharing pollinators affects the pollination service beyond systems with more than a handful of species. 
+However, due to the large number of factors that operate at the community level, we generally do not know how sharing pollinators affects pollination beyond systems with more than a handful of species. 
 Here we investigate how pollinator sharing affects pollen transfer *in natural communities* and how it compares to other factors known to play a role in community dynamics like abundance, traits, and visitation patterns.
 
 There are two main mechanisms through which sharing pollinators can affect plant fertilisation [@morales_interspecific_2008]. 
@@ -43,7 +43,7 @@ Naturally, the precise effects on female or male plant fitness of conspecific an
 
 Even for species well adapted to pollinator sharing, receiving foreign pollen on stigmas or losing pollen to foreign stigmas is neutral (at best). 
 Indeed, there is substantial evidence supporting the idea that heterospecific pollen deposition can be detrimental to seed production and plant fitness [@ashman_toward_2013; @arceo-gomez_invasion_2016].
-All else being equal, provided pollen is viable and compatible [@ramsey_pollen_2000; @de_jong_plant_1992; @dafni_pollen_2000], the higher the quantity of conspecific pollen and its purity (relative to heterospecific pollen), the better the pollination service received by the focal plant. 
+All else being equal, provided pollen is viable and compatible [@ramsey_pollen_2000; @de_jong_plant_1992; @dafni_pollen_2000], the higher the quantity of conspecific pollen and its purity (relative to heterospecific pollen), the better the pollination received by the focal plant. 
 As such, measuring conspecific and heterospecific pollen deposition provides a good indication of the potential levels of facilitation and competition a plant population might experience. 
 
 By definition, intra- and interspecific pollen transfer occur at the community scale.
@@ -60,21 +60,21 @@ Altogether, it is clear that these ecological factors can indeed shape pollen de
 However, we still do not understand their relative importance and *the trade-offs* that might exist between them. 
 
 Here, we investigate pollen-deposition dynamics at the community scale using empirical data from eleven plant-pollinator communities in the Argentinian Pampas. 
-First, we investigate the relative contribution that four ecological factors make to the pollination service. 
+First, we investigate the relative contribution that four ecological factors make to pollination. 
 Specifically, we hypothesise that there are trade-offs on how these factors affect the quantity and purity of conspecific pollen deposition. 
 While quantity and purity should decrease for plants that share many pollination partners, other factors like the plant's functional originality, its relative floral abundance, and its visitation patterns should have the potential to compensate for this decrease
 Second, we examine how these four factors that might affect pollen deposition can change across communities where species are present. 
-Because these factors may affect the pollination service in contrasting ways, and a species role is relative to other species in the community, we predict that species present in multiple communities should be flexible enough to compete for pollinators under different community contexts. 
+Because these factors may affect pollination in contrasting ways, and a species role is relative to other species in the community, we predict that species present in multiple communities should be flexible enough to compete for pollinators under different community contexts. 
 
 ## Methods
 
 We collected data from eleven co-flowering plant communities and their pollinators in three locations in the Argentinian Pampas. 
 In each location, we sampled two restored and two agricultural fragments, except in one located in the Flooding Pampas, where we were only able to sample one restored fragment due to the lack of available sites.
 
-## Factors affecting quantity and purity of pollination service 
+## Factors affecting quantity and purity of pollination 
 
 Our first objective was to investigate the relative contribution that different ecological factors have on pollen deposition. 
-Generally speaking, we expect that any factor that increases the amount of conspecific pollen deposited in stigmas, both in quantity and purity relative to heterospecific pollen, also has a positive effect on the pollination service.
+Generally speaking, we expect that any factor that increases the amount of conspecific pollen deposited in stigmas, both in quantity and purity relative to heterospecific pollen, also has a positive effect on pollination.
 Specifically, we investigated the effect of (*i*) a plant's number of shared pollinator species, (*ii*) a plant's abundance relative to the rest of the community, (*iii*) the mean visit potential---a metric that combines the amount and type of pollen carried by floral visitors and the number of visits it receives from them, and (*iv*) the plant's functional originality [@laliberte_distance-based_2010]. 
 See *Data Analysis* section below for more details on these four factors. 
 
@@ -102,7 +102,7 @@ More details can be found in Marrero *et al.* (2014 and 2017).
 
 ### Data analysis
 
-To investigate the impact of ecological factors on pollination services, we used two sets of linear mixed models (LMM) with bootstrap resampling.
+To investigate the impact of ecological factors on pollination, we used two sets of linear mixed models (LMM) with bootstrap resampling.
 The response variables for these model sets were the number of conspecific and heterospecific pollen grains deposited per stigma in flowers open to animal-mediated pollination. 
 We used LMMs in which pollen loads were log-transformed because these models offered a better fit than equivalent GLMMs with Poisson (or quasi-Poisson) error structure. 
 Models were fitted using the R package `nlme 3.1-131` [@pinheiro_nlme_2018]. 
@@ -126,7 +126,7 @@ To estimate the coefficients, perform model selection, and quantify the associat
 Using bootstrap replicates allow us to better understand the uncertainties associated with our estimations. 
 First, we performed model selection using AICc and determined the likelihood of each candidate model (a particular combination of predictors) by calculating the median \(\Delta\)AICc (relative to the most likely model) for each bootstrap sample. 
 As we wanted model coefficients from more likely candidate models to carry more weight in our results, we sampled the coefficients for our factors proportionally to the likelihood of their candidate model. 
-Finally, we used these distributions of the model coefficients to estimate their mean impact on the pollination service (in terms of quantity and purity of conspecific pollen deposition). 
+Finally, we used these distributions of the model coefficients to estimate their mean impact on pollination (in terms of quantity and purity of conspecific pollen deposition). 
 
 ## Flexibility of plant strategies
 
@@ -141,7 +141,7 @@ We then compared the magnitude of these two metrics to those obtained with 99 Mo
 
 ## Results
 
-### Factors affecting quantity and purity of pollination service
+### Factors affecting quantity and purity of pollination
 
 We first examined the potential roles played in pollen deposition by four ecological factors (number of shared pollinators, abundance, mean visit potential, and functional originality). 
 We found that our models of pollen deposition had high explanatory power (the coefficient of determination R^2^ ranged between 0.76 and 0.93) although a large portion of the explanatory power came from the random effects (Table \hyperlink{sup-pc}{S3}).
@@ -181,7 +181,7 @@ The third most important factor, functional originality, had a positive, althoug
 Finally, the number of shared pollinators had negative and neutral associations with conspecific and heterospecific pollen, respectively, but these impacts were small when compared to the other factors. 
 Although the ecological factors were positively correlated (Figure \hyperlink{sup-pc}{S2}), the collinearity between predictors did not qualitatively affect our findings (Figure \hyperlink{sup-pc}{S3}).
 
-```{r fig-average-qual-quant, fig.height = 1.4*2+1.2, out.extra="", fig.scap="Ecological factors and pollination", fig.cap="Effect of ecological factors on the pollination service. (a) The association between ecological factors and heterospecific pollen (lighter line) tended to align with their association with conspecific pollen (darker line). Visit potential and functional originality had a positive association with pollen deposition, while floral abundance and the number of shared pollinators had a negative association. The plot shows the distribution of the effects (across 99 bootstrap replicates) of the four ecological factors for conspecific and heterospecific pollen. (b) The end result of these associations is that only the plants' functional originality has a positive impact on both the quantity and purity of conspecific pollen deposition (relative to heterospecific pollen). The plot shows the model averaged mean effect ($\\pm$ SE of 99 bootstrap replicates).", cache = FALSE, fig.showtext = TRUE}
+```{r fig-average-qual-quant, fig.height = 1.4*2+1.2, out.extra="", fig.scap="Ecological factors and pollination", fig.cap="Effect of ecological factors on pollination. (a) The association between ecological factors and heterospecific pollen (lighter line) tended to align with their association with conspecific pollen (darker line). Visit potential and functional originality had a positive association with pollen deposition, while floral abundance and the number of shared pollinators had a negative association. The plot shows the distribution of the effects (across 99 bootstrap replicates) of the four ecological factors for conspecific and heterospecific pollen. (b) The end result of these associations is that only the plants' functional originality has a positive impact on both the quantity and purity of conspecific pollen deposition (relative to heterospecific pollen). The plot shows the model averaged mean effect ($\\pm$ SE of 99 bootstrap replicates).", cache = FALSE, fig.showtext = TRUE}
 height1 <- 2.5
 height2 <- 1.5
 # pdf(width = fig_sizes()$two_column_width , height = height1 + height2)
@@ -259,12 +259,12 @@ fig_distances
 ## Discussion 
 
 Our results suggest that community context plays a central role in determining the pollen deposition dynamics and ultimately the net cost or benefit of sharing pollinators.
-First, we found that multiple ecological factors can modulate the quality of the pollination service; however, conspecific and heterospecific pollen deposition are tightly coupled and this creates a clear trade-off between the quantity and purity of pollination [@thomson_effects_2019]. 
+First, we found that multiple ecological factors can modulate the quality of pollination; however, conspecific and heterospecific pollen deposition are tightly coupled and this creates a clear trade-off between the quantity and purity of pollination [@thomson_effects_2019]. 
 Second, we found that the way these factors shape pollen deposition for a species could be dramatically different across communities. 
 For instance, while a plant species in a particular community could show high levels of pollinator sharing and relatively low trait differentiation, the same species in another community can have relatively high trait differentiation and low levels of pollinator sharing. 
-Our findings highlight that trade-offs can at least partially explain the coexistence of facilitative and competitive effects of animal-mediated pollination in the pollination service.
+Our findings highlight that trade-offs can at least partially explain the coexistence of facilitative and competitive effects of animal-mediated pollination.
 
-The trade-offs involved in attaining high-quality pollination service (and more broadly between facilitation and competition) are likely to arise when plants simultaneously maximise the deposition of conspecific pollen and minimise that of heterospecific pollen. 
+The trade-offs involved in attaining high-quality pollination (and more broadly between facilitation and competition) are likely to arise when plants simultaneously maximise the deposition of conspecific pollen and minimise that of heterospecific pollen. 
 In the short term, being a specialist and sharing no pollinators might reduce competition [@muchhala_competition_2010] and hence be preferable. 
 This may be due to both costs to male fitness [@muchhala_interspecific_2012; @morales_interspecific_2008], and also, as we show here, because sharing pollinators reduces both the quantity and purity of the conspecific pollen deposited. 
 However, over long periods of time, there could be a risk associated with a specialist plant having few pollinators [@ricketts_tropical_2004]. 
@@ -297,7 +297,7 @@ Nevertheless, our results indicate that the strategies a plant might use to succ
 
 Overall, using empirical data on pollen deposition, we show at the community level that sharing pollinators has a smaller effect on pollen deposition than what we expected based on experimental studies with a handful species.
 Other factors that underpin community dynamics (abundance, traits, visitation) also influence patterns of pollination quantity and purity. 
-The interrelatedness of these factors, and the flexibility of species to position themselves across them, means that their contributions to the quality of the pollination service cannot be understood in isolation. 
+The interrelatedness of these factors, and the flexibility of species to position themselves across them, means that their contributions to the quality of pollination cannot be understood in isolation. 
 All of the factors we analysed involve substantial trade-offs in pollen deposition in the short and likely also in the long term. 
 These trade-offs emphasise the inherently competitive nature of pollination. 
 However, many of the widely used theoretical models of plant-pollinator communities do not account for the adverse effects of sharing pollinators [but see @rohr_structural_2014 and similar]. 
