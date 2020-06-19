@@ -31,7 +31,7 @@ options(knitr.kable.NA = '')
 
 ```{r load-dependences, include = FALSE, cache = FALSE}
 
-# latex template
+# latex template 
 file_in("latex-components/latex-template.tex")
 file_in("latex-components/config.tex")
 
