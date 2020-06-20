@@ -16,12 +16,13 @@ This Chapter has been published as a pre-print by \fullcite{cagua_trade-offs_201
 ## Summary {-}
 
 A fundamental feature of pollination systems is the indirect facilitation and competition that arises when plants species share pollinators. 
-When plants share pollinators, pollination can be dramatically different to what it would be without sharing. 
+When plants share pollinators, pollination can be dramatically different from what it would be without sharing. 
 This depends not only on how many partners plant species share, but also by multiple intertwined factors like the plant species' abundance, visitation, or traits. 
 These factors inherently operate at the community level. 
 However, most of our understanding of how these factors may affect pollination is based on systems of up to a handful of species. 
-By examining comprehensive empirical data in eleven natural communities, we show here that pollination is—surprisingly—only partially influenced by the number of shared pollinators. 
-Instead, the factors that most influence pollination (abundance and visit effectiveness) also introduce a trade-off between the absolute amount of conspecific pollen received and the amount relative to heterospecific pollen. 
+By examining comprehensive empirical data in eleven natural communities, we show here that community context plays a central role in determining pollen deposition dynamics. 
+Furthermore, we show that pollination quantity and purity are only weakly influenced by the number of shared pollinators. 
+Abundance and visit effectiveness appear to play a larger role, but we also show that both these "strategies" have significant trade-offs between the quantity and the purity of pollination.
 Importantly, the ways plants appear to balance these trade-offs depend strongly on the community context, as most species showed flexibility in the strategy they used to cope with competition for pollination. 
 
 ## Introduction
