@@ -278,7 +278,7 @@ This pattern implies that rewiring is not exclusive to species with many partner
 Instead, at least a fraction of the species that appear to be specialist *in their communities* might be as flexible, if not more, than those with a large number of partners, effectively behaving as facultative generalists in the face of environmental change. 
 These "flexible specialists" might therefore have a more significant role in network persistence than previously expected.
 
-\R{regression-to-the-mean}In our model, we can roughly divide species between true specialists, true generalists, and flexible species. 
+In our model, we can roughly divide species between true specialists, true generalists, and flexible species. 
 However, there is a fourth group that remained invisible to our model but has important implications for network persistence and stability.
 Species that can vary their interaction partners flexibly and their role in the network are more likely to persist in their community as environmental conditions vary [@gaiarsa_interaction_2019].
 We propose this fourth group is composed of true specialists that are constrained to interact with partners of high trait-matching and therefore were not likely to be found in more than one community. 
