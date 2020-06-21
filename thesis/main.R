@@ -34,7 +34,8 @@ pdf_plan <- drake_plan(
       comm = file_in("data/coevolution/5_paco_shuf_ass_res.csv")
     ),
     thesis = bookdown::render_book(knitr_in("index.Rmd"),
-                                   config_file = file_in("_bookdown.yml")))
+                                   config_file = file_in("_bookdown.yml")),
+    cover_letter = knitr::knit2pdf(knitr_in("cover-letter.Rnw"), output = file_out("cover-letter.tex")))
 
 
 defense_figures_plan <- drake_plan(

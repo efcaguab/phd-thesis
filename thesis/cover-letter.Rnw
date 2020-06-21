@@ -1,0 +1,64 @@
+%-----------------------------------------------------------------------------%
+% Letter class
+\documentclass[12pt,a4paper]{letter}
+\usepackage{hyperref}
+\usepackage[backend=bibtex,style=verbose,doi=false,isbn=false,url=false]{biblatex}
+\usepackage{geometry}
+\usepackage{setspace}
+\geometry{textwidth=30em, textheight=47\baselineskip}
+% Name of sender
+\name{Fernando Cagua}
+% Signature of sender
+\signature{Fernando Cagua}
+% Address of sender
+\address
+{
+    Fernando Cagua\\
+    \href{mailto:efc29@uclive.ac.nz}{efc29@uclive.ac.nz} \\
+    +64 20 402 68153 \\
+    University of Canterbury, \\
+    New Zealand
+}
+\date{March 28, 2020}
+%-----------------------------------------------------------------------------%
+\begin{document}
+% Name and address of receiver
+\begin{letter}
+{
+    Postgraduate office,\\
+    University of Canterbury
+}
+% Opening statement
+\opening{Dear Sir or Madam,}
+% Letter body
+\onehalfspacing
+
+I am submitting the Post-Oral Exam Amended Thesis entitled ``Plant-pollinator communities environmental gradients, trade-offs, and controllability''.
+I have amended the thesis following the list in the Oral Exam Report and the Annotated Thesis.
+Specifically, I have:
+
+\begin{itemize}
+  \item improved the abstracts of Chapter 1 and 2
+  \item improved the ecological interpretation of the findings in the Introduction and Discussion of Chapter 1
+  \item added written consideration of why the fourth group of pollinators were dropped from the analysis in Chapter 1
+  \item developed a better explanation of why the degree is used as a measure of specialisation in Chapter 1
+  \item improved the explanation about the inclusion of the known number of possible partners in the Chapter 1 models
+  \item replaced the term "pollination service" by just "pollination" to avoid confusion
+  \item followed most of the minor suggestions in the introduction, Chapter 1, 2, and 3
+  \item amended minor typos and spelling errors throughout the text
+  \item improved the style of most figures
+  \item updated the list of articles published by during the PhD
+\end{itemize}
+
+Thanks for your consideration.
+\bigskip
+
+\hfill
+Fernando Cagua
+
+\vfill
+% Closing statement
+% \closing{ }
+\end{letter}
+\end{document}
+%-----------------------------------------------------------------------------%
