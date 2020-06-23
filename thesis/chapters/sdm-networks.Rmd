@@ -47,7 +47,7 @@ Here we attempt to overcome these barriers to deriving general rules by reducing
 Previous research suggests that environmental stress may affect the number of interaction partners a species has in different ways depending on the species' role in the community (for example its trophic guild) [@tylianakis_ecological_2017]. 
 Specifically, we propose two alternative hypotheses of how environmental stress may affect specialisation. 
 First, species under environmental stress might be "pressured" to focus on partners with which they are best adapted to interact. 
-In other words under environmental stress they are more specialised than otherwise. 
+In other words, under environmental stress they become more specialised than otherwise. 
 For instance, @hoiss_altitude_2012 found increased phylogenetic clustering between plants and pollinators at higher altitudes compared to lower altitudes; while @peralta_phylogenetic_2015 found that parasitoids in plantation forest, where environmental stress was higher than in native forests, constrained their host use to those with which phylogenetic matching was strongest.
 Similarly, @lavandero_genotype_2013 showed that environmental stress due to higher temperature reduced the trophic niche breadth (range of host genotypes used) of parasitoids, suggesting higher specialisation. 
 
@@ -65,7 +65,7 @@ Species with many partners, conversely, should have a larger pool of available p
 Importantly, when testing these hypotheses, we control for the potential effects of the environment on community composition [which has been previously shown to be a determinant factor; @gravel_bringing_2018]. 
 We test these hypotheses using data on plant-pollinator interactions. 
 These interactions provide a particularly interesting system to test these hypotheses. 
-Plant-pollinator interactions are loose enough detect a signal of flexibility and partner preference but strong enough to drive coevolutionary processes [@hutchinson_cophylogenetic_2017]. 
+Plant-pollinator interactions are loose enough to detect a signal of flexibility and partner preference but strong enough to drive coevolutionary processes [@hutchinson_cophylogenetic_2017]. 
 We estimate the stress species might experience in a given community based on the species' patterns of global occurrence. 
 
 ## Methods
@@ -75,7 +75,7 @@ This database contains datasets originating from 57 studies published in the pri
 Calculating the environmental stress of species in their community and their potential partners required us to reduce both the taxonomic and distributional/locational uncertainty.
 A critical step towards reducing this uncertainty is to ensure that the names used to identify species are valid and unambiguous, which in turn allow us to obtain further information from biological databases and accurately match species across studies. 
 Therefore, our first step was to ensure consistent spelling and standardisation of species names synonyms (see \hyperlink{sup-env}{Supplementary Methods}).
-The cleaning process resulted on a total of 2,555 plants and 8,406 pollinator species distributed across 73 locations arround the globe (Figure \@ref(fig:fig-distribution-species-mult-locations) and \hyperlink{sup-env}{S1}).
+The cleaning process resulted on a total of 2,555 plants and 8,406 pollinator species distributed across 73 locations around the globe (Figure \@ref(fig:fig-distribution-species-mult-locations) and \hyperlink{sup-env}{S1}).
 
 ```{r fig-distribution-species-mult-locations, fig.height = 2.2, fig.cap = "Frequency distribution of the number of locations in which a species is present. The most common pollinator species was \\emph{Apis melifera}, which was sampled on 42 locations, while the most common plant species was \\emph{Trifolium repens}, which was sampled on 11 locations", fig.scap="Location dstribution of species", out.extra='', fig.showtext = TRUE}
 dist_species_multiple_locations_data <- readRDS("data/sdm_networks/species_location_distribution.rds")
@@ -126,7 +126,7 @@ We did this to avoid giving more weight to areas with a high number of occurrenc
 In this step we removed 85.4% of the occurrences which resulted in a total of 4.5 million occurrences used in our niche analysis. 
 
 A common issue of terrestrial bioclimatic datasets is that the boundaries of the cells with information do not precisely match the landmass boundaries. 
-The result of this missmatch is that not all environmental variables were available for 3,273 of the raster cells with occurrences (0.8% of the total). 
+The result of this mismatch is that not all environmental variables were available for 3,273 of the raster cells with occurrences (0.8% of the total). 
 As expected, the vast majority of these problematic cells were close to the shore. 
 To address this issue, we calculated the average value of environmental variables within a 5km buffer of the centre of the cell where the variable was missing and used it to approximate the value of the variable in that cell. 
 Using this procedure, we were able to fill environmental variables for 89.3% of the cells where they were missing. 
@@ -251,7 +251,7 @@ This result indicates that the availability of potential partners—this is, com
 Importantly, our findings relating to the variability of the stress-specialisation relationship were qualitatively unchanged, whether we included this variable or not. 
 
 The standard deviation (in the parameters scale) of the community intercepts was 1.02 [0.85, 1.23] which indicates the importance of the local context when determining specialisation. 
-The standard deviation of the species intercept was 0.54 [0.48, 0.61], and that of the species' stress slope was 0.38 [0.32, 0.44] (95% credible intervals shown within square brakets). 
+The standard deviation of the species intercept was 0.54 [0.48, 0.61], and that of the species' stress slope was 0.38 [0.32, 0.44] (95% credible intervals shown within square brackets). 
 
 ## Discussion
 
@@ -282,9 +282,9 @@ In our model, we can roughly divide species between true specialists, true gener
 However, there is a fourth group that remained invisible to our model but has important implications for network persistence and stability.
 Species that can vary their interaction partners flexibly and their role in the network are more likely to persist in their community as environmental conditions vary [@gaiarsa_interaction_2019].
 We propose this fourth group is composed of true specialists that are constrained to interact with partners of high trait-matching and therefore were not likely to be found in more than one community. 
-Unfortunately it is not straigtforward to explicitly account for this fourth group.
+Unfortunately it is not straightforward to explicitly account for this fourth group.
 Accounting for these species would require information that allow us to determine the communities in which the species is not present due to the lack of interaction partners even if climatic conditions are otherwise favourable. 
-How to distinguish these two processes (often termed Eltonian and Grinellian, niches respectively) is stil an open area of res [@gravel_bringing_2018]
+How to distinguish these two processes (often termed Eltonian and Grinellian, niches respectively) is still an open area of research [@gravel_bringing_2018]
 If species that are not flexible are unlikely to persist over temporal or spatial environmental gradients, we can expect specialised communities that are highly constrained by trait-matching [like some plant-hummingbird networks; @vizentin-bugoni_processes_2014; @maruyama_morphological_2014] to be far more vulnerable to increased climate change-induced environmental stress and habitat degradation than communities where role and interaction flexibility are more prevalent.
 
 Similarly, if the patterns we see in our models have also played a role during the evolutionary history of pollination communities, our results also help to explain why only a small fraction of plant-pollinator interactions shows a strong signature of deep co-evolutionary history [@hutchinson_cophylogenetic_2017].
