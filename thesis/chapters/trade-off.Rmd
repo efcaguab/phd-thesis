@@ -50,11 +50,11 @@ All else being equal, provided pollen is viable and compatible [@ramsey_pollen_2
 As such, measuring conspecific and heterospecific pollen deposition provides a good indication of the potential levels of facilitation and competition a plant population might experience. 
 
 By definition, intra- and interspecific pollen transfer occur at the community scale.
-However, with few exceptions [@tur_evaluating_2016; @aizen_reproductive_2010], most of what we know about pollen transfer and its relationship with key ecological factors are based on studies with two plant species, primarly from experimental settings where the rest of the community has been removed.
+However, with few exceptions [@tur_evaluating_2016; @aizen_reproductive_2010], most of what we know about pollen transfer and its relationship with key ecological factors are based on studies with two plant species, primarily from experimental settings where the rest of the community has been removed.
 That is partly so because the factors that determine the patterns of pollen deposition at the community scale are tightly intertwined, operate simultaneously, and may lead to emergent phenomena not observed at smaller scales [@flanagan_effects_2011].
 For instance, recent empirical evidence suggests that pollinators with flowering traits that are "original" relative to others in the community generally have fewer interaction partners [@coux_linking_2016]. 
 
-This evidence aligns with the notion that a species that interacts with few species does so strongly with each of them whereas a species that interacts with a large number of species does so comparatively weakly, a concept called asymmetry in pp networks [@thebault_does_2008; @bascompte_asymmetric_2006; @vazquez_species_2007].
+This evidence aligns with the notion that a species that interacts with few species does so strongly with each of them whereas a species that interacts with a large number of species does so comparatively weakly, a concept called asymmetry in plant pollinator networks [@thebault_does_2008; @bascompte_asymmetric_2006; @vazquez_species_2007].
 If evolutionary specialisation occurs by changing traits to focus on fewer but better partners [@caruso_competition_2000], we should expect a reduction of competition for pollinators in species with "original" traits and an increase of competition in species with a large number of interaction partners [@gibson_can_2012; @carvalheiro_potential_2014]. 
 It might also be the case that abundance (for example, in terms of flower or pollen counts) is the dominant force driving pollen transfer [@seifan_outcome_2014]. 
 Abundant plant species might experience a dilution of available pollinators [@feinsinger_effects_1987; @feldman_when_2004] but might also receive more effective visits by capitalising on a larger share of both visits and the pollen carried by pollinators [@stavert_plant_2019].
@@ -140,7 +140,7 @@ To test this, we first used a principal component analysis (PCA) of the four eco
 We scaled factors across the whole study to ensure that the PCA space does not change according to the species present in each community. 
 We define a species' strategy in a community as its coordinates in PCA space. 
 For each species that was present in two or more communities, we then calculated (*i*) the median distance between the points that correspond to the strategy a species uses in different communities and (*ii*) the area of the convex hull defined by these points in the first two principal components (only for species present in three or more communities). 
-We then compared the magnitude of these two metrics to those obtained with 99 Monte Carlo randomizations in which we replaced the strategy of the focal plant species by that of another randomly selected species in the dataset. 
+We then compared the magnitude of these two metrics to those obtained with 99 Monte Carlo randomisations in which we replaced the strategy of the focal plant species by that of another randomly selected species in the dataset. 
 
 ## Results
 
@@ -182,7 +182,7 @@ This larger effect indicates that, although there is a positive association betw
 In contrast, a plants' relative floral abundance negatively affected its deposition quantity, but the mean difference between the coefficients in the models indicates a positive association with purity (Figure \@ref(fig:fig-average-qual-quant)b). 
 The third most important factor, functional originality, had a positive, although comparatively smaller, association with both the quantity and purity. 
 Finally, the number of shared pollinators had negative and neutral associations with conspecific and heterospecific pollen, respectively, but these impacts were small when compared to the other factors. 
-Although the ecological factors were positively correlated (Figure \hyperlink{sup-pc}{S2}), the collinearity between predictors did not qualitatively affect our findings (Figure \hyperlink{sup-pc}{S3}).
+Although the ecological factors were positively correlated (Figure \hyperlink{sup-pc}{S2}), the colinearity between predictors did not qualitatively affect our findings (Figure \hyperlink{sup-pc}{S3}).
 
 ```{r fig-average-qual-quant, fig.height = 1.4*2+1.2, out.extra="", fig.scap="Ecological factors and pollination", fig.cap="Effect of ecological factors on pollination. (a) The association between ecological factors and heterospecific pollen (lighter line) tended to align with their association with conspecific pollen (darker line). Visit potential and functional originality had a positive association with pollen deposition, while floral abundance and the number of shared pollinators had a negative association. The plot shows the distribution of the effects (across 99 bootstrap replicates) of the four ecological factors for conspecific and heterospecific pollen. (b) The end result of these associations is that only the plants' functional originality has a positive impact on both the quantity and purity of conspecific pollen deposition (relative to heterospecific pollen). The plot shows the model averaged mean effect ($\\pm$ SE of 99 bootstrap replicates).", cache = FALSE, fig.showtext = TRUE}
 height1 <- 2.5
@@ -308,7 +308,7 @@ We therefore propose that achieving a better understanding of species coexistenc
 
 ## Acknowledgements  {-}
 
-We thank Jamie Stavert, Bernat Bramon Mora, Laís Maia, and Michelle Marraffini for feedback and valuable discussions. 
+We thank Jamie Stavert, Bernat Bramon Mora, Christopher Kaiser Bunbury, Ignasi Bartomeus, Laís Maia, and Michelle Marraffini for feedback and valuable discussions. 
 We also thank Cátedra de Botánica General, Facultad de Agronomía, Universidad de Buenos Aires, the Agrasar and Bordeu families, and the University of Buenos Aires, for logistical support and permission to conduct this study at estancias Anquilóo, Las Chilcas and San Claudio, respectively. 
 Fieldwork was supported by grants PICT 08–12504 and 0851. 
 EFC acknowledges the support from the University of Canterbury Doctoral Scholarship and a New Zealand International Doctoral Research Scholarship administered by Education New Zealand. 
