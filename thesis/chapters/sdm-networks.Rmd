@@ -22,9 +22,9 @@ An earlier version of this chapter has been published as a pre-print by \fullcit
 
 Evidence that the environment can influence species interactions is rapidly accumulating, but can it also influence whether a species is a generalist or a specialist? 
 To date, a systematic link between the environment and specialisation has been elusive, perhaps because different environmental variables produce contrasting effects on different species. 
-Here, we use a different approach and test whether there is a link between the stresses imposed by the environment and species specialisation. 
+Here, we test whether there is a link between the *stresses* imposed by the environment and species specialisation. 
 Using a global dataset of plant-pollinator interactions, we found evidence that, even when accounting for changes in community composition, environmental stress can indeed influence intermediate specialisation. 
-Under stressful environmental conditions, species that would otherwise interact with many partners tended to focus on fewer, presumably higher-quality, interactions. 
+Under stressful environmental conditions, species that would otherwise interact with many partners tended to focus on fewer interactions. 
 In contrast, specialists that were present in multiple communities tended to broaden their niche to cope with increased environmental stress, presumably by engaging in more opportunistic interactions.
 
 ## Introduction
@@ -89,6 +89,10 @@ After matching species across studies as accurate as possible, we carried on two
 First, we calculated the environmental stress of species in their communities.
 Second, we relate the species stress in their community with the number of partner species it has as a metric of their level of specialisation.
 
+We use the number of partners as our metric of specialisation mainly because it is a simple approximation of specialisation from the "Eltonian niche" perspective. 
+Importantly quantifying specialisation using degree does not require quantitative information about the interactions. 
+This crucial feature allowed us to include many more communities and, ultimately, minimise the possible over-representation of common and cosmopolitan species in our model.
+
 ### Environmental stress
 
 We calculated the environmental stress of species in their communities.
@@ -147,10 +151,7 @@ For that we used the species with most occurrences available, *Archilochus colub
 
 We then used a set of Bayesian multilevel models to evaluate the impact of environmental stress on species specialisation. 
 Specifically, we use the normalised degree of species as our response variable; that is, the number of species it interacts with given the number of species in the opposite guild [@martin_gonzalez_centrality_2010]. 
-We use degree mainly because it is a simple approximation of specialisation from the "eltonian niche" perspective. 
-Importantly quantifying specialisation using degree does not require quantitative information about the interactions. 
-This crucial feature allowed us to include many more communities and, ultimately, minimise the possible over-representation of common and cosmopolitan species in our model.
-In our model, the normalised degree was modelled using a logit link function and a binomial distribution in which the number of partner species a focal species interacts with is the number of successes, and the number of species in the opposite guild is the number of trials. 
+In our model, the normalised degree was modeled using a logit link function and a binomial distribution in which the number of partner species a focal species interacts with is the number of successes, and the number of species in the opposite guild is the number of trials. 
 We are aware that whether species interact or not is not a Bernoulli process as species interactions are not strictly independent from each other. 
 However, the use of a binomial distribution allows us to account for the differences in species richness across communities indirectly. 
 Importantly, results are qualitatively similar when we model species degree directly using a Poisson distribution and a logarithmic link function.
@@ -159,7 +160,7 @@ We evaluated four models to assess the relative importance of suitability.
 A first model, our baseline model, included five variables. 
 The predictors in the baseline model were the environmental stress of the community for each focal species, the species' number of known possible partners in the community, and both the species guild (plant or a pollinator) and its interaction with environmental stress.
 We included the number of known possible partners as a predictor in our models. 
-We included this predictor as we would expect an increase in the number of actual partners merely due to an increase in the number of available partners.
+We included this predictor as we would naively expect an increase in the number of actual partners merely due to an increase in the number of available partners.
 From a community ecology perspective, this is justified because our response variable can be interpreted as the "realised" portion of the niche, and the number of potential partners is a rough approximation to the "fundamental" niche. 
 From a biogeographic perspective, including the number of potential partners is an attempt to control for the effects of the environment on community composition and species co-occurrence. 
 We determined the number of possible partners in a particular community by counting the number of species in the opposite guild with which the species interacted in any other community in our interaction dataset. 
@@ -235,9 +236,8 @@ plot_ranf_species(fig_random_effects_data)
 plot_ranf_correlation(fig_random_effects_data)
 ```
 
-The variability of the specialisation-stress relationship across species was also evident when looking at overall patterns.
 We found that environmental stress does not have a consistent effect across species.
-Indeed, when looking at the fixed effects, stress has virtually no relationship with the normalised degree—our metric of specialisation (Figure \@ref(fig:fig-conditional-effects)a). 
+Indeed, when looking at the fixed effects, stress has virtually no relationship with the normalised degree—our metric of specialisation (Figure \@ref(fig:fig-conditional-effects)a), implying that variation across species is likely driving the effect of stress in the models overall. 
 
 ```{r fig-conditional-effects, fig.height = 2.2*1.75, fig.cap = "Conditional effects of predictors in our baseline model. The shown values are based on predictions for a hypothetical community with 76 and 33 pollinators. These values correspond to the median number of species in each guild across communities. In each panel, we condition on the mean value of the other predictor in the model. We indicate mean values for each predictor with a vertical dashed line. For model fitting, we scaled all predictors to have a mean of zero and unit variance; however, here we show the unscaled predictors to facilitate interpretation. To illustrate the uncertainty around the fitted estimates, we plot the fits of 100 independent draws from the posterior distribution. The thick lines indicate the mean values of the response distribution. As there was no interaction between the guild and the number of possible interactions, we only show the conditional effect of pollinators.", fig.scap = "Conditional effects of predictors.", fig.showtext = TRUE}
 
@@ -257,7 +257,7 @@ The standard deviation of the species intercept was 0.54 [0.48, 0.61], and that 
 
 We set out to explore whether and how environmental stress can systematically affect specialisation. 
 After accounting for the pool of potential partners, we found that environmental conditions contribute to determining whether a species is a generalist or a specialist *in their community*. 
-We also found that the particular effect of the environment dependends strongly on the species' inherent tendency to be a specialist or generalist.
+We also found that the particular effect of the environment depends strongly on the species' inherent tendency to be a specialist or generalist in the absence of environmental stress.
 Based on existing literature, we proposed two alternative hypotheses of how environmental stress may affect species' specialisation, and we found evidence for both.
 Species with many partners in low-stress communities were more likely to have a negative relationship and hence reduce the number of partners as stress increases. 
 Contrastingly, species in our datasets with few partners in low-stress communities were more likely to interact with more partners in more stressful communities.
