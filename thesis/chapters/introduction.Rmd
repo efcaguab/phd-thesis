@@ -21,7 +21,7 @@ A necessary step to anticipate, prevent, and reverse ecosystem degradation is to
 A substantial amount of research indicates that the way ecosystems respond to disturbances is strongly determined by the network of interactions formed by the species that inhabit them [@tylianakis_global_2008; @bascompte_asymmetric_2006]. 
 This is so, because this network, which connects all organisms in an ecological community, underpins ecosystem functioning and structure, and, therefore, can modulate the resilience of ecosystem services to disturbances [@reiss_emerging_2009; @dobson_habitat_2006]. 
 However, we still do not understand enough about the processes that shape interaction networks in ecological communities to harness them for better ecological management. 
-The central aim of my doctoral research aims to better understand these processes and explores whether a mathematically rigurous network thinking can be effectively leveraged for improved management of ecosystem services.
+The central aim of my doctoral research aims to better understand these processes and explores whether a mathematically rigorous network thinking can be effectively leveraged for improved management of ecosystem services.
 
 In this thesis, I focus on the network of mutualistic interactions between plants and pollinators. 
 These networks, which form the base of pollination systems, play a globally significant role in the maintenance of biodiversity and crop production [@bascompte_plant-animal_2007; @klein_importance_2007].
@@ -29,7 +29,7 @@ Pollination systems are locally critical too; for instance, birds or insects pol
 Regrettably, just like other species interactions, the relationship between plants and pollinators,is currently being disrupted by global change at a worldwide scale [@cox_pollinator_2000].
 
 The number of partners species have is a defining feature of the roles they play in its community [@cirtwill_review_2018]. 
-At the species level it determines wether a species is a specialist or a generalist.
+At the species level it determines whether a species is a specialist or a generalist.
 At the community level, the distribution of the number of partners species have in the community is the main ingredient defining network structure. 
 However, the number of partners a species has is not constant across the different ecological communities the species may inhabit [@gravel_bringing_2018]. 
 It has been shown that the environment can influence how species interact and therefore, the environment can also be responsible for some of the differences observed across communities [@tylianakis_ecological_2017]. 
