@@ -1,26 +1,31 @@
-# Doctoral thesis: the resilience of ecological networks
+# Doctoral thesis - Plant-pollinator communities: environmental gradients, trade-offs, and controllability
 
 **Fernando Cagua** - *School of Biological Sciences, University of Canterbury*
 
-Expected submission: December 2019
+Submited: December 2019
+Defended: June 2020
 
 #### Summary
 
-Natural ecosystems provide important services—like food and water—we humans depend on to a large extent. 
-Much like the failure of a single key financial institution can trigger unexpected crashes on the stock market, human pressures—such as biological invasions and species extinctions—can cause sudden collapses that severely transform the way ecosystems function. 
-However, despite its importance, we do not completely understand the dynamics that make ecosystems resilient to collapse. 
-Because the functioning of ecosystems is largely determined by the network of interactions between the species that inhabit them, my research aims to quantify the role played by species interactions in determining the resilience of ecosystems. 
-To achieve this, I focus on networks of mutually beneficial interactions, like those between plants and their pollinators, and use a combination of empirical data, computer simulations and ecological theory. 
-Ultimately I want to understand why, when and how ecosystem collapses occur, and how to recover from them.
+In this thesis, I focus on the network of mutualistic interactions between plants and pollinators in an ecological community. 
+These networks, which form the base of pollination systems, play a globally significant role in the maintenance of biodiversity and crop production. 
+Regrettably, just like other species interactions, the relationship between plants and pollinators, is currently being disrupted by global change at a worldwide scale. 
+
+The number of partners species have is a defining feature of the roles they play in its community (Cirtwill et al. 2018). At the species level it determines whether a species is a special- ist or a generalist. At the community level, the distribution of the number of partners species have in the community is the main ingredient defining network structure.
+
+In Chapter 1, I investigate how the environment may affect the number of partners a species has. In Capter 2, I ask the question of whether the number of partners is overall good or bad for pollination or whether there are trade-offs. Finally, in Chapter 3 I explore how the number of partners is related to the controllability of an ecological community. 
+
+I answer these questions using a combination of limited empirical data and simulated big data. I analyse these data sets using a combination of machine learning,  bayesian statistics, and network tools. 
 
 ## Features
 
 Code, data, and models described in this thesis can be found in it's respective repo.
 
-* *Chapter 1* - **Introduction**
-* *Chapter 2* - **Structural controllability**: A rigorous application of structural controllability to ecological networks (source code: [stoufferlab/driver-species](https://github.com/stoufferlab/driver-species); published in the Journal of Ecology: https://doi.org/10.1111/1365-2745.13147)
-* *Chapter 3* - **Conclusion**
-* *Apendix A* - **Cophylogeny of pollination networks**: An exploration of cophylogeny at multiple scales of pollination networks (published in Ecology: https://doi.org/10.1002/ecy.1955)
+* *Chapter 1* - **Effect of environment in specialisation**: Environmental stress affects specialists and generalists in different ways (source code: [efcaguab/species-distributions-and-networks](https://github.com/efcaguab/species-distributions-and-networks); published as a pre-print in BioRxiv: https://doi.org/10.1101/866772
+* *Chapter 2* - **Trade-offs of sharing pollinators**: There is a trade-off between maximising pollination quantity and pollination purity (source code: [efcaguab/pollen-competition](https://github.com/efcaguab/pollen-competition); published as a pre-print in BioRxiv: https://doi.org/10.1101/865279 
+* *Chapter 3* **Structural controllability of networks**: A rigorous application of structural controllability to ecological networks (source code: [stoufferlab/driver-species](https://github.com/stoufferlab/driver-species); published in the Journal of Ecology: https://doi.org/10.1111/1365-2745.13147)
+* *Apendix A* - **Cophylogeny of pollination networks**: An exploration of cophylogeny at multiple scales of pollination networks (source code is private); published in Ecology: https://doi.org/10.1002/ecy.1955
+
 
 ## Repo Description
 
